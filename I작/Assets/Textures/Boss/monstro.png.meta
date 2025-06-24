@@ -1,0 +1,1079 @@
+fileFormatVersion: 2
+guid: 9d8c7ee854014c248bdc0eefb4b86924
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4742184443507643519
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_0
+  - first:
+      213: -8079517944479652775
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_1
+  - first:
+      213: -1874963084746818629
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_2
+  - first:
+      213: -2512010336295652883
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_3
+  - first:
+      213: 405623489632070340
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_4
+  - first:
+      213: 4425543016522136629
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_5
+  - first:
+      213: 7323946947157411004
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_6
+  - first:
+      213: 7751606550432683804
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_7
+  - first:
+      213: 6867698519569458093
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_8
+  - first:
+      213: 331763986470898510
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_9
+  - first:
+      213: -1356087726060478809
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_10
+  - first:
+      213: -8423060541657149025
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_11
+  - first:
+      213: 83096774830942665
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_12
+  - first:
+      213: -1038683757943941784
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_13
+  - first:
+      213: -6675947658360469391
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_14
+  - first:
+      213: -884041482712046440
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_15
+  - first:
+      213: 1496450229138907767
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_16
+  - first:
+      213: -8649508782578908441
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_17
+  - first:
+      213: -262013320861270013
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_18
+  - first:
+      213: -5757846854918860016
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_19
+  - first:
+      213: -1892410050225859731
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_20
+  - first:
+      213: 6341816538287727447
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_21
+  - first:
+      213: -384672170193476655
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_22
+  - first:
+      213: 5211739337217344250
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_23
+  - first:
+      213: -8420207705038796871
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_24
+  - first:
+      213: -8953995796424778478
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_25
+  - first:
+      213: -7298625942834907152
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_26
+  - first:
+      213: 4544833200515603820
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_27
+  - first:
+      213: 1225602212045800804
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_28
+  - first:
+      213: -3393293653541960576
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_29
+  - first:
+      213: 1871331899083136441
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_30
+  - first:
+      213: -8212103398471103059
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_31
+  - first:
+      213: 7694668669558043109
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_32
+  - first:
+      213: -6907564804756033521
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_33
+  - first:
+      213: -3680646725037073826
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_34
+  - first:
+      213: 6297148139171233697
+    second: PC Computer - The Binding of Isaac Rebirth - Monstro_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 260
+        width: 69
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7418ae40af9fc140800000000000000
+      internalID: 4742184443507643519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 260
+        width: 69
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95465e29c39cfdf80800000000000000
+      internalID: -8079517944479652775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_2
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 260
+        width: 69
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbf1b6220bcaf5e0800000000000000
+      internalID: -1874963084746818629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_3
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 260
+        width: 69
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1fcf888eb832dd0800000000000000
+      internalID: -2512010336295652883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_4
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 260
+        width: 68
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cae21c2a6011a500800000000000000
+      internalID: 405623489632070340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 80
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c330e0defaa6d30800000000000000
+      internalID: 4425543016522136629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_6
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 148
+        width: 67
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4cf1bc1f2e3a560800000000000000
+      internalID: 7323946947157411004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_7
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 148
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17912d761d339b60800000000000000
+      internalID: 7751606550432683804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_8
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 148
+        width: 69
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3e96bba67fe4f50800000000000000
+      internalID: 6867698519569458093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_9
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 17
+        width: 134
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b8dd28699aa9400800000000000000
+      internalID: 331763986470898510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_10
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 94
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aed5e3e5653e2de0800000000000000
+      internalID: -1356087726060478809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_11
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 101
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f919aec80174b1b80800000000000000
+      internalID: -8423060541657149025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_12
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 100
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c967c19318372100800000000000000
+      internalID: 83096774830942665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_13
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 100
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86598c510aad591f0800000000000000
+      internalID: -1038683757943941784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_14
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 98
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178c254b9f44a53a0800000000000000
+      internalID: -6675947658360469391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_15
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 100
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8942d3094f04bb3f0800000000000000
+      internalID: -884041482712046440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_16
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 99
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77260eb0e8574c410800000000000000
+      internalID: 1496450229138907767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_17
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 98
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e243ccd695c6f780800000000000000
+      internalID: -8649508782578908441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_18
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 92
+        width: 62
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300c4abd5442d5cf0800000000000000
+      internalID: -262013320861270013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_19
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 20
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0131675bac40810b0800000000000000
+      internalID: -5757846854918860016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_20
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 18
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6398e2f51fccb5e0800000000000000
+      internalID: -1892410050225859731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_21
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 18
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753665b8a88a20850800000000000000
+      internalID: 6341816538287727447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_22
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 20
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3a3a403be59aaf0800000000000000
+      internalID: -384672170193476655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_23
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 20
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af205c07051d35840800000000000000
+      internalID: 5211739337217344250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_24
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 20
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7c72654b9652b80800000000000000
+      internalID: -8420207705038796871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 18
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d92c173440db380800000000000000
+      internalID: -8953995796424778478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_26
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 2
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7ffd0ff5216ba90800000000000000
+      internalID: -7298625942834907152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_27
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 6
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d522067bd721f30800000000000000
+      internalID: 4544833200515603820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_28
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 6
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4654ce4e7b6320110800000000000000
+      internalID: 1225602212045800804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_29
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 4
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0844b0a866998e0d0800000000000000
+      internalID: -3393293653541960576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_30
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 6
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd15bd827e48f910800000000000000
+      internalID: 1871331899083136441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_31
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 6
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad0a5bf77fb80e80800000000000000
+      internalID: -8212103398471103059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_32
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 6
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1b5590364f8ca60800000000000000
+      internalID: 7694668669558043109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_33
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 6
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00b68d68666320a0800000000000000
+      internalID: -6907564804756033521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_34
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 6
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ad572fd47bbecc0800000000000000
+      internalID: -3680646725037073826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Monstro_35
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 6
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af305d6ed6f36750800000000000000
+      internalID: 6297148139171233697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PC Computer - The Binding of Isaac Rebirth - Monstro_0: 4742184443507643519
+      PC Computer - The Binding of Isaac Rebirth - Monstro_1: -8079517944479652775
+      PC Computer - The Binding of Isaac Rebirth - Monstro_10: -1356087726060478809
+      PC Computer - The Binding of Isaac Rebirth - Monstro_11: -8423060541657149025
+      PC Computer - The Binding of Isaac Rebirth - Monstro_12: 83096774830942665
+      PC Computer - The Binding of Isaac Rebirth - Monstro_13: -1038683757943941784
+      PC Computer - The Binding of Isaac Rebirth - Monstro_14: -6675947658360469391
+      PC Computer - The Binding of Isaac Rebirth - Monstro_15: -884041482712046440
+      PC Computer - The Binding of Isaac Rebirth - Monstro_16: 1496450229138907767
+      PC Computer - The Binding of Isaac Rebirth - Monstro_17: -8649508782578908441
+      PC Computer - The Binding of Isaac Rebirth - Monstro_18: -262013320861270013
+      PC Computer - The Binding of Isaac Rebirth - Monstro_19: -5757846854918860016
+      PC Computer - The Binding of Isaac Rebirth - Monstro_2: -1874963084746818629
+      PC Computer - The Binding of Isaac Rebirth - Monstro_20: -1892410050225859731
+      PC Computer - The Binding of Isaac Rebirth - Monstro_21: 6341816538287727447
+      PC Computer - The Binding of Isaac Rebirth - Monstro_22: -384672170193476655
+      PC Computer - The Binding of Isaac Rebirth - Monstro_23: 5211739337217344250
+      PC Computer - The Binding of Isaac Rebirth - Monstro_24: -8420207705038796871
+      PC Computer - The Binding of Isaac Rebirth - Monstro_25: -8953995796424778478
+      PC Computer - The Binding of Isaac Rebirth - Monstro_26: -7298625942834907152
+      PC Computer - The Binding of Isaac Rebirth - Monstro_27: 4544833200515603820
+      PC Computer - The Binding of Isaac Rebirth - Monstro_28: 1225602212045800804
+      PC Computer - The Binding of Isaac Rebirth - Monstro_29: -3393293653541960576
+      PC Computer - The Binding of Isaac Rebirth - Monstro_3: -2512010336295652883
+      PC Computer - The Binding of Isaac Rebirth - Monstro_30: 1871331899083136441
+      PC Computer - The Binding of Isaac Rebirth - Monstro_31: -8212103398471103059
+      PC Computer - The Binding of Isaac Rebirth - Monstro_32: 7694668669558043109
+      PC Computer - The Binding of Isaac Rebirth - Monstro_33: -6907564804756033521
+      PC Computer - The Binding of Isaac Rebirth - Monstro_34: -3680646725037073826
+      PC Computer - The Binding of Isaac Rebirth - Monstro_35: 6297148139171233697
+      PC Computer - The Binding of Isaac Rebirth - Monstro_4: 405623489632070340
+      PC Computer - The Binding of Isaac Rebirth - Monstro_5: 4425543016522136629
+      PC Computer - The Binding of Isaac Rebirth - Monstro_6: 7323946947157411004
+      PC Computer - The Binding of Isaac Rebirth - Monstro_7: 7751606550432683804
+      PC Computer - The Binding of Isaac Rebirth - Monstro_8: 6867698519569458093
+      PC Computer - The Binding of Isaac Rebirth - Monstro_9: 331763986470898510
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
