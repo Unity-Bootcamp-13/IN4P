@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NewTouchPad_0: 8156977556275503917
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

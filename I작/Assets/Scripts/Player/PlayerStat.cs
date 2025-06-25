@@ -1,4 +1,5 @@
 using System;
+using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 
 [Serializable]
@@ -11,4 +12,5 @@ public class PlayerStat : MonoBehaviour
     public float speed = 1.0f;          // 이동 속도
     public float intersection = 1.0f;   // 사거리
     public float ps = 7.5f;             // 투사체 속도
+    
 }
