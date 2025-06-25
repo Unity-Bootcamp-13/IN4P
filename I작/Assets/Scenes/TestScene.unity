@@ -681,7 +681,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 749b938db637aec4e88bc0c9c1642e91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stat: {fileID: 263153016}
+  tearsPrefab: {fileID: 8347038662915090392, guid: b71256d157c5efb48a8a3cbb92534f37, type: 3}
+  delay: 0
+  currentTime: 0
 --- !u!1 &888692186
 GameObject:
   m_ObjectHideFlags: 0
