@@ -14,7 +14,6 @@ public class PlayerHeadMovement : MonoBehaviour
     public float delay;
     public float currentTime = 0;
 
-
     Vector3 RightDirection = new Vector3(0.5f, 0, 0);
     Vector3 LeftDirection = new Vector3(-0.5f, 0, 0);
     Vector3 UpDirection = new Vector3(0, 0.5f, 0);
@@ -106,4 +105,6 @@ public class PlayerHeadMovement : MonoBehaviour
         GameObject go = Instantiate(tearsPrefab);
         go.transform.position = transform.position + dir;
     }
+
+    
 }
