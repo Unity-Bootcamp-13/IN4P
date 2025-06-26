@@ -4,6 +4,14 @@ using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+public enum AttackDirection
+{
+    Up,
+    Down,
+    Left,
+    Right
+}
+
 public class Player : MonoBehaviour
 {
     public float hp = 3.0f;
@@ -23,6 +31,7 @@ public class Player : MonoBehaviour
     private int HeadUp;
     private int HeadDown;
 
+    private bool isLooking;
 
     public Rigidbody2D rid;
     private Vector2 moveInput;
@@ -33,6 +42,20 @@ public class Player : MonoBehaviour
     public Animator bodyAnimator;
 
     public SpriteRenderer bodySprite;
+
+    public Transform leftEye;
+    public Transform rightEye;
+
+    bool launchPlace;
+
+
+    Vector2[] directions = new Vector2[]
+    {
+        new Vector2(1.0f, 0f), // 오른쪽
+        new Vector2(-1.0f, 0f), // 왼족
+        new Vector2(0f, -1.0f), // 아래
+        new Vector2(0f, 1.0f) // 위
+    };
 
     private void Awake()
     {
@@ -45,10 +68,7 @@ public class Player : MonoBehaviour
         HeadUp = Animator.StringToHash("Head_Up");
         HeadDown = Animator.StringToHash("Head_Down");
     }
-    private void Start()
-    {
-        //bodySprite = GetComponentInChildren<SpriteRenderer>();
-    }
+
 
     public void Update()
     {
@@ -62,7 +82,10 @@ public class Player : MonoBehaviour
         {
             bodyAnimator.SetBool(isMove, false);
         }
+    }
 
+    private void FixedUpdate()
+    {
         Vector3 dir = moveInput.normalized;
         rid.linearVelocity = dir * speed;
     }
@@ -81,17 +104,69 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void OnLeft(InputAction.CallbackContext context)
+    public void KeyDownLook(AttackDirection directionType)
     {
-        
+        Debug.Log($"KeyDownLook 호출: {directionType}");
+        switch (directionType)
+        {
+            case AttackDirection.Right:
+                headAnimator.SetBool(HeadRight, true);
+                CreateTears(0);
+                break;
+            case AttackDirection.Left:
+                headAnimator.SetBool(HeadLeft, true);
+                CreateTears(1);
+                break;
+            case AttackDirection.Up:
+                headAnimator.SetBool(HeadUp, true);
+                CreateTears(2);
+                break;
+            case AttackDirection.Down:
+                headAnimator.SetBool(HeadDown, true);
+                CreateTears(3);
+                break;      
+        }
     }
 
-    public void CreateTears()
+    public void KeyUpLook()
+    {
+        headAnimator.SetBool(HeadRight, false);
+        headAnimator.SetBool(HeadLeft, false);
+        headAnimator.SetBool(HeadUp, false);
+        headAnimator.SetBool(HeadDown, false);
+    }
+    
+    public void CreateTears(int dir)
     {
         elapseTime = 0;
 
         GameObject go = Instantiate(tearsPrefab);
-    }
 
-   
+        if (launchPlace)
+        {
+            go.transform.position = leftEye.position;
+            launchPlace = false;
+        }
+        else
+        {
+            go.transform.position = rightEye.position;
+            launchPlace = true;
+        }
+
+        switch(dir)
+        {
+            case 0:
+                go.GetComponent<Tears>().dir = Vector3.right; 
+                break;
+            case 1:
+                go.GetComponent<Tears>().dir = Vector3.left;
+                break;
+            case 2:
+                go.GetComponent<Tears>().dir = Vector3.up;
+                break;
+            case 3:
+                go.GetComponent<Tears>().dir = Vector3.down;
+                break;
+        }    
+    }
 }
