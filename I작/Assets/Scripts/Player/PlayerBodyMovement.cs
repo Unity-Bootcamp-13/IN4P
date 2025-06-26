@@ -3,55 +3,54 @@ using UnityEngine;
 public class PlayerBodyMovement : MonoBehaviour
 {
     public PlayerStat stat;
+    public Rigidbody2D rid;
     private Animator animator;
+
+    private Vector2 moveInput;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
+        rid = GetComponentInParent<Rigidbody2D>();
     }
 
-    public void CheckBodyKey(string direction)
-    {
-        animator.SetBool("Body_Left", false);
-        animator.SetBool("Body_Right", false);
-        animator.SetBool("Body_Down", false);
-        animator.SetBool("Body_Up", false);
 
-        animator.SetBool(direction, true);
-    }
-
-    
 
     public void SetBodyAnimation()
     {
-        if (Input.GetKey(KeyCode.A))
+        float h = Input.GetAxisRaw("Horizontal");
+        float v = Input.GetAxisRaw("Vertical");
+        
+
+        if (h < 0)
         {
             GetComponent<SpriteRenderer>().flipX = true;
-            CheckBodyKey("Body_Left");
+            animator.SetBool("Body_Left", true);
         }
-        else if (Input.GetKey(KeyCode.D))
+        else if (h > 0)
         {
             GetComponent<SpriteRenderer>().flipX = false;
-            CheckBodyKey("Body_Right");
+            animator.SetBool("Body_Right", true);
         }
-        else if (Input.GetKey(KeyCode.W))
+        else if (v < 0)
         {
-           CheckBodyKey("Body_Up");
+            animator.SetBool("Body_Up", true);
         }
-        else if (Input.GetKey(KeyCode.S))
+        else if (v > 0)
         {
-            CheckBodyKey("Body_Down");
+            animator.SetBool("Body_Down", true);
         }
-
-
         else
         {
             animator.SetBool("Body_Left", false);
             animator.SetBool("Body_Right", false);
-            animator.SetBool("Body_Down", false);
             animator.SetBool("Body_Up", false);
+            animator.SetBool("Body_Down", false);
 
         }
+
+        Vector3 dir = new Vector2(h, v).normalized;
+        rid.linearVelocity = dir * stat.speed;
     }
 
 

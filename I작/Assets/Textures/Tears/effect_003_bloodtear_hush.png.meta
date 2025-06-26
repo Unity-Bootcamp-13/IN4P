@@ -772,7 +772,33 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      effect_003_bloodtear_hush_0: -8889245579242449982
+      effect_003_bloodtear_hush_1: -6652638065871926708
+      effect_003_bloodtear_hush_10: -7052615331525592704
+      effect_003_bloodtear_hush_11: -8888597797217495594
+      effect_003_bloodtear_hush_12: 2110595128319280226
+      effect_003_bloodtear_hush_13: 4865272337062618825
+      effect_003_bloodtear_hush_14: -6098579667654868760
+      effect_003_bloodtear_hush_15: 2125108127254410711
+      effect_003_bloodtear_hush_16: 948771196224544946
+      effect_003_bloodtear_hush_17: 7969313796315062717
+      effect_003_bloodtear_hush_18: -6321178827253035066
+      effect_003_bloodtear_hush_19: -1862176313910646452
+      effect_003_bloodtear_hush_2: 2500465150872561218
+      effect_003_bloodtear_hush_20: 5482706226648085267
+      effect_003_bloodtear_hush_21: -4894728177524185466
+      effect_003_bloodtear_hush_22: -7899479176020135882
+      effect_003_bloodtear_hush_23: 226414860539431366
+      effect_003_bloodtear_hush_24: -1498900475026433448
+      effect_003_bloodtear_hush_25: -5266893179889015585
+      effect_003_bloodtear_hush_3: 6843075718729411811
+      effect_003_bloodtear_hush_4: 6802353083144857554
+      effect_003_bloodtear_hush_5: -2688057887162673206
+      effect_003_bloodtear_hush_6: 1187707152777149599
+      effect_003_bloodtear_hush_7: 7246250394374064584
+      effect_003_bloodtear_hush_8: 7992728748108880033
+      effect_003_bloodtear_hush_9: -3026665661155016678
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

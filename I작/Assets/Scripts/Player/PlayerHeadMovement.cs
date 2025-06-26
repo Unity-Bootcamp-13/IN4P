@@ -1,4 +1,5 @@
 using System.ComponentModel;
+using JetBrains.Annotations;
 using Unity.VisualScripting;
 using Unity.VisualScripting.FullSerializer.Internal;
 using UnityEngine;
@@ -13,24 +14,20 @@ public class PlayerHeadMovement : MonoBehaviour
     public float delay;
     public float currentTime = 0;
 
+
+    Vector3 RightDirection = new Vector3(0.5f, 0, 0);
+    Vector3 LeftDirection = new Vector3(-0.5f, 0, 0);
+    Vector3 UpDirection = new Vector3(0, 0.5f, 0);
+    Vector3 DownDirection = new Vector3(0, -0.5f, 0);
+
     void Start()
     {
         animator = GetComponent<Animator>();
         stat = GetComponentInParent<PlayerStat>();
-        delay = 1f / stat.atkspeed;
+
+        delay = 2 / stat.atkspeed;
     }
 
-    public void CheckHeadKey(string direction)
-    {
-
-        animator.SetBool("Head_Left", false);
-        animator.SetBool("Head_Right", false);
-        animator.SetBool("Head_Down", false);
-        animator.SetBool("Head_Up", false);
-        isAttackDelay = true;
-        animator.SetBool(direction, true);
-       
-    }
 
     public void SetHeadAnimation()
     {
@@ -38,15 +35,10 @@ public class PlayerHeadMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            CheckHeadKey("Head_Left");
-
+            animator.SetBool("Head_Left", true);
             if (delay <= currentTime)
             {
-                currentTime = 0;
-                animator.SetBool("IsAttack", true);
-                GameObject go = Instantiate(tearsPrefab);
-                Vector3 offset = new Vector3(-0.5f, 0, 0);
-                go.transform.position = transform.position + offset;
+                CreateTears(LeftDirection);
             }
             else
             {
@@ -55,14 +47,11 @@ public class PlayerHeadMovement : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.RightArrow))
         {
-            CheckHeadKey("Head_Right");
+            animator.SetBool("Head_Right", true);
+
             if (delay <= currentTime)
             {
-                currentTime = 0;
-                animator.SetBool("IsAttack", true);
-                GameObject go = Instantiate(tearsPrefab);
-                Vector3 offset = new Vector3(0.5f, 0, 0);
-                go.transform.position = transform.position + offset;
+                CreateTears(RightDirection);
             }
             else
             {
@@ -72,15 +61,12 @@ public class PlayerHeadMovement : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.UpArrow))
         {
-            CheckHeadKey("Head_Up");
+            animator.SetBool("Head_Up", true);
+
 
             if (delay <= currentTime)
             {
-                currentTime = 0;
-                animator.SetBool("IsAttack", true);
-                GameObject go = Instantiate(tearsPrefab);
-                Vector3 offset = new Vector3(0, 0.5f, 0);
-                go.transform.position = transform.position + offset;
+                CreateTears(UpDirection);
             }
             else
             {
@@ -89,15 +75,12 @@ public class PlayerHeadMovement : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.DownArrow))
         {
-            CheckHeadKey("Head_Down");
+            animator.SetBool("Head_Down", true);
+
 
             if (delay <= currentTime)
             {
-                currentTime = 0;
-                animator.SetBool("IsAttack", true);
-                GameObject go = Instantiate(tearsPrefab);
-                Vector3 offset = new Vector3(0, -0.5f, 0);
-                go.transform.position = transform.position + offset;
+                CreateTears(DownDirection);
             }
             else
             {
@@ -112,5 +95,15 @@ public class PlayerHeadMovement : MonoBehaviour
             animator.SetBool("Head_Up", false);
            
         }
+
+    }
+
+
+    public void CreateTears(Vector3 dir)
+    {
+        currentTime = 0;
+        animator.SetBool("IsAttack", true);
+        GameObject go = Instantiate(tearsPrefab);
+        go.transform.position = transform.position + dir;
     }
 }
