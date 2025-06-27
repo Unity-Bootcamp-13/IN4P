@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 198be02bd4f1bfd4e85b6fea0dc39f87
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5853614262986277218
+    second: pickup_002_lucky_penny_0
+  - first:
+      213: -4447876210339910538
+    second: pickup_002_lucky_penny_1
+  - first:
+      213: 3302806770413330897
+    second: pickup_002_lucky_penny_2
+  - first:
+      213: 8128196534250118610
+    second: pickup_002_lucky_penny_3
+  - first:
+      213: 5157887314710551776
+    second: pickup_002_lucky_penny_4
+  - first:
+      213: 8473453179215220589
+    second: pickup_002_lucky_penny_5
+  - first:
+      213: 691776225482954664
+    second: pickup_002_lucky_penny_6
+  - first:
+      213: 8776347181345625150
+    second: pickup_002_lucky_penny_7
+  - first:
+      213: 8177646537159776037
+    second: pickup_002_lucky_penny_8
+  - first:
+      213: -4203031714142736257
+    second: pickup_002_lucky_penny_9
+  - first:
+      213: -174023092501348062
+    second: pickup_002_lucky_penny_10
+  - first:
+      213: -4598610621655500847
+    second: pickup_002_lucky_penny_11
+  - first:
+      213: -1218970446659770653
+    second: pickup_002_lucky_penny_12
+  - first:
+      213: -8835396492583056659
+    second: pickup_002_lucky_penny_13
+  - first:
+      213: -1922907920832295816
+    second: pickup_002_lucky_penny_14
+  - first:
+      213: 810189083320514139
+    second: pickup_002_lucky_penny_15
+  - first:
+      213: 6627227435888067614
+    second: pickup_002_lucky_penny_16
+  - first:
+      213: 5811448951225164672
+    second: pickup_002_lucky_penny_17
+  - first:
+      213: 8216578584655327856
+    second: pickup_002_lucky_penny_18
+  - first:
+      213: 2057928108918451507
+    second: pickup_002_lucky_penny_19
+  - first:
+      213: -3501086593496634740
+    second: pickup_002_lucky_penny_20
+  - first:
+      213: 2606538461332239323
+    second: pickup_002_lucky_penny_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pickup_002_lucky_penny_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 111
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9efa8277d8c3cea0800000000000000
+      internalID: -5853614262986277218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_002_lucky_penny_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 111
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c67cd0728f542c0800000000000000
+      internalID: -4447876210339910538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_002_lucky_penny_2
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 95
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1ed38324de5dd20800000000000000
+      internalID: 3302806770413330897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_002_lucky_penny_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 95
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd1a80dea72dc070800000000000000
+      internalID: 8128196534250118610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_002_lucky_penny_4
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 89
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ecd0d06f2f749740800000000000000
+      internalID: 5157887314710551776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_002_lucky_penny_5
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 92
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f0700b5c0c79570800000000000000
+      internalID: 8473453179215220589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_002_lucky_penny_9
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 79
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7032d2bce4dba5c0800000000000000
+      internalID: -4203031714142736257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_002_lucky_penny_10
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 79
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2210ebc5beeb59df0800000000000000
+      internalID: -174023092501348062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_002_lucky_penny_22
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 9
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459fdb06969a4094c85064da78f85ed6
+      internalID: 1531305606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_002_lucky_penny_23
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 9
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505f55306c4f3b247bb09b02625ac041
+      internalID: -15444646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_002_lucky_penny_24
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 76
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fbcbaa5c1807c4d925aa844119076a
+      internalID: 1043830478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a63d2fe8f8f04e5438b2ebc038cd061d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pickup_002_lucky_penny_22: 1531305606
+      pickup_002_lucky_penny_23: -15444646
+      pickup_002_lucky_penny_24: 1043830478
+      pickup_002_lucky_penny_25: 1434779876
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
