@@ -1,0 +1,441 @@
+fileFormatVersion: 2
+guid: 5dd25716aa3afdb46bfa845a92ce2947
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1073054853785844187
+    second: pickup_002_coindouble_0
+  - first:
+      213: -9221759974318811335
+    second: pickup_002_coindouble_1
+  - first:
+      213: 1011342584291369180
+    second: pickup_002_coindouble_2
+  - first:
+      213: 4927830130005256629
+    second: pickup_002_coindouble_3
+  - first:
+      213: 1110607093452863459
+    second: pickup_002_coindouble_4
+  - first:
+      213: 3462082430149707732
+    second: pickup_002_coindouble_5
+  - first:
+      213: 8604337146346189990
+    second: pickup_002_coindouble_6
+  - first:
+      213: -1367478700947788148
+    second: pickup_002_coindouble_7
+  - first:
+      213: -2674800595863952790
+    second: pickup_002_coindouble_8
+  - first:
+      213: -7307644636957127834
+    second: pickup_002_coindouble_9
+  - first:
+      213: -8016684903871104333
+    second: pickup_002_coindouble_10
+  - first:
+      213: -8166959928342145531
+    second: pickup_002_coindouble_11
+  - first:
+      213: 4503578552955656350
+    second: pickup_002_coindouble_12
+  - first:
+      213: 7367960104975421685
+    second: pickup_002_coindouble_13
+  - first:
+      213: 4961915568286415673
+    second: pickup_002_coindouble_14
+  - first:
+      213: 8059183225400242027
+    second: pickup_002_coindouble_15
+  - first:
+      213: 4894016802588062254
+    second: pickup_002_coindouble_16
+  - first:
+      213: 2949928979362811492
+    second: pickup_002_coindouble_17
+  - first:
+      213: -7303730775673814061
+    second: pickup_002_coindouble_18
+  - first:
+      213: -3120374288891491522
+    second: pickup_002_coindouble_19
+  - first:
+      213: 3249006019964168193
+    second: pickup_002_coindouble_20
+  - first:
+      213: 1850388898106502575
+    second: pickup_002_coindouble_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pickup_002_coindouble_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 111
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9f96844b144ee00800000000000000
+      internalID: 1073054853785844187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_002_coindouble_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 95
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 937dfce892ab50080800000000000000
+      internalID: -9221759974318811335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_002_coindouble_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 111
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0a9ead8b2090e00800000000000000
+      internalID: 1011342584291369180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_002_coindouble_3
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 95
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b92e6cf46b236440800000000000000
+      internalID: 4927830130005256629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_002_coindouble_4
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 89
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7794a644ba96f00800000000000000
+      internalID: 1110607093452863459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_002_coindouble_5
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 92
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7c13890a9cb0030800000000000000
+      internalID: 3462082430149707732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_002_coindouble_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 79
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66bc1659be7069a90800000000000000
+      internalID: -7307644636957127834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_002_coindouble_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 79
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bab68cdd830fb090800000000000000
+      internalID: -8016684903871104333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_002_coindouble_22
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 7
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3b49c850135af478cd1f73fd610fee
+      internalID: 187950428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_002_coindouble_13
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 9
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764b0b2ec1f5c854b8c3c6c3a799cbd8
+      internalID: 1618202314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_002_coindouble_14
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 75
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a93943694873d4d8d48a68c9190bdb
+      internalID: -224496772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 435ec55b9ee2c8d449dd47a0b4bfdf52
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pickup_002_coindouble_13: 1618202314
+      pickup_002_coindouble_14: -224496772
+      pickup_002_coindouble_22: 187950428
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
