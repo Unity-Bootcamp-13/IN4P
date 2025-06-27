@@ -2,17 +2,18 @@ using UnityEngine;
 
 public class Tears : MonoBehaviour
 {
-    public float speed;
-    public Player player;
-    public Vector3 dir;
+    public float projectileSpeed;
+    public Transform player;    
+    public Vector2 dir;
 
     private void Start()
     {
-        speed = player.GetComponent<Player>().projectileSpeed;
+        projectileSpeed = player.GetComponent<Player>().projectileSpeed;
+        Debug.Log(dir);
     }
 
     private void Update()
     {
-        transform.position += dir*speed*Time.deltaTime;
+        transform.position += (Vector3)dir * projectileSpeed * Time.deltaTime;
     }
 }

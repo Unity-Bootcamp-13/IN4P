@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
     public float speed = 1.0f;
     public float atkRange = 1.0f;
     public float projectileSpeed = 7.5f;
+    
     public float elapseTime = 0;
 
     private int h;
@@ -72,6 +73,8 @@ public class Player : MonoBehaviour
 
     public void Update()
     {
+        elapseTime += Time.deltaTime;
+
         if (moveInput.magnitude > 0)
         {
             bodyAnimator.SetBool(isMove, true);
@@ -90,6 +93,73 @@ public class Player : MonoBehaviour
         rid.linearVelocity = dir * speed;
     }
 
+    
+
+    public void KeyDownLook(AttackDirection directionType)
+    {
+        Debug.Log($"KeyDownLook 호출: {directionType}");
+        switch (directionType)
+        {
+            case AttackDirection.Right:
+                headAnimator.SetBool(HeadRight, true);
+                //CreateTears(0);
+                break;
+            case AttackDirection.Left:
+                headAnimator.SetBool(HeadLeft, true);
+                //CreateTears(1);
+                break;
+            case AttackDirection.Up:
+                headAnimator.SetBool(HeadUp, true);
+                //CreateTears(2);
+                break;
+            case AttackDirection.Down:
+                headAnimator.SetBool(HeadDown, true);
+                //CreateTears(3);
+                break;      
+        }
+    }
+
+    public void KeyUpLook()
+    {
+        headAnimator.SetBool(HeadRight, false);
+        headAnimator.SetBool(HeadLeft, false);
+        headAnimator.SetBool(HeadUp, false);
+        headAnimator.SetBool(HeadDown, false);
+    }
+    
+    //public void CreateTears(int dir)
+    //{
+    //    elapseTime = 0;
+
+    //    GameObject go = Instantiate(tearsPrefab);
+
+    //    if (launchPlace)
+    //    {
+    //        go.transform.position = leftEye.position;
+    //        launchPlace = false;
+    //    }
+    //    else
+    //    {
+    //        go.transform.position = rightEye.position;
+    //        launchPlace = true;
+    //    }
+
+    //    switch(dir)
+    //    {
+    //        case 0:
+    //            go.GetComponent<Tears>().dir = Vector3.right; 
+    //            break;
+    //        case 1:
+    //            go.GetComponent<Tears>().dir = Vector3.left;
+    //            break;
+    //        case 2:
+    //            go.GetComponent<Tears>().dir = Vector3.up;
+    //            break;
+    //        case 3:
+    //            go.GetComponent<Tears>().dir = Vector3.down;
+    //            break;
+    //    }    
+    //}
     public void OnMove(InputAction.CallbackContext context)
     {
         moveInput = context.ReadValue<Vector2>();
@@ -104,69 +174,57 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void KeyDownLook(AttackDirection directionType)
+    public void OnAttack(InputAction.CallbackContext context)
     {
-        Debug.Log($"KeyDownLook 호출: {directionType}");
-        switch (directionType)
-        {
-            case AttackDirection.Right:
-                headAnimator.SetBool(HeadRight, true);
-                CreateTears(0);
-                break;
-            case AttackDirection.Left:
-                headAnimator.SetBool(HeadLeft, true);
-                CreateTears(1);
-                break;
-            case AttackDirection.Up:
+        // if (!context.performed) return;
+
+        string path = context.control.path;
+        headAnimator.speed = atkSpeed;
+
+        if (path.Contains("upArrow"))
+        {            
+            if (context.started )
+            {
                 headAnimator.SetBool(HeadUp, true);
-                CreateTears(2);
-                break;
-            case AttackDirection.Down:
+            }            
+            else if (context.canceled)
+            {
+                headAnimator.SetBool(HeadUp, false);
+            }
+        }
+        else if (path.Contains("downArrow"))
+        {
+            if (context.started)
+            {
                 headAnimator.SetBool(HeadDown, true);
-                CreateTears(3);
-                break;      
+            }            
+            else if (context.canceled)
+            {
+                headAnimator.SetBool(HeadDown, false);
+            }
         }
-    }
-
-    public void KeyUpLook()
-    {
-        headAnimator.SetBool(HeadRight, false);
-        headAnimator.SetBool(HeadLeft, false);
-        headAnimator.SetBool(HeadUp, false);
-        headAnimator.SetBool(HeadDown, false);
-    }
-    
-    public void CreateTears(int dir)
-    {
-        elapseTime = 0;
-
-        GameObject go = Instantiate(tearsPrefab);
-
-        if (launchPlace)
+        else if (path.Contains("leftArrow"))
         {
-            go.transform.position = leftEye.position;
-            launchPlace = false;
+            if (context.started)
+            {
+                headAnimator.SetBool(HeadLeft, true);
+            }            
+            else if (context.canceled)
+            {
+                headAnimator.SetBool(HeadLeft, false);
+            }
         }
-        else
+        else if (path.Contains("rightArrow"))
         {
-            go.transform.position = rightEye.position;
-            launchPlace = true;
+            if (context.started)
+            {
+                headAnimator.SetBool(HeadRight, true);    
+            }           
+            else if (context.canceled)
+            {
+                headAnimator.SetBool(HeadRight, false);
+            }
         }
+    }   
 
-        switch(dir)
-        {
-            case 0:
-                go.GetComponent<Tears>().dir = Vector3.right; 
-                break;
-            case 1:
-                go.GetComponent<Tears>().dir = Vector3.left;
-                break;
-            case 2:
-                go.GetComponent<Tears>().dir = Vector3.up;
-                break;
-            case 3:
-                go.GetComponent<Tears>().dir = Vector3.down;
-                break;
-        }    
-    }
 }
