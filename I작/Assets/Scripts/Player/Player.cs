@@ -1,16 +1,10 @@
 using System;
+using JetBrains.Annotations;
 using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public enum AttackDirection
-{
-    Up,
-    Down,
-    Left,
-    Right
-}
 
 public class Player : MonoBehaviour
 {
@@ -38,6 +32,7 @@ public class Player : MonoBehaviour
     private Vector2 moveInput;
 
     [SerializeField] GameObject tearsPrefab;
+    [SerializeField] GameObject bombPrefab;
 
     public Animator headAnimator;
     public Animator bodyAnimator;
@@ -49,14 +44,6 @@ public class Player : MonoBehaviour
 
     bool launchPlace;
 
-
-    Vector2[] directions = new Vector2[]
-    {
-        new Vector2(1.0f, 0f), // 오른쪽
-        new Vector2(-1.0f, 0f), // 왼족
-        new Vector2(0f, -1.0f), // 아래
-        new Vector2(0f, 1.0f) // 위
-    };
 
     private void Awake()
     {
@@ -93,73 +80,15 @@ public class Player : MonoBehaviour
         rid.linearVelocity = dir * speed;
     }
 
-    
-
-    public void KeyDownLook(AttackDirection directionType)
+    public void OnBomb(InputAction.CallbackContext context)
     {
-        Debug.Log($"KeyDownLook 호출: {directionType}");
-        switch (directionType)
-        {
-            case AttackDirection.Right:
-                headAnimator.SetBool(HeadRight, true);
-                //CreateTears(0);
-                break;
-            case AttackDirection.Left:
-                headAnimator.SetBool(HeadLeft, true);
-                //CreateTears(1);
-                break;
-            case AttackDirection.Up:
-                headAnimator.SetBool(HeadUp, true);
-                //CreateTears(2);
-                break;
-            case AttackDirection.Down:
-                headAnimator.SetBool(HeadDown, true);
-                //CreateTears(3);
-                break;      
-        }
+        if (!context.performed)
+            return;
+
+        GameObject go = Instantiate(bombPrefab);
+        go.transform.position = this.transform.position;
     }
 
-    public void KeyUpLook()
-    {
-        headAnimator.SetBool(HeadRight, false);
-        headAnimator.SetBool(HeadLeft, false);
-        headAnimator.SetBool(HeadUp, false);
-        headAnimator.SetBool(HeadDown, false);
-    }
-    
-    //public void CreateTears(int dir)
-    //{
-    //    elapseTime = 0;
-
-    //    GameObject go = Instantiate(tearsPrefab);
-
-    //    if (launchPlace)
-    //    {
-    //        go.transform.position = leftEye.position;
-    //        launchPlace = false;
-    //    }
-    //    else
-    //    {
-    //        go.transform.position = rightEye.position;
-    //        launchPlace = true;
-    //    }
-
-    //    switch(dir)
-    //    {
-    //        case 0:
-    //            go.GetComponent<Tears>().dir = Vector3.right; 
-    //            break;
-    //        case 1:
-    //            go.GetComponent<Tears>().dir = Vector3.left;
-    //            break;
-    //        case 2:
-    //            go.GetComponent<Tears>().dir = Vector3.up;
-    //            break;
-    //        case 3:
-    //            go.GetComponent<Tears>().dir = Vector3.down;
-    //            break;
-    //    }    
-    //}
     public void OnMove(InputAction.CallbackContext context)
     {
         moveInput = context.ReadValue<Vector2>();
@@ -174,57 +103,38 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void OnAttack(InputAction.CallbackContext context)
+    public void OnUpAttack(InputAction.CallbackContext context)
     {
-        // if (!context.performed) return;
+        OnAttack(context, HeadUp);
+    }
 
+    public void OnDownAttack(InputAction.CallbackContext context) 
+    {
+        OnAttack(context, HeadDown);
+    }
+
+    public void OnLeftAttack(InputAction.CallbackContext context)
+    {
+        OnAttack(context, HeadLeft);
+    }
+
+    public void OnRightAttack(InputAction.CallbackContext context)
+    {
+        OnAttack(context, HeadRight);
+    }
+
+    private void OnAttack(InputAction.CallbackContext context, int dir )
+    {
         string path = context.control.path;
         headAnimator.speed = atkSpeed;
 
-        if (path.Contains("upArrow"))
-        {            
-            if (context.started )
-            {
-                headAnimator.SetBool(HeadUp, true);
-            }            
-            else if (context.canceled)
-            {
-                headAnimator.SetBool(HeadUp, false);
-            }
-        }
-        else if (path.Contains("downArrow"))
+        if (context.started)
         {
-            if (context.started)
-            {
-                headAnimator.SetBool(HeadDown, true);
-            }            
-            else if (context.canceled)
-            {
-                headAnimator.SetBool(HeadDown, false);
-            }
+            headAnimator.SetBool(dir, true);
         }
-        else if (path.Contains("leftArrow"))
+        else if (context.canceled)
         {
-            if (context.started)
-            {
-                headAnimator.SetBool(HeadLeft, true);
-            }            
-            else if (context.canceled)
-            {
-                headAnimator.SetBool(HeadLeft, false);
-            }
+            headAnimator.SetBool(dir, false);
         }
-        else if (path.Contains("rightArrow"))
-        {
-            if (context.started)
-            {
-                headAnimator.SetBool(HeadRight, true);    
-            }           
-            else if (context.canceled)
-            {
-                headAnimator.SetBool(HeadRight, false);
-            }
-        }
-    }   
-
+    }
 }

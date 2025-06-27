@@ -15,9 +15,45 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Attack",
+                    "name": "UpAttack",
                     "type": "Button",
                     "id": "62ba54a2-d96e-4470-8918-a36e02604eab",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DownAttack",
+                    "type": "Button",
+                    "id": "99ea7353-f1ea-4276-8de9-32342b5bcc72",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LeftAttack",
+                    "type": "Button",
+                    "id": "a0786b42-35e6-4895-a7cd-10e3f0a00309",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightAttack",
+                    "type": "Button",
+                    "id": "2e472ab4-9901-490b-91e4-b77f5cccd0bf",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Bomb",
+                    "type": "Button",
+                    "id": "0ea51137-c31f-4fe0-980c-7c453c59cfc6",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -98,18 +134,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Attack",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "0ca55414-c8f3-42da-9123-0f9e9d9d31c5",
-                    "path": "<Keyboard>/downArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Attack",
+                    "action": "UpAttack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -120,7 +145,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Attack",
+                    "action": "LeftAttack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -131,7 +156,29 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Attack",
+                    "action": "RightAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0ca55414-c8f3-42da-9123-0f9e9d9d31c5",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DownAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f3fe0825-f024-4017-ba3f-950209c7116c",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Bomb",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
