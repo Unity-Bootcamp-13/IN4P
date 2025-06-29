@@ -3,29 +3,28 @@ using UnityEngine;
 
 public class Tears : MonoBehaviour
 {
-    public float projectileSpeed;
-    public Transform player;    
+    public float speed;
+    public float range;
     public Vector2 dir;
+    public float timer;
+
     public Animator tearsAnimator;
 
-    public float lifeTime = 10f;
-
-    private float timer;
     private Action returnAction;
 
 
     private void OnEnable()
     {
-        projectileSpeed = player.GetComponent<Player>().projectileSpeed;
-        timer = lifeTime;
+        //timer = range / speed;
+        timer = 5;
     }
 
     private void Update()
     {
-        transform.position += (Vector3)dir * projectileSpeed * Time.deltaTime;
+        transform.position += (Vector3)dir * speed * Time.deltaTime;
         timer -= Time.deltaTime;
 
-        if(timer <= 0f)
+        if (timer <= 0f)
         {
             returnAction?.Invoke();
         }
@@ -34,8 +33,11 @@ public class Tears : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // Tag 조사해서 몬스터면 터지는 걸로 변경
+        if (collision.gameObject.tag == "Player")
+            return;
+
         tearsAnimator.SetBool("Pop", true);
-        projectileSpeed = 0.5f;
+        speed = 0.5f;
     }
 
     void DestoryTears()
@@ -46,5 +48,11 @@ public class Tears : MonoBehaviour
     public void SetReturnAction(Action returnToPool)
     {
         this.returnAction = returnToPool;
+    }
+
+    public void SetTears(float s, float r)
+    {
+        speed = s;
+        range = r;
     }
 }
