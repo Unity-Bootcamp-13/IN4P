@@ -130,6 +130,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -322,7 +335,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      effect_017_bombradius_darkroom_0: 1171069606868489783
+      effect_017_bombradius_darkroom_1: 6316930172316299955
+      effect_017_bombradius_darkroom_2: -7591315881261483947
+      effect_017_bombradius_darkroom_3: -3300870906857209069
+      effect_017_bombradius_darkroom_4: 8909613009266816292
+      effect_017_bombradius_darkroom_5: -4864864217062048811
+      effect_017_bombradius_darkroom_6: 394511675332894107
+      effect_017_bombradius_darkroom_7: -3988383086318566398
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2111f9d5fe7a9524e85850d296f21414, type: 3}
+  m_Name: Isaac
+  m_EditorClassIdentifier: 
+  characterId: 1
+  characterName: Isaac
+  headSprite: {fileID: 8830880537298194837, guid: dc3e9461f6c0a784789ab3e723c2af98, type: 3}
+  bodySprite: {fileID: 4980409377013969977, guid: dc3e9461f6c0a784789ab3e723c2af98, type: 3}
+  hp: 3
+  atk: 1
+  atkSpeed: 1
+  speed: 5
+  atkRange: 1
+  projectileSpeed: 7.5
