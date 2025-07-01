@@ -51,12 +51,6 @@ public class Monstro : MonoBehaviour
 
     }
 
-    //보스가 데미 입을 때
-    public void GetDamage()
-    {
-        
-
-    }
     private void StartLowJump()
     {
         if (_jumpRoutine != null)
@@ -67,13 +61,6 @@ public class Monstro : MonoBehaviour
         _jumpRoutine = StartCoroutine(LowJumpRoutine());
 
     }
-
-
-    private IEnumerator DelayLow(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-    }
-
 
 
     //점프하면서 캐릭터 쪽으로 다가옴
@@ -115,6 +102,17 @@ public class Monstro : MonoBehaviour
     {
        
     }
+
+    private void ChangeState(BossState newState)
+    {
+        // 이전 코루틴 정리
+        if (_jumpRoutine != null)
+            StopCoroutine(_jumpRoutine);
+
+        _state = newState;
+        _jumpRoutine = StartCoroutine(StateRoutine(newState));
+    }
+
     public void TakeDamage()
     {
 
