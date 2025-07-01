@@ -1,6 +1,7 @@
 using NUnit.Framework.Constraints;
 using System;
 using System.Collections;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public enum BossState
@@ -27,8 +28,8 @@ public class Monstro : MonoBehaviour
 
     private BossState _bossState = BossState.Idle;
 
-    public Transform player;
-    public Animator animator;
+    private GameObject player;
+    private Animator animator;
     protected SpriteRenderer spriteRenderer;
     private Coroutine _patternRoutine;
     private Collider2D collider;
@@ -36,32 +37,56 @@ public class Monstro : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        player = GameObject.FindGameObjectWithTag("Player").transform;
-
+        player = GameObject.FindGameObjectWithTag("Player");
+        collider = GetComponent<Collider2D>();
     }
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(boss_hp <= 0)
+        {
+            bossDie();
+        }
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             TakeDamage(250); 
         }
-        float facing = spriteRenderer.flipX ? 1f : -1f;
-        if (_bossState == BossState.Idle && player != null && _patternRoutine == null)
+        
+        if (_bossState == BossState.Idle && _patternRoutine == null)
         {
-            _patternRoutine = StartCoroutine(LowJumpWithCooldown());
+            int pattern = UnityEngine.Random.Range(0, 2);
+            _patternRoutine = StartCoroutine(LowJumpWithCooldown(pattern));
         }
 
     }
 
-    private IEnumerator LowJumpWithCooldown()
+    private IEnumerator LowJumpWithCooldown(int pattern)
     {
-        _bossState = BossState.LowJump;
+        
+        float facing = spriteRenderer.flipX ? 1f : -1f;
+        Vector3 dir = player.transform.position - transform.position;
+        spriteRenderer.flipX = dir.x > 0f;
 
+        // switch (pattern)
+        // {
+        //     case 0: // 낮은 점프
+        //         _bossState = BossState.LowJump;
+        //         yield return StartCoroutine(LowJumpRoutine());
+        //         break;
+        //     case 1: // 피 토하기
+        //         _bossState = BossState.BloodAttack;
+        //         yield return StartCoroutine(BloodAttackRoutine());
+        //         break;
+        //     case 2: // 높은 점프 
+        //         _bossState = BossState.HighJump;
+        //         yield return StartCoroutine(HighJumpRoutine());
+        //         break;
+        //     
+        // }
+        _bossState = BossState.LowJump;
         yield return StartCoroutine(LowJumpRoutine());
 
         yield return new WaitForSeconds(cooltime);
-
         _bossState = BossState.Idle;
         _patternRoutine = null;
     }
@@ -69,10 +94,11 @@ public class Monstro : MonoBehaviour
     //점프하면서 캐릭터 쪽으로 다가옴
     private IEnumerator LowJumpRoutine()
     {
+
         // 애니메이터 트리거 (애니메이션 연동이 필요하다면)
         animator.SetTrigger("LowJump");
 
-        Vector3 playerPos = player.position;
+        Vector3 playerPos = player.transform.position;
         Vector3 startPos = transform.position;
 
 
@@ -113,10 +139,16 @@ public class Monstro : MonoBehaviour
 
 
     //피 토하기
-    public void BloodAttack()
+    void BloodAttackRoutine()
     {
 
     }
+
+    void HighJumpRoutine()
+    {
+
+    }
+
 
     public void TakeDamage(int damage)
     {
@@ -142,8 +174,8 @@ public class Monstro : MonoBehaviour
     private IEnumerator DeathShake()
     {
         Vector3 originalPosition = transform.position;
-        float shakeDuration = 0.5f;
-        float shakeMagnitude = 0.1f;
+        float shakeDuration = 1.5f;
+        float shakeMagnitude = 0.2f;
         float elapsed = 0f;
         while (elapsed < shakeDuration)
         {
@@ -159,6 +191,8 @@ public class Monstro : MonoBehaviour
 
         Destroy(gameObject);
     }
+
+    
 }
 
 
