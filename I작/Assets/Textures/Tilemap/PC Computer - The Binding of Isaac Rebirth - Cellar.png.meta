@@ -1,0 +1,3028 @@
+fileFormatVersion: 2
+guid: 396c4e5585ca76045aebfec418c7c577
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1160316629795099108
+    second: PC Computer - The Binding of Isaac Rebirth - Cellar_0
+  - first:
+      213: 1234506883386347712
+    second: PC Computer - The Binding of Isaac Rebirth - Cellar_1
+  - first:
+      213: 2195502915502797965
+    second: PC Computer - The Binding of Isaac Rebirth - Cellar_2
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 404
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10e05f773541de498157fb9d4588e00
+      internalID: -1110251202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 404
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc3ef21b4590e74e9d05c8ebc944078
+      internalID: -175943043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_3
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 404
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a128fbe6f7e8344f8f17ccf06ca9f05
+      internalID: 1196073781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_4
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 404
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c865e9fd595264f9da9095e3de3c13
+      internalID: -809512852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_5
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 404
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ae35301e6279d4bb96982e7fc3acb3
+      internalID: 319631684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_6
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 404
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fd81b2705c2414f87dab5d699209d8
+      internalID: -665124550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebff13f0e18b1cb4fa2e97f1bef4dcc8
+      internalID: -785757984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60194f29412f86f4e8f67792a07d278d
+      internalID: -1864016794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7241b7a0d9cd0574eaa67f5c90a9f37d
+      internalID: -425695223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_12
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e3e7990ff619944af16274ac2099fd
+      internalID: 1076024621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_13
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150560ac241939c4fa908958e9cd4593
+      internalID: 1577500882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_14
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf08425421966884b8686314d3d6140a
+      internalID: -1255084953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_15
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3435c4192756c7b47903eba05950982a
+      internalID: 1335519323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f06c7649af1b3c4592f8fdfdb2fa821
+      internalID: 1476634715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 248
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cfd2a4e1e99e94a801d5d13c759b95
+      internalID: 468023703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 248
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe205ee1e3753ab43b74bb27be73a0ac
+      internalID: 1503313321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_41
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 248
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f523c8afb996f84f9178585e97456d9
+      internalID: -828646667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_42
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 248
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464a1121880a45e4792d1ce9a378cc1c
+      internalID: -1673942139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_43
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 248
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24215d5b16c9134b8672e40511beabe
+      internalID: 1269063023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_44
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 248
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c414f15362db543b7e08f106f336b9
+      internalID: -714498220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_47
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e32f064f69edda40ad68755f6934f5a
+      internalID: -1529268687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_48
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7d942deef554649b88f143a5c7847e
+      internalID: -973985637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_49
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f172e720c08754bb0e625ba00932c0
+      internalID: 8093990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_52
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18663c47e8cca4345b7bfa3580e070b0
+      internalID: 1054698082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_53
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084bbf362d9c4d54cb00309096961d54
+      internalID: 633053175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_54
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b670e69893ea5f4ca1d4626aeb18284
+      internalID: 308571286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_55
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41e95426ba7d5043b42e94de883ed50
+      internalID: -468718738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_56
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec458a327f31fc43ab79dfda0d09646
+      internalID: -519120861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_57
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b60a6902dd390419edeb4870fcf6e0
+      internalID: -1364483943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_58
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330ba2fdfca47a348901fcc7a2fe6232
+      internalID: 1982208202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_59
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b54630d7cb61945b36ee6dd05be118
+      internalID: 2072319303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_60
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87775bb596eca3741a2bb90bf6b507ee
+      internalID: 1749112451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_61
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f10dae3d90a61e45a74c2d03ed40e3a
+      internalID: -768805533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_62
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1220cfcaee7a025458869f9e6752a2a3
+      internalID: -703376628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_63
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdabdbfcd1cbe68438ea1e7f8ebe002a
+      internalID: -1693053651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_64
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5fd41a1700fa548a466c6fdf5e8377
+      internalID: -1941497178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_65
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394b8f884050c1141a45586025948275
+      internalID: 656182700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_66
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad390c5b4223504694def318173a5bb
+      internalID: 1441903805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afab103da85730145b2b35aed4fdb096
+      internalID: -78880188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_68
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 184
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f803a9bd73711a4ea5c504f8039a313
+      internalID: -122934325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_69
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 184
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a1575820621d44299316b98c665151
+      internalID: 1057808771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_70
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37aa6cbafd427e4ba42d2efa0d47832
+      internalID: 2433371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_71
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 184
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9978ee23a7a51b4e96ebb20773b6850
+      internalID: 2108432048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_72
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d441c511e732742b4f3b7edde43645
+      internalID: -483890973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_73
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c4803a84ab182468add46acf2a1cb1
+      internalID: 728449122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_76
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a03141221b19c4483040e0ee1a4b0f
+      internalID: 2103080529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_77
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d051e5c6eb923d438805c62bb88aa89
+      internalID: -1425003721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_78
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5bcb3c9cc8dad43906fa68e4896575
+      internalID: -574041850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_81
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acc41b0c606bc747bd16395071f7cd2
+      internalID: -1620335835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_82
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebb41c74a105594492202e531feab33
+      internalID: -1601648194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_83
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7da41c6c92da044aa4b4e5184bd4505
+      internalID: 1136207216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_84
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a1937bfec59034e9b87d664cc6f7bf
+      internalID: 2084921660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_85
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2817e736f5b92fc41a99dc1fcd1cf1fb
+      internalID: 2018478460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_86
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1c38ae65d6cc546b9ee188443424ff
+      internalID: 1743281405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_87
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8265dc2c9342b4f9716084ab8f5c2a
+      internalID: 451938060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_88
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69ad3c55346eec4d8e588c6b31f9ec9
+      internalID: -2001998388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_89
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fe47100057e2848903cd5327d1f58a
+      internalID: 1672963127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_90
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632dc540d0ca2314b9d14c7e26a4dd8f
+      internalID: -270450690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_91
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41aeabb4c8cce2b4881e58622e82eafc
+      internalID: 2104626690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_92
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a7999f75dbe174095a3d860abda5f5
+      internalID: 800552462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_93
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b065842b7c879c48a1c1999f604ecff
+      internalID: 1728304781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_94
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b870d68b24ebee1408ab137455990a9d
+      internalID: -144789376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_95
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777a4b630e930c64ebcd87091bde29f5
+      internalID: 1090965804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_105
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac18c063cdcb5d42b03b44a02b1e64f
+      internalID: -132504219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_106
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b704c4d0cbb74ce42a2eaa3b66a62d0a
+      internalID: 1932290215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_107
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1ed1becb1054c48a460014114adb44
+      internalID: 1573429276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_110
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2f16ad38d0f9740b02d0c072955be0
+      internalID: -1740697688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_111
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae689de52c1693f45a9b1c93a597e233
+      internalID: -1837648997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_112
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b420fd20d4eb24d8d7cb35e075b942
+      internalID: 1290973384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_113
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e717e56555fd55846a138305e061e5db
+      internalID: 2101190515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20a770a9ff00cd449d2381d4deaae94
+      internalID: -455612603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_115
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25326e8244f4f8f4e99dd226a7b99ec9
+      internalID: -1319010030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_116
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09840e5be6f669478698b8e262815aa
+      internalID: -25429483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_117
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706db35bbbd7e574b992209baa0d77d6
+      internalID: 1842940437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_118
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd4102277cf0a34f981d6bfbfeb293c
+      internalID: -623709067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_119
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d7ad737deb17643a01df5615d3e361
+      internalID: -492512118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_120
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4a621e48a994f46a52d670da1a11a1
+      internalID: -1815040161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_121
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f492a49e8cc9d2b49abec3fb9e064c9a
+      internalID: 549618759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_122
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad190628f95a624ea6a1e45010122bf
+      internalID: 443922938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_123
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8318253dfe331a4fb26a248008b1abe
+      internalID: 726753968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_124
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6de35132d019740b60996a5b306aab
+      internalID: -676870096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_134
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ca9ec66c9b8bd4f8ec217af212eb10
+      internalID: 35037595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_135
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1e3bee429a47d4483aaf13edd4fc75
+      internalID: 295434501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_136
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be7ee37322adee479328fc9f602a5b2
+      internalID: -616355979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_137
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0858157a872604f8c78f01278016fb
+      internalID: 1477709197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_139
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8328fd6f2e04841b04f9a9f24ec627
+      internalID: 306491219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_140
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c696e249426c93144b8abe36b74bc0c1
+      internalID: -2004626905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_141
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580ad0928b045d24fb34774b0f411399
+      internalID: -2005935838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_142
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a5bbb657d05494fad8f843b1d69bab
+      internalID: 700602908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_143
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb40ed3468f2f0428e338ecc2a12c0f
+      internalID: -1389610007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_144
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb1a8b6912f75847b0ac65e73b8943f
+      internalID: 361182225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_145
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1bd5bdf3f3d384585ca7f44d45ac5c
+      internalID: 929226188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_146
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76afb9f768715246928b94d5d12054e
+      internalID: -152084315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_147
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebeeadc0ab35ec45a323cec205dd8be
+      internalID: 70989967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_148
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3772f8f7949f3469f77f65d82c1915
+      internalID: 1420259553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_149
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9337e40a28a3141baa97b59b4bb1cf
+      internalID: -879055242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_150
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5b9a926b85dfc4cab1907f17a0ec33
+      internalID: 487061984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_151
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b397a700937dc84da683c33783d8409
+      internalID: 58232558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_152
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b5a12bd672f0a49a4df09d78a8bcdb
+      internalID: 1769048735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_153
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7563bca94d7284e812b471650db661
+      internalID: -775123135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_155
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f632ed144d8408459f0bd5fb62758fe
+      internalID: 1359495923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_156
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42ed75d58ef098419de37b22a26a6cc
+      internalID: -1638660826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_159
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e1b561bcbc127408d36f608cdfd1a7
+      internalID: -50435711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_160
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802b3497c5b86134e8d3f3826c90e446
+      internalID: 992980196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_163
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4907f18ec830d7040b79332374fa0016
+      internalID: 91900095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_164
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21340303c88631448525d0300bd5a53
+      internalID: 1128805966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_165
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1ee9f1df442474abe1849396368c01
+      internalID: 444658516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_166
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f894d40874b054fb7782601f1e8809
+      internalID: -2033776416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_168
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848d0068cc007ea4492f4f52682122fa
+      internalID: 1913194502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_169
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbc761333d58d24992593f9de35da77
+      internalID: -1705362734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_170
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37217612d982bd439f44f2220ee9d06
+      internalID: 246860334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_171
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2b88449abe4134db5a5ac6140a99f5
+      internalID: -1435748583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_172
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd7628412f36084a9a44d077f4d187f
+      internalID: 1869913243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_173
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682bd0dc02612b249bcd7dcae6ad0126
+      internalID: -2084614899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_174
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60a4f714f30a7745b1c5091c5a4a5a1
+      internalID: 61874533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_175
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a1de9ec7767e746ad0bc2c5e7e53c3
+      internalID: -1403777552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_176
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20c66ee1fea96c4fa69d4566576bb6d
+      internalID: -668561170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_177
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7d701d80e03a445b51e99037f10b43
+      internalID: -1196111273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_178
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407fb9b52895849418d6aff9f21aadad
+      internalID: 1655581212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_179
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4efb65a96e0e74191400bcd423a101
+      internalID: 1333499298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_180
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1ef30c37d4893438868df6cbbc9630
+      internalID: -1244718865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_181
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2b4de2f4b4c51438c05d1382ffa81a
+      internalID: -832317250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Cellar_182
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d5357709016644b94c827b4f7f3bf9
+      internalID: 1465553250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2b87f608f86470d4fac79c494afdb420
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PC Computer - The Binding of Isaac Rebirth - Cellar_0: -2054611771
+      PC Computer - The Binding of Isaac Rebirth - Cellar_1: -1110251202
+      PC Computer - The Binding of Isaac Rebirth - Cellar_10: -1864016794
+      PC Computer - The Binding of Isaac Rebirth - Cellar_100: 2124476774
+      PC Computer - The Binding of Isaac Rebirth - Cellar_101: -2097933066
+      PC Computer - The Binding of Isaac Rebirth - Cellar_102: -1056163123
+      PC Computer - The Binding of Isaac Rebirth - Cellar_103: 682465458
+      PC Computer - The Binding of Isaac Rebirth - Cellar_104: -70118679
+      PC Computer - The Binding of Isaac Rebirth - Cellar_105: -132504219
+      PC Computer - The Binding of Isaac Rebirth - Cellar_106: 1932290215
+      PC Computer - The Binding of Isaac Rebirth - Cellar_107: 1573429276
+      PC Computer - The Binding of Isaac Rebirth - Cellar_108: -1706019135
+      PC Computer - The Binding of Isaac Rebirth - Cellar_109: 549703490
+      PC Computer - The Binding of Isaac Rebirth - Cellar_11: -425695223
+      PC Computer - The Binding of Isaac Rebirth - Cellar_110: -1740697688
+      PC Computer - The Binding of Isaac Rebirth - Cellar_111: -1837648997
+      PC Computer - The Binding of Isaac Rebirth - Cellar_112: 1290973384
+      PC Computer - The Binding of Isaac Rebirth - Cellar_113: 2101190515
+      PC Computer - The Binding of Isaac Rebirth - Cellar_114: -455612603
+      PC Computer - The Binding of Isaac Rebirth - Cellar_115: -1319010030
+      PC Computer - The Binding of Isaac Rebirth - Cellar_116: -25429483
+      PC Computer - The Binding of Isaac Rebirth - Cellar_117: 1842940437
+      PC Computer - The Binding of Isaac Rebirth - Cellar_118: -623709067
+      PC Computer - The Binding of Isaac Rebirth - Cellar_119: -492512118
+      PC Computer - The Binding of Isaac Rebirth - Cellar_12: 1076024621
+      PC Computer - The Binding of Isaac Rebirth - Cellar_120: -1815040161
+      PC Computer - The Binding of Isaac Rebirth - Cellar_121: 549618759
+      PC Computer - The Binding of Isaac Rebirth - Cellar_122: 443922938
+      PC Computer - The Binding of Isaac Rebirth - Cellar_123: 726753968
+      PC Computer - The Binding of Isaac Rebirth - Cellar_124: -676870096
+      PC Computer - The Binding of Isaac Rebirth - Cellar_125: -315213704
+      PC Computer - The Binding of Isaac Rebirth - Cellar_126: -72344748
+      PC Computer - The Binding of Isaac Rebirth - Cellar_127: -249484591
+      PC Computer - The Binding of Isaac Rebirth - Cellar_128: 469541474
+      PC Computer - The Binding of Isaac Rebirth - Cellar_129: -1046144165
+      PC Computer - The Binding of Isaac Rebirth - Cellar_13: 1577500882
+      PC Computer - The Binding of Isaac Rebirth - Cellar_130: 1150490914
+      PC Computer - The Binding of Isaac Rebirth - Cellar_131: 1076878540
+      PC Computer - The Binding of Isaac Rebirth - Cellar_132: 1997938376
+      PC Computer - The Binding of Isaac Rebirth - Cellar_133: 2032087792
+      PC Computer - The Binding of Isaac Rebirth - Cellar_134: 35037595
+      PC Computer - The Binding of Isaac Rebirth - Cellar_135: 295434501
+      PC Computer - The Binding of Isaac Rebirth - Cellar_136: -616355979
+      PC Computer - The Binding of Isaac Rebirth - Cellar_137: 1477709197
+      PC Computer - The Binding of Isaac Rebirth - Cellar_138: 1783358635
+      PC Computer - The Binding of Isaac Rebirth - Cellar_139: 306491219
+      PC Computer - The Binding of Isaac Rebirth - Cellar_14: -1255084953
+      PC Computer - The Binding of Isaac Rebirth - Cellar_140: -2004626905
+      PC Computer - The Binding of Isaac Rebirth - Cellar_141: -2005935838
+      PC Computer - The Binding of Isaac Rebirth - Cellar_142: 700602908
+      PC Computer - The Binding of Isaac Rebirth - Cellar_143: -1389610007
+      PC Computer - The Binding of Isaac Rebirth - Cellar_144: 361182225
+      PC Computer - The Binding of Isaac Rebirth - Cellar_145: 929226188
+      PC Computer - The Binding of Isaac Rebirth - Cellar_146: -152084315
+      PC Computer - The Binding of Isaac Rebirth - Cellar_147: 70989967
+      PC Computer - The Binding of Isaac Rebirth - Cellar_148: 1420259553
+      PC Computer - The Binding of Isaac Rebirth - Cellar_149: -879055242
+      PC Computer - The Binding of Isaac Rebirth - Cellar_15: 1335519323
+      PC Computer - The Binding of Isaac Rebirth - Cellar_150: 487061984
+      PC Computer - The Binding of Isaac Rebirth - Cellar_151: 58232558
+      PC Computer - The Binding of Isaac Rebirth - Cellar_152: 1769048735
+      PC Computer - The Binding of Isaac Rebirth - Cellar_153: -775123135
+      PC Computer - The Binding of Isaac Rebirth - Cellar_154: 452098460
+      PC Computer - The Binding of Isaac Rebirth - Cellar_155: 1359495923
+      PC Computer - The Binding of Isaac Rebirth - Cellar_156: -1638660826
+      PC Computer - The Binding of Isaac Rebirth - Cellar_157: -913712149
+      PC Computer - The Binding of Isaac Rebirth - Cellar_158: -780996586
+      PC Computer - The Binding of Isaac Rebirth - Cellar_159: -50435711
+      PC Computer - The Binding of Isaac Rebirth - Cellar_16: 1378540555
+      PC Computer - The Binding of Isaac Rebirth - Cellar_160: 992980196
+      PC Computer - The Binding of Isaac Rebirth - Cellar_161: 2056528709
+      PC Computer - The Binding of Isaac Rebirth - Cellar_162: 1207019007
+      PC Computer - The Binding of Isaac Rebirth - Cellar_163: 91900095
+      PC Computer - The Binding of Isaac Rebirth - Cellar_164: 1128805966
+      PC Computer - The Binding of Isaac Rebirth - Cellar_165: 444658516
+      PC Computer - The Binding of Isaac Rebirth - Cellar_166: -2033776416
+      PC Computer - The Binding of Isaac Rebirth - Cellar_167: -1258681586
+      PC Computer - The Binding of Isaac Rebirth - Cellar_168: 1913194502
+      PC Computer - The Binding of Isaac Rebirth - Cellar_169: -1705362734
+      PC Computer - The Binding of Isaac Rebirth - Cellar_17: 958839961
+      PC Computer - The Binding of Isaac Rebirth - Cellar_170: 246860334
+      PC Computer - The Binding of Isaac Rebirth - Cellar_171: -1435748583
+      PC Computer - The Binding of Isaac Rebirth - Cellar_172: 1869913243
+      PC Computer - The Binding of Isaac Rebirth - Cellar_173: -2084614899
+      PC Computer - The Binding of Isaac Rebirth - Cellar_174: 61874533
+      PC Computer - The Binding of Isaac Rebirth - Cellar_175: -1403777552
+      PC Computer - The Binding of Isaac Rebirth - Cellar_176: -668561170
+      PC Computer - The Binding of Isaac Rebirth - Cellar_177: -1196111273
+      PC Computer - The Binding of Isaac Rebirth - Cellar_178: 1655581212
+      PC Computer - The Binding of Isaac Rebirth - Cellar_179: 1333499298
+      PC Computer - The Binding of Isaac Rebirth - Cellar_18: -1737937439
+      PC Computer - The Binding of Isaac Rebirth - Cellar_180: -1244718865
+      PC Computer - The Binding of Isaac Rebirth - Cellar_181: -832317250
+      PC Computer - The Binding of Isaac Rebirth - Cellar_182: 1465553250
+      PC Computer - The Binding of Isaac Rebirth - Cellar_19: 596268810
+      PC Computer - The Binding of Isaac Rebirth - Cellar_2: -175943043
+      PC Computer - The Binding of Isaac Rebirth - Cellar_20: -1729246456
+      PC Computer - The Binding of Isaac Rebirth - Cellar_21: -719691838
+      PC Computer - The Binding of Isaac Rebirth - Cellar_22: -446871357
+      PC Computer - The Binding of Isaac Rebirth - Cellar_23: 1382162428
+      PC Computer - The Binding of Isaac Rebirth - Cellar_24: 1542358436
+      PC Computer - The Binding of Isaac Rebirth - Cellar_25: -1668033404
+      PC Computer - The Binding of Isaac Rebirth - Cellar_26: 786601822
+      PC Computer - The Binding of Isaac Rebirth - Cellar_27: 2077749243
+      PC Computer - The Binding of Isaac Rebirth - Cellar_28: -1717779266
+      PC Computer - The Binding of Isaac Rebirth - Cellar_29: 111584793
+      PC Computer - The Binding of Isaac Rebirth - Cellar_3: 1196073781
+      PC Computer - The Binding of Isaac Rebirth - Cellar_30: -1130563355
+      PC Computer - The Binding of Isaac Rebirth - Cellar_31: 1156012816
+      PC Computer - The Binding of Isaac Rebirth - Cellar_32: 819823458
+      PC Computer - The Binding of Isaac Rebirth - Cellar_33: 1622069274
+      PC Computer - The Binding of Isaac Rebirth - Cellar_34: -751403678
+      PC Computer - The Binding of Isaac Rebirth - Cellar_35: -1910658533
+      PC Computer - The Binding of Isaac Rebirth - Cellar_36: 1397554809
+      PC Computer - The Binding of Isaac Rebirth - Cellar_37: 885978783
+      PC Computer - The Binding of Isaac Rebirth - Cellar_38: 1476634715
+      PC Computer - The Binding of Isaac Rebirth - Cellar_39: 468023703
+      PC Computer - The Binding of Isaac Rebirth - Cellar_4: -809512852
+      PC Computer - The Binding of Isaac Rebirth - Cellar_40: 1503313321
+      PC Computer - The Binding of Isaac Rebirth - Cellar_41: -828646667
+      PC Computer - The Binding of Isaac Rebirth - Cellar_42: -1673942139
+      PC Computer - The Binding of Isaac Rebirth - Cellar_43: 1269063023
+      PC Computer - The Binding of Isaac Rebirth - Cellar_44: -714498220
+      PC Computer - The Binding of Isaac Rebirth - Cellar_45: -1369943737
+      PC Computer - The Binding of Isaac Rebirth - Cellar_46: 20118879
+      PC Computer - The Binding of Isaac Rebirth - Cellar_47: -1529268687
+      PC Computer - The Binding of Isaac Rebirth - Cellar_48: -973985637
+      PC Computer - The Binding of Isaac Rebirth - Cellar_49: 8093990
+      PC Computer - The Binding of Isaac Rebirth - Cellar_5: 319631684
+      PC Computer - The Binding of Isaac Rebirth - Cellar_50: -1631296663
+      PC Computer - The Binding of Isaac Rebirth - Cellar_51: -1728171379
+      PC Computer - The Binding of Isaac Rebirth - Cellar_52: 1054698082
+      PC Computer - The Binding of Isaac Rebirth - Cellar_53: 633053175
+      PC Computer - The Binding of Isaac Rebirth - Cellar_54: 308571286
+      PC Computer - The Binding of Isaac Rebirth - Cellar_55: -468718738
+      PC Computer - The Binding of Isaac Rebirth - Cellar_56: -519120861
+      PC Computer - The Binding of Isaac Rebirth - Cellar_57: -1364483943
+      PC Computer - The Binding of Isaac Rebirth - Cellar_58: 1982208202
+      PC Computer - The Binding of Isaac Rebirth - Cellar_59: 2072319303
+      PC Computer - The Binding of Isaac Rebirth - Cellar_6: -665124550
+      PC Computer - The Binding of Isaac Rebirth - Cellar_60: 1749112451
+      PC Computer - The Binding of Isaac Rebirth - Cellar_61: -768805533
+      PC Computer - The Binding of Isaac Rebirth - Cellar_62: -703376628
+      PC Computer - The Binding of Isaac Rebirth - Cellar_63: -1693053651
+      PC Computer - The Binding of Isaac Rebirth - Cellar_64: -1941497178
+      PC Computer - The Binding of Isaac Rebirth - Cellar_65: 656182700
+      PC Computer - The Binding of Isaac Rebirth - Cellar_66: 1441903805
+      PC Computer - The Binding of Isaac Rebirth - Cellar_67: -78880188
+      PC Computer - The Binding of Isaac Rebirth - Cellar_68: -122934325
+      PC Computer - The Binding of Isaac Rebirth - Cellar_69: 1057808771
+      PC Computer - The Binding of Isaac Rebirth - Cellar_7: -502798338
+      PC Computer - The Binding of Isaac Rebirth - Cellar_70: 2433371
+      PC Computer - The Binding of Isaac Rebirth - Cellar_71: 2108432048
+      PC Computer - The Binding of Isaac Rebirth - Cellar_72: -483890973
+      PC Computer - The Binding of Isaac Rebirth - Cellar_73: 728449122
+      PC Computer - The Binding of Isaac Rebirth - Cellar_74: -2097250269
+      PC Computer - The Binding of Isaac Rebirth - Cellar_75: -877546543
+      PC Computer - The Binding of Isaac Rebirth - Cellar_76: 2103080529
+      PC Computer - The Binding of Isaac Rebirth - Cellar_77: -1425003721
+      PC Computer - The Binding of Isaac Rebirth - Cellar_78: -574041850
+      PC Computer - The Binding of Isaac Rebirth - Cellar_79: 1265492156
+      PC Computer - The Binding of Isaac Rebirth - Cellar_8: -639737013
+      PC Computer - The Binding of Isaac Rebirth - Cellar_80: 1817682747
+      PC Computer - The Binding of Isaac Rebirth - Cellar_81: -1620335835
+      PC Computer - The Binding of Isaac Rebirth - Cellar_82: -1601648194
+      PC Computer - The Binding of Isaac Rebirth - Cellar_83: 1136207216
+      PC Computer - The Binding of Isaac Rebirth - Cellar_84: 2084921660
+      PC Computer - The Binding of Isaac Rebirth - Cellar_85: 2018478460
+      PC Computer - The Binding of Isaac Rebirth - Cellar_86: 1743281405
+      PC Computer - The Binding of Isaac Rebirth - Cellar_87: 451938060
+      PC Computer - The Binding of Isaac Rebirth - Cellar_88: -2001998388
+      PC Computer - The Binding of Isaac Rebirth - Cellar_89: 1672963127
+      PC Computer - The Binding of Isaac Rebirth - Cellar_9: -785757984
+      PC Computer - The Binding of Isaac Rebirth - Cellar_90: -270450690
+      PC Computer - The Binding of Isaac Rebirth - Cellar_91: 2104626690
+      PC Computer - The Binding of Isaac Rebirth - Cellar_92: 800552462
+      PC Computer - The Binding of Isaac Rebirth - Cellar_93: 1728304781
+      PC Computer - The Binding of Isaac Rebirth - Cellar_94: -144789376
+      PC Computer - The Binding of Isaac Rebirth - Cellar_95: 1090965804
+      PC Computer - The Binding of Isaac Rebirth - Cellar_96: -589761123
+      PC Computer - The Binding of Isaac Rebirth - Cellar_97: 247332631
+      PC Computer - The Binding of Isaac Rebirth - Cellar_98: -382045377
+      PC Computer - The Binding of Isaac Rebirth - Cellar_99: 1068171898
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

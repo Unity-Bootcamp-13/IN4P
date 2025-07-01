@@ -210,7 +210,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -285,1189 +285,2839 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_0
+      name: base_room_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 521
-        height: 468
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 525345d2a31a141e0800000000000000
-      internalID: -2215312270448904923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_1
-      rect:
-        serializedVersion: 2
-        x: 537
-        y: 441
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b3d953e1942a2f860800000000000000
-      internalID: 7562285159231626555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_2
-      rect:
-        serializedVersion: 2
-        x: 549
-        y: 443
-        width: 24
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 737eac1a8c2f67ae0800000000000000
-      internalID: -1551786078060746953
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_3
-      rect:
-        serializedVersion: 2
-        x: 617
-        y: 433
-        width: 48
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2a92191b397efece0800000000000000
-      internalID: -1373624739799422558
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_4
-      rect:
-        serializedVersion: 2
-        x: 703
-        y: 439
-        width: 12
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 79dc1ec077c4c9190800000000000000
-      internalID: -7954398767642194537
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_5
-      rect:
-        serializedVersion: 2
-        x: 714
-        y: 441
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 809fbc9afaf0c1320800000000000000
-      internalID: 2529914337817786632
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_6
-      rect:
-        serializedVersion: 2
-        x: 724
-        y: 441
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1133263837cf21ef0800000000000000
-      internalID: -138771065439374575
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_7
-      rect:
-        serializedVersion: 2
-        x: 734
-        y: 441
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9c7128d5312cf8230800000000000000
-      internalID: 3643344011994994633
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_8
-      rect:
-        serializedVersion: 2
-        x: 787
-        y: 434
-        width: 27
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3ac95037bacde3d90800000000000000
-      internalID: -7116007732271539037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_9
-      rect:
-        serializedVersion: 2
-        x: 813
-        y: 437
-        width: 14
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9ace08e1e447582f0800000000000000
-      internalID: -971242265760437079
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_10
-      rect:
-        serializedVersion: 2
-        x: 912
-        y: 441
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2bdecf30009e3d3d0800000000000000
-      internalID: -3182944325344629326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_11
-      rect:
-        serializedVersion: 2
-        x: 924
-        y: 443
-        width: 24
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5d6d7856a5e09e0c0800000000000000
-      internalID: -4546086567440558379
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_12
-      rect:
-        serializedVersion: 2
-        x: 970
-        y: 439
-        width: 48
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0fa485efd2c14a4d0800000000000000
-      internalID: -3124341257621976336
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_13
-      rect:
-        serializedVersion: 2
-        x: 1041
-        y: 439
-        width: 12
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 86a4233c606bec500800000000000000
-      internalID: 418471955552946792
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_14
-      rect:
-        serializedVersion: 2
-        x: 1052
-        y: 441
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 887a2c80ec8b762f0800000000000000
-      internalID: -979611198880045176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_15
-      rect:
-        serializedVersion: 2
-        x: 1062
-        y: 441
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b0aaa5f89928e6e50800000000000000
-      internalID: 6804519683050088971
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_16
-      rect:
-        serializedVersion: 2
-        x: 1072
-        y: 441
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8ad260c0a6ad63330800000000000000
-      internalID: 3690377093679820200
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_17
-      rect:
-        serializedVersion: 2
-        x: 1105
-        y: 434
-        width: 27
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5f0234cd72170ded0800000000000000
-      internalID: -2391286986120683275
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_18
-      rect:
-        serializedVersion: 2
-        x: 1131
-        y: 437
-        width: 14
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 17f48f1cd58f63970800000000000000
-      internalID: 8734441608901578609
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_19
-      rect:
-        serializedVersion: 2
-        x: 1164
-        y: 438
-        width: 43
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4ad10a7f929f6f690800000000000000
-      internalID: -7568588165106098780
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_20
-      rect:
-        serializedVersion: 2
-        x: 544
         y: 404
-        width: 25
-        height: 29
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1ac29ed152c576440800000000000000
-      internalID: 4929009631665663137
+      spriteID: 4603592ba1bf00848895fab3aad35748
+      internalID: 1469837708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_21
+      name: base_room_1
       rect:
         serializedVersion: 2
-        x: 550
-        y: 433
-        width: 9
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 40226422d7a0b69b0800000000000000
-      internalID: -5085959821622631932
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_22
-      rect:
-        serializedVersion: 2
-        x: 626
-        y: 400
-        width: 26
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 54149cbc23fde7130800000000000000
-      internalID: 3566533364184334661
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_23
-      rect:
-        serializedVersion: 2
-        x: 789
-        y: 422
-        width: 36
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e1b93beef5bfe810800000000000000
-      internalID: 1796854882816864736
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_24
-      rect:
-        serializedVersion: 2
-        x: 816
-        y: 431
-        width: 9
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 21f01bf25a1214d70800000000000000
-      internalID: 9025532121580637970
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_25
-      rect:
-        serializedVersion: 2
-        x: 919
+        x: 64
         y: 404
-        width: 25
-        height: 29
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2146192c2159e2160800000000000000
-      internalID: 7002698378413958162
+      spriteID: 2c6c6d49eeded574b9474dbd5a48b4ac
+      internalID: 725540886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_26
+      name: base_room_2
       rect:
         serializedVersion: 2
-        x: 925
-        y: 433
-        width: 9
-        height: 8
+        x: 128
+        y: 404
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fac7a9ef94ebb5dd0800000000000000
-      internalID: -2496192343433380689
+      spriteID: e0ae070dae38fa74eb6fb08f827ad58c
+      internalID: -1472239422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_27
+      name: base_room_3
       rect:
         serializedVersion: 2
-        x: 980
-        y: 400
-        width: 22
-        height: 39
+        x: 192
+        y: 404
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e70b2b036581413a0800000000000000
-      internalID: -6695699987529813890
+      spriteID: 1492020bea9014e40a1bd422bee22ee0
+      internalID: -605586800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_28
+      name: base_room_4
       rect:
         serializedVersion: 2
-        x: 1107
-        y: 422
-        width: 36
-        height: 18
+        x: 234
+        y: 404
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 36a1738ede6fd5600800000000000000
-      internalID: 458794238725266019
+      spriteID: cc9e33a0629206f469b52b8f4f0105bc
+      internalID: -921770848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_29
+      name: base_room_5
       rect:
         serializedVersion: 2
-        x: 1134
-        y: 431
-        width: 9
-        height: 6
+        x: 298
+        y: 404
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 95660557899d760f0800000000000000
-      internalID: -1123690333179189671
+      spriteID: 60c0772dec59ddd4fb33b99ccd5d0e85
+      internalID: -2093418641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_30
+      name: base_room_6
       rect:
         serializedVersion: 2
-        x: 1174
-        y: 422
-        width: 20
-        height: 15
+        x: 403
+        y: 404
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 81ddb7dc56b393360800000000000000
-      internalID: 7149811191852555544
+      spriteID: 7e8878f390378c44f86b46e96fce83aa
+      internalID: -68289737
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_31
+      name: base_room_7
       rect:
         serializedVersion: 2
-        x: 532
-        y: 413
-        width: 9
-        height: 9
+        x: 404
+        y: 248
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00571be686a69b160800000000000000
-      internalID: 7041776489136747776
+      spriteID: 529902d0d4cb7da4da9a278f9c3cc4c5
+      internalID: -1068931052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_32
+      name: base_room_8
       rect:
         serializedVersion: 2
-        x: 570
-        y: 412
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0f4c1ff576bb45260800000000000000
-      internalID: 7085494166426338544
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_33
-      rect:
-        serializedVersion: 2
-        x: 615
-        y: 414
-        width: 11
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8484224854502a9c0800000000000000
-      internalID: -3917562929731188664
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_34
-      rect:
-        serializedVersion: 2
-        x: 652
-        y: 414
-        width: 13
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d3985c1766c0a6a40800000000000000
-      internalID: 5362111940472965437
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_35
-      rect:
-        serializedVersion: 2
-        x: 703
-        y: 401
-        width: 25
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 904d43fb737f274a0800000000000000
-      internalID: -6596938685341182967
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_36
-      rect:
-        serializedVersion: 2
-        x: 725
-        y: 398
-        width: 23
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ab475a9b254cd1220800000000000000
-      internalID: 2458336831195149498
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_37
-      rect:
-        serializedVersion: 2
-        x: 790
+        x: 522
         y: 394
-        width: 34
-        height: 34
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 292b6bdcd14fcda60800000000000000
-      internalID: 7700297871739237010
+      spriteID: 4599b7d815c5fa34ea370d6a490e8c59
+      internalID: -840622809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_38
+      name: base_room_9
       rect:
         serializedVersion: 2
-        x: 907
-        y: 413
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 188953e61d9e780e0800000000000000
-      internalID: -2267586801651312511
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_39
-      rect:
-        serializedVersion: 2
-        x: 945
-        y: 412
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6edb119a824b8ee50800000000000000
-      internalID: 6838914120890301926
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_40
-      rect:
-        serializedVersion: 2
-        x: 967
-        y: 409
-        width: 14
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 475b21382c8c7c8b0800000000000000
-      internalID: -5131912512617138828
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_41
-      rect:
-        serializedVersion: 2
-        x: 1004
-        y: 410
-        width: 13
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ec1ee48e15fad7f70800000000000000
-      internalID: 9186691581230375374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_42
-      rect:
-        serializedVersion: 2
-        x: 1041
-        y: 401
-        width: 25
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d23be0ae0f6645fd0800000000000000
-      internalID: -2354143520302910675
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_43
-      rect:
-        serializedVersion: 2
-        x: 1063
-        y: 398
-        width: 23
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cd15f9d83b0a3c800800000000000000
-      internalID: 631525065797620188
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_44
-      rect:
-        serializedVersion: 2
-        x: 1108
-        y: 395
-        width: 34
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 574389b1a40443690800000000000000
-      internalID: -7623397582196689803
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_45
-      rect:
-        serializedVersion: 2
-        x: 1169
-        y: 395
-        width: 20
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0d5480ec8c0906530800000000000000
-      internalID: 3846233273898911184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_46
-      rect:
-        serializedVersion: 2
-        x: 1188
-        y: 402
-        width: 21
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 829bb524df1523ba0800000000000000
-      internalID: -6110731596206458584
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_47
-      rect:
-        serializedVersion: 2
-        x: 551
-        y: 394
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7b1eb4ff5ede71d80800000000000000
-      internalID: -8279887817810910793
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_48
-      rect:
-        serializedVersion: 2
-        x: 635
+        x: 607
         y: 393
-        width: 8
-        height: 8
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5830cdc7446140310800000000000000
-      internalID: 1370244670035854213
+      spriteID: 9f7073527ed57624e96fa63326b57e88
+      internalID: 752230422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_49
+      name: base_room_11
       rect:
         serializedVersion: 2
-        x: 926
+        x: 694
+        y: 392
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815d750807902264abd331465a310cd5
+      internalID: 1574600015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_12
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 393
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b7ae39751e2514fab21833d9a3661f
+      internalID: 285100812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17be97c1bd54f934195c6cd60ad0e0db
+      internalID: 992469523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238982d8aab6a40438b61de636944e51
+      internalID: -1326204124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699ab407cbea2b74db4554e58b9b081b
+      internalID: 9340003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a266da100929548893658d9bba43a9
+      internalID: 1283279279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_22
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95856066034b32c47895ee013bf8e120
+      internalID: 9846925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_23
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75654341757b33743bb4a58a67ee52c4
+      internalID: 192139461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_24
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d671fd2983e8241ae7c605af5f95ba
+      internalID: 1743741609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_25
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10dc64fe0e1274b48a123582eeefa049
+      internalID: -1212940221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_45
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 305
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a946a34e0f29b4849bbea74de871169a
+      internalID: -1516294103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24163f8f131291418049472d73174ed
+      internalID: -366592167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_47
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 312
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f11aa6a1cda9c64a9e6fef04b01679b
+      internalID: -762642165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_48
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 312
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3e12dce7b14724a9e7f7375ded1118
+      internalID: 1840844011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_49
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 312
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f62931cf52f2d84097d462ee8c6e08c
+      internalID: 1129318144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_50
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 312
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710db4b4293907a49910c4f9c5544646
+      internalID: 2026499728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_51
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 312
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d9183997cfb174790a18d529725dd7
+      internalID: 91393101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_52
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 312
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0761ea4fb5add804a9c6efe09291fa3f
+      internalID: -832289320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_53
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 312
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41261b0e323302d4590921452df968b6
+      internalID: -1180272444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_54
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2abd6b56fed5a47946488c4605f176
+      internalID: -83387657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_55
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfa2a0dea6565845b570276e1a23598
+      internalID: -1047657052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_56
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de29b01881adc3943baaeae191ef4a2a
+      internalID: 1278446991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_59
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02dae9282be53f540a6a56d5959a95f2
+      internalID: 325521051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_60
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24f46c23f18ff54494dcc7b76f31465
+      internalID: -61695722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_61
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24c47416f97d6a4e9e0ef1cd66bd75a
+      internalID: 77882571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_62
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0385f11b78e62ff4fafcb20f95487d9f
+      internalID: 980084237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_65
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9575699943578429e5fe773b68da51
+      internalID: -165082727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_66
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78dc46ae4d5e72242b6999be03acb48a
+      internalID: 799397645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_67
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b11d5683dc142b47b197cbb4bd11432
+      internalID: -1956259373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_70
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 303
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cc168a0f8f46a4b966076d9906b1de
+      internalID: 778146847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_71
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa259ba6e61daf4da445eb14088cde9
+      internalID: 887785931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_72
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 276
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e02b5daf045dc4db6cc1d06b9475a2
+      internalID: 157819104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_73
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 261
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fe3ba81f77d674ba838dd01538803c
+      internalID: -1788100498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b9a7b1b1ac33749b561da76407e2ac
+      internalID: -449228065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d076a759fa43dad4084044e87619f06e
+      internalID: -257791087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_76
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 248
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea3006cc581f6e42bb2a42767204104
+      internalID: -595959179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 248
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c6b376424182b4fba7c248fb3ef7cb
+      internalID: 361471103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_78
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 248
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739440143d37d0c4ca07a461e8a8cfca
+      internalID: -2070055542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_79
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 248
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef46a52f56c53144901c78df03c6123
+      internalID: -1835627878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_80
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 248
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a333879f14df1e47b00e47ecd698ea2
+      internalID: 98823216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_82
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 213
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de6706622eb4c94e9e4df84ce8d2022
+      internalID: -921745981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_83
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41982f75717101043b5e46cabeac87bb
+      internalID: -1704782305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_84
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3d140ca8e91f843b81732f19a0697e
+      internalID: -1417064565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_87
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7058aee96fba5ad4eaa4d77cfafb8886
+      internalID: -1395065580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_88
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84bc4c784ab81d4f91c218678582208
+      internalID: -984587586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_89
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a027ea92aea1a4e96714cec97b9561
+      internalID: 614718983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_90
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c79f4920f9f5014082e0bc23e2b287f
+      internalID: 2126633920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_91
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1dc1d652ecf8e54e9936ed42d98b028
+      internalID: -993893168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_92
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f42cf34346a7349b506804c9d18890
+      internalID: 885578514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_93
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6037060415fcf4aa69d69f3015a67a
+      internalID: -1211083883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_94
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d857c3ae1b4924fae0d0225c51aafb
+      internalID: -1338565830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_95
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a3b88a23b15a84e880b5efe114112a
+      internalID: 1272282730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_98
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b84ecc9d3b9e747a25b83a9e293a8b
+      internalID: 240252099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_99
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea1370b09341de438420f7c8067893c
+      internalID: -1063750010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_100
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626ebc04c2da54e489e55114933424f3
+      internalID: -85459357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_101
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 197
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00deeb7e2f05d754fb99165a105c5adc
+      internalID: 2140396016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 157
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfa4856efc20b043ac17a3db343030e
+      internalID: 1573002383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_105
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 184
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b308a5c125c4c4da558be319a4842a
+      internalID: -1211270447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_106
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 404
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a467c9a276f4c4f819680f8193d68e
+      internalID: -110124764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_107
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 209
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc5bc51310c6ca4eb96bcb9d4089ea9
+      internalID: 483404525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_108
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 166
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073dd6dc3aa9b2f47a493065e040deda
+      internalID: 1289546142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_110
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b759d26a14d61384db4a1dacea3c7354
+      internalID: -407925839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_111
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d70355eff67544c9ce96d6da4dfd1f
+      internalID: 540370053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_112
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fe2c201d7e8ee4798691e8273a4c45
+      internalID: -412231128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_115
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfd5412bca4f1745933f7721e1c31f1
+      internalID: -1881435654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_116
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6703e8435b077104cb53293ee0867ee0
+      internalID: -620504103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_117
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ab49d6441665f47ada7f5e49a630a4
+      internalID: -2005707677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_118
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636079ab019739e4caf05b84e61ff1c7
+      internalID: -1947611556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_119
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0bcca0a2143184094344e371f61579
+      internalID: -1752677861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_120
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497ee5dee54385f47b9c621bf58aab3b
+      internalID: 1719155390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_121
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f254e8cea74391544b6e94293d761675
+      internalID: 378237550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_122
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fa793e72b7a9a44b2a7cf27f846d05
+      internalID: -1317682649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_123
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a197ca9f4a668d498457290ff279c8e
+      internalID: -453450659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_124
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb52f59210555c14dbfe2175a1155ea7
+      internalID: 198247060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_125
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 188
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0bbb6230904764e9279ce9aee2ada2
+      internalID: 217364972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_128
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 215
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f8dbe6dcf4cc742a6414942caa9910
+      internalID: 1210159216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_129
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 133
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346630998b5ccc949baece7172117caa
+      internalID: 61640389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_133
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2a1a176a1d11c4eb47801854c28875
+      internalID: 421185558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_138
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fa9c8a98f895a47b7dec859ddc8c8c
+      internalID: 1459865674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_139
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fb182cd09066f4faeec0d7c27b4398
+      internalID: -668836873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_140
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbc0b6264ab2074da0a821593265034
+      internalID: -377904946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_141
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c37bd2b8ecbeb3499669f6f9a8573f1
+      internalID: -245067092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_143
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c7454e6672c43498afc25e80d7fab2
+      internalID: -1778121575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_144
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab148b4b4814e1d4f8bc8bbe942a39bd
+      internalID: -1426842124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_145
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417149aec3651394884c66a36291bb36
+      internalID: -1124773066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_146
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b282d5740f045eb4bb1cb1ef57076e24
+      internalID: 1632721853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_147
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0a91ebcb893ea4696e617239b16e26
+      internalID: -1513819927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_148
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d273a45cf440d4f8ef5eab1ac55535
+      internalID: -1303039273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_149
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b38d4cfd6bc19479579ef8e1dc4051
+      internalID: -407856374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_150
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee71fced87aae8488cedf0e1efd20f6
+      internalID: -1483933271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_151
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81bb0c357c407a04aaa6988d207d97f8
+      internalID: 1778829959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_152
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fa7297716678a4c913c19450e480b7
+      internalID: -1223671869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_153
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccfcd3fa0f34c34a9947e2e77170d84
+      internalID: 920168847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_154
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9109a5994c65bb643b07d798e0dc28c6
+      internalID: -210194392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_155
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bcb5829534a6f4a8ab7aef27845ed8
+      internalID: -169881901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_156
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 88
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8509d4db1f4ab2045865b37212cc69ef
+      internalID: -40255983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_157
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 69
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e92fe0b55015dd4783e5b90aa3037cd
+      internalID: -733367148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_159
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 14
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a19b6ee63260ee46aee29cc46d20c0e
+      internalID: -216864156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_166
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d24efca9665114d9b6aaf233d0833f
+      internalID: 1200131868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_167
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37054a26f125a045bc0030788b698db
+      internalID: 437982547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_168
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93784d86cee383c47aea6913ea83027b
+      internalID: -1754119164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_169
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87d9ffa722342d4f83e33e7366aa83a
+      internalID: -1435221933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_171
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cead80ee3985941bb05c62bd3ca1bb
+      internalID: -515534737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_172
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210c674b49fc3ae448e4c5d7fc489de3
+      internalID: 323049397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_173
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f930765b177878340b5b3baea56f1c41
+      internalID: -690877416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_174
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7498245ae01ec4297debaa41f1aff5
+      internalID: -635467011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_175
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5c0efa2504dfd4da26dce0e70b60e4
+      internalID: -1310766481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_176
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4551aeb82bcbb4da90c1c5fe2336ec
+      internalID: -631682506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_177
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2785484caf9f9cb43b1245a92137a257
+      internalID: -1223438475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_178
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5f0ab76d0e5e2449e5f0bbceabcb15
+      internalID: 1266085860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_179
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335598a73806a5048ac8df073c30d471
+      internalID: -1666622721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_180
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401a6e8b544c97a45b5858564d044351
+      internalID: 426722620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_181
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c1ef0189846124b8b7c0dbf1c7304c
+      internalID: -1578512216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_182
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b925f0e5c03b4e74eaf09e89a03538b1
+      internalID: -692737073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_183
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7109dfe13147d3468de3d11c2d9d874
+      internalID: 481739301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_184
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 23
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3beba435c538d4bac18cdca921056e
+      internalID: 317154858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_185
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 5
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b964058f9a2f8449a81c6dc7577b48
+      internalID: 860124065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 248
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7be526ce955a542915b5c6059840e6
+      internalID: -1160828205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_13
+      rect:
+        serializedVersion: 2
+        x: 1301
         y: 394
-        width: 10
-        height: 9
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fc95c093d9b259ef0800000000000000
-      internalID: -102127462278997553
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_50
-      rect:
-        serializedVersion: 2
-        x: 987
-        y: 391
-        width: 9
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 39269c75a3e2654e0800000000000000
-      internalID: -1993354956949069165
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_51
-      rect:
-        serializedVersion: 2
-        x: 1183
-        y: 388
-        width: 19
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce187de868a8e0920800000000000000
-      internalID: 2958454315755733484
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_52
-      rect:
-        serializedVersion: 2
-        x: 482
-        y: 2
-        width: 340
-        height: 340
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0f4c1e87e59a9d8f0800000000000000
-      internalID: -515194459137129232
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_53
-      rect:
-        serializedVersion: 2
-        x: 825
-        y: 4
-        width: 1016
-        height: 366
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fbb800cf8d21d03a0800000000000000
-      internalID: -6697676347679929409
+      spriteID: b80593a9c2013be41b62ad98d6b56da9
+      internalID: 1615439887
       vertices: []
       indices: 
       edges: []
@@ -1476,7 +3126,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b1a3bcbe58e7de344aaae2914f818ea4
     internalID: 0
     vertices: []
     indices: 
@@ -1486,60 +3136,192 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PC Computer - The Binding of Isaac Rebirth - Basement_0: -2215312270448904923
-      PC Computer - The Binding of Isaac Rebirth - Basement_1: 7562285159231626555
-      PC Computer - The Binding of Isaac Rebirth - Basement_10: -3182944325344629326
-      PC Computer - The Binding of Isaac Rebirth - Basement_11: -4546086567440558379
-      PC Computer - The Binding of Isaac Rebirth - Basement_12: -3124341257621976336
-      PC Computer - The Binding of Isaac Rebirth - Basement_13: 418471955552946792
-      PC Computer - The Binding of Isaac Rebirth - Basement_14: -979611198880045176
-      PC Computer - The Binding of Isaac Rebirth - Basement_15: 6804519683050088971
-      PC Computer - The Binding of Isaac Rebirth - Basement_16: 3690377093679820200
-      PC Computer - The Binding of Isaac Rebirth - Basement_17: -2391286986120683275
-      PC Computer - The Binding of Isaac Rebirth - Basement_18: 8734441608901578609
-      PC Computer - The Binding of Isaac Rebirth - Basement_19: -7568588165106098780
-      PC Computer - The Binding of Isaac Rebirth - Basement_2: -1551786078060746953
-      PC Computer - The Binding of Isaac Rebirth - Basement_20: 4929009631665663137
-      PC Computer - The Binding of Isaac Rebirth - Basement_21: -5085959821622631932
-      PC Computer - The Binding of Isaac Rebirth - Basement_22: 3566533364184334661
-      PC Computer - The Binding of Isaac Rebirth - Basement_23: 1796854882816864736
-      PC Computer - The Binding of Isaac Rebirth - Basement_24: 9025532121580637970
-      PC Computer - The Binding of Isaac Rebirth - Basement_25: 7002698378413958162
-      PC Computer - The Binding of Isaac Rebirth - Basement_26: -2496192343433380689
-      PC Computer - The Binding of Isaac Rebirth - Basement_27: -6695699987529813890
-      PC Computer - The Binding of Isaac Rebirth - Basement_28: 458794238725266019
-      PC Computer - The Binding of Isaac Rebirth - Basement_29: -1123690333179189671
-      PC Computer - The Binding of Isaac Rebirth - Basement_3: -1373624739799422558
-      PC Computer - The Binding of Isaac Rebirth - Basement_30: 7149811191852555544
-      PC Computer - The Binding of Isaac Rebirth - Basement_31: 7041776489136747776
-      PC Computer - The Binding of Isaac Rebirth - Basement_32: 7085494166426338544
-      PC Computer - The Binding of Isaac Rebirth - Basement_33: -3917562929731188664
-      PC Computer - The Binding of Isaac Rebirth - Basement_34: 5362111940472965437
-      PC Computer - The Binding of Isaac Rebirth - Basement_35: -6596938685341182967
-      PC Computer - The Binding of Isaac Rebirth - Basement_36: 2458336831195149498
-      PC Computer - The Binding of Isaac Rebirth - Basement_37: 7700297871739237010
-      PC Computer - The Binding of Isaac Rebirth - Basement_38: -2267586801651312511
-      PC Computer - The Binding of Isaac Rebirth - Basement_39: 6838914120890301926
-      PC Computer - The Binding of Isaac Rebirth - Basement_4: -7954398767642194537
-      PC Computer - The Binding of Isaac Rebirth - Basement_40: -5131912512617138828
-      PC Computer - The Binding of Isaac Rebirth - Basement_41: 9186691581230375374
-      PC Computer - The Binding of Isaac Rebirth - Basement_42: -2354143520302910675
-      PC Computer - The Binding of Isaac Rebirth - Basement_43: 631525065797620188
-      PC Computer - The Binding of Isaac Rebirth - Basement_44: -7623397582196689803
-      PC Computer - The Binding of Isaac Rebirth - Basement_45: 3846233273898911184
-      PC Computer - The Binding of Isaac Rebirth - Basement_46: -6110731596206458584
-      PC Computer - The Binding of Isaac Rebirth - Basement_47: -8279887817810910793
-      PC Computer - The Binding of Isaac Rebirth - Basement_48: 1370244670035854213
-      PC Computer - The Binding of Isaac Rebirth - Basement_49: -102127462278997553
-      PC Computer - The Binding of Isaac Rebirth - Basement_5: 2529914337817786632
-      PC Computer - The Binding of Isaac Rebirth - Basement_50: -1993354956949069165
-      PC Computer - The Binding of Isaac Rebirth - Basement_51: 2958454315755733484
-      PC Computer - The Binding of Isaac Rebirth - Basement_52: -515194459137129232
-      PC Computer - The Binding of Isaac Rebirth - Basement_53: -6697676347679929409
-      PC Computer - The Binding of Isaac Rebirth - Basement_6: -138771065439374575
-      PC Computer - The Binding of Isaac Rebirth - Basement_7: 3643344011994994633
-      PC Computer - The Binding of Isaac Rebirth - Basement_8: -7116007732271539037
-      PC Computer - The Binding of Isaac Rebirth - Basement_9: -971242265760437079
+      base_room_0: 1469837708
+      base_room_1: 725540886
+      base_room_10: -1160828205
+      base_room_100: -85459357
+      base_room_101: 2140396016
+      base_room_102: 1573002383
+      base_room_103: 1464628778
+      base_room_104: 1651679369
+      base_room_105: -1211270447
+      base_room_106: -110124764
+      base_room_107: 483404525
+      base_room_108: 1289546142
+      base_room_109: -1333667300
+      base_room_11: 1574600015
+      base_room_110: -407925839
+      base_room_111: 540370053
+      base_room_112: -412231128
+      base_room_113: -352334309
+      base_room_114: 1026062653
+      base_room_115: -1881435654
+      base_room_116: -620504103
+      base_room_117: -2005707677
+      base_room_118: -1947611556
+      base_room_119: -1752677861
+      base_room_12: 285100812
+      base_room_120: 1719155390
+      base_room_121: 378237550
+      base_room_122: -1317682649
+      base_room_123: -453450659
+      base_room_124: 198247060
+      base_room_125: 217364972
+      base_room_126: -987853162
+      base_room_127: 2058698844
+      base_room_128: 1210159216
+      base_room_129: 61640389
+      base_room_13: 1615439887
+      base_room_130: -1536571365
+      base_room_131: -626473745
+      base_room_132: 154339565
+      base_room_133: 421185558
+      base_room_134: -222772140
+      base_room_135: 843980614
+      base_room_136: -1675051768
+      base_room_137: -398801865
+      base_room_138: 1459865674
+      base_room_139: -668836873
+      base_room_14: -545059715
+      base_room_140: -377904946
+      base_room_141: -245067092
+      base_room_142: -22521045
+      base_room_143: -1778121575
+      base_room_144: -1426842124
+      base_room_145: -1124773066
+      base_room_146: 1632721853
+      base_room_147: -1513819927
+      base_room_148: -1303039273
+      base_room_149: -407856374
+      base_room_15: -1442363538
+      base_room_150: -1483933271
+      base_room_151: 1778829959
+      base_room_152: -1223671869
+      base_room_153: 920168847
+      base_room_154: -210194392
+      base_room_155: -169881901
+      base_room_156: -40255983
+      base_room_157: -733367148
+      base_room_158: 1048135250
+      base_room_159: -216864156
+      base_room_16: -1070405905
+      base_room_160: -1010552733
+      base_room_161: -78826519
+      base_room_162: -1597674430
+      base_room_163: 156777580
+      base_room_164: -1676723417
+      base_room_165: -1536737721
+      base_room_166: 1200131868
+      base_room_167: 437982547
+      base_room_168: -1754119164
+      base_room_169: -1435221933
+      base_room_17: -22742501
+      base_room_170: 1315117217
+      base_room_171: -515534737
+      base_room_172: 323049397
+      base_room_173: -690877416
+      base_room_174: -635467011
+      base_room_175: -1310766481
+      base_room_176: -631682506
+      base_room_177: -1223438475
+      base_room_178: 1266085860
+      base_room_179: -1666622721
+      base_room_18: 992469523
+      base_room_180: 426722620
+      base_room_181: -1578512216
+      base_room_182: -692737073
+      base_room_183: 481739301
+      base_room_184: 317154858
+      base_room_185: 860124065
+      base_room_19: -1326204124
+      base_room_2: -1472239422
+      base_room_20: 9340003
+      base_room_21: 1283279279
+      base_room_22: 9846925
+      base_room_23: 192139461
+      base_room_24: 1743741609
+      base_room_25: -1212940221
+      base_room_26: 1376646341
+      base_room_27: 1100084544
+      base_room_28: 1350339796
+      base_room_29: -1770362134
+      base_room_3: -605586800
+      base_room_30: 519829707
+      base_room_31: 602421446
+      base_room_32: 330708325
+      base_room_33: 1200983300
+      base_room_34: 973726726
+      base_room_35: -1890743682
+      base_room_36: -1350401866
+      base_room_37: -716551853
+      base_room_38: 83695767
+      base_room_39: -16809482
+      base_room_4: -921770848
+      base_room_40: -157315760
+      base_room_41: -1052287933
+      base_room_42: -757062940
+      base_room_43: -1206020256
+      base_room_44: 1059468286
+      base_room_45: -1516294103
+      base_room_46: -366592167
+      base_room_47: -762642165
+      base_room_48: 1840844011
+      base_room_49: 1129318144
+      base_room_5: -2093418641
+      base_room_50: 2026499728
+      base_room_51: 91393101
+      base_room_52: -832289320
+      base_room_53: -1180272444
+      base_room_54: -83387657
+      base_room_55: -1047657052
+      base_room_56: 1278446991
+      base_room_57: -1930733192
+      base_room_58: 1725828780
+      base_room_59: 325521051
+      base_room_6: -68289737
+      base_room_60: -61695722
+      base_room_61: 77882571
+      base_room_62: 980084237
+      base_room_63: -1387753797
+      base_room_64: 659363888
+      base_room_65: -165082727
+      base_room_66: 799397645
+      base_room_67: -1956259373
+      base_room_68: -1387739217
+      base_room_69: -1956008885
+      base_room_7: -1068931052
+      base_room_70: 778146847
+      base_room_71: 887785931
+      base_room_72: 157819104
+      base_room_73: -1788100498
+      base_room_74: -449228065
+      base_room_75: -257791087
+      base_room_76: -595959179
+      base_room_77: 361471103
+      base_room_78: -2070055542
+      base_room_79: -1835627878
+      base_room_8: -840622809
+      base_room_80: 98823216
+      base_room_81: -1308616778
+      base_room_82: -921745981
+      base_room_83: -1704782305
+      base_room_84: -1417064565
+      base_room_85: 1836998627
+      base_room_86: 25314216
+      base_room_87: -1395065580
+      base_room_88: -984587586
+      base_room_89: 614718983
+      base_room_9: 752230422
+      base_room_90: 2126633920
+      base_room_91: -993893168
+      base_room_92: 885578514
+      base_room_93: -1211083883
+      base_room_94: -1338565830
+      base_room_95: 1272282730
+      base_room_96: 626583441
+      base_room_97: 832231357
+      base_room_98: 240252099
+      base_room_99: -1063750010
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
