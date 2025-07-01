@@ -12,7 +12,7 @@ public enum BossState
 
 public class Monstro : MonoBehaviour
 {
-    public int coolDown;
+    public int cooltime = 2;
     public string boss_name = "Monstro";
     public int boss_hp = 250;
     public float boss_speed = 2;
@@ -20,7 +20,7 @@ public class Monstro : MonoBehaviour
     public int boss_oneDamage = 2;
     public int boss_halfDamage = 1;
     public float boss_attackSpeed = 5f;
-    public float boss_MoveRange = 4f;
+    public float boss_MoveRange = 5f;
     public float jump_height = 1.5f;
     public float jumpDuration = 0.5f;
     private float jumpTimer = 0f;
@@ -30,7 +30,7 @@ public class Monstro : MonoBehaviour
     public Transform player;
     public Animator animator;
     protected SpriteRenderer spriteRenderer;
-    private Coroutine _jumpRoutine = null;
+    private Coroutine _patternRoutine;
 
     private void Start()
     {
@@ -45,23 +45,23 @@ public class Monstro : MonoBehaviour
         float facing = spriteRenderer.flipX ? 1f : -1f;
         if (_bossState == BossState.Idle && player != null)
         {
-            _bossState = BossState.LowJump;
-            _jumpRoutine = StartCoroutine(LowJumpRoutine());
+            _patternRoutine = StartCoroutine(LowJumpWithCooldown());
+            
         }
 
     }
 
-    private void StartLowJump()
+    private IEnumerator LowJumpWithCooldown()
     {
-        if (_jumpRoutine != null)
-        {
-            StopCoroutine(_jumpRoutine);
-        }
+        _bossState = BossState.LowJump;
+
+        yield return StartCoroutine(LowJumpRoutine());
+
+        yield return new WaitForSeconds(cooltime);
+
         _bossState = BossState.Idle;
-        _jumpRoutine = StartCoroutine(LowJumpRoutine());
-
+        _patternRoutine = null;
     }
-
 
     //점프하면서 캐릭터 쪽으로 다가옴
     private IEnumerator LowJumpRoutine()
@@ -91,9 +91,8 @@ public class Monstro : MonoBehaviour
             transform.position = pos;
             yield return null;
         }
-        transform.position = new Vector3(endPos.x, startPos.y, endPos.z);
-        _bossState = BossState.Idle;
-        _jumpRoutine = null;
+        
+        
     }
 
 
@@ -103,16 +102,7 @@ public class Monstro : MonoBehaviour
        
     }
 
-    private void ChangeState(BossState newState)
-    {
-        // 이전 코루틴 정리
-        if (_jumpRoutine != null)
-            StopCoroutine(_jumpRoutine);
-
-        _state = newState;
-        _jumpRoutine = StartCoroutine(StateRoutine(newState));
-    }
-
+    
     public void TakeDamage()
     {
 
