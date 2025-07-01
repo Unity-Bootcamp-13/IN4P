@@ -1,11 +1,10 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR;
 
 public class Attack : MonoBehaviour
 {
     [SerializeField] private GameObject tearsPrefab;
-    // poolSize 이상으로 눈물이 만들어지면
-    // 새로 만들어진 눈물의 사거리와 속도가 초기화가 안되는 문제가 있음
     [SerializeField] private int poolSize = 50;
     private Queue<GameObject> pool = new Queue<GameObject>();
 
@@ -13,10 +12,6 @@ public class Attack : MonoBehaviour
     [SerializeField] private Transform rightEye;
 
     private bool launchPlace;
-
-    int tearsCount = 1;
-    private bool isHoming;
-    private bool isPierce;
 
 
     private void Awake()
@@ -85,11 +80,12 @@ public class Attack : MonoBehaviour
         pool.Enqueue(tear);
     }
 
-    public void UpdateTears(float tearSpeed, float atkRange)
+    public void SetTears(float speed, float range)
     {
-        foreach (GameObject tear in pool)
+        foreach (var tear in pool)
         {
-            tear.GetComponent<Tears>().SetTears(tearSpeed, atkRange);
+            tear.GetComponent<Tears>().speed = speed;
+            tear.GetComponent<Tears>().range = range;
         }
     }
 }

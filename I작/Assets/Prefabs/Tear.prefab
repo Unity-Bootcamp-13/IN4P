@@ -102,10 +102,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74963c76247b966449ea1ac2ee383b52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectileSpeed: 0
-  player: {fileID: 7990374157267766810, guid: fd24cb4fe46f0154c9db750de5f29173, type: 3}
+  speed: 0
+  range: 0
   dir: {x: 0, y: 0}
+  timer: 0
   tearsAnimator: {fileID: 8952167076406689498}
+  player: {fileID: 7990374157267766810, guid: fd24cb4fe46f0154c9db750de5f29173, type: 3}
 --- !u!58 &-7482363205653737343
 CircleCollider2D:
   m_ObjectHideFlags: 0

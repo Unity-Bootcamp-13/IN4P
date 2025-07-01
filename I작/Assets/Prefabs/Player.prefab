@@ -157,6 +157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tearsPrefab: {fileID: 8347038662915090392, guid: b71256d157c5efb48a8a3cbb92534f37, type: 3}
+  poolSize: 50
   leftEye: {fileID: 6844807646405999870}
   rightEye: {fileID: 3163629037500670359}
 --- !u!1 &4138152063979444093
@@ -348,18 +349,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba43b2bccf5a7fe40b04d01e9c54f4c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterData: {fileID: 0}
+  keyCount: 0
+  bombCount: 0
   hp: 3
   atk: 1
   atkSpeed: 1
   speed: 5
   atkRange: 1
   projectileSpeed: 7.5
-  elapseTime: 0
+  currentHp: 0
+  attack: {fileID: 0}
   rid: {fileID: 179673666046694068}
-  tearsPrefab: {fileID: 8347038662915090392, guid: b71256d157c5efb48a8a3cbb92534f37, type: 3}
+  bombPrefab: {fileID: 0}
   headAnimator: {fileID: 3930085434270249254}
   bodyAnimator: {fileID: 932452561522108865}
   bodySprite: {fileID: 6041110462553843892}
+  eyes: {fileID: 0}
   leftEye: {fileID: 6844807646405999870}
   rightEye: {fileID: 3163629037500670359}
 --- !u!50 &179673666046694068
@@ -446,6 +452,26 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 62ba54a2-d96e-4470-8918-a36e02604eab
     m_ActionName: 'Player/Attack[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 99ea7353-f1ea-4276-8de9-32342b5bcc72
+    m_ActionName: 'Player/DownAttack[/Keyboard/downArrow]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a0786b42-35e6-4895-a7cd-10e3f0a00309
+    m_ActionName: 'Player/LeftAttack[/Keyboard/leftArrow]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2e472ab4-9901-490b-91e4-b77f5cccd0bf
+    m_ActionName: 'Player/RightAttack[/Keyboard/rightArrow]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 0ea51137-c31f-4fe0-980c-7c453c59cfc6
+    m_ActionName: 'Player/Bomb[/Keyboard/e]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: aec64ea2-5ef6-492e-967a-9a3b78210046
+    m_ActionName: 'Player/Active[/Keyboard/q]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
