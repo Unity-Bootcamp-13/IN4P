@@ -1,3 +1,4 @@
+using NUnit.Framework.Constraints;
 using System;
 using System.Collections;
 using UnityEngine;
@@ -21,9 +22,8 @@ public class Monstro : MonoBehaviour
     public int boss_halfDamage = 1;
     public float boss_attackSpeed = 5f;
     public float boss_MoveRange = 5f;
-    public float jump_height = 1.5f;
+    public float jump_height = 2.5f;
     public float jumpDuration = 0.5f;
-    private float jumpTimer = 0f;
 
     private BossState _bossState = BossState.Idle;
 
@@ -31,7 +31,7 @@ public class Monstro : MonoBehaviour
     public Animator animator;
     protected SpriteRenderer spriteRenderer;
     private Coroutine _patternRoutine;
-
+    private Collider2D collider;
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -42,11 +42,14 @@ public class Monstro : MonoBehaviour
 
     private void Update()
     {
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            TakeDamage(250); 
+        }
         float facing = spriteRenderer.flipX ? 1f : -1f;
-        if (_bossState == BossState.Idle && player != null)
+        if (_bossState == BossState.Idle && player != null && _patternRoutine == null)
         {
             _patternRoutine = StartCoroutine(LowJumpWithCooldown());
-            
         }
 
     }
@@ -66,17 +69,29 @@ public class Monstro : MonoBehaviour
     //점프하면서 캐릭터 쪽으로 다가옴
     private IEnumerator LowJumpRoutine()
     {
-        // 1) 애니메이터 트리거 (애니메이션 연동이 필요하다면)
+        // 애니메이터 트리거 (애니메이션 연동이 필요하다면)
         animator.SetTrigger("LowJump");
 
+        Vector3 playerPos = player.position;
         Vector3 startPos = transform.position;
-        Vector3 dir = (player.position - startPos).normalized;
-        Vector3 endPos = startPos + dir * boss_MoveRange;
 
+
+        Vector3 endPos;
+        // 플레이어와 캐릭터간의 거리를 계산해서 boss_MoveRange보다 적으면 플레이어위치로
+        float currentDist = Vector3.Distance(startPos, playerPos);
+
+        if (boss_MoveRange >= currentDist)
+        {
+            endPos = new Vector3(playerPos.x, playerPos.y, 0);
+        }
+        else
+        {
+            Vector3 dir = (playerPos - startPos).normalized;
+            endPos = startPos + dir * boss_MoveRange;
+        }
         float elapsed = 0f;
-
-   
-        // 2) 한 사이클(상승→하강) 동안 보간
+       
+        //  한 사이클(상승→하강) 동안 보간
         while (elapsed < jumpDuration)
         {
             elapsed += Time.deltaTime;
@@ -91,27 +106,59 @@ public class Monstro : MonoBehaviour
             transform.position = pos;
             yield return null;
         }
-        
-        
+       
+        transform.position = endPos;
+
     }
 
 
     //피 토하기
     public void BloodAttack()
     {
-       
+
     }
 
-    
-    public void TakeDamage()
+    public void TakeDamage(int damage)
     {
-
+        boss_hp -= damage;
+        if (boss_hp <= 0)
+        {
+            bossDie();
+        }
     }
 
     //보스 사망
     public void bossDie()
     {
-        
+        collider.enabled = false;
+        enabled = false;  // Update 비활성화 등
+
+        // 죽는 애니메이션 트리거
+        animator.SetTrigger("Dead");
+
+        StartCoroutine(DeathShake());
     }
 
+    private IEnumerator DeathShake()
+    {
+        Vector3 originalPosition = transform.position;
+        float shakeDuration = 0.5f;
+        float shakeMagnitude = 0.1f;
+        float elapsed = 0f;
+        while (elapsed < shakeDuration)
+        {
+            elapsed += Time.deltaTime;
+            float xOffset = UnityEngine.Random.Range(-shakeMagnitude, shakeMagnitude);
+            float yOffset = UnityEngine.Random.Range(-shakeMagnitude, shakeMagnitude);
+            transform.position = originalPosition + new Vector3(xOffset, yOffset, 0);
+            yield return null;
+        }
+        transform.position = originalPosition;
+
+        yield return new WaitForSeconds(1f);
+
+        Destroy(gameObject);
+    }
 }
+
+
