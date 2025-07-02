@@ -5,8 +5,9 @@ using UnityEngine;
 public class TreasureChest : MonoBehaviour
 {
     public Animator chestAnimator;
-
-   
+    public GameObject bombPrefab;
+    public GameObject keyPrefab;
+    public GameObject heartPrefab;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

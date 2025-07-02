@@ -9,13 +9,10 @@ public class HeartItem : MonoBehaviour
         {
             Player player = collision.gameObject.GetComponent<Player>();
 
-            if (player.currentHp >= player.hp)
+            if (player.currentHp < player.hp)
             {
-                return;
-            }
-            else
-            {
-                player.currentHp++;
+                player.currentHp++; 
+                    //Mathf.Min(player.currentHp++, player.hp);
                 Destroy(gameObject);
             }
         }
