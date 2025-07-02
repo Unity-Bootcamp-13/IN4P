@@ -4,6 +4,7 @@ using System.Collections;
 using System.Security.Cryptography;
 using System.Timers;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public enum BossPatturn
 {
@@ -41,6 +42,8 @@ public class Monstro : MonoBehaviour
     protected SpriteRenderer spriteRenderer;
     private Coroutine _patternRoutine;
     private Collider2D collider;
+    public GameObject tears;
+
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -88,8 +91,8 @@ public class Monstro : MonoBehaviour
         //         break;
         //     
         // }
-        _bossPatturn = BossPatturn.HighJump;
-        yield return StartCoroutine(HighJumpRoutine());
+        _bossPatturn = BossPatturn.BloodAttack;
+        yield return StartCoroutine(BloodAttackRoutine());
 
         yield return new WaitForSeconds(cooltime);
         _bossPatturn = BossPatturn.Idle;
@@ -144,9 +147,13 @@ public class Monstro : MonoBehaviour
 
 
     //피 토하기
-    void BloodAttackRoutine()
+    private IEnumerator BloodAttackRoutine()
     {
-
+        animator.SetTrigger("BloodAttack");
+        yield return null;
+        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+        float clipLength = stateInfo.length / stateInfo.speedMultiplier;
+        yield return new WaitForSeconds(clipLength);
     }
 
     private IEnumerator HighJumpRoutine()
@@ -157,40 +164,8 @@ public class Monstro : MonoBehaviour
         float clipLength = stateInfo.length / stateInfo.speedMultiplier;
         yield return new WaitForSeconds(clipLength);
         
-        // Vector3 startPos = transform.position;
-        // Vector3 playerPos = player.transform.position;
-        // 
-        // 
-        // float ascendDuration = JumpDuration * 2;
-        // float apexHeight = jump_height * 4f;
-        // float teleportdelay = 0.1f;
-        // float glideDuration = 0.5f;
-        // float fallDuration = JumpDuration * 2;
-        // 
-        // float elapsed = 0f;
-        // //이 순간의 떨어질 위치(지금 시간 기준 플레이위치)로 천천히 이동
-        // Vector2 apexPos = transform.position;
-        // Vector3 glideTarget = new Vector3(playerPos.x, playerPos.y + apexHeight * 0.2f, startPos.z);
-        // Vector3 landPos = new Vector3(playerPos.x, playerPos.y, startPos.z);
-        // while (elapsed < ascendDuration)
-        // {
-        //     elapsed += Time.deltaTime;
-        //     float t = Mathf.Clamp01(elapsed / ascendDuration);
-        //     transform.position = Vector3.Lerp(apexPos, glideTarget, t);
-        //     yield return null;
-        // }
-        // 
-        // elapsed = 0f;
-        // Vector3 fallStart = transform.position;
-        // while (elapsed < fallDuration)
-        // {
-        //     elapsed += Time.deltaTime;
-        //     float t = Mathf.Clamp01(elapsed / fallDuration);
-        //     transform.position = Vector3.Lerp(fallStart, landPos, t);
-        // }
-        // transform.position = landPos;
     }
-
+    
     public void TakeDamage(int damage)
     {
         boss_hp -= damage;
@@ -200,13 +175,139 @@ public class Monstro : MonoBehaviour
         }
     }
 
-    //보스 사망
+    
+    public void spriteRendereroff()
+    {
+        spriteRenderer.enabled = false;
+        _bossState = BossState.jump;
+    }
+
+    public void spriteRendereron()
+    {
+        spriteRenderer.enabled = true;
+        _bossState = BossState.Ground;
+    }
+
+    float apexHeight;             // 꼭대기 높이
+    float elapsed;                // 시간 체크
+
+    Vector3 startPos;
+    Vector3 playerPos;
+    Vector3 landPos;
+
+    public void LongJump()
+    {
+        StartCoroutine(LongJumpRoutine());
+    }
+
+    private IEnumerator LongJumpRoutine()
+    {
+        apexHeight = jump_height * 4f;
+        startPos = transform.position;
+        
+        float elapsed = 0f;
+    
+        while (elapsed < JumpDuration)
+        {
+            elapsed += Time.deltaTime;
+            float t = Mathf.Clamp01(elapsed / JumpDuration);
+
+            // 수평 보간은 그대로, 수직만 apexHeight 추가
+            Vector3 pos = Vector3.Lerp(startPos, startPos, t);
+            pos.y = Mathf.Lerp(startPos.y, startPos.y, t) + apexHeight * 4f * t * (1f - t);
+            transform.position = pos;
+            yield return null;
+        }
+    }
+
+    public void playerSearch()
+    {
+        StartCoroutine(playerSearchRoutine());
+    }
+    private IEnumerator playerSearchRoutine()
+    {
+        Debug.Log("플레이어 탐색시작");
+        playerPos = player.transform.position;
+        startPos = transform.position;
+
+        float elapsed = 0f;
+        float Duration = JumpDuration;
+
+        float apexY = startPos.y;
+        float x = 0;
+        float targetX = playerPos.x;
+        
+        landPos = player.transform.position;
+        while (elapsed < Duration)
+        {
+            elapsed += Time.deltaTime;
+            float t = Mathf.Clamp01(elapsed / Duration);
+            x = Mathf.Lerp(startPos.x, targetX, t);
+            transform.position =new  Vector3(x,apexY,t);
+            yield return null;
+        }
+        
+        Debug.Log("플레이어 탐색 끝");
+    }
+    public void Fall()
+    {
+        StartCoroutine(FallRoutine());
+    }
+    private IEnumerator FallRoutine()
+    {
+        elapsed = 0f;
+        Vector3 fallStart = transform.position;
+        while (elapsed < JumpDuration/5)
+        {
+            elapsed += Time.deltaTime;
+            float t = Mathf.Clamp01(elapsed / JumpDuration);
+            transform.position = Vector3.Lerp(fallStart, landPos, t);
+            yield return null;
+        }
+        transform.position = landPos;
+    }
+    //눈물 발생 코루틴
+    public void BloodShot()
+    {
+        StartCoroutine(BloodShotRoutine());
+    }
+
+    private IEnumerator BloodShotRoutine()
+    {
+        Vector3 headPos = transform.position + Vector3.up * 1.2f;
+        Vector3 playerPos = player.transform.position;
+
+        int tearCount = 12;
+        float radius = 2.5f;
+        float circleStep = 360f / tearCount;
+
+        // 1) 한 프레임에 12개 동시에 생성
+        for (int i = 0; i < tearCount; i++)
+        {
+            // 2) 플레이어 주변 목표 지점
+            float angle = circleStep * i;
+            Vector2 offset = new Vector2(
+                Mathf.Cos(angle * Mathf.Deg2Rad),
+                Mathf.Sin(angle * Mathf.Deg2Rad)
+            ) * radius;
+            Vector3 targetPos = playerPos + (Vector3)offset;
+
+            // 3) 스폰 및 Launch 호출
+            GameObject t = Instantiate(tears, headPos, Quaternion.identity);
+            if (t.TryGetComponent<Enemytears>(out var et))
+            {
+                et.LaunchTo(targetPos, boss_attackSpeed);
+            }
+        }
+
+        yield break;
+    }
+
     public void bossDie()
     {
         collider.enabled = false;
-        enabled = false;  // Update 비활성화 등
+        enabled = false;  
 
-        // 죽는 애니메이션 트리거
         animator.SetTrigger("Dead");
 
         StartCoroutine(DeathShake());
@@ -232,84 +333,7 @@ public class Monstro : MonoBehaviour
 
         Destroy(gameObject);
     }
-    void spriteRendereroff()
-    {
-        spriteRenderer.enabled = false;
-        _bossState = BossState.jump;
-    }
 
-    public void spriteRendereron()
-    {
-        spriteRenderer.enabled = true;
-        _bossState = BossState.Ground;
-    }
-
-    float apexHeight;             // 꼭대기 높이
-    float elapsed;                // 시간 체크
-
-    Vector2 startPos;
-    Vector3 playerPos;
-    Vector3 landPos;
-
-    public IEnumerator LongJump()
-    {
-        apexHeight = jump_height * 4f;
-        startPos = transform.position;
-        
-        float elapsed = 0f;
-    
-        while (elapsed < JumpDuration)
-        {
-            elapsed += Time.deltaTime;
-            float t = Mathf.Clamp01(elapsed / JumpDuration);
-
-            // 수평 보간은 그대로, 수직만 apexHeight 추가
-            Vector3 pos = Vector3.Lerp(startPos, startPos, t);
-            pos.y = Mathf.Lerp(startPos.y, startPos.y, t) + apexHeight * 4f * t * (1f - t);
-            transform.position = pos;
-            yield return null;
-        }
-    }
-    public IEnumerator playerSearch()
-    {
-        Debug.Log("플레이어 탐색시작");
-        playerPos = player.transform.position;
-        startPos = transform.position;
-
-        float elapsed = 0f;
-        float Duration = JumpDuration;
-
-        float apexY = startPos.y;
-        float x = 0;
-        float targetX = playerPos.x;
-        
-        landPos = player.transform.position;
-        while (elapsed < Duration)
-        {
-            elapsed += Time.deltaTime;
-            float t = Mathf.Clamp01(elapsed / Duration);
-            x = Mathf.Lerp(startPos.x, targetX, t);
-            transform.position =new  Vector3(x,apexY,t);
-            yield return null;
-        }
-        
-        Debug.Log("플레이어 탐색 끝");
-    }
-
-    public IEnumerator Fall()
-    {
-        elapsed = 0f;
-        Vector3 fallStart = transform.position;
-        while (elapsed < JumpDuration/5)
-        {
-            elapsed += Time.deltaTime;
-            float t = Mathf.Clamp01(elapsed / JumpDuration);
-            transform.position = Vector3.Lerp(fallStart, landPos, t);
-            yield return null;
-        }
-        transform.position = landPos;
-    }
-    
 }
 
 
