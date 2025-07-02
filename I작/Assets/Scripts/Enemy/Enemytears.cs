@@ -22,7 +22,7 @@ public class Enemytears : MonoBehaviour
     private void Update()
     {
         timer += Time.deltaTime;
-        if(timer > 3f)
+        if(timer > 5f)
         {
             DestoryTears();
         }
