@@ -21,6 +21,12 @@ public class Enemytears : MonoBehaviour
     
     private void Update()
     {
+        timer += Time.deltaTime;
+        if(timer > 3f)
+        {
+            DestoryTears();
+        }
+        
         if (!lunched) return;
 
         if (Vector2.Distance(transform.position, target) < 0.1f)

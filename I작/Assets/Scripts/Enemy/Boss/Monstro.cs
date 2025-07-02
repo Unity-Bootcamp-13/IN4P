@@ -278,7 +278,7 @@ public class Monstro : MonoBehaviour
         Vector3 playerPos = player.transform.position;
 
         int tearCount = 12;
-        float radius = 2.5f;
+        float radius = 1.5f;
         float circleStep = 360f / tearCount;
 
         // 1) 한 프레임에 12개 동시에 생성
