@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -8909648577849440979}
   - component: {fileID: -7482363205653737343}
   - component: {fileID: 8952167076406689498}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,9 +102,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74963c76247b966449ea1ac2ee383b52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectileSpeed: 0
-  player: {fileID: 7990374157267766810, guid: fd24cb4fe46f0154c9db750de5f29173, type: 3}
+  speed: 0
+  range: 0
   dir: {x: 0, y: 0}
+  timer: 0
   tearsAnimator: {fileID: 8952167076406689498}
 --- !u!58 &-7482363205653737343
 CircleCollider2D:
@@ -136,7 +137,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0

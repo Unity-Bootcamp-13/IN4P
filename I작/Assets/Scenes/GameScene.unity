@@ -2302,7 +2302,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4541203446732257797}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -2953,6 +2953,10 @@ PrefabInstance:
     - target: {fileID: 3476864322873489998, guid: 7eb80cdf6988c8440b0a78af736fe2f9, type: 3}
       propertyPath: m_Name
       value: baseTilemap - spider
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958746329815497695, guid: 7eb80cdf6988c8440b0a78af736fe2f9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
