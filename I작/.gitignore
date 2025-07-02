@@ -76,3 +76,9 @@ crashlytics-build.properties
 
 # End of https://www.toptal.com/developers/gitignore/api/unity
 
+# Assets
+Assets/Scenes/TestScene.unity
+
+# TilePalette
+Assets/Textures/Tilemap/TilePalette
+Assets/Textures/Tilemap/Tile
