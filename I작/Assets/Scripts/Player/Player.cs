@@ -6,10 +6,19 @@ using UnityEngine.InputSystem;
 public class Player : MonoBehaviour
 {    
     public CharacterData characterData;
-    public float currentHp;
 
-    public Inventory inventory;
-    public Stats stats;
+    // 픽업 아이템
+    public int keyCount;
+    public int bombCount = 1;
+
+    public int hp;
+    public float atk;
+    public float atkSpeed;
+    public float speed;
+    public float atkRange;
+    public float projectileSpeed;
+    public int currentHp;
+
     public Attack attack;
 
     private int h;
@@ -41,17 +50,13 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
-        inventory = new Inventory();
-        stats = new Stats
-        (
-            characterData.Hp,
-            characterData.Atk,
-            characterData.AtkSpeed,
-            characterData.Speed,
-            characterData.AtkRange,
-            characterData.ProjectileSpeed
-        );
-        currentHp = stats.hp;
+        hp = characterData.PlayerHp;
+        atk = characterData.Atk;
+        atkSpeed = characterData.AtkSpeed;
+        speed = characterData.Speed;
+        atkRange = characterData.AtkRange;
+        projectileSpeed = characterData.ProjectileSpeed;
+        currentHp = hp;
 
         h = Animator.StringToHash("Horizontal");
         v = Animator.StringToHash("Vertical");
@@ -65,7 +70,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        attack.UpdateTears(stats.projectileSpeed, stats.atkRange);
+        attack.SetTears(projectileSpeed, atkRange);
     }
 
     public void Update()
@@ -85,7 +90,7 @@ public class Player : MonoBehaviour
     private void FixedUpdate()
     {
         Vector3 dir = moveInput.normalized;
-        rid.linearVelocity = dir * stats.speed;
+        rid.linearVelocity = dir * speed;
     }
 
     public void OnBomb(InputAction.CallbackContext context)
@@ -93,16 +98,12 @@ public class Player : MonoBehaviour
         if (!context.performed)
             return;
 
-        GameObject go = Instantiate(bombPrefab);
-        go.transform.position = this.transform.position;
-    }
-
-    public void OnActive(InputAction.CallbackContext context)
-    {
-        if (!context.performed)
-            return;
-
-        inventory.UseActiveItem(this);
+        if (bombCount > 0)
+        {
+            bombCount--;
+            GameObject go = Instantiate(bombPrefab);
+            go.transform.position = this.transform.position;
+        }
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -151,7 +152,7 @@ public class Player : MonoBehaviour
 
             eyes.rotation = rot;
             headAnimator.SetBool(dir, true);
-            headAnimator.speed = stats.atkSpeed;
+            headAnimator.speed = atkSpeed;
         }
         else if (context.canceled)
         {
@@ -160,54 +161,6 @@ public class Player : MonoBehaviour
                 headAnimator.SetBool(dir, false);
                 isAttacking = false;
                 currentAttackDir = -1;
-            }
-        }
-    }
-
-    public void AcquireItem(ItemData item)
-    {
-        Debug.Log(item.Description);
-        if (item is PassiveItemData passive)
-        {
-            inventory.AddPassiveItem(passive);
-
-            if (item is IStatModifier statMod)
-            {
-                statMod.ModifyStats(this);
-            }
-
-            if (item is IAttackModifier attackMod)
-            {
-                attackMod.ModifyAttack(this);
-            }
-
-            //if (item is ISpecialAbility specialMod)
-            //{
-            //    specialMod.GrantAbility(this);
-            //}
-        }
-        else if (item is ActiveItemData active)
-        {
-            inventory.EquipActiveItem(active);
-        }
-        else if (item is PickupItemData pickup)
-        {
-            if (pickup.PickupType == PickupType.Bomb)
-            {
-                inventory.bombCount++;
-                Debug.Log("폭탄 개수 증가");
-            }
-            else if (pickup.PickupType == PickupType.Key)
-            {
-                inventory.keyCount++;
-            }
-            else if (pickup.PickupType == PickupType.Heart)
-            {
-                if (currentHp < stats.hp)
-                    currentHp++;
-
-                if (currentHp > stats.hp)
-                    currentHp = stats.hp;
             }
         }
     }

@@ -9,12 +9,11 @@ public class Tears : MonoBehaviour
     public float timer;
 
     public Animator tearsAnimator;
-
     private Action returnAction;
 
 
     private void OnEnable()
-    {
+    {        
         //timer = range / speed;
         timer = 5;
     }
@@ -48,11 +47,5 @@ public class Tears : MonoBehaviour
     public void SetReturnAction(Action returnToPool)
     {
         this.returnAction = returnToPool;
-    }
-
-    public void SetTears(float s, float r)
-    {
-        speed = s;
-        range = r;
     }
 }
