@@ -4,13 +4,18 @@ using UnityEngine.Tilemaps;
 
 public class MapManager : MonoBehaviour
 {
-    public GameObject roomPrefab;        // 생성할 방 프리팹
+    public GameObject startRoomPrefab;
+    public GameObject bossRoomPrefab;
+    public GameObject normalRoomPrefab;
+    public GameObject treasureRoomPrefab;
     public Transform roomParent;         // 방들을 담을 부모 오브젝트 (계층 정리용)
     public int roomCount = 10;           // 생성할 방 개수
     public int mapSize = 8;              // 8x8 맵
 
+
+    //public RoomClass room;
     private int[,] s_roomGraph;
-    private List<RoomClass> Rooms = new List<RoomClass>();
+    public List<RoomClass> Rooms = new List<RoomClass>();
     private Queue<RoomClass> roomClassQueue = new Queue<RoomClass>();
 
     private int roomCnt = 0;
@@ -23,17 +28,19 @@ public class MapManager : MonoBehaviour
         InitMap();
         GenerateRooms();
         MarkEndRoomsAndBoss();
+        CreateDoor();
     }
 
     void InitTileSize()
     {
         // 2. Tilemap 방식
-        Tilemap tilemap = roomPrefab.GetComponentInChildren<Tilemap>();
+        Tilemap tilemap = startRoomPrefab.GetComponentInChildren<Tilemap>();
         if (tilemap != null)
         {
             Bounds bounds = tilemap.localBounds;
             tileWidth = bounds.size.x;
             tileHeight = bounds.size.y;
+            Debug.Log($"{tileWidth},{tileHeight}");
             return;
         }
 
@@ -51,6 +58,7 @@ public class MapManager : MonoBehaviour
         int centerY = s_mapMaxY / 2;
 
         RoomClass startRoom = new RoomClass(centerX, centerY);
+        startRoom.Type = RoomType.Start;
         Rooms.Add(startRoom);
         s_roomGraph[centerX, centerY] = 1;
         roomCnt++;
@@ -106,9 +114,16 @@ public class MapManager : MonoBehaviour
         float offsetY = (y - centerY) * tileHeight;
 
         Vector3 position = new Vector3(offsetX, offsetY, 0);
-        GameObject go = Instantiate(roomPrefab, position, Quaternion.identity, roomParent);
+
+        RoomClass room = Rooms.Find(r => r.XPos == x && r.YPos == y);
+        GameObject prefabToUse = GetRoomPrefabByType(room.Type);
+
+        GameObject go = Instantiate(prefabToUse, position, Quaternion.identity, roomParent);
         go.name = $"Room ({x},{y})";
+
+        room.VisualObject = go.transform.GetChild(0).gameObject;
     }
+    
 
     bool CanCreateRoom(int x, int y)
     {
@@ -126,13 +141,15 @@ public class MapManager : MonoBehaviour
 
         return true;
     }
-
+   
     int CheckAdjacentRoomCount(int x, int y)
     {
         int count = 0;
+
+        // 상, 우, 하, 좌
         int[] dx = { 0, 1, 0, -1 };
         int[] dy = { 1, 0, -1, 0 };
-
+        
         for (int i = 0; i < 4; i++)
         {
             int nx = x + dx[i];
@@ -147,6 +164,7 @@ public class MapManager : MonoBehaviour
         return count;
     }
 
+
     RoomClass Choice(List<RoomClass> list)
     {
         return list[Random.Range(0, list.Count)];
@@ -156,18 +174,40 @@ public class MapManager : MonoBehaviour
     void MarkEndRoomsAndBoss()
     {
         RoomClass startRoom = Rooms[0];
-        var result = GetEndRoomsAndFarthest(startRoom);
+        EndRoomResult result = GetEndRoomsAndFarthest(startRoom);
 
-        foreach (var endRoom in result.allEndRooms)
-        {
-            //HighlightRoom(endRoom, Color.blue); // 파란색: 일반 끝방
-        }
 
         if (result.farthestEndRoom != null)
         {
-            result.farthestEndRoom.Type = RoomType.Boss;
-            //HighlightRoom(result.farthestEndRoom, Color.red); // 빨간색: 가장 먼 끝방 = 보스
+            RoomClass bossRoom = result.farthestEndRoom;
+            bossRoom.Type = RoomType.Boss;
+
+            ReplaceRoom(bossRoom);
+            result.allEndRooms.Remove(bossRoom);
         }
+        foreach (var endRoom in result.allEndRooms)
+        {
+            endRoom.Type = RoomType.End;
+            
+        }
+        result.allEndRooms.Remove(startRoom);
+
+        int rand = Random.Range(0, result.allEndRooms.Count);
+        result.allEndRooms[rand].Type = RoomType.Treasure;
+        ReplaceRoom(result.allEndRooms[rand]);
+    }
+
+   
+
+    void ReplaceRoom(RoomClass room)
+    {
+        if (room.VisualObject != null)
+        {
+            Destroy(room.VisualObject.transform.parent.gameObject); // 전체 방 오브젝트 제거
+            room.VisualObject = null;
+        }
+
+        CreateRoomObject(room.XPos, room.YPos); // 이 안에서 VisualObject 다시 연결됨
     }
 
     //  끝방 모두 + 가장 먼 끝방 찾기
@@ -206,6 +246,7 @@ public class MapManager : MonoBehaviour
             if (connectedCount == 1)
             {
                 endRooms.Add(current);
+                current.Type = RoomType.End;
 
                 if (depth > maxDepth)
                 {
@@ -222,20 +263,39 @@ public class MapManager : MonoBehaviour
         };
     }
 
-    // 색상 변경 유틸
-    void HighlightRoom(RoomClass room, Color color)
+    GameObject GetRoomPrefabByType(RoomType type)
     {
-        foreach (Transform child in roomParent)
+        switch (type)
         {
-            if (child.name == $"Room ({room.XPos},{room.YPos})")
+            case RoomType.Start:
+                return startRoomPrefab;
+            case RoomType.Boss:
+                return bossRoomPrefab;
+            //case RoomType.End:
+            //    return endRoomPrefab;
+            case RoomType.Treasure:
+                return treasureRoomPrefab;
+            default:
+                return normalRoomPrefab;
+        }
+    }
+
+    public void CreateDoor()
+    {
+
+        foreach (var room in Rooms)
+        {
+            for (int i = 0; i < 4; i++)
             {
-                Transform visual = child.GetChild(0);
-                SpriteRenderer sr = visual.GetComponent<SpriteRenderer>();
-                sr.color = color;
+                if (room._adjacencentRooms[i] != null)
+                {
+                    room.VisualObject.transform.GetChild(i).gameObject.SetActive(true);
+                }
             }
         }
     }
 }
+
 
 //  끝방 정보 구조체
 public class EndRoomResult
