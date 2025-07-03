@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Unity.VisualScripting;
 using UnityEngine;
 
 
@@ -31,6 +30,7 @@ public class Monstro : MonoBehaviour
     public float boss_MoveRange = 5f;
     public float jump_height = 2.5f;
     public float JumpDuration = 0.5f;
+    private float damageInterval = 1f;
 
     private BossPatturn _bossPatturn = BossPatturn.Idle;
     private BossState _bossState = BossState.Ground;
@@ -39,7 +39,8 @@ public class Monstro : MonoBehaviour
     private Animator animator;
     protected SpriteRenderer spriteRenderer;
     private Coroutine _patternRoutine;
-    private Collider2D collider;
+    private Coroutine _damageRoutine;
+    private Collider2D bosscollider;
     public GameObject tears;
 
     private async void Start()
@@ -47,19 +48,20 @@ public class Monstro : MonoBehaviour
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         player = GameObject.FindGameObjectWithTag("Player");
-        collider = GetComponent<Collider2D>();
+        bosscollider = GetComponent<Collider2D>();
 
         await Task.Delay(500);
     }
 
     private void Update()
     {
-        collider.enabled = (_bossState == BossState.Ground);
+        bosscollider.enabled = (_bossState == BossState.Ground);
         if (Input.GetKeyDown(KeyCode.Space))
         {
             TakeDamage(250);
         }
 
+        
         if (_bossPatturn == BossPatturn.Idle && _patternRoutine == null)
         {
             
@@ -67,6 +69,7 @@ public class Monstro : MonoBehaviour
         }
 
     }
+    
 
     private IEnumerator patternWithCooldown()
     {
@@ -128,23 +131,12 @@ public class Monstro : MonoBehaviour
         
     }
 
-    public void OnHitFrame(int Damage)
+    public void OnHitFrame()
     {
-        // bossCollider 와 playerCollider 가 접촉(겹침) 중인지 확인
         Vector3 p = player.transform.position;
-        if(collider.bounds.Contains(p))
+        if(bosscollider.bounds.Contains(p))
         { 
-            switch (Damage)
-            {
-                case 1:
-                    Debug.Log("플레이어 데미지 1 입음");
-                    // player.takeDamage(boss_halfDamage);
-                    break;
-                case 2:
-                    Debug.Log("플레이어 데미지 2 입음");
-                    // player.takeDamage(boss_OneDamage);
-                    break;
-            }
+             Debug.Log("플레이어 데미지 1 입음");
         }
     }
 
@@ -344,7 +336,7 @@ public void TakeDamage(int damage)
 
     public void bossDie()
     {
-        collider.enabled = false;
+        bosscollider.enabled = false;
         enabled = false;  
 
         animator.SetTrigger("Dead");
@@ -373,6 +365,40 @@ public void TakeDamage(int damage)
         Destroy(gameObject);
     }
 
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+
+        if (other.CompareTag("Player") && _damageRoutine == null)
+        {
+            _damageRoutine = StartCoroutine(DamageLoop());
+        }
+    }
+    private void OnTriggerExit2D(Collider2D other)
+    {
+
+        if (other.CompareTag("Player") && _damageRoutine != null)
+        {
+           StopCoroutine(_damageRoutine);
+            _damageRoutine = null;
+        }
+    }
+
+    IEnumerator DamageLoop()
+    {
+        log();
+        while (true)
+        {
+            yield return new WaitForSeconds(damageInterval);
+            // player.TakeDamage(boss_halfDamage);
+            log();
+        }
+    }
+
+    void log()
+    {
+        Debug.Log("플레이어 데미지 1 입음");
+    }
 }
 
 
