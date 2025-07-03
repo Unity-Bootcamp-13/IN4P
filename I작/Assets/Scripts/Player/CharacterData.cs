@@ -7,7 +7,7 @@ public class CharacterData : ScriptableObject
     [SerializeField] private string characterName;
     [SerializeField] private Sprite headSprite;
     [SerializeField] private Sprite bodySprite;
-    [SerializeField] private float hp;
+    [SerializeField] private int playerHp;
     [SerializeField] private float atk;
     [SerializeField] private float atkSpeed;
     [SerializeField] private float speed;
@@ -18,7 +18,7 @@ public class CharacterData : ScriptableObject
     public string CharacterName => characterName;
     public Sprite HeadSprite => headSprite;
     public Sprite BodySprite => bodySprite;
-    public float Hp => hp;
+    public int PlayerHp => playerHp;
     public float Atk => atk;
     public float AtkSpeed => atkSpeed;
     public float Speed => speed;

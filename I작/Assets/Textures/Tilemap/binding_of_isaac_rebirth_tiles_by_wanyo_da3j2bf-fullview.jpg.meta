@@ -1,0 +1,3031 @@
+fileFormatVersion: 2
+guid: 0411966033fed1d4ebf621d168cd12cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1572364422872231080
+    second: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 535
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ace2c2ac1922d510800000000000000
+      internalID: 1572364422872231080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 535
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1c2fa925c38c5479a7935eecf188ca
+      internalID: -1829433853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 535
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc08e32a1fe3aee4f852db1e69cd58bb
+      internalID: -849617021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_3
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 535
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c025c709248e84544b373175200a9e82
+      internalID: -229754296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_4
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 535
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c256fd8ea4f1d7e4cb08b2f89c2959f0
+      internalID: -2047034221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 535
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b89cc99780bde241918f5cc0751d2c2
+      internalID: 158418088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_6
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 535
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4308f7fee6fd6943a5db05a1e825d57
+      internalID: -1279560583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_7
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 535
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953b837ab1d5bc54e88be14be54325c8
+      internalID: 1938674230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_8
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 535
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa2837d8ac889b4eb8db0380f469c30
+      internalID: 762741264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_9
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 535
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd8f9d0b1377644eafade99af072c34
+      internalID: -428610694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_10
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 535
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323236fde3f182b48bd4cdfc32396b72
+      internalID: -666413094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_11
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 535
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0173eef0f7bb44c901ece13f331f2d
+      internalID: 402898484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_12
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 535
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb512b20a1141b34484105502eff710e
+      internalID: 755974794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_13
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 535
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ca1721445e460459cd033838aa66bf
+      internalID: 1999959003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_14
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 471
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21b530287e63d24bb0f36aa05994f11
+      internalID: 1942863966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_15
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 471
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3214ff8f2b2de1541954fc1414c69934
+      internalID: 2044338593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_16
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 471
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81a2bea2f805a94bba48ca87ed64c5f
+      internalID: -69976653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_17
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 471
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8a22c3ddf5fd34b865efadcd630e9f
+      internalID: 1242804558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_18
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 471
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fd0b84020338547a5c23d7a460f7cf
+      internalID: 487158875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_19
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 471
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c31482805c842643acaec2a6c66d348
+      internalID: -986977173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_20
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 471
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da25b25533b4db14b894cfa788214772
+      internalID: -1633754259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_21
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 471
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b2a4999fcebaa478350d3a5f8285e2
+      internalID: -1445810056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_22
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 471
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b25880918f8df4689850684a834bb9
+      internalID: 712899952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_23
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 471
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de77843cfca88ec4ca038cb6539eeb37
+      internalID: -871523953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_24
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 471
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c57e90a985894d4c869526f0b234b48
+      internalID: -1734629413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_25
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 471
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1807471f1df4b542825e83c397c4e92
+      internalID: -696659460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_26
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 471
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3a7a73576aa174d8a6566807b5bfdc
+      internalID: -445466878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_27
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 471
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713a1f7d1b9aeb64383f0fb245284a5a
+      internalID: 1169920585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_28
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 407
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b718875b7ced21e4ebdca8db799b1527
+      internalID: -1930660103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_29
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 407
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b25608d96f72b42b91acd2239f498e
+      internalID: 1392328530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_30
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 407
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84c8fabaa06cf046afbbfa1fb4f841a
+      internalID: 1885010153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_31
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 407
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbf41bbdd79c644b8414a861eaf896f
+      internalID: 363076912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_32
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 407
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa04c82fb4e9534bb77f854447fab89
+      internalID: -508260649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_33
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 407
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559cdf1657bb38046b99114269577147
+      internalID: 503881708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_34
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 407
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bebc64be29dac4469409a45db4ae76c
+      internalID: -1044792598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_35
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 407
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ed210c5085f254cb71b15b305edc86
+      internalID: 1585210426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_36
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 407
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d0c3e6f9aca6e4c9ffa1ef83188229
+      internalID: 609090689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_37
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 407
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3753798795cf5c44f94f9abdbced7ca3
+      internalID: -565856930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_38
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 407
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddd677dfc5655648b07f7c4ca1c5ff4
+      internalID: 250096999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_39
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 407
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09daf38f2e31b33488624a682e4e282c
+      internalID: -1672569224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_40
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 407
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6523b6f9fef9d4ea54c755d0840362
+      internalID: 758637259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_41
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 407
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd69f4d0a9db431408f3110f529603db
+      internalID: 992678334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_42
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 343
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478564f0643a5ff4da44d75cd94c0682
+      internalID: -569171530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_43
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 343
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3324b5c8efc39924583b10731ec8db79
+      internalID: -692814991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_44
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 343
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128f781b9c9ad224aaf410a23a42470a
+      internalID: 1799962757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_45
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 343
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fefe9b2ccee2ed4d9b8126056cb5ad1
+      internalID: -172196275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_46
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 343
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad0288c5a21af34e831b4d8ddfdd09e
+      internalID: -28793407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_47
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 343
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c374c60d76300fd41a83fb1f077f0e0b
+      internalID: 8770438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_48
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 343
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30450ce27438124a9a12aff8c723d93
+      internalID: -1337385821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_49
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 343
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2e1485974ac3e438f2a24bf5dc58f0
+      internalID: -1920185215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_50
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 343
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b53a25f781c1a4a8424d9a00e7b8e8
+      internalID: -697420405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_51
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 343
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e29d0918412be478dc732e9a90320a
+      internalID: -1512104982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_52
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 343
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff8fc53515047a4daad9d2ee2a45f8b
+      internalID: 894130714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_53
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 343
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec10a8804c32424ba4999004a96f3fd
+      internalID: -1499890164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_54
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 343
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d8b76c18a899c4b9cdc34510d0be6b
+      internalID: -629447221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_55
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 343
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8308ad0579676646883ff72b3db9738
+      internalID: -473928106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_56
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 279
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6136253dca597fe429afffed05558323
+      internalID: -426530584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_57
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 279
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba677119db144b840a1ba5f872422822
+      internalID: -784031131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_58
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 279
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167a9c67094c05044a6ab8dfbab54aeb
+      internalID: 759079154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_59
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 279
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54713dfbca90654db6d0de7cb4cd6fe
+      internalID: -30432540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_60
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 279
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf52de3902eddb644a2640997986b924
+      internalID: -1827596964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_61
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 279
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f24afe5404c96f4684f309fb0e72feb
+      internalID: -723408593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_62
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 279
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd3f707f400a9b429e2ece89e63373a
+      internalID: -1747695850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_63
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 279
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c855625038b23e43957e0a7f8e19052
+      internalID: 647512471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_64
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 279
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303e58fb9fa9eb74e90de55d978144d8
+      internalID: 294467073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_65
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 279
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5011d0a0395e1c54ea07f4fc756a05a3
+      internalID: -2030027037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_66
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 279
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f79b80c9044d204293f7aac8bea8e7a
+      internalID: 144973235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_67
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 279
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95751386e1a03664698acc29cad6a802
+      internalID: 1157232793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_68
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 279
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0254d17f6eaccce45a5a7d086fd2b9dc
+      internalID: -1062944167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_69
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 279
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e9b5991817f4b488d5c129ea4e85d9
+      internalID: 607717219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_70
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 215
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c801ab616118d49a75b263f2d8abce
+      internalID: -1226498723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_71
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 215
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88d613267674ac4a8eb776ef89d7cde
+      internalID: 54712458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_72
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 215
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5704d68c59b4484193b8a00f3621e65
+      internalID: -1824857454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_73
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 215
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d1f9f169727ab498803da24daa19db
+      internalID: 1976884470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_74
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 215
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26784c1752a2f04cbc1223d14f748a8
+      internalID: 2098579961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_75
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 215
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d2f18eba7c4964ea5f93dc3728df71
+      internalID: -534777976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_76
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 215
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3167b0083aa8f034794dcf2c1af70770
+      internalID: 1075134998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_77
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 215
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf43ea68acfb8746a82574e6f6bf003
+      internalID: 1804134027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_78
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 215
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974438692cd4dd84296daf706276836b
+      internalID: -2037865037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_79
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 215
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6de510023ea3f408bcb57fe39f01ef
+      internalID: -1123542371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_80
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 215
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0007e8c90b28e4193e59c28122cf7d
+      internalID: 828934444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_81
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 215
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53fdf3458fe69c43914fa6afc392019
+      internalID: 2093313047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_82
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 215
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f1f1add903c9d4d803287931bf8a37
+      internalID: 1962369659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_83
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 215
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2ea4b6e83c10144bc17e1cce3df5db
+      internalID: 735212631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_84
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 151
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965eab412e3969e4286256c583377fb7
+      internalID: 1665166733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_85
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 151
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785ece1f50fdb0b4f93fea186518b23b
+      internalID: 2012290643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_86
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 151
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393d396cb0ca02c4e8acf294e520ec72
+      internalID: -311615996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_87
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 151
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc211a99b93a6c40a299b21ef7d50c3
+      internalID: -1111320706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_88
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 151
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb4d486dff9f2d429ccd1d65b7e180a
+      internalID: -2011012172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_89
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 151
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2921d7a7540434479ac5cc0af8fe27f
+      internalID: -1994814124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_90
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 151
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20aa04c6ed87c7448a782f9f2cdea0b
+      internalID: 1550666030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_91
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 151
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77cb532396c1eec41ae380a718c0e4c8
+      internalID: -2069424354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_92
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 151
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ca082417bb5f948a4970c06f6d12ab
+      internalID: 864168191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_93
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 151
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e85a10ca3d23a4eac43fb7e9000cbf
+      internalID: 1147727550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_94
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 151
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5602d730d5452439beca2dd10dc6a6
+      internalID: 2114189708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_95
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 151
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99776094a2221c34f8bbf3c7f1591ea5
+      internalID: -44966237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_96
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 151
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9506749f200904c9e28f4dc7f62253
+      internalID: 376278820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_97
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 151
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad56982627377214eab2f778939c080a
+      internalID: -1271012657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_98
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 87
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85d68abf2cadf948a909330e2863de2
+      internalID: -443923427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_99
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 87
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adfeedb1600cde47af24f9dfa45cdb7
+      internalID: 994278203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_100
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 87
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e2e19227a6b5c4ab689e9704886e6d
+      internalID: -696501444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_101
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 87
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478a78a14a67790408c653592f52d9df
+      internalID: -1755747278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_102
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 87
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c22ea3f9b45a243b5623a48dd06f2f
+      internalID: 1689510451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_103
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 87
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ffd7abd4346914b9f5bdcfed88909b
+      internalID: 1568534247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_104
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 87
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64fc85b1561ff14f804ca63af7d9833
+      internalID: -1849621132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_105
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 87
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3b411d247c7e14f80adb61db146b12
+      internalID: 907527541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_106
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 87
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49d5017fa90179408f9acb1a23848d5
+      internalID: -476125119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_107
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 87
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1e5d6f56c698a4485026bf7a6eae14
+      internalID: -2075180591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_108
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 87
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a804c5f0f97816b4e80240e76290279e
+      internalID: 1370859053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_109
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 87
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf164a9d52150042b733a15c17c1bc0
+      internalID: -308156185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_110
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 87
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181cc10553b8785478844b630860665f
+      internalID: 1993183699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_111
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 87
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9f9afb90444344499a03ffb5f6f447
+      internalID: -1433081582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_112
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 23
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d71f53921ea5df4b941e92c873d6b58
+      internalID: 1560715400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_113
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 23
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de67937ba39fb2459ab163a3e1f6a17
+      internalID: -1189920679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_114
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 23
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d763b7c32cfb357488e73467422174d5
+      internalID: -1655987249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_115
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 23
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76927d1bffa647e48ad48eac1e69656c
+      internalID: 152361421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_116
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 23
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae0400387992464f903a76d63644e4c
+      internalID: 861581751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_117
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 23
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bd25b8b7b95a845acbc6d111eadc42
+      internalID: -180990240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_118
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 23
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9dc1ad8b3c03e498c696340d87f231
+      internalID: -1244499319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_119
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 23
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6abc2206552d84db47ffb6bf91b905
+      internalID: -774307544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_120
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 23
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7b11ac94aa7144bbf6da859da10833
+      internalID: 942793600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_121
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 23
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd060b586f046b48b3b9e29fd11c22c
+      internalID: -1610673816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_122
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 23
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b777dac6e2ad241ab60fd32128b185
+      internalID: 1319315814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_123
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 23
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccb26027d0be2544a6637b9631f5b0e
+      internalID: -87717648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_124
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 23
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cec024bdfd4c84cac941e7cb45ada2
+      internalID: 2019660739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_125
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 23
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435568f81d9ddf442983b171c01798c0
+      internalID: 77635595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e38dbd557753d7541b89455e973a484f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_0: 1572364422872231080
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_1: -1829433853
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_10: -666413094
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_100: -696501444
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_101: -1755747278
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_102: 1689510451
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_103: 1568534247
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_104: -1849621132
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_105: 907527541
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_106: -476125119
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_107: -2075180591
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_108: 1370859053
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_109: -308156185
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_11: 402898484
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_110: 1993183699
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_111: -1433081582
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_112: 1560715400
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_113: -1189920679
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_114: -1655987249
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_115: 152361421
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_116: 861581751
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_117: -180990240
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_118: -1244499319
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_119: -774307544
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_12: 755974794
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_120: 942793600
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_121: -1610673816
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_122: 1319315814
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_123: -87717648
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_124: 2019660739
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_125: 77635595
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_13: 1999959003
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_14: 1942863966
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_15: 2044338593
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_16: -69976653
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_17: 1242804558
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_18: 487158875
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_19: -986977173
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_2: -849617021
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_20: -1633754259
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_21: -1445810056
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_22: 712899952
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_23: -871523953
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_24: -1734629413
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_25: -696659460
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_26: -445466878
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_27: 1169920585
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_28: -1930660103
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_29: 1392328530
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_3: -229754296
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_30: 1885010153
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_31: 363076912
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_32: -508260649
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_33: 503881708
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_34: -1044792598
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_35: 1585210426
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_36: 609090689
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_37: -565856930
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_38: 250096999
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_39: -1672569224
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_4: -2047034221
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_40: 758637259
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_41: 992678334
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_42: -569171530
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_43: -692814991
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_44: 1799962757
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_45: -172196275
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_46: -28793407
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_47: 8770438
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_48: -1337385821
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_49: -1920185215
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_5: 158418088
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_50: -697420405
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_51: -1512104982
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_52: 894130714
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_53: -1499890164
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_54: -629447221
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_55: -473928106
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_56: -426530584
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_57: -784031131
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_58: 759079154
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_59: -30432540
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_6: -1279560583
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_60: -1827596964
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_61: -723408593
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_62: -1747695850
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_63: 647512471
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_64: 294467073
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_65: -2030027037
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_66: 144973235
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_67: 1157232793
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_68: -1062944167
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_69: 607717219
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_7: 1938674230
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_70: -1226498723
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_71: 54712458
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_72: -1824857454
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_73: 1976884470
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_74: 2098579961
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_75: -534777976
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_76: 1075134998
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_77: 1804134027
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_78: -2037865037
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_79: -1123542371
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_8: 762741264
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_80: 828934444
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_81: 2093313047
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_82: 1962369659
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_83: 735212631
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_84: 1665166733
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_85: 2012290643
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_86: -311615996
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_87: -1111320706
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_88: -2011012172
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_89: -1994814124
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_9: -428610694
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_90: 1550666030
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_91: -2069424354
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_92: 864168191
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_93: 1147727550
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_94: 2114189708
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_95: -44966237
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_96: 376278820
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_97: -1271012657
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_98: -443923427
+      binding_of_isaac_rebirth_tiles_by_wanyo_da3j2bf-fullview_99: 994278203
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

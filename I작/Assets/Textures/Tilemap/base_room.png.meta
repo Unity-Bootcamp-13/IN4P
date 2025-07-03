@@ -210,7 +210,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -285,1189 +285,1123 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_0
+      name: base_room_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 521
-        height: 468
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 525345d2a31a141e0800000000000000
-      internalID: -2215312270448904923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_1
-      rect:
-        serializedVersion: 2
-        x: 537
-        y: 441
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b3d953e1942a2f860800000000000000
-      internalID: 7562285159231626555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_2
-      rect:
-        serializedVersion: 2
-        x: 549
-        y: 443
-        width: 24
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 737eac1a8c2f67ae0800000000000000
-      internalID: -1551786078060746953
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_3
-      rect:
-        serializedVersion: 2
-        x: 617
-        y: 433
-        width: 48
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2a92191b397efece0800000000000000
-      internalID: -1373624739799422558
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_4
-      rect:
-        serializedVersion: 2
-        x: 703
-        y: 439
-        width: 12
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 79dc1ec077c4c9190800000000000000
-      internalID: -7954398767642194537
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_5
-      rect:
-        serializedVersion: 2
-        x: 714
-        y: 441
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 809fbc9afaf0c1320800000000000000
-      internalID: 2529914337817786632
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_6
-      rect:
-        serializedVersion: 2
-        x: 724
-        y: 441
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1133263837cf21ef0800000000000000
-      internalID: -138771065439374575
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_7
-      rect:
-        serializedVersion: 2
-        x: 734
-        y: 441
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9c7128d5312cf8230800000000000000
-      internalID: 3643344011994994633
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_8
-      rect:
-        serializedVersion: 2
-        x: 787
-        y: 434
-        width: 27
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3ac95037bacde3d90800000000000000
-      internalID: -7116007732271539037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_9
-      rect:
-        serializedVersion: 2
-        x: 813
-        y: 437
-        width: 14
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9ace08e1e447582f0800000000000000
-      internalID: -971242265760437079
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_10
-      rect:
-        serializedVersion: 2
-        x: 912
-        y: 441
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2bdecf30009e3d3d0800000000000000
-      internalID: -3182944325344629326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_11
-      rect:
-        serializedVersion: 2
-        x: 924
-        y: 443
-        width: 24
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5d6d7856a5e09e0c0800000000000000
-      internalID: -4546086567440558379
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_12
-      rect:
-        serializedVersion: 2
-        x: 970
-        y: 439
-        width: 48
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0fa485efd2c14a4d0800000000000000
-      internalID: -3124341257621976336
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_13
-      rect:
-        serializedVersion: 2
-        x: 1041
-        y: 439
-        width: 12
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 86a4233c606bec500800000000000000
-      internalID: 418471955552946792
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_14
-      rect:
-        serializedVersion: 2
-        x: 1052
-        y: 441
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 887a2c80ec8b762f0800000000000000
-      internalID: -979611198880045176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_15
-      rect:
-        serializedVersion: 2
-        x: 1062
-        y: 441
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b0aaa5f89928e6e50800000000000000
-      internalID: 6804519683050088971
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_16
-      rect:
-        serializedVersion: 2
-        x: 1072
-        y: 441
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8ad260c0a6ad63330800000000000000
-      internalID: 3690377093679820200
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_17
-      rect:
-        serializedVersion: 2
-        x: 1105
-        y: 434
-        width: 27
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5f0234cd72170ded0800000000000000
-      internalID: -2391286986120683275
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_18
-      rect:
-        serializedVersion: 2
-        x: 1131
-        y: 437
-        width: 14
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 17f48f1cd58f63970800000000000000
-      internalID: 8734441608901578609
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_19
-      rect:
-        serializedVersion: 2
-        x: 1164
-        y: 438
-        width: 43
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4ad10a7f929f6f690800000000000000
-      internalID: -7568588165106098780
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_20
-      rect:
-        serializedVersion: 2
-        x: 544
         y: 404
-        width: 25
-        height: 29
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1ac29ed152c576440800000000000000
-      internalID: 4929009631665663137
+      spriteID: 269b464d38db31b4a863a69d1e19d068
+      internalID: 1606680322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_21
+      name: base_room_1
       rect:
         serializedVersion: 2
-        x: 550
-        y: 433
-        width: 9
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 40226422d7a0b69b0800000000000000
-      internalID: -5085959821622631932
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_22
-      rect:
-        serializedVersion: 2
-        x: 626
-        y: 400
-        width: 26
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 54149cbc23fde7130800000000000000
-      internalID: 3566533364184334661
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_23
-      rect:
-        serializedVersion: 2
-        x: 789
-        y: 422
-        width: 36
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e1b93beef5bfe810800000000000000
-      internalID: 1796854882816864736
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_24
-      rect:
-        serializedVersion: 2
-        x: 816
-        y: 431
-        width: 9
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 21f01bf25a1214d70800000000000000
-      internalID: 9025532121580637970
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_25
-      rect:
-        serializedVersion: 2
-        x: 919
+        x: 64
         y: 404
-        width: 25
-        height: 29
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2146192c2159e2160800000000000000
-      internalID: 7002698378413958162
+      spriteID: 86afc869df3f397448134a56eb33b453
+      internalID: 1887007887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_26
+      name: base_room_2
       rect:
         serializedVersion: 2
-        x: 925
-        y: 433
-        width: 9
-        height: 8
+        x: 128
+        y: 404
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fac7a9ef94ebb5dd0800000000000000
-      internalID: -2496192343433380689
+      spriteID: c2174229003862b40982fc174f9caa1d
+      internalID: 1978240280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_27
+      name: base_room_3
       rect:
         serializedVersion: 2
-        x: 980
-        y: 400
-        width: 22
-        height: 39
+        x: 170
+        y: 404
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e70b2b036581413a0800000000000000
-      internalID: -6695699987529813890
+      spriteID: fe2f9cfe0976aaf45bca0e2b46fd8671
+      internalID: 792037982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_28
+      name: base_room_4
       rect:
         serializedVersion: 2
-        x: 1107
-        y: 422
-        width: 36
-        height: 18
+        x: 234
+        y: 404
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 36a1738ede6fd5600800000000000000
-      internalID: 458794238725266019
+      spriteID: 965f0c8d707a7444eba3abc466427cc1
+      internalID: -634490270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_29
+      name: base_room_5
       rect:
         serializedVersion: 2
-        x: 1134
-        y: 431
-        width: 9
-        height: 6
+        x: 298
+        y: 404
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 95660557899d760f0800000000000000
-      internalID: -1123690333179189671
+      spriteID: cd3f9015d38cd42458f33883bcde4aad
+      internalID: 171886131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_30
+      name: base_room_6
       rect:
         serializedVersion: 2
-        x: 1174
-        y: 422
-        width: 20
-        height: 15
+        x: 362
+        y: 404
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 81ddb7dc56b393360800000000000000
-      internalID: 7149811191852555544
+      spriteID: dd21fa40de44e8d488087f0ce181ddf1
+      internalID: -1669406142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_31
+      name: base_room_7
       rect:
         serializedVersion: 2
-        x: 532
-        y: 413
-        width: 9
-        height: 9
+        x: 404
+        y: 404
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00571be686a69b160800000000000000
-      internalID: 7041776489136747776
+      spriteID: a90b7ca5227a9a940bbf47ec9c8a013d
+      internalID: -1812862903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_32
+      name: base_room_8
       rect:
         serializedVersion: 2
-        x: 570
-        y: 412
-        width: 9
-        height: 10
+        x: 523
+        y: 392
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0f4c1ff576bb45260800000000000000
-      internalID: 7085494166426338544
+      spriteID: 61488bd427ae8f34fb3d79f87d7f456a
+      internalID: -1689716304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_33
+      name: base_room_10
       rect:
         serializedVersion: 2
-        x: 615
-        y: 414
-        width: 11
-        height: 8
+        x: 606
+        y: 392
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8484224854502a9c0800000000000000
-      internalID: -3917562929731188664
+      spriteID: f35635e30157c224ca907ca1976799b4
+      internalID: 610512278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_34
+      name: base_room_11
       rect:
         serializedVersion: 2
-        x: 652
-        y: 414
-        width: 13
-        height: 8
+        x: 692
+        y: 392
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d3985c1766c0a6a40800000000000000
-      internalID: 5362111940472965437
+      spriteID: 8965f08ea3930a04c970732c38f392e5
+      internalID: 634278093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_35
+      name: base_room_12
       rect:
         serializedVersion: 2
-        x: 703
-        y: 401
-        width: 25
-        height: 28
+        x: 775
+        y: 392
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 904d43fb737f274a0800000000000000
-      internalID: -6596938685341182967
+      spriteID: 415a743388cd9a343bcc51d09c8459db
+      internalID: -1472426838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_36
+      name: base_room_18
       rect:
         serializedVersion: 2
-        x: 725
-        y: 398
-        width: 23
-        height: 21
+        x: 0
+        y: 340
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ab475a9b254cd1220800000000000000
-      internalID: 2458336831195149498
+      spriteID: af42c1e01bdca2043a1178c91f0b872f
+      internalID: 227152325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_37
+      name: base_room_19
       rect:
         serializedVersion: 2
-        x: 790
-        y: 394
-        width: 34
-        height: 34
+        x: 64
+        y: 340
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 292b6bdcd14fcda60800000000000000
-      internalID: 7700297871739237010
+      spriteID: 2e62c8ebf6afa1f459df7979b1b0c554
+      internalID: -463485393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_38
+      name: base_room_20
       rect:
         serializedVersion: 2
-        x: 907
-        y: 413
-        width: 9
-        height: 9
+        x: 128
+        y: 340
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 188953e61d9e780e0800000000000000
-      internalID: -2267586801651312511
+      spriteID: 85c70b35ba2c44243b96d5975de28f13
+      internalID: 584926817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_39
+      name: base_room_22
       rect:
         serializedVersion: 2
-        x: 945
-        y: 412
-        width: 9
-        height: 10
+        x: 234
+        y: 340
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6edb119a824b8ee50800000000000000
-      internalID: 6838914120890301926
+      spriteID: 395c7bd92da91af4e9b199ad959f0a0a
+      internalID: -2016786902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_40
+      name: base_room_23
       rect:
         serializedVersion: 2
-        x: 967
-        y: 409
-        width: 14
-        height: 9
+        x: 297
+        y: 340
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 475b21382c8c7c8b0800000000000000
-      internalID: -5131912512617138828
+      spriteID: eafd571d0aa24e541a417664c796500d
+      internalID: 1177085487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_41
+      name: base_room_24
       rect:
         serializedVersion: 2
-        x: 1004
-        y: 410
-        width: 13
-        height: 9
+        x: 362
+        y: 340
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ec1ee48e15fad7f70800000000000000
-      internalID: 9186691581230375374
+      spriteID: 918afff2642e7b14299f087fd8c8885f
+      internalID: 1347965500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_42
+      name: base_room_46
       rect:
         serializedVersion: 2
-        x: 1041
-        y: 401
-        width: 25
-        height: 28
+        x: 0
+        y: 248
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d23be0ae0f6645fd0800000000000000
-      internalID: -2354143520302910675
+      spriteID: 26c7e5d35c31bd54da0f7d834d35643b
+      internalID: 1670301778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_43
+      name: base_room_47
       rect:
         serializedVersion: 2
-        x: 1063
-        y: 398
-        width: 23
-        height: 21
+        x: 64
+        y: 248
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cd15f9d83b0a3c800800000000000000
-      internalID: 631525065797620188
+      spriteID: a23454117e387b44ca1add3ebb0e1df8
+      internalID: -167415182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_44
+      name: base_room_48
       rect:
         serializedVersion: 2
-        x: 1108
-        y: 395
-        width: 34
-        height: 33
+        x: 128
+        y: 248
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 574389b1a40443690800000000000000
-      internalID: -7623397582196689803
+      spriteID: e005377e8de70684d919fac0d1dc50a1
+      internalID: 219300882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_45
+      name: base_room_49
       rect:
         serializedVersion: 2
-        x: 1169
-        y: 395
-        width: 20
-        height: 26
+        x: 170
+        y: 248
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0d5480ec8c0906530800000000000000
-      internalID: 3846233273898911184
+      spriteID: 5bf267d5e4c78d54cb15800d9dc7e6ff
+      internalID: 1028157658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_46
+      name: base_room_50
       rect:
         serializedVersion: 2
-        x: 1188
-        y: 402
-        width: 21
-        height: 28
+        x: 234
+        y: 248
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 829bb524df1523ba0800000000000000
-      internalID: -6110731596206458584
+      spriteID: 06475ad87ce69d1459ec224fc4aa82db
+      internalID: -1237688486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_47
+      name: base_room_51
       rect:
         serializedVersion: 2
-        x: 551
-        y: 394
-        width: 10
-        height: 9
+        x: 298
+        y: 248
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7b1eb4ff5ede71d80800000000000000
-      internalID: -8279887817810910793
+      spriteID: 8942c7079f2966b49b3508651649c3d8
+      internalID: 2117635461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_48
+      name: base_room_52
       rect:
         serializedVersion: 2
-        x: 635
-        y: 393
-        width: 8
-        height: 8
+        x: 362
+        y: 249
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5830cdc7446140310800000000000000
-      internalID: 1370244670035854213
+      spriteID: 6d2f61ac580de4545899e95c5efe320f
+      internalID: 1516140087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_49
+      name: base_room_71
       rect:
         serializedVersion: 2
-        x: 926
-        y: 394
-        width: 10
-        height: 9
+        x: 1520
+        y: 246
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fc95c093d9b259ef0800000000000000
-      internalID: -102127462278997553
+      spriteID: fcef0e71872f0804da3a3c56a6e50e33
+      internalID: 1305446784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_50
+      name: base_room_72
       rect:
         serializedVersion: 2
-        x: 987
-        y: 391
-        width: 9
-        height: 14
+        x: 1693
+        y: 233
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 39269c75a3e2654e0800000000000000
-      internalID: -1993354956949069165
+      spriteID: c86ac4c0eab08774dbb2d4be2ab763fd
+      internalID: -1285570199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_51
+      name: base_room_74
       rect:
         serializedVersion: 2
-        x: 1183
-        y: 388
-        width: 19
-        height: 15
+        x: 0
+        y: 212
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ce187de868a8e0920800000000000000
-      internalID: 2958454315755733484
+      spriteID: 1e31deb9349a884478f41b9f5e9131f0
+      internalID: 745354360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_52
+      name: base_room_78
       rect:
         serializedVersion: 2
-        x: 482
-        y: 2
-        width: 340
-        height: 340
+        x: 234
+        y: 184
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0f4c1e87e59a9d8f0800000000000000
-      internalID: -515194459137129232
+      spriteID: ea132dbbf827f934599db5646f18ec55
+      internalID: 1544167334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Basement_53
+      name: base_room_82
       rect:
         serializedVersion: 2
-        x: 825
-        y: 4
-        width: 1016
-        height: 366
+        x: 512
+        y: 212
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fbb800cf8d21d03a0800000000000000
-      internalID: -6697676347679929409
+      spriteID: 33a453d07e9751e42a069ee1cd10a2a2
+      internalID: 989728694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_84
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048124cd6130ca34e94b6cb574375dce
+      internalID: 1696853383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_91
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 226
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c117a918848364bbf7db2abdf13dfb
+      internalID: 678942223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_92
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cee1fc809a8bed4a8082b3e16ec0bbe
+      internalID: 2018616608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_94
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0edda9d67c5b74aa5751e7762a28d3
+      internalID: -1998384378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_95
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 212
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f6ff286eabffb40b94a0181beaa04a
+      internalID: 1827865607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_96
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 287
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c22285d16562941aef4571309d4bcc
+      internalID: -33331925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0370b691519b940499ad426429cfa80e
+      internalID: -1841136566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_106
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237f1d6bc8c9a3443a43fd9ca4736817
+      internalID: -636152893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_108
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 161
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0bbf96480654b4b918c3a69bf6a4ad
+      internalID: -1659103391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_128
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 35
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7baa00aee7042344b4821d19dfbf122
+      internalID: -1436524212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_146
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 84
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712422fa3c8a96f4d9aad8bfe7a1b343
+      internalID: 1374214191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_155
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 62
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da35fa1283d73ab49879d4d4eef8ff6e
+      internalID: 93290186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_159
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ada0db1763070498c7922c98bb185f
+      internalID: 1206518675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_160
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fab7b49f417d14293b1d6c70c2f48d
+      internalID: -796324612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_163
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc6cbcce16bc274ebe487b84400f4b2
+      internalID: 2094041929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_164
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2ba03648df21a49aee0ba29f2967cb
+      internalID: 131952481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_173
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c9520c9e9f81d4d8ba8366d3658970
+      internalID: -95758369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_174
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9a5a5a6d39c0d41b0221c390b2eb6c
+      internalID: -2030048099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_175
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46746895909fc7b499fe3f6b1cd382b2
+      internalID: 1873864993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_176
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6599033aa151f8049b0788185e166fe8
+      internalID: -2023393268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_room_179
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 20
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e427a4d77b61349b506ab0a0674b90
+      internalID: -1173011747
       vertices: []
       indices: 
       edges: []
@@ -1476,7 +1410,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 29f7d9f425ba713479bd3a0792ca84a0
     internalID: 0
     vertices: []
     indices: 
@@ -1486,60 +1420,192 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PC Computer - The Binding of Isaac Rebirth - Basement_0: -2215312270448904923
-      PC Computer - The Binding of Isaac Rebirth - Basement_1: 7562285159231626555
-      PC Computer - The Binding of Isaac Rebirth - Basement_10: -3182944325344629326
-      PC Computer - The Binding of Isaac Rebirth - Basement_11: -4546086567440558379
-      PC Computer - The Binding of Isaac Rebirth - Basement_12: -3124341257621976336
-      PC Computer - The Binding of Isaac Rebirth - Basement_13: 418471955552946792
-      PC Computer - The Binding of Isaac Rebirth - Basement_14: -979611198880045176
-      PC Computer - The Binding of Isaac Rebirth - Basement_15: 6804519683050088971
-      PC Computer - The Binding of Isaac Rebirth - Basement_16: 3690377093679820200
-      PC Computer - The Binding of Isaac Rebirth - Basement_17: -2391286986120683275
-      PC Computer - The Binding of Isaac Rebirth - Basement_18: 8734441608901578609
-      PC Computer - The Binding of Isaac Rebirth - Basement_19: -7568588165106098780
-      PC Computer - The Binding of Isaac Rebirth - Basement_2: -1551786078060746953
-      PC Computer - The Binding of Isaac Rebirth - Basement_20: 4929009631665663137
-      PC Computer - The Binding of Isaac Rebirth - Basement_21: -5085959821622631932
-      PC Computer - The Binding of Isaac Rebirth - Basement_22: 3566533364184334661
-      PC Computer - The Binding of Isaac Rebirth - Basement_23: 1796854882816864736
-      PC Computer - The Binding of Isaac Rebirth - Basement_24: 9025532121580637970
-      PC Computer - The Binding of Isaac Rebirth - Basement_25: 7002698378413958162
-      PC Computer - The Binding of Isaac Rebirth - Basement_26: -2496192343433380689
-      PC Computer - The Binding of Isaac Rebirth - Basement_27: -6695699987529813890
-      PC Computer - The Binding of Isaac Rebirth - Basement_28: 458794238725266019
-      PC Computer - The Binding of Isaac Rebirth - Basement_29: -1123690333179189671
-      PC Computer - The Binding of Isaac Rebirth - Basement_3: -1373624739799422558
-      PC Computer - The Binding of Isaac Rebirth - Basement_30: 7149811191852555544
-      PC Computer - The Binding of Isaac Rebirth - Basement_31: 7041776489136747776
-      PC Computer - The Binding of Isaac Rebirth - Basement_32: 7085494166426338544
-      PC Computer - The Binding of Isaac Rebirth - Basement_33: -3917562929731188664
-      PC Computer - The Binding of Isaac Rebirth - Basement_34: 5362111940472965437
-      PC Computer - The Binding of Isaac Rebirth - Basement_35: -6596938685341182967
-      PC Computer - The Binding of Isaac Rebirth - Basement_36: 2458336831195149498
-      PC Computer - The Binding of Isaac Rebirth - Basement_37: 7700297871739237010
-      PC Computer - The Binding of Isaac Rebirth - Basement_38: -2267586801651312511
-      PC Computer - The Binding of Isaac Rebirth - Basement_39: 6838914120890301926
-      PC Computer - The Binding of Isaac Rebirth - Basement_4: -7954398767642194537
-      PC Computer - The Binding of Isaac Rebirth - Basement_40: -5131912512617138828
-      PC Computer - The Binding of Isaac Rebirth - Basement_41: 9186691581230375374
-      PC Computer - The Binding of Isaac Rebirth - Basement_42: -2354143520302910675
-      PC Computer - The Binding of Isaac Rebirth - Basement_43: 631525065797620188
-      PC Computer - The Binding of Isaac Rebirth - Basement_44: -7623397582196689803
-      PC Computer - The Binding of Isaac Rebirth - Basement_45: 3846233273898911184
-      PC Computer - The Binding of Isaac Rebirth - Basement_46: -6110731596206458584
-      PC Computer - The Binding of Isaac Rebirth - Basement_47: -8279887817810910793
-      PC Computer - The Binding of Isaac Rebirth - Basement_48: 1370244670035854213
-      PC Computer - The Binding of Isaac Rebirth - Basement_49: -102127462278997553
-      PC Computer - The Binding of Isaac Rebirth - Basement_5: 2529914337817786632
-      PC Computer - The Binding of Isaac Rebirth - Basement_50: -1993354956949069165
-      PC Computer - The Binding of Isaac Rebirth - Basement_51: 2958454315755733484
-      PC Computer - The Binding of Isaac Rebirth - Basement_52: -515194459137129232
-      PC Computer - The Binding of Isaac Rebirth - Basement_53: -6697676347679929409
-      PC Computer - The Binding of Isaac Rebirth - Basement_6: -138771065439374575
-      PC Computer - The Binding of Isaac Rebirth - Basement_7: 3643344011994994633
-      PC Computer - The Binding of Isaac Rebirth - Basement_8: -7116007732271539037
-      PC Computer - The Binding of Isaac Rebirth - Basement_9: -971242265760437079
+      base_room_0: 1606680322
+      base_room_1: 1887007887
+      base_room_10: 610512278
+      base_room_100: 1869431222
+      base_room_101: -540898540
+      base_room_102: -1841136566
+      base_room_103: -673381326
+      base_room_104: -1603818376
+      base_room_105: 822092765
+      base_room_106: -636152893
+      base_room_107: 1187680689
+      base_room_108: -1659103391
+      base_room_109: 1620486721
+      base_room_11: 634278093
+      base_room_110: -1360557517
+      base_room_111: -1738388010
+      base_room_112: 469768342
+      base_room_113: -305894262
+      base_room_114: -1340467069
+      base_room_115: 598887067
+      base_room_116: 1805954010
+      base_room_117: 444593457
+      base_room_118: 2082198032
+      base_room_119: 749192395
+      base_room_12: -1472426838
+      base_room_120: -255698897
+      base_room_121: 960582807
+      base_room_122: -1128523149
+      base_room_123: -1311546415
+      base_room_124: 1534316978
+      base_room_125: -552545647
+      base_room_126: 1408506560
+      base_room_127: 1442251260
+      base_room_128: -1436524212
+      base_room_129: 485284474
+      base_room_13: 145572287
+      base_room_130: -1250179212
+      base_room_131: 2007569175
+      base_room_132: -2107789795
+      base_room_133: -1684954037
+      base_room_134: 1370342464
+      base_room_135: 1604609728
+      base_room_136: 1077300263
+      base_room_137: -735121778
+      base_room_138: -2136759618
+      base_room_139: 1089570145
+      base_room_14: -551396753
+      base_room_140: -1665649378
+      base_room_141: 1592284002
+      base_room_142: 2032136068
+      base_room_143: 1262834181
+      base_room_144: -1292344781
+      base_room_145: 2044562784
+      base_room_146: 1374214191
+      base_room_147: 1842248899
+      base_room_148: -242880841
+      base_room_149: -2116271235
+      base_room_15: 338804788
+      base_room_150: 11023154
+      base_room_151: -1979527281
+      base_room_152: 1695831650
+      base_room_153: -185022981
+      base_room_154: 716551760
+      base_room_155: 93290186
+      base_room_156: 2039308426
+      base_room_157: 1456681707
+      base_room_158: 751311323
+      base_room_159: 1206518675
+      base_room_16: -243871385
+      base_room_160: -796324612
+      base_room_161: -1560950845
+      base_room_162: 600150183
+      base_room_163: 2094041929
+      base_room_164: 131952481
+      base_room_165: 1713428029
+      base_room_166: -254125552
+      base_room_167: -1333358952
+      base_room_168: -412094362
+      base_room_169: 1572560216
+      base_room_17: 1739606683
+      base_room_170: -244395299
+      base_room_171: 703708576
+      base_room_172: -1239728154
+      base_room_173: -95758369
+      base_room_174: -2030048099
+      base_room_175: 1873864993
+      base_room_176: -2023393268
+      base_room_177: -1718882721
+      base_room_178: 920276259
+      base_room_179: -1173011747
+      base_room_18: 227152325
+      base_room_180: 1337785437
+      base_room_181: 494210149
+      base_room_182: 1808112105
+      base_room_183: -1627054798
+      base_room_184: -1576109570
+      base_room_185: -1694172741
+      base_room_19: -463485393
+      base_room_2: 1978240280
+      base_room_20: 584926817
+      base_room_21: -543234868
+      base_room_22: -2016786902
+      base_room_23: 1177085487
+      base_room_24: 1347965500
+      base_room_25: 730930369
+      base_room_26: -1371886911
+      base_room_27: 665055874
+      base_room_28: -756593778
+      base_room_29: 808647787
+      base_room_3: 792037982
+      base_room_30: -541197893
+      base_room_31: 907473505
+      base_room_32: 1840461696
+      base_room_33: -1599864361
+      base_room_34: 1380970306
+      base_room_35: -1572063369
+      base_room_36: 1501919511
+      base_room_37: 899646863
+      base_room_38: 307303192
+      base_room_39: -1467213885
+      base_room_4: -634490270
+      base_room_40: -1545482650
+      base_room_41: -320966882
+      base_room_42: 1237817892
+      base_room_43: 105974510
+      base_room_44: 1554841548
+      base_room_45: 1174608225
+      base_room_46: 1670301778
+      base_room_47: -167415182
+      base_room_48: 219300882
+      base_room_49: 1028157658
+      base_room_5: 171886131
+      base_room_50: -1237688486
+      base_room_51: 2117635461
+      base_room_52: 1516140087
+      base_room_53: 1291812637
+      base_room_54: -10353888
+      base_room_55: 935157737
+      base_room_56: -2090189247
+      base_room_57: 990737680
+      base_room_58: 283353578
+      base_room_59: -2008706605
+      base_room_6: -1669406142
+      base_room_60: -716241298
+      base_room_61: 204569547
+      base_room_62: 930616284
+      base_room_63: 1689823126
+      base_room_64: -932747185
+      base_room_65: 603100043
+      base_room_66: 1285999452
+      base_room_67: -862692070
+      base_room_68: -1701705179
+      base_room_69: 2144912983
+      base_room_7: -1812862903
+      base_room_70: -534053365
+      base_room_71: 1305446784
+      base_room_72: -1285570199
+      base_room_73: -1156253876
+      base_room_74: 745354360
+      base_room_75: 175198062
+      base_room_76: 779167126
+      base_room_77: 773454344
+      base_room_78: 1544167334
+      base_room_79: -1280919136
+      base_room_8: -1689716304
+      base_room_80: 296465878
+      base_room_81: -1179216766
+      base_room_82: 989728694
+      base_room_83: 583555278
+      base_room_84: 1696853383
+      base_room_85: -1153091157
+      base_room_86: -426515741
+      base_room_87: -697797771
+      base_room_88: 1091163269
+      base_room_89: 1452337425
+      base_room_9: 1266721774
+      base_room_90: 1718835188
+      base_room_91: 678942223
+      base_room_92: 2018616608
+      base_room_93: -1945337567
+      base_room_94: -1998384378
+      base_room_95: 1827865607
+      base_room_96: -33331925
+      base_room_97: 1854462581
+      base_room_98: -1622037185
+      base_room_99: 955191472
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
