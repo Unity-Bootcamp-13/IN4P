@@ -1,3 +1,4 @@
+using System.Collections;
 using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -35,8 +36,13 @@ public class Player : MonoBehaviour
 
     [SerializeField] GameObject bombPrefab;
 
+    public GameObject headObject;
+    public GameObject bodyObject;
+    public GameObject totalbodyObject;
+
     public Animator headAnimator;
     public Animator bodyAnimator;
+    public Animator totalbodyAnimator;
 
     public SpriteRenderer bodySprite;
 
@@ -70,7 +76,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        attack.SetTears(projectileSpeed, atkRange);
+        attack.SetTears(projectileSpeed, atkRange, (int)atk);
     }
 
     public void Update()

@@ -7,6 +7,7 @@ public class Tears : MonoBehaviour
     public float range;
     public Vector2 dir;
     public float timer;
+    public int damage = 1;
 
     public Animator tearsAnimator;
     private Action returnAction;
