@@ -1454,7 +1454,6 @@ MonoBehaviour:
   roomParent: {fileID: 964009304}
   roomCount: 10
   mapSize: 8
-  roomObjects: []
 --- !u!4 &1351520059
 Transform:
   m_ObjectHideFlags: 0
@@ -3418,8 +3417,12 @@ MonoBehaviour:
   attack: {fileID: 4412395405436896537}
   rid: {fileID: 3741799394464215168}
   bombPrefab: {fileID: 1256123877299392261, guid: 765b1e6511662c94190af2d242790936, type: 3}
+  headObject: {fileID: 0}
+  bodyObject: {fileID: 0}
+  totalbodyObject: {fileID: 0}
   headAnimator: {fileID: 6375804879080735668}
   bodyAnimator: {fileID: 6931625127705028674}
+  totalbodyAnimator: {fileID: 0}
   bodySprite: {fileID: 5780960640903029678}
   eyes: {fileID: 1543097884}
   leftEye: {fileID: 617584015582151161}
