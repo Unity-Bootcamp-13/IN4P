@@ -551,13 +551,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monstro
       objectReference: {fileID: 0}
+    - target: {fileID: 5458664091741793925, guid: 6993afda27a0df842ad8d7868a6df616, type: 3}
+      propertyPath: m_Name
+      value: Shadow
+      objectReference: {fileID: 0}
     - target: {fileID: 6226714346717458567, guid: 6993afda27a0df842ad8d7868a6df616, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.035699
+      value: 7.31
       objectReference: {fileID: 0}
     - target: {fileID: 6226714346717458567, guid: 6993afda27a0df842ad8d7868a6df616, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.47262776
+      value: 3.13
       objectReference: {fileID: 0}
     - target: {fileID: 6226714346717458567, guid: 6993afda27a0df842ad8d7868a6df616, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2181,7 +2185,7 @@ Transform:
   m_GameObject: {fileID: 4541203446732257797}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.3, y: 0, z: 0}
+  m_LocalPosition: {x: -8.75, y: -3.55, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3068,7 +3072,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.3}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3078,7 +3082,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.8, y: 1}
   m_EdgeRadius: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

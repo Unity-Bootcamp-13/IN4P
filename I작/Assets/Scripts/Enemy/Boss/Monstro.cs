@@ -1,10 +1,9 @@
-using NUnit.Framework.Constraints;
-using System;
 using System.Collections;
-using System.Security.Cryptography;
-using System.Timers;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Rendering;
+
 
 public enum BossPatturn
 {
@@ -22,7 +21,6 @@ public enum BossState
 
 public class Monstro : MonoBehaviour
 {
-    public int cooltime = 2;
     public string boss_name = "Monstro";
     public int boss_hp = 250;
     public float boss_speed = 2;
@@ -44,12 +42,14 @@ public class Monstro : MonoBehaviour
     private Collider2D collider;
     public GameObject tears;
 
-    private void Start()
+    private async void Start()
     {
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         player = GameObject.FindGameObjectWithTag("Player");
         collider = GetComponent<Collider2D>();
+
+        await Task.Delay(500);
     }
 
     private void Update()
@@ -62,39 +62,42 @@ public class Monstro : MonoBehaviour
 
         if (_bossPatturn == BossPatturn.Idle && _patternRoutine == null)
         {
-            int pattern = UnityEngine.Random.Range(0, 2);
-            _patternRoutine = StartCoroutine(patternWithCooldown(pattern));
+            
+            _patternRoutine = StartCoroutine(patternWithCooldown());
         }
 
     }
 
-    private IEnumerator patternWithCooldown(int pattern)
+    private IEnumerator patternWithCooldown()
     {
-        _bossState = BossState.jump;
         float facing = spriteRenderer.flipX ? 1f : -1f;
         Vector3 dir = player.transform.position - transform.position;
         spriteRenderer.flipX = dir.x > 0f;
+        int pattern = Random.Range(0, 3);
+        AnimatorStateInfo stateInfo;
+        float clipLength;
 
-        // switch (pattern)
-        // {
-        //     case 0: // 낮은 점프
-        //         _bossState = BossState.LowJump;
-        //         yield return StartCoroutine(LowJumpRoutine());
-        //         break;
-        //     case 1: // 피 토하기
-        //         _bossState = BossState.BloodAttack;
-        //         yield return StartCoroutine(BloodAttackRoutine());
-        //         break;
-        //     case 2: // 높은 점프 
-        //         _bossState = BossState.HighJump;
-        //         yield return StartCoroutine(HighJumpRoutine());
-        //         break;
-        //     
-        // }
-        _bossPatturn = BossPatturn.BloodAttack;
-        yield return StartCoroutine(BloodAttackRoutine());
+        switch (pattern)
+        {
+            case 0: // 낮은 점프
+                _bossPatturn = BossPatturn.LowJump;
+                yield return StartCoroutine(LowJumpRoutine());
+                break;
+            case 1: // 피 토하기
+                _bossPatturn = BossPatturn.BloodAttack;
+                yield return StartCoroutine(BloodAttackRoutine());
+                break;
+            case 2: // 높은 점프 
+                _bossPatturn = BossPatturn.HighJump;
+                yield return StartCoroutine(HighJumpRoutine());
+                break;
+            
+        }
 
-        yield return new WaitForSeconds(cooltime);
+        stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+        clipLength = stateInfo.length / stateInfo.speedMultiplier;
+        yield return new WaitForSeconds(clipLength + 1);
+
         _bossPatturn = BossPatturn.Idle;
         _bossState = BossState.Ground;
         _patternRoutine = null;
@@ -103,70 +106,50 @@ public class Monstro : MonoBehaviour
     //점프하면서 캐릭터 쪽으로 다가옴
     private IEnumerator LowJumpRoutine()
     {
-
+        _bossState = BossState.jump;
         animator.SetTrigger("LowJump");
-
-        Vector3 playerPos = player.transform.position;
-        Vector3 startPos = transform.position;
-
-
-        Vector3 endPos;
-        // 플레이어와 캐릭터간의 거리를 계산해서 boss_MoveRange보다 적으면 플레이어위치로
-        float currentDist = Vector3.Distance(startPos, playerPos);
-
-        if (boss_MoveRange >= currentDist)
-        {
-            endPos = new Vector3(playerPos.x, playerPos.y, 0);
-        }
-        else
-        {
-            Vector3 dir = (playerPos - startPos).normalized;
-            endPos = startPos + dir * boss_MoveRange;
-        }
-        float elapsed = 0f;
-
-        //  한 사이클(상승→하강) 동안 보간
-        while (elapsed < JumpDuration)
-        {
-            elapsed += Time.deltaTime;
-            float t = Mathf.Clamp01(elapsed / JumpDuration);
-
-            // 수평 보간
-            Vector3 pos = Vector3.Lerp(startPos, endPos, t);
-            // 수직 오프셋 (포물선)
-            pos.y = Mathf.Lerp(startPos.y, endPos.y, t)
-                  + jump_height * 4f * t * (1f - t);
-
-            transform.position = pos;
-            yield return null;
-        }
-
-        transform.position = endPos;
-
+        yield return null;
     }
-
 
     //피 토하기
     private IEnumerator BloodAttackRoutine()
     {
+        
         animator.SetTrigger("BloodAttack");
         yield return null;
-        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-        float clipLength = stateInfo.length / stateInfo.speedMultiplier;
-        yield return new WaitForSeconds(clipLength);
     }
 
     private IEnumerator HighJumpRoutine()
     {
+        _bossState = BossState.jump;
         animator.SetTrigger("HighJump");
         yield return null;
-        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-        float clipLength = stateInfo.length / stateInfo.speedMultiplier;
-        yield return new WaitForSeconds(clipLength);
+        
         
     }
-    
-    public void TakeDamage(int damage)
+
+    public void OnHitFrame(int Damage)
+    {
+        // bossCollider 와 playerCollider 가 접촉(겹침) 중인지 확인
+        Vector3 p = player.transform.position;
+        if(collider.bounds.Contains(p))
+        { 
+            switch (Damage)
+            {
+                case 1:
+                    Debug.Log("플레이어 데미지 1 입음");
+                    // player.takeDamage(boss_halfDamage);
+                    break;
+                case 2:
+                    Debug.Log("플레이어 데미지 2 입음");
+                    // player.takeDamage(boss_OneDamage);
+                    break;
+            }
+        }
+    }
+
+
+public void TakeDamage(int damage)
     {
         boss_hp -= damage;
         if (boss_hp <= 0)
@@ -195,14 +178,62 @@ public class Monstro : MonoBehaviour
     Vector3 playerPos;
     Vector3 landPos;
 
-    public void LongJump()
+    public void Jump()
     {
-        StartCoroutine(LongJumpRoutine());
+        StartCoroutine(JumpRoutine());
     }
 
-    private IEnumerator LongJumpRoutine()
+    private IEnumerator JumpRoutine()
     {
-        apexHeight = jump_height * 4f;
+        playerPos = player.transform.position;
+        startPos = transform.position;
+
+
+        Vector3 endPos;
+        // 플레이어와 캐릭터간의 거리를 계산해서 boss_MoveRange보다 적으면 플레이어위치로
+        float currentDist = Vector3.Distance(startPos, playerPos);
+
+        if (boss_MoveRange >= currentDist)
+        {
+            endPos = new Vector3(playerPos.x, playerPos.y, 0);
+        }
+        else
+        {
+            Vector3 dir = (playerPos - startPos).normalized;
+            endPos = startPos + dir * boss_MoveRange;
+        }
+        float elapsed = 0f;
+
+        
+        
+        while (elapsed < JumpDuration)
+        {
+            elapsed += Time.deltaTime;
+            float t = Mathf.Clamp01(elapsed / JumpDuration);
+
+            // 수평 보간
+            Vector3 pos = Vector3.Lerp(startPos, endPos, t);
+            // 수직 오프셋 (포물선)
+            pos.y = Mathf.Lerp(startPos.y, endPos.y, t)
+                  + jump_height * 4f * t * (1f - t);
+
+            transform.position = pos;
+            yield return null;
+        }
+
+       
+        transform.position = endPos;
+    }
+
+
+    public void FildoutJump()
+    {
+        StartCoroutine(FildoutJumpRoutine());
+    }
+
+    private IEnumerator FildoutJumpRoutine()
+    {
+        apexHeight = jump_height * 2f;
         startPos = transform.position;
         
         float elapsed = 0f;
@@ -212,12 +243,15 @@ public class Monstro : MonoBehaviour
             elapsed += Time.deltaTime;
             float t = Mathf.Clamp01(elapsed / JumpDuration);
 
-            // 수평 보간은 그대로, 수직만 apexHeight 추가
-            Vector3 pos = Vector3.Lerp(startPos, startPos, t);
-            pos.y = Mathf.Lerp(startPos.y, startPos.y, t) + apexHeight * 4f * t * (1f - t);
+            // 수평 보간은 그대로, 수직(deltaY)만 추가 
+            float deltaY = jump_height * 4f * t * (1f - t);
+            Vector3 pos = new Vector3(startPos.x, startPos.y+deltaY, t);
             transform.position = pos;
+            // 올라간 위치 기억
+            apexHeight = pos.y;
             yield return null;
         }
+        transform.position = startPos;
     }
 
     public void playerSearch()
@@ -226,7 +260,6 @@ public class Monstro : MonoBehaviour
     }
     private IEnumerator playerSearchRoutine()
     {
-        Debug.Log("플레이어 탐색시작");
         playerPos = player.transform.position;
         startPos = transform.position;
 
@@ -236,18 +269,19 @@ public class Monstro : MonoBehaviour
         float apexY = startPos.y;
         float x = 0;
         float targetX = playerPos.x;
-        
+        float targetY = playerPos.y;
+        float y = 0;
         landPos = player.transform.position;
         while (elapsed < Duration)
         {
             elapsed += Time.deltaTime;
             float t = Mathf.Clamp01(elapsed / Duration);
             x = Mathf.Lerp(startPos.x, targetX, t);
-            transform.position =new  Vector3(x,apexY,t);
+            y = Mathf.Lerp(startPos.y, targetY, t);
+            transform.position =new  Vector3(x,y,0);
             yield return null;
         }
         
-        Debug.Log("플레이어 탐색 끝");
     }
     public void Fall()
     {
@@ -257,7 +291,8 @@ public class Monstro : MonoBehaviour
     {
         elapsed = 0f;
         Vector3 fallStart = transform.position;
-        while (elapsed < JumpDuration/5)
+        fallStart.y = apexHeight;
+        while (elapsed < JumpDuration/3)
         {
             elapsed += Time.deltaTime;
             float t = Mathf.Clamp01(elapsed / JumpDuration);
@@ -270,6 +305,7 @@ public class Monstro : MonoBehaviour
     public void BloodShot()
     {
         StartCoroutine(BloodShotRoutine());
+        
     }
 
     private IEnumerator BloodShotRoutine()
@@ -280,6 +316,7 @@ public class Monstro : MonoBehaviour
         int tearCount = 12;
         float radius = 1.8f;
         float circleStep = 360f / tearCount;
+        var tearsList = new List<Enemytears>();
 
         // 1) 한 프레임에 12개 동시에 생성
         for (int i = 0; i < tearCount; i++)
@@ -297,10 +334,12 @@ public class Monstro : MonoBehaviour
             if (t.TryGetComponent<Enemytears>(out var et))
             {
                 et.LaunchTo(targetPos, boss_attackSpeed);
+                tearsList.Add(et);
             }
         }
-
-        yield break;
+        yield return new WaitUntil(() =>
+       tearsList.TrueForAll(et => et == null || et.HasArrived)
+   );
     }
 
     public void bossDie()
