@@ -80,10 +80,11 @@ public class Attack : MonoBehaviour
         pool.Enqueue(tear);
     }
 
-    public void SetTears(float speed, float range)
+    public void SetTears(float speed, float range, int damage)
     {
         foreach (var tear in pool)
         {
+            tear.GetComponent<Tears>().damage = damage;
             tear.GetComponent<Tears>().speed = speed;
             tear.GetComponent<Tears>().range = range;
         }

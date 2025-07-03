@@ -1,88 +1,79 @@
 fileFormatVersion: 2
-guid: 4cdf6ef70c269fe499c5d5ad2a9b4638
+guid: 4e746770d0873144bbc9535bc4dce3f0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9079324371909068090
-    second: monster_000_bodies02_0
+      213: 4101487078291793472
+    second: monster_044_hopperleaper_0
   - first:
-      213: 3604401186069987262
-    second: monster_000_bodies02_1
+      213: 3432948530861328830
+    second: monster_044_hopperleaper_1
   - first:
-      213: -7084202252737939841
-    second: monster_000_bodies02_2
+      213: -5623080401255548047
+    second: monster_044_hopperleaper_2
   - first:
-      213: -3623228851850630233
-    second: monster_000_bodies02_3
+      213: 32857068922407771
+    second: monster_044_hopperleaper_3
   - first:
-      213: -4078323867961823247
-    second: monster_000_bodies02_4
+      213: -8598353420820031784
+    second: monster_044_hopperleaper_4
   - first:
-      213: 2035178187435777943
-    second: monster_000_bodies02_5
+      213: 2008723971800356325
+    second: monster_044_hopperleaper_5
   - first:
-      213: 5421824186426262232
-    second: monster_000_bodies02_6
+      213: 8237859928027521949
+    second: monster_044_hopperleaper_6
   - first:
-      213: 2579502065002841292
-    second: monster_000_bodies02_7
+      213: 2239985690841510400
+    second: monster_044_hopperleaper_7
   - first:
-      213: -2071346885393768507
-    second: monster_000_bodies02_8
+      213: -1871517100447390487
+    second: monster_044_hopperleaper_8
   - first:
-      213: 4706912326621845786
-    second: monster_000_bodies02_9
+      213: -1758909943072013227
+    second: monster_044_hopperleaper_9
   - first:
-      213: 7402171291382537168
-    second: monster_000_bodies02_10
+      213: 9103571043707094836
+    second: monster_044_hopperleaper_10
   - first:
-      213: 4543616153691261444
-    second: monster_000_bodies02_11
+      213: 8233936955812637807
+    second: monster_044_hopperleaper_11
   - first:
-      213: 7785874511947566387
-    second: monster_000_bodies02_12
+      213: 4378316792718276962
+    second: monster_044_hopperleaper_12
   - first:
-      213: -6977818711518926594
-    second: monster_000_bodies02_13
+      213: 842393909701889922
+    second: monster_044_hopperleaper_13
   - first:
-      213: -1632399256354311572
-    second: monster_000_bodies02_14
+      213: -776920839886909931
+    second: monster_044_hopperleaper_14
   - first:
-      213: -6500479054250224810
-    second: monster_000_bodies02_15
+      213: -5139732179584608832
+    second: monster_044_hopperleaper_15
   - first:
-      213: -4141949699211788259
-    second: monster_000_bodies02_16
+      213: 7258929317921776426
+    second: monster_044_hopperleaper_16
   - first:
-      213: -6621092751984692659
-    second: monster_000_bodies02_17
+      213: -8594250899193160103
+    second: monster_044_hopperleaper_17
   - first:
-      213: -8698539399554183060
-    second: monster_000_bodies02_18
+      213: -419192999115240150
+    second: monster_044_hopperleaper_18
   - first:
-      213: 5357305055397172573
-    second: monster_000_bodies02_19
+      213: -5834357479983507647
+    second: monster_044_hopperleaper_19
   - first:
-      213: 6244258149644774084
-    second: monster_000_bodies02_20
+      213: 6806088366310776731
+    second: monster_044_hopperleaper_20
   - first:
-      213: 947678661998649936
-    second: monster_000_bodies02_21
+      213: -5726599883596672709
+    second: monster_044_hopperleaper_21
   - first:
-      213: 9167049623658845498
-    second: monster_000_bodies02_22
+      213: -555702426705181175
+    second: monster_044_hopperleaper_22
   - first:
-      213: -4654427724099579780
-    second: monster_000_bodies02_23
-  - first:
-      213: 539952185770802170
-    second: monster_000_bodies02_24
-  - first:
-      213: -7164401548099152650
-    second: monster_000_bodies02_25
-  - first:
-      213: -8260971385873904490
-    second: monster_000_bodies02_26
+      213: 312966831799316309
+    second: monster_044_hopperleaper_23
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -204,485 +195,529 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: monster_000_bodies02_0
+      name: monster_044_hopperleaper_0
       rect:
         serializedVersion: 2
         x: 6
-        y: 166
-        width: 20
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a35cf24796d300e70800000000000000
-      internalID: 9079324371909068090
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_000_bodies02_1
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 166
-        width: 20
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ebfb2b328c7650230800000000000000
-      internalID: 3604401186069987262
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_000_bodies02_2
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 166
-        width: 20
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f767888b59bdfad90800000000000000
-      internalID: -7084202252737939841
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_000_bodies02_3
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 163
-        width: 19
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7ab2f715e84b7bdc0800000000000000
-      internalID: -3623228851850630233
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_000_bodies02_5
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 133
-        width: 20
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 79f9bb457c76e3c10800000000000000
-      internalID: 2035178187435777943
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_000_bodies02_6
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 100
+        y: 97
         width: 20
         height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d20f8a1f503e3b40800000000000000
-      internalID: 5421824186426262232
+      spriteID: 046ef6064c86be830800000000000000
+      internalID: 4101487078291793472
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monster_000_bodies02_7
+      name: monster_044_hopperleaper_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 97
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb94032108844af20800000000000000
+      internalID: 3432948530861328830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 97
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17bb3bbda2ec6f1b0800000000000000
+      internalID: -5623080401255548047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 97
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b0b71845bb47000800000000000000
+      internalID: 32857068922407771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 97
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6d1caae138ca880800000000000000
+      internalID: -8598353420820031784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 105
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5d8f64fcb60eb10800000000000000
+      internalID: 2008723971800356325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_6
       rect:
         serializedVersion: 2
         x: 6
-        y: 70
-        width: 18
-        height: 15
+        y: 78
+        width: 20
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cc481e9167b3cc320800000000000000
-      internalID: 2579502065002841292
+      spriteID: d93618f55f1c25270800000000000000
+      internalID: 8237859928027521949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monster_000_bodies02_8
+      name: monster_044_hopperleaper_7
       rect:
         serializedVersion: 2
-        x: 38
-        y: 134
-        width: 20
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5cf1e717bf81143e0800000000000000
-      internalID: -2071346885393768507
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_000_bodies02_9
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 101
-        width: 20
+        x: 36
+        y: 79
+        width: 24
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a19d331a2df425140800000000000000
-      internalID: 4706912326621845786
+      spriteID: 002f09c2e17061f10800000000000000
+      internalID: 2239985690841510400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monster_000_bodies02_10
+      name: monster_044_hopperleaper_8
       rect:
         serializedVersion: 2
-        x: 38
-        y: 70
-        width: 19
+        x: 68
+        y: 80
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4a3c4ec190706e0800000000000000
+      internalID: -1871517100447390487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 78
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5544a43d9b81797e0800000000000000
+      internalID: -1758909943072013227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_10
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 66
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43781b7a1a1665e70800000000000000
+      internalID: 9103571043707094836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_11
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 65
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c6c2a3902d44270800000000000000
+      internalID: 8233936955812637807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 33
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269b918fce7e2cc30800000000000000
+      internalID: 4378316792718276962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_13
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 33
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28fcbb43cc8c0bb00800000000000000
+      internalID: 842393909701889922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_14
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 33
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e41f7cc92d735f0800000000000000
+      internalID: -776920839886909931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_15
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 33
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5173b60d00ca8b0800000000000000
+      internalID: -5139732179584608832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_16
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 33
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23656451c5ecb460800000000000000
+      internalID: 7258929317921776426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_17
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 41
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e920b67561bb880800000000000000
+      internalID: -8594250899193160103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 14
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2dc763303abe2af0800000000000000
+      internalID: -419192999115240150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_19
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 15
+        width: 24
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0db5375329bc9b660800000000000000
-      internalID: 7402171291382537168
+      spriteID: 14790f0a8c2380fa0800000000000000
+      internalID: -5834357479983507647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monster_000_bodies02_11
+      name: monster_044_hopperleaper_20
       rect:
         serializedVersion: 2
-        x: 70
-        y: 134
-        width: 20
-        height: 15
+        x: 68
+        y: 16
+        width: 24
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40a8e7491da2e0f30800000000000000
-      internalID: 4543616153691261444
+      spriteID: b9f5fd71f45147e50800000000000000
+      internalID: 6806088366310776731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monster_000_bodies02_12
+      name: monster_044_hopperleaper_21
       rect:
         serializedVersion: 2
-        x: 70
-        y: 70
-        width: 19
-        height: 15
+        x: 100
+        y: 14
+        width: 24
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33d07660e9bfc0c60800000000000000
-      internalID: 7785874511947566387
+      spriteID: b315d672fb70780b0800000000000000
+      internalID: -5726599883596672709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monster_000_bodies02_13
+      name: monster_044_hopperleaper_22
       rect:
         serializedVersion: 2
-        x: 71
-        y: 102
-        width: 18
-        height: 15
+        x: 137
+        y: 2
+        width: 14
+        height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef827d81adec92f90800000000000000
-      internalID: -6977818711518926594
+      spriteID: 9064a6f469fb948f0800000000000000
+      internalID: -555702426705181175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monster_000_bodies02_14
+      name: monster_044_hopperleaper_23
       rect:
         serializedVersion: 2
-        x: 101
-        y: 134
-        width: 20
-        height: 15
+        x: 169
+        y: 1
+        width: 14
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c62b361768d8859e0800000000000000
-      internalID: -1632399256354311572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_000_bodies02_15
-      rect:
-        serializedVersion: 2
-        x: 103
-        y: 102
-        width: 17
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6535c8dbdb8a9c5a0800000000000000
-      internalID: -6500479054250224810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_000_bodies02_16
-      rect:
-        serializedVersion: 2
-        x: 103
-        y: 70
-        width: 17
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d1002fc81b6d486c0800000000000000
-      internalID: -4141949699211788259
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_000_bodies02_21
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 38
-        width: 17
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 052a5a9d8b4d62d00800000000000000
-      internalID: 947678661998649936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_000_bodies02_22
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 38
-        width: 20
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a3550984017e73f70800000000000000
-      internalID: 9167049623658845498
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_000_bodies02_23
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 38
-        width: 20
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c70905825a6286fb0800000000000000
-      internalID: -4654427724099579780
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_000_bodies02_24
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 38
-        width: 20
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: afb7094f6ab4e7700800000000000000
-      internalID: 539952185770802170
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_000_bodies02_25
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 6
-        width: 18
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f49a4920cee29c90800000000000000
-      internalID: -7164401548099152650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_000_bodies02_26
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 6
-        width: 18
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 69cc1550b422b5d80800000000000000
-      internalID: -8260971385873904490
+      spriteID: 55fa0e3eca1e75400800000000000000
+      internalID: 312966831799316309
       vertices: []
       indices: 
       edges: []
@@ -691,7 +726,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9375ccfcc1281e94987a495ac14164fd
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -701,33 +736,30 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      monster_000_bodies02_0: 9079324371909068090
-      monster_000_bodies02_1: 3604401186069987262
-      monster_000_bodies02_10: 7402171291382537168
-      monster_000_bodies02_11: 4543616153691261444
-      monster_000_bodies02_12: 7785874511947566387
-      monster_000_bodies02_13: -6977818711518926594
-      monster_000_bodies02_14: -1632399256354311572
-      monster_000_bodies02_15: -6500479054250224810
-      monster_000_bodies02_16: -4141949699211788259
-      monster_000_bodies02_17: -6621092751984692659
-      monster_000_bodies02_18: -8698539399554183060
-      monster_000_bodies02_19: 5357305055397172573
-      monster_000_bodies02_2: -7084202252737939841
-      monster_000_bodies02_20: 6244258149644774084
-      monster_000_bodies02_21: 947678661998649936
-      monster_000_bodies02_22: 9167049623658845498
-      monster_000_bodies02_23: -4654427724099579780
-      monster_000_bodies02_24: 539952185770802170
-      monster_000_bodies02_25: -7164401548099152650
-      monster_000_bodies02_26: -8260971385873904490
-      monster_000_bodies02_3: -3623228851850630233
-      monster_000_bodies02_4: -4078323867961823247
-      monster_000_bodies02_5: 2035178187435777943
-      monster_000_bodies02_6: 5421824186426262232
-      monster_000_bodies02_7: 2579502065002841292
-      monster_000_bodies02_8: -2071346885393768507
-      monster_000_bodies02_9: 4706912326621845786
+      monster_044_hopperleaper_0: 4101487078291793472
+      monster_044_hopperleaper_1: 3432948530861328830
+      monster_044_hopperleaper_10: 9103571043707094836
+      monster_044_hopperleaper_11: 8233936955812637807
+      monster_044_hopperleaper_12: 4378316792718276962
+      monster_044_hopperleaper_13: 842393909701889922
+      monster_044_hopperleaper_14: -776920839886909931
+      monster_044_hopperleaper_15: -5139732179584608832
+      monster_044_hopperleaper_16: 7258929317921776426
+      monster_044_hopperleaper_17: -8594250899193160103
+      monster_044_hopperleaper_18: -419192999115240150
+      monster_044_hopperleaper_19: -5834357479983507647
+      monster_044_hopperleaper_2: -5623080401255548047
+      monster_044_hopperleaper_20: 6806088366310776731
+      monster_044_hopperleaper_21: -5726599883596672709
+      monster_044_hopperleaper_22: -555702426705181175
+      monster_044_hopperleaper_23: 312966831799316309
+      monster_044_hopperleaper_3: 32857068922407771
+      monster_044_hopperleaper_4: -8598353420820031784
+      monster_044_hopperleaper_5: 2008723971800356325
+      monster_044_hopperleaper_6: 8237859928027521949
+      monster_044_hopperleaper_7: 2239985690841510400
+      monster_044_hopperleaper_8: -1871517100447390487
+      monster_044_hopperleaper_9: -1758909943072013227
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

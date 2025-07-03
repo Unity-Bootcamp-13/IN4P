@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2111f9d5fe7a9524e85850d296f21414, type: 3}
+  m_Name: BlackFly
+  m_EditorClassIdentifier: 
+  characterId: 10
+  characterName: BlackFly
+  headSprite: {fileID: 0}
+  bodySprite: {fileID: 4821142141097857574, guid: 5fe5ef2182ca5704cb5e7acdfb644266, type: 3}
+  playerHp: 3
+  atk: 0
+  atkSpeed: 0
+  speed: 1
+  atkRange: 0.5
+  projectileSpeed: 0
