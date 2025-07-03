@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class MapManager : MonoBehaviour
 {
@@ -26,17 +27,19 @@ public class MapManager : MonoBehaviour
 
     void InitTileSize()
     {
-        SpriteRenderer spriteRenderer = roomPrefab.GetComponent<SpriteRenderer>();
-        if (spriteRenderer != null)
+        // 2. Tilemap 방식
+        Tilemap tilemap = roomPrefab.GetComponentInChildren<Tilemap>();
+        if (tilemap != null)
         {
-            tileWidth = spriteRenderer.bounds.size.x;
-            tileHeight = spriteRenderer.bounds.size.y;
+            Bounds bounds = tilemap.localBounds;
+            tileWidth = bounds.size.x;
+            tileHeight = bounds.size.y;
+            return;
         }
-        else
-        {
-            Debug.LogError("roomPrefab에 SpriteRenderer가 없습니다!");
-        }
+
+        Debug.LogError("SpriteRenderer 또는 Tilemap을 찾을 수 없습니다!");
     }
+
 
     void InitMap()
     {
@@ -95,7 +98,14 @@ public class MapManager : MonoBehaviour
 
     void CreateRoomObject(int x, int y)
     {
-        Vector3 position = new Vector3(x * tileWidth, y * tileHeight, 0);
+        // 중심 좌표를 기준으로 오프셋 계산
+        int centerX = mapSize / 2;
+        int centerY = mapSize / 2;
+
+        float offsetX = (x - centerX) * tileWidth;
+        float offsetY = (y - centerY) * tileHeight;
+
+        Vector3 position = new Vector3(offsetX, offsetY, 0);
         GameObject go = Instantiate(roomPrefab, position, Quaternion.identity, roomParent);
         go.name = $"Room ({x},{y})";
     }
@@ -142,7 +152,7 @@ public class MapManager : MonoBehaviour
         return list[Random.Range(0, list.Count)];
     }
 
-    // ✅ 끝방 모두 찾아 표시하고, 가장 먼 끝방은 보스룸으로
+    //  끝방 모두 찾아 표시하고, 가장 먼 끝방은 보스룸으로
     void MarkEndRoomsAndBoss()
     {
         RoomClass startRoom = Rooms[0];
@@ -150,17 +160,17 @@ public class MapManager : MonoBehaviour
 
         foreach (var endRoom in result.allEndRooms)
         {
-            HighlightRoom(endRoom, Color.blue); // 파란색: 일반 끝방
+            //HighlightRoom(endRoom, Color.blue); // 파란색: 일반 끝방
         }
 
         if (result.farthestEndRoom != null)
         {
             result.farthestEndRoom.Type = RoomType.Boss;
-            HighlightRoom(result.farthestEndRoom, Color.red); // 빨간색: 가장 먼 끝방 = 보스
+            //HighlightRoom(result.farthestEndRoom, Color.red); // 빨간색: 가장 먼 끝방 = 보스
         }
     }
 
-    // ✅ 끝방 모두 + 가장 먼 끝방 찾기
+    //  끝방 모두 + 가장 먼 끝방 찾기
     EndRoomResult GetEndRoomsAndFarthest(RoomClass startRoom)
     {
         Queue<(RoomClass room, int depth)> queue = new Queue<(RoomClass, int)>();
@@ -212,7 +222,7 @@ public class MapManager : MonoBehaviour
         };
     }
 
-    // ✅ 색상 변경 유틸
+    // 색상 변경 유틸
     void HighlightRoom(RoomClass room, Color color)
     {
         foreach (Transform child in roomParent)
@@ -227,7 +237,7 @@ public class MapManager : MonoBehaviour
     }
 }
 
-// ✅ 끝방 정보 구조체
+//  끝방 정보 구조체
 public class EndRoomResult
 {
     public List<RoomClass> allEndRooms;
