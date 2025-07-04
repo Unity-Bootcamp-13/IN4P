@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2111f9d5fe7a9524e85850d296f21414, type: 3}
-  m_Name: RedFly
+  m_Name: Gusher
   m_EditorClassIdentifier: 
-  characterId: 11
-  characterName: RedFly
-  headSprite: {fileID: 0}
-  bodySprite: {fileID: -6903743430853209571, guid: 5fe5ef2182ca5704cb5e7acdfb644266, type: 3}
-  playerHp: 5
+  characterId: 20
+  characterName: Gaper
+  headSprite: {fileID: 3647803251483814702, guid: 25d7a721ad425fa498ed9287c9082dc0, type: 3}
+  bodySprite: {fileID: 4980409377013969977, guid: dc3e9461f6c0a784789ab3e723c2af98, type: 3}
+  playerHp: 10
   atk: 1
-  atkSpeed: 1
-  speed: 1
-  atkRange: 1
-  projectileSpeed: 3
+  atkSpeed: 0
+  speed: 3
+  atkRange: 5
+  projectileSpeed: 2

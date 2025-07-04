@@ -14,15 +14,8 @@ public class ContactMonster : MonoBehaviour
 
     public Animator enemyAnimator;
 
-    public Attack attack;
-
-    public Transform target;
+    public GameObject target;
     public Rigidbody2D enemy_rb;
-
-    public Vector2 destination;
-
-    private Player player;
-    private Tears tears;
 
     private void Awake()
     {
@@ -31,9 +24,9 @@ public class ContactMonster : MonoBehaviour
         enemy_atkSpeed = monsterData.AtkSpeed;
         enemy_speed = monsterData.Speed;
         enemy_atkRange = monsterData.AtkRange;
-        enemy_projectileSpeed = monsterData.ProjectileSpeed;
         enemy_currentHp = enemy_hp;
 
+        target = GameObject.FindGameObjectWithTag("Player");
         enemyAnimator = GetComponent<Animator>();
         enemy_rb = GetComponent<Rigidbody2D>();
     }
@@ -48,47 +41,16 @@ public class ContactMonster : MonoBehaviour
         ChasePlayerMovement();
     }
 
-    public void RandomMovement()
-    {
-        destination = new Vector2();
-        float x = Random.Range(-9f, 9f);
-        float y = Random.Range(-3f, 3f);
-        Vector2 targetposition = (Vector2)new Vector3(x, y);
-
-        while (true)
-        {
-            //var dir = (targetposition - this.transform.position).normalized;
-        }
-    }
-
     public void ChasePlayerMovement()
     {
-        float distance = Vector2.Distance(target.position, transform.position);
+        float distance = Vector2.Distance(target.transform.position, transform.position);
 
         if (distance > enemy_atkRange)
         {
-            Vector2 direciton = (target.position - transform.position).normalized;
+            Vector2 direciton = (target.transform.position - transform.position).normalized;
             enemy_rb.MovePosition(enemy_rb.position + direciton * enemy_speed * Time.deltaTime);
-            enemyAnimator.SetBool("IsAttack", false);
         }
-        else
-        {
-            Debug.Log("АјАн");
-            enemyAnimator.SetBool("IsAttack", true);
-        }
-    }
-
-    public void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Tears"))
-        {
-            Tears tears = other.GetComponent<Tears>();
-
-            if (tears != null)
-            {
-                TakeDamage(tears.damage);
-            }
-        }
+       
     }
 
     public void TakeDamage(int damage)
@@ -97,7 +59,7 @@ public class ContactMonster : MonoBehaviour
 
         if (enemy_hp <= 0)
         {
-            enemyAnimator.SetBool("IsDead", true);
+            enemyAnimator.SetTrigger("IsDead");
             StartCoroutine(DieAnimation());
         }
     }
@@ -106,10 +68,5 @@ public class ContactMonster : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         this.gameObject.SetActive(false);
-    }
-
-    public void ProjecttileDamage(float damage)
-    {
-
     }
 }

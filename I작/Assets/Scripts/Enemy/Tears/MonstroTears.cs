@@ -1,30 +1,27 @@
-using Unity.VisualScripting;
-using UnityEditor.Rendering.Analytics;
+using UnityEditor.Rendering;
 using UnityEngine;
-using UnityEngine.WSA;
-using static UnityEngine.GraphicsBuffer;
 
-public class Enemytears : MonoBehaviour
+
+
+public class MonstroTears : MonoBehaviour
 {
-    public float speed;
-    public float range;
-    public Vector3 target;
-    public float timer=0;
-    public float lifetime = 5f;
-    public float damageRange = 0.1f;
-    public int damageAmount = 1;
-    bool launched;
+    private float speed;
+    private float range;
+    private float damage;
+    private Vector3 target;
+    private float timer=0;
+    private float lifetime = 5f;
+    private float damageRange = 0.1f;
     private bool _hasArrived = false;
+    private bool launched;
     public bool HasArrived => _hasArrived;
 
-    Collider2D tearscollider;
     Animator tearsAnimator;
     Rigidbody2D rb;
     private void Awake()
     {
         tearsAnimator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        tearscollider = GetComponent<Collider2D>();
     }
 
     
@@ -37,47 +34,43 @@ public class Enemytears : MonoBehaviour
         {
             ExplodeAndDestroyTears();
         }
-        if (!launched || _hasArrived) return;
 
+        if (launched || !_hasArrived)
+        {
+            // 1) 목표 지점까지 남은 거리
+            float dist = Vector2.Distance(transform.position, target);
+
+            // 2) 거리 이하가 되면 “도달” 처리
+            if (dist <= damageRange)
+            {
+                _hasArrived = true;            // 코루틴 대기 해제용 플래그
+                ExplodeAndDestroyTears();           // 팝 애니메이션 & 삭제
+            }
+        }
         
-        // 1) 목표 지점까지 남은 거리
-        float dist = Vector2.Distance(transform.position, target);
-
-        // 2) 거리 이하가 되면 “도달” 처리
-        if (dist <= damageRange)
-        {
-            _hasArrived = true;            // 코루틴 대기 해제용 플래그
-            HitPlayer();                   // 데미지 입히기
-            ExplodeAndDestroyTears();           // 팝 애니메이션 & 삭제
-        }
-    }
-
-    private void HitPlayer()
-    {
-        // 단순히 Tag 검색 후 데미지 호출 예시
-        Collider2D hit = Physics2D.OverlapCircle(transform.position, damageRange,
-                            LayerMask.GetMask("Player"));
-        if (hit != null)
-        {
-            var player = hit.GetComponent<Player>();
-        }
     }
 
     void ExplodeAndDestroyTears()
     {
         rb.linearVelocity = Vector2.zero;
         rb.gravityScale = 0f;
-        tearsAnimator.SetBool("Pop", true);
+        tearsAnimator.SetTrigger("Pop");
        
         Destroy(gameObject,0.2f);
         enabled = false;
+    }
+
+    public void SetTears(float Enemy_speed, float Enemy_range, float Enemy_damage)
+    {
+        speed = Enemy_speed;
+        range = Enemy_range;
+        damage = Enemy_damage;
     }
 
     public void LaunchTo(Vector3 targetPos, float _speed)
     {
         target = targetPos;
         speed = _speed;
-        launched = true;
         // 방향 벡터 계산
         Vector2 start2D = transform.position;
         Vector2 end2D = targetPos;
@@ -113,7 +106,7 @@ public class Enemytears : MonoBehaviour
         rb.linearVelocity = velocity;
     }
 
-    public void OnHitFrame(int Damage)
+    public void OnHitFrame()
     {
         Collider2D[] hits = Physics2D.OverlapCircleAll(
             transform.position,
@@ -126,12 +119,14 @@ public class Enemytears : MonoBehaviour
                 var player = hit.GetComponent<Player>();
                 if (player != null)
                 {
-                    Debug.Log("플레이어 데미지 2 받음");
+                    Debug.Log($"플레이어 데미지 {damage} 받음");
                     //player.TakeDamage(damage);
                     break;
                 }
             }
         }
     }
+
+    
 }
 
