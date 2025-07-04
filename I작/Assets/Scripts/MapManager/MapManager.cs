@@ -40,7 +40,6 @@ public class MapManager : MonoBehaviour
             Bounds bounds = tilemap.localBounds;
             tileWidth = bounds.size.x;
             tileHeight = bounds.size.y;
-            Debug.Log($"{tileWidth},{tileHeight}");
             return;
         }
 

@@ -64,6 +64,10 @@ public class Player : MonoBehaviour
         projectileSpeed = characterData.ProjectileSpeed;
         currentHp = hp;
 
+        headObject = transform.GetChild(0).gameObject;
+        bodyObject = transform.GetChild(1).gameObject;
+        totalbodyObject = transform.GetChild(2).gameObject;
+
         h = Animator.StringToHash("Horizontal");
         v = Animator.StringToHash("Vertical");
         isMove = Animator.StringToHash("IsMove");

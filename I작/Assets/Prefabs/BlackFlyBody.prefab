@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7904611307163445580}
   m_Layer: 0
   m_Name: BlackFly
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133,8 +133,7 @@ MonoBehaviour:
   enemy_atkRange: 0
   enemy_projectileSpeed: 0
   enemy_currentHp: 0
-  monsterAnimator: {fileID: 1743075982974888452}
-  attack: {fileID: 0}
+  enemyAnimator: {fileID: 0}
   target: {fileID: 0}
   enemy_rb: {fileID: 0}
 --- !u!50 &253064535871255820

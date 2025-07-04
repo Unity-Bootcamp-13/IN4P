@@ -1,8 +1,11 @@
-using Unity.VisualScripting;
-using UnityEditor.Rendering.Analytics;
 using UnityEngine;
-using UnityEngine.WSA;
-using static UnityEngine.GraphicsBuffer;
+
+public enum Tears_State
+{
+    None,
+    launched
+
+}
 
 public class Enemytears : MonoBehaviour
 {
@@ -13,7 +16,7 @@ public class Enemytears : MonoBehaviour
     public float lifetime = 5f;
     public float damageRange = 0.1f;
     public int damageAmount = 1;
-    bool launched;
+    Tears_State tears_state = Tears_State.None;
     private bool _hasArrived = false;
     public bool HasArrived => _hasArrived;
 
@@ -37,29 +40,33 @@ public class Enemytears : MonoBehaviour
         {
             ExplodeAndDestroyTears();
         }
-        if (!launched || _hasArrived) return;
+
+        if (tears_state == Tears_State.launched || !_hasArrived)
+        {
+            // 1) 목표 지점까지 남은 거리
+            float dist = Vector2.Distance(transform.position, target);
+
+            // 2) 거리 이하가 되면 “도달” 처리
+            if (dist <= damageRange)
+            {
+                _hasArrived = true;            // 코루틴 대기 해제용 플래그
+                HitPlayer();                   // 데미지 입히기
+                ExplodeAndDestroyTears();           // 팝 애니메이션 & 삭제
+            }
+        }
 
         
-        // 1) 목표 지점까지 남은 거리
-        float dist = Vector2.Distance(transform.position, target);
-
-        // 2) 거리 이하가 되면 “도달” 처리
-        if (dist <= damageRange)
-        {
-            _hasArrived = true;            // 코루틴 대기 해제용 플래그
-            HitPlayer();                   // 데미지 입히기
-            ExplodeAndDestroyTears();           // 팝 애니메이션 & 삭제
-        }
+       
     }
 
     private void HitPlayer()
     {
         // 단순히 Tag 검색 후 데미지 호출 예시
-        Collider2D hit = Physics2D.OverlapCircle(transform.position, damageRange,
-                            LayerMask.GetMask("Player"));
-        if (hit != null)
+        Collider2D hit = Physics2D.OverlapCircle(transform.position, damageRange);
+        if (hit != null && hit.CompareTag("Player"))
         {
             var player = hit.GetComponent<Player>();
+            // player.TakeDamage();
         }
     }
 
@@ -73,11 +80,16 @@ public class Enemytears : MonoBehaviour
         enabled = false;
     }
 
+    public void SetTears(float speed, float range, int damage)
+    {
+        
+    }
+
     public void LaunchTo(Vector3 targetPos, float _speed)
     {
         target = targetPos;
         speed = _speed;
-        launched = true;
+        tears_state = Tears_State.launched;
         // 방향 벡터 계산
         Vector2 start2D = transform.position;
         Vector2 end2D = targetPos;
