@@ -58,7 +58,8 @@ public class MapTest : MonoBehaviour
         int centerX = s_mapMaxX / 2;
         int centerY = s_mapMaxY / 2;
 
-        RoomClass startRoom = new RoomClass(centerX, centerY);
+        RoomClass startRoom = new RoomClass(centerX,centerY);
+
         Rooms.Add(startRoom);
         s_roomGraph[centerX, centerY] = 1;
         roomCnt++;
@@ -87,7 +88,8 @@ public class MapTest : MonoBehaviour
 
                     if (CanCreateRoom(nx, ny))
                     {
-                        RoomClass newRoom = new RoomClass(nx, ny);
+                        RoomClass newRoom = new RoomClass(nx,ny);
+
                         front._adjacencentRooms[i] = newRoom;
                         newRoom._adjacencentRooms[(i + 2) % 4] = front;
 

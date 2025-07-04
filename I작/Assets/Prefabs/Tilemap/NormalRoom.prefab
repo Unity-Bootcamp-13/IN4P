@@ -41,8 +41,9 @@ GameObject:
   m_Component:
   - component: {fileID: 966019375743271040}
   - component: {fileID: 7641380603345673336}
+  - component: {fileID: 6602889829593646726}
   m_Layer: 0
-  m_Name: StartRoom
+  m_Name: NormalRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,6 +77,27 @@ Grid:
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
+--- !u!114 &6602889829593646726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476873495079761659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a37f4339a2ec8564daa0b4a3db60c395, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorSpawnPoints:
+  - {fileID: 5833301887956208255}
+  - {fileID: 2357639511713133389}
+  - {fileID: 2870650797823690821}
+  - {fileID: 890050715421778028}
+  doorPrefabs:
+  - {fileID: 8696586667057630437, guid: 31c6b47f50a44c1418e54549ded9312f, type: 3}
+  - {fileID: 8696586667057630437, guid: 74eaa87b04da6ce46abf3124f5c43324, type: 3}
+  - {fileID: 8696586667057630437, guid: 7d2cbeb5fceba1b49af4a0d3bdb047de, type: 3}
 --- !u!1 &4430514124434073479
 GameObject:
   m_ObjectHideFlags: 0
