@@ -223,15 +223,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gaperData: {fileID: 11400000, guid: 08cfa7eac0dbbd241b81aef60b8a04e9, type: 2}
-  gaper_hp: 0
-  gaper_atk: 0
-  gaper_atkSpeed: 0
-  gaper_speed: 0
-  gaper_atkRange: 0
-  gaper_projectileSpeed: 0
-  gaper_currentHp: 0
-  gaperAnimator: {fileID: 0}
-  gaper_rb: {fileID: 0}
+  gusher_hp: 0
+  gusher_atk: 0
+  gusher_atkSpeed: 0
+  gusher_speed: 0
+  gusher_atkRange: 0
+  gusher_projectileSpeed: 0
+  gusher_currentHp: 0
+  gusher_projectileDamage: 0
+  gusher_Animator: {fileID: 0}
+  tearsPrefab: {fileID: 8347038662915090392, guid: 8357237898c4533489e6ab1963cc1aed, type: 3}
+  gusher_rb: {fileID: 0}
 --- !u!1 &2613147568843034520
 GameObject:
   m_ObjectHideFlags: 0

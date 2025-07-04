@@ -174,4 +174,22 @@ public class Player : MonoBehaviour
             }
         }
     }
+
+    public void TakeDamage(int damage)
+    {
+        Debug.Log($"Player 데미지{damage} 입음");
+
+        hp -= damage;
+        
+        if(hp <= 0)
+        {
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        
+    }
+
 }

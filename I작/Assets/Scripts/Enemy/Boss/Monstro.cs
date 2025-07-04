@@ -297,7 +297,7 @@ public class Monstro : MonoBehaviour
         int tearCount = 12;
         float radius = 1.8f;
         float circleStep = 360f / tearCount;
-        var tearsList = new List<Enemytears>();
+        var tearsList = new List<MonstroTears>();
 
         // 1) 한 프레임에 12개 동시에 생성
         for (int i = 0; i < tearCount; i++)
@@ -312,7 +312,7 @@ public class Monstro : MonoBehaviour
 
             // 3) 스폰 및 Launch 호출
             GameObject t = Instantiate(tears, headPos, Quaternion.identity);
-            if (t.TryGetComponent<Enemytears>(out var et))
+            if (t.TryGetComponent<MonstroTears>(out var et))
             {
                 et.LaunchTo(targetPos, boss_attackSpeed);
                 tearsList.Add(et);

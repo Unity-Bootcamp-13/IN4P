@@ -16,9 +16,9 @@ MonoBehaviour:
   characterName: Gaper
   headSprite: {fileID: 3647803251483814702, guid: 25d7a721ad425fa498ed9287c9082dc0, type: 3}
   bodySprite: {fileID: 4980409377013969977, guid: dc3e9461f6c0a784789ab3e723c2af98, type: 3}
-  playerHp: 1
-  atk: 0
+  playerHp: 10
+  atk: 1
   atkSpeed: 0
   speed: 3
-  atkRange: 0
-  projectileSpeed: 0
+  atkRange: 5
+  projectileSpeed: 2
