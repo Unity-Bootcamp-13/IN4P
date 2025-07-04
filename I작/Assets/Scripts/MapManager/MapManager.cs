@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using UnityEditor;
+using UnityEditor.Build.Content;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -8,6 +10,7 @@ public class MapManager : MonoBehaviour
     public GameObject bossRoomPrefab;
     public GameObject normalRoomPrefab;
     public GameObject treasureRoomPrefab;
+
     public Transform roomParent;         // 방들을 담을 부모 오브젝트 (계층 정리용)
     public int roomCount = 10;           // 생성할 방 개수
     public int mapSize = 8;              // 8x8 맵
@@ -17,6 +20,7 @@ public class MapManager : MonoBehaviour
     private int[,] s_roomGraph;
     public List<RoomClass> Rooms = new List<RoomClass>();
     private Queue<RoomClass> roomClassQueue = new Queue<RoomClass>();
+    public List<GameObject> gameObjects = new List<GameObject>();
 
     private int roomCnt = 0;
     private int s_mapMaxX, s_mapMaxY;
@@ -40,11 +44,9 @@ public class MapManager : MonoBehaviour
             Bounds bounds = tilemap.localBounds;
             tileWidth = bounds.size.x;
             tileHeight = bounds.size.y;
-            Debug.Log($"{tileWidth},{tileHeight}");
             return;
         }
 
-        Debug.LogError("SpriteRenderer 또는 Tilemap을 찾을 수 없습니다!");
     }
 
 
@@ -121,9 +123,27 @@ public class MapManager : MonoBehaviour
         GameObject go = Instantiate(prefabToUse, position, Quaternion.identity, roomParent);
         go.name = $"Room ({x},{y})";
 
-        room.VisualObject = go.transform.GetChild(0).gameObject;
+        room.childObject = go.transform.GetChild(0).gameObject;
+
+        go.GetComponent<RoomComponent>().Init(room);
+
+        gameObjects.Add(go);
     }
     
+
+    void CreateDoor()
+    {
+        for (int i = 0; i < gameObjects.Count; i++)
+        {
+            if (gameObjects[i] == null)
+            {
+                continue;
+            }
+
+            gameObjects[i].GetComponent<RoomComponent>().CreateDoors();
+        }
+    }
+
 
     bool CanCreateRoom(int x, int y)
     {
@@ -141,7 +161,7 @@ public class MapManager : MonoBehaviour
 
         return true;
     }
-   
+
     int CheckAdjacentRoomCount(int x, int y)
     {
         int count = 0;
@@ -149,7 +169,7 @@ public class MapManager : MonoBehaviour
         // 상, 우, 하, 좌
         int[] dx = { 0, 1, 0, -1 };
         int[] dy = { 1, 0, -1, 0 };
-        
+
         for (int i = 0; i < 4; i++)
         {
             int nx = x + dx[i];
@@ -188,23 +208,24 @@ public class MapManager : MonoBehaviour
         foreach (var endRoom in result.allEndRooms)
         {
             endRoom.Type = RoomType.End;
-            
+
         }
         result.allEndRooms.Remove(startRoom);
 
         int rand = Random.Range(0, result.allEndRooms.Count);
-        result.allEndRooms[rand].Type = RoomType.Treasure;
-        ReplaceRoom(result.allEndRooms[rand]);
+        RoomClass randomRoom = result.allEndRooms[rand];
+        randomRoom.Type = RoomType.Treasure;
+        ReplaceRoom(randomRoom);
     }
 
-   
+
 
     void ReplaceRoom(RoomClass room)
     {
-        if (room.VisualObject != null)
+        if (room.childObject != null)
         {
-            Destroy(room.VisualObject.transform.parent.gameObject); // 전체 방 오브젝트 제거
-            room.VisualObject = null;
+            Destroy(room.childObject.transform.parent.gameObject); // 전체 방 오브젝트 제거
+            room.childObject = null;
         }
 
         CreateRoomObject(room.XPos, room.YPos); // 이 안에서 VisualObject 다시 연결됨
@@ -280,21 +301,21 @@ public class MapManager : MonoBehaviour
         }
     }
 
-    public void CreateDoor()
-    {
-
-        foreach (var room in Rooms)
-        {
-            for (int i = 0; i < 4; i++)
-            {
-                if (room._adjacencentRooms[i] != null)
-                {
-                    room.VisualObject.transform.GetChild(i).gameObject.SetActive(true);
-                }
-            }
-        }
-    }
+    //public void CreateDoor()
+    //{
+    //    foreach (var room in Rooms)
+    //    {
+    //        for (int i = 0; i < 4; i++)
+    //        {
+    //            if (room._adjacencentRooms[i] != null)
+    //            {
+    //                room.VisualObject.transform.GetChild(i).gameObject.SetActive(true);
+    //            }
+    //        }
+    //    }
+    //}
 }
+
 
 
 //  끝방 정보 구조체
