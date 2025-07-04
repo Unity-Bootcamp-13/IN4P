@@ -62,15 +62,27 @@ public class RoomComponent : MonoBehaviour
         StartCoroutine(C_CameraMove(nextRoom));
     }
 
-    public IEnumerator C_CameraMove(RoomComponent room)
+    public void SetMiniMap(RoomComponent nextRoom)
+    {
+        //nextRoom.roomData.miniMapSprite.color.
+
+        for (int i = 0; i < doorList.Length; i++)
+        {
+            if (doorList[i] != null)
+            {
+                doorList[i].GetComponent<Portal>().OpenDoor();
+            }
+        }
+    }
+
+    public IEnumerator C_CameraMove(RoomComponent nextRoom)
     {
         float t = 0.5f;
         float elapse = 0f;
         Vector3 startPos = mainCamera.transform.position;
-        Vector3 endPos = room.transform.position + new Vector3(0,0,-10);
+        Vector3 endPos = nextRoom.transform.position + new Vector3(0,0,-10);
         while (elapse <= t)
         {
-            Debug.Log("코루틴 진입");
             mainCamera.transform.position = Vector3.Lerp(startPos, endPos, elapse/t);
             elapse += Time.deltaTime;
             yield return null;
@@ -97,7 +109,6 @@ public class RoomComponent : MonoBehaviour
 
     public void CloseDoors()
     {
-        Debug.Log("문닫힘");
         for (int i = 0; i < doorList.Length; i++)
         {
             if (doorList[i] != null)
@@ -110,7 +121,6 @@ public class RoomComponent : MonoBehaviour
 
     public void OpenDoors()
     {
-        Debug.Log("문열림");
         for (int i = 0; i < doorList.Length; i++)
         {
             if (doorList[i] != null)
@@ -119,4 +129,5 @@ public class RoomComponent : MonoBehaviour
             }
         }
     }
+
 }

@@ -11,8 +11,8 @@ public class HeartItem : MonoBehaviour
 
             if (player.currentHp < player.hp)
             {
-                player.currentHp++; 
-                    //Mathf.Min(player.currentHp++, player.hp);
+                player.currentHp++;
+                Mathf.Clamp(player.currentHp, 0, player.hp);
                 Destroy(gameObject);
             }
         }

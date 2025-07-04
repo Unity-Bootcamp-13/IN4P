@@ -26,6 +26,7 @@ public class RoomClass
     public RoomClass[] _adjacencentRooms = new RoomClass[4];
 
     public GameObject childObject;
+    public SpriteRenderer miniMapSprite;
 
     // 확장: Room 타입 (예: 일반, 보스, 상점 등)
     public RoomType Type;

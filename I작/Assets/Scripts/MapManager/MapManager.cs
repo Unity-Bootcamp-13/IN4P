@@ -137,6 +137,20 @@ public class MapManager : MonoBehaviour
 
         Vector3 spritePosition = new Vector3(x * spriteWidth + 100, y * spriteHeight + 100, 0);
         GameObject spriteGo = Instantiate(miniMapPrefab, spritePosition, Quaternion.identity, roomParent);
+        SpriteRenderer spriteRenderer = spriteGo.transform.GetChild(0).GetComponent<SpriteRenderer>();
+        switch (room.Type)
+        {
+            case RoomType.Boss:
+                spriteRenderer.color = Color.red;
+                break;
+            case RoomType.Treasure:
+                spriteRenderer.color = Color.yellow;
+                break;
+            default:
+                spriteRenderer.color = Color.white;
+                break;
+        }
+        room.miniMapSprite = spriteRenderer;
     }
     
 
