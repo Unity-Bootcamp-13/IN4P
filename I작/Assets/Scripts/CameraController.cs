@@ -13,6 +13,8 @@ public class CameraController : MonoBehaviour
     [SerializeField] private float smoothTime = 0.2f;
     private Vector3 velocity = Vector3.zero;
 
+    public RoomClass room;
+
     public Tilemap tilePrefab;
 
     // 클램프 범위
@@ -99,7 +101,7 @@ public class CameraController : MonoBehaviour
             minY = maxY = b.center.y;
         }
 
-        // 증시 카메라 위치 갱신
+        // 즉시 카메라 위치 갱신
         JumpToTarget();
 
     }

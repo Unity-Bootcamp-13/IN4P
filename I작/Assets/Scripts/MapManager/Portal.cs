@@ -6,6 +6,7 @@ public class Portal : MonoBehaviour
     public Collider2D portalCollider;
     public Transform targetPosition;
     public Action<int> portalAction;
+
         
     public int thisDirction;
 

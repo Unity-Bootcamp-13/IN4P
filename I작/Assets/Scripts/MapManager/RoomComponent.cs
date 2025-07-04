@@ -1,14 +1,17 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using NUnit.Framework;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class RoomComponent : MonoBehaviour
 {
+    public Camera mainCamera;
     public Transform[] doorSpawnPoints = new Transform[4]; // 상우하좌
     public GameObject[] doorPrefabs;
     public bool playerIsHere;
-    
+    public int monsterCount = 5;
 
     private RoomClass roomData;
     private GameObject[] doorList = new GameObject[4];
@@ -17,7 +20,13 @@ public class RoomComponent : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.C))
         {
-            OpenDoors();
+            Debug.Log(monsterCount);
+            monsterCount--;
+
+            if (monsterCount == 0)
+            {
+                OpenDoors();
+            }
         }
     }
 
@@ -41,13 +50,33 @@ public class RoomComponent : MonoBehaviour
             GameObject doorGo = Instantiate(prefab, doorSpawnPoints[i].position, doorSpawnPoints[i].rotation, doorSpawnPoints[i]);
             doorList[i] = doorGo;
             doorGo.GetComponent<Portal>().thisDirction = i;
-            doorGo.GetComponent<Portal>().portalAction += SetCharacter;
+            doorGo.GetComponent<Portal>().portalAction += SetRoomState;
         }
     }
 
-    private void SetCharacter(int direction)
+    private void SetRoomState(int direction)
     {
-        roomData._adjacencentRooms[direction].childObject.GetComponentInParent<RoomComponent>().CloseDoors();
+        RoomComponent nextRoom = roomData._adjacencentRooms[direction].childObject.GetComponentInParent<RoomComponent>();
+        nextRoom.CloseDoors();
+
+        StartCoroutine(C_CameraMove(nextRoom));
+    }
+
+    public IEnumerator C_CameraMove(RoomComponent room)
+    {
+        float t = 0.5f;
+        float elapse = 0f;
+        Vector3 startPos = mainCamera.transform.position;
+        Vector3 endPos = room.transform.position + new Vector3(0,0,-10);
+        while (elapse <= t)
+        {
+            Debug.Log("코루틴 진입");
+            mainCamera.transform.position = Vector3.Lerp(startPos, endPos, elapse/t);
+            elapse += Time.deltaTime;
+            yield return null;
+        }
+        mainCamera.transform.position = endPos;
+        
     }
 
     private DoorType GetDoorTypeTo(RoomClass neighbor)
@@ -74,6 +103,7 @@ public class RoomComponent : MonoBehaviour
             if (doorList[i] != null)
             {
                 doorList[i].GetComponent<Portal>().CloseDoor();
+                monsterCount = 5;
             }
         }
     }

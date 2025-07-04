@@ -6,6 +6,7 @@ using UnityEngine.Tilemaps;
 
 public class MapManager : MonoBehaviour
 {
+    public GameObject miniMapPrefab;
     public GameObject startRoomPrefab;
     public GameObject bossRoomPrefab;
     public GameObject normalRoomPrefab;
@@ -25,6 +26,7 @@ public class MapManager : MonoBehaviour
     private int roomCnt = 0;
     private int s_mapMaxX, s_mapMaxY;
     private float tileWidth, tileHeight;
+    private float spriteWidth, spriteHeight;
 
     void Start()
     {
@@ -44,9 +46,16 @@ public class MapManager : MonoBehaviour
             Bounds bounds = tilemap.localBounds;
             tileWidth = bounds.size.x;
             tileHeight = bounds.size.y;
-            return;
         }
 
+        SpriteRenderer roomSprite = miniMapPrefab.GetComponentInChildren<SpriteRenderer>();
+        if (roomSprite != null)
+        {
+            Bounds bounds = roomSprite.localBounds;
+            Vector3 scale = roomSprite.transform.lossyScale;
+            spriteWidth = bounds.size.x * scale.x;
+            spriteHeight = bounds.size.y * scale.y;
+        }
     }
 
 
@@ -122,12 +131,12 @@ public class MapManager : MonoBehaviour
 
         GameObject go = Instantiate(prefabToUse, position, Quaternion.identity, roomParent);
         go.name = $"Room ({x},{y})";
-
         room.childObject = go.transform.GetChild(0).gameObject;
-
         go.GetComponent<RoomComponent>().Init(room);
-
         gameObjects.Add(go);
+
+        Vector3 spritePosition = new Vector3(x * spriteWidth + 100, y * spriteHeight + 100, 0);
+        GameObject spriteGo = Instantiate(miniMapPrefab, spritePosition, Quaternion.identity, roomParent);
     }
     
 
