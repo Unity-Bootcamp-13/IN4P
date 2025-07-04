@@ -22,8 +22,7 @@ public class Monstro : MonoBehaviour
 {
     public string boss_name = "Monstro";
     public int boss_hp = 250;
-    public float boss_speed = 2;
-    public float boss_knockback;
+    public float boss_knockback= 0.7f;
     public int boss_oneDamage = 2;
     public int boss_halfDamage = 1;
     public float boss_attackSpeed = 5f;
@@ -42,6 +41,13 @@ public class Monstro : MonoBehaviour
     private Coroutine _damageRoutine;
     private Collider2D bosscollider;
     public GameObject tears;
+    private Rigidbody2D boss_rb;
+    
+
+    private readonly int LowJump = Animator.StringToHash("LowJump");
+    private readonly int HighJump = Animator.StringToHash("HighJump");
+    private readonly int BloodAttack = Animator.StringToHash("BloodAttack");
+    private readonly int Dead = Animator.StringToHash("Dead");
 
     private async void Start()
     {
@@ -49,7 +55,7 @@ public class Monstro : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         player = GameObject.FindGameObjectWithTag("Player");
         bosscollider = GetComponent<Collider2D>();
-
+        boss_rb = GetComponent<Rigidbody2D>();
         await Task.Delay(500);
     }
 
@@ -110,7 +116,7 @@ public class Monstro : MonoBehaviour
     private IEnumerator LowJumpRoutine()
     {
         _bossState = BossState.jump;
-        animator.SetTrigger("LowJump");
+        animator.SetTrigger(LowJump);
         yield return null;
     }
 
@@ -118,37 +124,20 @@ public class Monstro : MonoBehaviour
     private IEnumerator BloodAttackRoutine()
     {
         
-        animator.SetTrigger("BloodAttack");
+        animator.SetTrigger(BloodAttack);
         yield return null;
     }
 
     private IEnumerator HighJumpRoutine()
     {
         _bossState = BossState.jump;
-        animator.SetTrigger("HighJump");
+        animator.SetTrigger(HighJump);
         yield return null;
         
         
     }
 
-    public void OnHitFrame()
-    {
-        Vector3 p = player.transform.position;
-        if(bosscollider.bounds.Contains(p))
-        { 
-             Debug.Log("플레이어 데미지 1 입음");
-        }
-    }
-
-
-public void TakeDamage(int damage)
-    {
-        boss_hp -= damage;
-        if (boss_hp <= 0)
-        {
-            bossDie();
-        }
-    }
+    
 
     
     public void spriteRendereroff()
@@ -330,8 +319,34 @@ public void TakeDamage(int damage)
             }
         }
         yield return new WaitUntil(() =>
-       tearsList.TrueForAll(et => et == null || et.HasArrived)
-   );
+                                    tearsList.TrueForAll(et => et == null || et.HasArrived)
+                                    );
+    }
+
+    public void OnHitFrame()
+    {
+        Vector3 p = player.transform.position;
+        if (bosscollider.bounds.Contains(p))
+        {
+            log();
+        }
+    }
+
+
+    public void TakeDamage(int damage , Vector2? attackOrigin = null)
+    {
+        boss_hp -= damage;
+
+        if (attackOrigin.HasValue)
+        {
+            Vector2 dir = ((Vector2)transform.position - attackOrigin.Value).normalized;
+            boss_rb.AddForce(dir * boss_knockback, ForceMode2D.Impulse);
+        }
+
+        if (boss_hp <= 0)
+        {
+            bossDie();
+        }
     }
 
     public void bossDie()
@@ -339,10 +354,12 @@ public void TakeDamage(int damage)
         bosscollider.enabled = false;
         enabled = false;  
 
-        animator.SetTrigger("Dead");
+        animator.SetTrigger(Dead);
 
         StartCoroutine(DeathShake());
     }
+
+
 
     private IEnumerator DeathShake()
     {
