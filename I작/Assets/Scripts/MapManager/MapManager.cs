@@ -69,7 +69,7 @@ public class MapManager : MonoBehaviour
         int centerY = s_mapMaxY / 2;
 
         RoomClass startRoom = new RoomClass(centerX, centerY);
-        startRoom.Type = RoomType.Start;
+        startRoom.Type = LegacyRoomType.Start;
         Rooms.Add(startRoom);
         s_roomGraph[centerX, centerY] = 1;
         roomCnt++;
@@ -140,10 +140,10 @@ public class MapManager : MonoBehaviour
         SpriteRenderer spriteRenderer = spriteGo.transform.GetChild(0).GetComponent<SpriteRenderer>();
         switch (room.Type)
         {
-            case RoomType.Boss:
+            case LegacyRoomType.Boss:
                 spriteRenderer.color = Color.red;
                 break;
-            case RoomType.Treasure:
+            case LegacyRoomType.Treasure:
                 spriteRenderer.color = Color.yellow;
                 break;
             default:
@@ -223,21 +223,21 @@ public class MapManager : MonoBehaviour
         if (result.farthestEndRoom != null)
         {
             RoomClass bossRoom = result.farthestEndRoom;
-            bossRoom.Type = RoomType.Boss;
+            bossRoom.Type = LegacyRoomType.Boss;
 
             ReplaceRoom(bossRoom);
             result.allEndRooms.Remove(bossRoom);
         }
         foreach (var endRoom in result.allEndRooms)
         {
-            endRoom.Type = RoomType.End;
+            endRoom.Type = LegacyRoomType.End;
 
         }
         result.allEndRooms.Remove(startRoom);
 
         int rand = Random.Range(0, result.allEndRooms.Count);
         RoomClass randomRoom = result.allEndRooms[rand];
-        randomRoom.Type = RoomType.Treasure;
+        randomRoom.Type = LegacyRoomType.Treasure;
         ReplaceRoom(randomRoom);
     }
 
@@ -290,7 +290,7 @@ public class MapManager : MonoBehaviour
             if (connectedCount == 1)
             {
                 endRooms.Add(current);
-                current.Type = RoomType.End;
+                current.Type = LegacyRoomType.End;
 
                 if (depth > maxDepth)
                 {
@@ -307,17 +307,17 @@ public class MapManager : MonoBehaviour
         };
     }
 
-    GameObject GetRoomPrefabByType(RoomType type)
+    GameObject GetRoomPrefabByType(LegacyRoomType type)
     {
         switch (type)
         {
-            case RoomType.Start:
+            case LegacyRoomType.Start:
                 return startRoomPrefab;
-            case RoomType.Boss:
+            case LegacyRoomType.Boss:
                 return bossRoomPrefab;
             //case RoomType.End:
             //    return endRoomPrefab;
-            case RoomType.Treasure:
+            case LegacyRoomType.Treasure:
                 return treasureRoomPrefab;
             default:
                 return normalRoomPrefab;

@@ -95,8 +95,8 @@ public class RoomComponent : MonoBehaviour
     {
         return neighbor.Type switch
         {
-            RoomType.Boss => DoorType.Boss,
-            RoomType.Treasure => DoorType.Treasure,
+            LegacyRoomType.Boss => DoorType.Boss,
+            LegacyRoomType.Treasure => DoorType.Treasure,
             _ => DoorType.Normal,
         };
     }
