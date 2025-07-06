@@ -48,7 +48,9 @@ public class TearsAttack : IAttackBehavior
     {
         GameObject go = GetTearFromPool();
         Tears tear = go.GetComponent<Tears>();
-
+        tear.speed = speed;
+        tear.range = range;
+        tear.damage = damage;
         tear.dir = dir switch
         {
             "Up" => Vector2.up,

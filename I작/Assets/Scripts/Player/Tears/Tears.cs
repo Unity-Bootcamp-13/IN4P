@@ -54,7 +54,6 @@ public class Tears : MonoBehaviour
 
     void DestoryTears()
     {
-        Debug.Log("´«¹° »èÁ¦");
         this.gameObject.SetActive(false);
         returnAction?.Invoke();
     }
