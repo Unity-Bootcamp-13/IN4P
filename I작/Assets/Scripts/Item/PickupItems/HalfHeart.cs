@@ -1,8 +1,7 @@
 using UnityEngine;
 
-public class HeartItem : MonoBehaviour
+public class HalfHeart : MonoBehaviour
 {
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player")
@@ -11,7 +10,7 @@ public class HeartItem : MonoBehaviour
 
             if (player.currentHp < player.hp)
             {
-                player.currentHp++;
+                player.currentHp ++;
                 Mathf.Clamp(player.currentHp, 0, player.hp);
                 Destroy(gameObject);
             }
