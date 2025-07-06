@@ -1,0 +1,905 @@
+fileFormatVersion: 2
+guid: 1ead3aeead93a5947b6ba20416b0e7a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4079804124745814919
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_0
+  - first:
+      213: -8594117204742249771
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_1
+  - first:
+      213: 3394678664904490509
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_2
+  - first:
+      213: 7606060545717856788
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_3
+  - first:
+      213: -8357716948229801917
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_4
+  - first:
+      213: -7683083522677262545
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_5
+  - first:
+      213: -1849019310854910888
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_6
+  - first:
+      213: -8666736653474245586
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_7
+  - first:
+      213: 3892313066443385792
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_8
+  - first:
+      213: 220365276938122716
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_9
+  - first:
+      213: 4505020641355033660
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_10
+  - first:
+      213: -4680844745593099692
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_11
+  - first:
+      213: 6876966654033801878
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_12
+  - first:
+      213: -7446646756779268447
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_13
+  - first:
+      213: 2304658059774864470
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_14
+  - first:
+      213: 1502373974410921076
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_15
+  - first:
+      213: 1748185171127901584
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_16
+  - first:
+      213: -8171435395987910046
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_17
+  - first:
+      213: -5261648784651801606
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_18
+  - first:
+      213: -3584800486070054562
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_19
+  - first:
+      213: -456988452148509219
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_20
+  - first:
+      213: -971986623554981245
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_21
+  - first:
+      213: 6318200646365124295
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_22
+  - first:
+      213: 4393431610239439036
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_23
+  - first:
+      213: 7250045193054435379
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_24
+  - first:
+      213: 9053062723693409568
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_25
+  - first:
+      213: 8745279475507869825
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_26
+  - first:
+      213: -6412200643676029148
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_27
+  - first:
+      213: 5677342918340132922
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_28
+  - first:
+      213: -4346109461480408781
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_29
+  - first:
+      213: -768051316626756652
+    second: PC Computer - The Binding of Isaac Rebirth - Brimstone_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 337
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783d5a85c306e9830800000000000000
+      internalID: 4079804124745814919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 337
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2e3459fef8bb880800000000000000
+      internalID: -8594117204742249771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 337
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0eba3c82425c1f20800000000000000
+      internalID: 3394678664904490509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 337
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a60a784c72e8960800000000000000
+      internalID: 7606060545717856788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_4
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 335
+        width: 58
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348308777bc630c80800000000000000
+      internalID: -8357716948229801917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_5
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 334
+        width: 58
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f273a2b2e34306590800000000000000
+      internalID: -7683083522677262545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_6
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 334
+        width: 58
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85cc7a9bbb6f656e0800000000000000
+      internalID: -1849019310854910888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_7
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 273
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e245fc79ee099b780800000000000000
+      internalID: -8666736653474245586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_8
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 273
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb28ff8c16440630800000000000000
+      internalID: 3892313066443385792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_9
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 273
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd53ab44d05ee0300800000000000000
+      internalID: 220365276938122716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_10
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 272
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ce4c9976c058e30800000000000000
+      internalID: 4505020641355033660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_11
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 272
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a6b2a018c4a0fb0800000000000000
+      internalID: -4680844745593099692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_12
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 271
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69234e17cb4ef6f50800000000000000
+      internalID: 6876966654033801878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_13
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 271
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a66b5e8a3238a890800000000000000
+      internalID: -7446646756779268447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 209
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c2f957b4acbff10800000000000000
+      internalID: 2304658059774864470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_15
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 209
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4740e887b2189d410800000000000000
+      internalID: 1502373974410921076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_16
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 209
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d1fae962dc24810800000000000000
+      internalID: 1748185171127901584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_17
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 209
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262561d2dca399e80800000000000000
+      internalID: -8171435395987910046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_18
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 207
+        width: 58
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afba6f9ce4edaf6b0800000000000000
+      internalID: -5261648784651801606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_19
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 207
+        width: 58
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51952573fa304ec0800000000000000
+      internalID: -3584800486070054562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_20
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 207
+        width: 58
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd58b3b8c6378a9f0800000000000000
+      internalID: -456988452148509219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_21
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 147
+        width: 58
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382f290d05fc282f0800000000000000
+      internalID: -971986623554981245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_22
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 147
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c69c3a3302cea750800000000000000
+      internalID: 6318200646365124295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_23
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 147
+        width: 63
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb05b49a5ca98fc30800000000000000
+      internalID: 4393431610239439036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_24
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 148
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338b981d0b55d9460800000000000000
+      internalID: 7250045193054435379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_25
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 81
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025731ff490f2ad70800000000000000
+      internalID: 9053062723693409568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_26
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 81
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188392739597d5970800000000000000
+      internalID: 8745279475507869825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_27
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 81
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fb825ec794307a0800000000000000
+      internalID: -6412200643676029148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_28
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 19
+        width: 58
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a304ebbed49f9ce40800000000000000
+      internalID: 5677342918340132922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_29
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 19
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339fe71b8748fa3c0800000000000000
+      internalID: -4346109461480408781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Brimstone_30
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 19
+        width: 63
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dbe03795655755f0800000000000000
+      internalID: -768051316626756652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

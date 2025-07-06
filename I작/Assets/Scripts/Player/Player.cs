@@ -80,7 +80,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        attack.SetTears(projectileSpeed, atkRange, (int)atk);
+        attack.SetPlayerStats(projectileSpeed, atkRange, (int)atk);
     }
 
     public void Update()
@@ -133,6 +133,7 @@ public class Player : MonoBehaviour
     public void OnUpAttack(InputAction.CallbackContext context)
     {
         OnAttack(context, Quaternion.Euler(0, 0, 180), HeadUp);
+
     }
 
     public void OnDownAttack(InputAction.CallbackContext context)

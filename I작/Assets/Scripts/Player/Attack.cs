@@ -2,91 +2,73 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
 
+public interface IAttackBehavior
+{
+    void Attack(string dir);
+}
+
 public class Attack : MonoBehaviour
 {
     [SerializeField] private GameObject tearsPrefab;
+    [SerializeField] private GameObject brimstonePrefab;
     [SerializeField] private int poolSize = 50;
-    private Queue<GameObject> pool = new Queue<GameObject>();
 
     [SerializeField] private Transform leftEye;
     [SerializeField] private Transform rightEye;
+    [SerializeField] private Transform Mouse;
+    private IAttackBehavior attackBehavior;
 
-    private bool launchPlace;
+    private float playerRanged;
+    private float playerAtkspeed;
+    private int playerAtk;
 
 
     private void Awake()
     {
-        for (int i = 0; i < poolSize; i++)
+        attackBehavior = new TearsAttack(this, tearsPrefab, leftEye, rightEye, 50);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.B))
         {
-            GameObject tear = Instantiate(tearsPrefab);
-            tear.SetActive(false);
-            pool.Enqueue(tear);
+            Debug.Log("ºê¸²½ºÅæ(Ç÷»çÆ÷) ÀüÈ¯");
+            SwitchToBrimstone();
+        }
+        else if (Input.GetKeyDown(KeyCode.T))
+        {
+            Debug.Log("´«¹° ÀüÈ¯");
+            SwitchToTears();
         }
     }
 
-    void CreateTears(string dir)
+    public void SetPlayerStats(float Atkspeed, float range, int damage)
     {
-        GameObject go = GetTearFromPool();
-        Tears tear = go.GetComponent<Tears>();
-
-        switch (dir)
+        playerAtk = damage;
+        playerRanged = range;
+        playerAtkspeed = Atkspeed;
+        if (attackBehavior is TearsAttack tears)
         {
-            case "Up":
-                tear.dir = new Vector2(0, 1);
-                break;
-            case "Down":
-                tear.dir = new Vector2(0, -1);
-                break;
-            case "Left":
-                tear.dir = new Vector2(-1, 0);
-                break;
-            case "Right":
-                tear.dir = new Vector2(1, 0);
-                break;
-        }
-
-        if (launchPlace)
-        {
-            go.transform.position = leftEye.position;
-            launchPlace = false;
-        }
-        else
-        {
-            go.transform.position = rightEye.position;
-            launchPlace = true;
-        }
-
-        tear.SetReturnAction(() => ReturnToPool(go));
-    }
-
-    private GameObject GetTearFromPool()
-    {
-        if (pool.Count > 0)
-        {
-            GameObject tear = pool.Dequeue();
-            tear.SetActive(true);
-            return tear;
-        }
-        else
-        {
-            GameObject tear = Instantiate(tearsPrefab);            
-            return tear;
+            tears.SetStats(Atkspeed, range, damage);
         }
     }
 
-    private void ReturnToPool(GameObject tear)
+    public void AttackDirection(string dir)
     {
-        tear.SetActive(false);
-        pool.Enqueue(tear);
+        attackBehavior.Attack(dir);
     }
 
-    public void SetTears(float speed, float range, int damage)
+    public void SwitchToBrimstone()
     {
-        foreach (var tear in pool)
-        {
-            tear.GetComponent<Tears>().damage = damage;
-            tear.GetComponent<Tears>().speed = speed;
-            tear.GetComponent<Tears>().range = range;
-        }
+        attackBehavior = new BrimstoneAttack(brimstonePrefab, Mouse, playerAtk); // playerAtk´Â float
+    }
+
+    public void SwitchToTears()
+    {
+        var newTears = new TearsAttack(this, tearsPrefab, leftEye, rightEye, 50);
+
+        newTears.SetStats(playerAtkspeed, playerRanged, playerAtk);
+
+        attackBehavior = newTears;
     }
 }
