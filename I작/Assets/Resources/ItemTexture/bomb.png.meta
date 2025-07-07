@@ -1,0 +1,2067 @@
+fileFormatVersion: 2
+guid: f0dcfdb3fc0358f40867b6fec958e5f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7239943097078028747
+    second: Isaac_bomb_0
+  - first:
+      213: -1085615322625459021
+    second: Isaac_bomb_1
+  - first:
+      213: -7675268624695329065
+    second: Isaac_bomb_2
+  - first:
+      213: -8390032663221134093
+    second: Isaac_bomb_3
+  - first:
+      213: 6858833602080712468
+    second: Isaac_bomb_4
+  - first:
+      213: 1945267056984264584
+    second: Isaac_bomb_5
+  - first:
+      213: -7922820623452841173
+    second: Isaac_bomb_6
+  - first:
+      213: 1414021161748167030
+    second: Isaac_bomb_7
+  - first:
+      213: -9122720889366508630
+    second: Isaac_bomb_8
+  - first:
+      213: 6831246605989754567
+    second: Isaac_bomb_9
+  - first:
+      213: -414821939724180224
+    second: Isaac_bomb_10
+  - first:
+      213: -5049617796292443140
+    second: Isaac_bomb_11
+  - first:
+      213: -446173757314394613
+    second: Isaac_bomb_12
+  - first:
+      213: -4631953318765562624
+    second: Isaac_bomb_13
+  - first:
+      213: -3858304648538608588
+    second: Isaac_bomb_14
+  - first:
+      213: -3161170697916192293
+    second: Isaac_bomb_15
+  - first:
+      213: 6837631500507919023
+    second: Isaac_bomb_16
+  - first:
+      213: 5311200964021352336
+    second: Isaac_bomb_17
+  - first:
+      213: 4476809787477245944
+    second: Isaac_bomb_18
+  - first:
+      213: 5663346953250470507
+    second: Isaac_bomb_19
+  - first:
+      213: -7845593886002367827
+    second: Isaac_bomb_20
+  - first:
+      213: 679736488626672794
+    second: Isaac_bomb_21
+  - first:
+      213: -2437184450626386559
+    second: Isaac_bomb_22
+  - first:
+      213: -8729429727447715262
+    second: Isaac_bomb_23
+  - first:
+      213: 166272472244815588
+    second: Isaac_bomb_24
+  - first:
+      213: 2313291766217854751
+    second: Isaac_bomb_25
+  - first:
+      213: 8542019578375134204
+    second: Isaac_bomb_26
+  - first:
+      213: -5935564422642618668
+    second: Isaac_bomb_27
+  - first:
+      213: 4910121182335701172
+    second: Isaac_bomb_28
+  - first:
+      213: 4968961365248694434
+    second: Isaac_bomb_29
+  - first:
+      213: 4100314052273301492
+    second: Isaac_bomb_30
+  - first:
+      213: -4068506521588635219
+    second: Isaac_bomb_31
+  - first:
+      213: 6465426080249323670
+    second: Isaac_bomb_32
+  - first:
+      213: -3456937298717960085
+    second: Isaac_bomb_33
+  - first:
+      213: 1935096727741621920
+    second: Isaac_bomb_34
+  - first:
+      213: -4745369598494925293
+    second: Isaac_bomb_35
+  - first:
+      213: 9180263290457898194
+    second: Isaac_bomb_36
+  - first:
+      213: -8838266747387506711
+    second: Isaac_bomb_37
+  - first:
+      213: -7252083149542659696
+    second: Isaac_bomb_38
+  - first:
+      213: -8742180531429674113
+    second: Isaac_bomb_39
+  - first:
+      213: -1155376493850812846
+    second: Isaac_bomb_40
+  - first:
+      213: 1320467867481414020
+    second: Isaac_bomb_41
+  - first:
+      213: -7576556721960983052
+    second: Isaac_bomb_42
+  - first:
+      213: -8591637724254661285
+    second: Isaac_bomb_43
+  - first:
+      213: 1818772079293878061
+    second: Isaac_bomb_44
+  - first:
+      213: -6160867215269478809
+    second: Isaac_bomb_45
+  - first:
+      213: 2783307379665540088
+    second: Isaac_bomb_46
+  - first:
+      213: -8692453658286733877
+    second: Isaac_bomb_47
+  - first:
+      213: 379415418018478517
+    second: Isaac_bomb_48
+  - first:
+      213: -4322321915285476884
+    second: Isaac_bomb_49
+  - first:
+      213: 1605237878363304805
+    second: Isaac_bomb_50
+  - first:
+      213: 7874575151109588801
+    second: Isaac_bomb_51
+  - first:
+      213: -4556459383490752612
+    second: Isaac_bomb_52
+  - first:
+      213: 368933328222937953
+    second: Isaac_bomb_53
+  - first:
+      213: -430760331407721520
+    second: Isaac_bomb_54
+  - first:
+      213: 5247880122140067283
+    second: Isaac_bomb_55
+  - first:
+      213: 3696748537527250573
+    second: Isaac_bomb_56
+  - first:
+      213: 9117020343148020121
+    second: Isaac_bomb_57
+  - first:
+      213: 3118552567526661604
+    second: Isaac_bomb_58
+  - first:
+      213: 7705599180503695165
+    second: Isaac_bomb_59
+  - first:
+      213: -8868285817698785417
+    second: Isaac_bomb_60
+  - first:
+      213: 6390998093838447663
+    second: Isaac_bomb_61
+  - first:
+      213: -7444131474601663777
+    second: Isaac_bomb_62
+  - first:
+      213: -7493777220590794666
+    second: Isaac_bomb_63
+  - first:
+      213: -3385995136669478733
+    second: Isaac_bomb_64
+  - first:
+      213: 4910495502840981209
+    second: Isaac_bomb_65
+  - first:
+      213: -3871275430670918464
+    second: Isaac_bomb_66
+  - first:
+      213: -612996460040797221
+    second: Isaac_bomb_67
+  - first:
+      213: -605765701464574285
+    second: Isaac_bomb_68
+  - first:
+      213: 7134792415194474813
+    second: Isaac_bomb_69
+  - first:
+      213: -6892435068381990850
+    second: Isaac_bomb_70
+  - first:
+      213: 5191130487587817668
+    second: Isaac_bomb_71
+  - first:
+      213: 4659805171226735667
+    second: Isaac_bomb_72
+  - first:
+      213: -3811146788955942170
+    second: Isaac_bomb_73
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1001
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 486
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5366f90bc1e868b90800000000000000
+      internalID: -7239943097078028747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 485
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc303cad9e1fe0f0800000000000000
+      internalID: -1085615322625459021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 484
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de7555e9d7fb7590800000000000000
+      internalID: -7675268624695329065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 486
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc97cebebd909b80800000000000000
+      internalID: -8390032663221134093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 482
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417a88942d87f2f50800000000000000
+      internalID: 6858833602080712468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_5
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 502
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f01d4f41afefa10800000000000000
+      internalID: 1945267056984264584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 447
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b54ffae9c7c0290800000000000000
+      internalID: -7922820623452841173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_7
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 453
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67972ea31cc9f9310800000000000000
+      internalID: 1414021161748167030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 420
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab06447fa5956180800000000000000
+      internalID: -9122720889366508630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_9
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 420
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6bc1b38967dce50800000000000000
+      internalID: 6831246605989754567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_10
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 418
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005a3b5c4a14e3af0800000000000000
+      internalID: -414821939724180224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_11
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 443
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf38f784e572ce9b0800000000000000
+      internalID: -5049617796292443140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_12
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 420
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b069c27e45fdec9f0800000000000000
+      internalID: -446173757314394613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_13
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 418
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00579ca6ffef7bfb0800000000000000
+      internalID: -4631953318765562624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 388
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c2e944d5c847ac0800000000000000
+      internalID: -3858304648538608588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_15
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 388
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9e454bff34124d0800000000000000
+      internalID: -3161170697916192293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_16
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 388
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2bbc45f9524ee50800000000000000
+      internalID: 6837631500507919023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_17
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 388
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0977437032d25b940800000000000000
+      internalID: 5311200964021352336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 356
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffb29558c2d02e30800000000000000
+      internalID: 4476809787477245944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_19
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 356
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6af84c5c00489e40800000000000000
+      internalID: 5663346953250470507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_20
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 354
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da23adcade9de1390800000000000000
+      internalID: -7845593886002367827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_21
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 354
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94d6792cb8ee6900800000000000000
+      internalID: 679736488626672794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_22
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 378
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1850f48a7a16d2ed0800000000000000
+      internalID: -2437184450626386559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_23
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 354
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2427eb3d9e5dad680800000000000000
+      internalID: -8729429727447715262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 326
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6041cbee7be4200800000000000000
+      internalID: 166272472244815588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_25
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 326
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f4043ea967a1020800000000000000
+      internalID: 2313291766217854751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_26
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 326
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb5b798c895b8670800000000000000
+      internalID: 8542019578375134204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_27
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 326
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dea0f60b93a0ada0800000000000000
+      internalID: -5935564422642618668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_28
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 294
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b09d3d4331442440800000000000000
+      internalID: 4910121182335701172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_29
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 294
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8d946f80c45f440800000000000000
+      internalID: 4968961365248694434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_30
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 294
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7ea49f7ed37e830800000000000000
+      internalID: 4100314052273301492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_31
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 294
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9695edfd2c987c0800000000000000
+      internalID: -4068506521588635219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_32
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 294
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690aec2c3cec9b950800000000000000
+      internalID: 6465426080249323670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_33
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 294
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b681e1ba7dd7600d0800000000000000
+      internalID: -3456937298717960085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_34
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 294
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a66f07a838dada10800000000000000
+      internalID: 1935096727741621920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_35
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 293
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e95c10e7f052eb0800000000000000
+      internalID: -4745369598494925293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_36
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 261
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc3d44d2d8d66f70800000000000000
+      internalID: 9180263290457898194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_37
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 262
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef02db683b285580800000000000000
+      internalID: -8838266747387506711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_38
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 262
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099e9e57ccc6b5b90800000000000000
+      internalID: -7252083149542659696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_39
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 262
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f737ccdef198da680800000000000000
+      internalID: -8742180531429674113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_40
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 262
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e9f26433747ffe0800000000000000
+      internalID: -1155376493850812846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_41
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 262
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4891c82878e335210800000000000000
+      internalID: 1320467867481414020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_42
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 262
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5eaeebdc9aad690800000000000000
+      internalID: -7576556721960983052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_43
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 262
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5594fe920f54c880800000000000000
+      internalID: -8591637724254661285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_44
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 230
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fc5b1e1939d3910800000000000000
+      internalID: 1818772079293878061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_45
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 229
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e338dc8e3308aa0800000000000000
+      internalID: -6160867215269478809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_46
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 230
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f310b1b05b40a620800000000000000
+      internalID: 2783307379665540088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_47
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 230
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5464fc3733e5780800000000000000
+      internalID: -8692453658286733877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_48
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 230
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b93c4dff44f34500800000000000000
+      internalID: 379415418018478517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_49
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 230
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9e5826e170404c0800000000000000
+      internalID: -4322321915285476884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_50
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 230
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563b8df6853f64610800000000000000
+      internalID: 1605237878363304805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_51
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 230
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147410fe06c184d60800000000000000
+      internalID: 7874575151109588801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_52
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 197
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9fc985f45434c0c0800000000000000
+      internalID: -4556459383490752612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_53
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 201
+        width: 35
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163e78648e6be1500800000000000000
+      internalID: 368933328222937953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_54
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 199
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbfc17c2c1a50af0800000000000000
+      internalID: -430760331407721520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_55
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 206
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d50ef7aa2734d840800000000000000
+      internalID: 5247880122140067283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_56
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 200
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ea14b653d7d4330800000000000000
+      internalID: 3696748537527250573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_57
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 201
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9910953b2b9268e70800000000000000
+      internalID: 9117020343148020121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_58
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 197
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed1fc09903574b20800000000000000
+      internalID: 3118552567526661604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_59
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 165
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3fb67fe0a9cfea60800000000000000
+      internalID: 7705599180503695165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_60
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 164
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777ed65f8058de480800000000000000
+      internalID: -8868285817698785417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_61
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 166
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f247077c7e261b850800000000000000
+      internalID: 6390998093838447663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_62
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 164
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd220135dd121b890800000000000000
+      internalID: -7444131474601663777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_63
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 132
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65885c45251c00890800000000000000
+      internalID: -7493777220590794666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_64
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 132
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b09d9bec578201d0800000000000000
+      internalID: -3385995136669478733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_65
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 132
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d66df594a5952440800000000000000
+      internalID: 4910495502840981209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_66
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 132
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc9927b187764ac0800000000000000
+      internalID: -3871275430670918464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_67
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 132
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd342b6a7f23e77f0800000000000000
+      internalID: -612996460040797221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_68
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 132
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6b613dd43e797f0800000000000000
+      internalID: -605765701464574285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_69
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 100
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3961dd56efd30360800000000000000
+      internalID: 7134792415194474813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_70
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 100
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3075afa2d62950a0800000000000000
+      internalID: -6892435068381990850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_71
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 96
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c84f57bca99a0840800000000000000
+      internalID: 5191130487587817668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_72
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 96
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3347f715d14faa040800000000000000
+      internalID: 4659805171226735667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isaac_bomb_73
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 96
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2196110361c1bc0800000000000000
+      internalID: -3811146788955942170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ff3561d5555acaa40890501fa8809352
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      1001: -7239943097078028747
+      Isaac_bomb_1: -1085615322625459021
+      Isaac_bomb_10: -414821939724180224
+      Isaac_bomb_11: -5049617796292443140
+      Isaac_bomb_12: -446173757314394613
+      Isaac_bomb_13: -4631953318765562624
+      Isaac_bomb_14: -3858304648538608588
+      Isaac_bomb_15: -3161170697916192293
+      Isaac_bomb_16: 6837631500507919023
+      Isaac_bomb_17: 5311200964021352336
+      Isaac_bomb_18: 4476809787477245944
+      Isaac_bomb_19: 5663346953250470507
+      Isaac_bomb_2: -7675268624695329065
+      Isaac_bomb_20: -7845593886002367827
+      Isaac_bomb_21: 679736488626672794
+      Isaac_bomb_22: -2437184450626386559
+      Isaac_bomb_23: -8729429727447715262
+      Isaac_bomb_24: 166272472244815588
+      Isaac_bomb_25: 2313291766217854751
+      Isaac_bomb_26: 8542019578375134204
+      Isaac_bomb_27: -5935564422642618668
+      Isaac_bomb_28: 4910121182335701172
+      Isaac_bomb_29: 4968961365248694434
+      Isaac_bomb_3: -8390032663221134093
+      Isaac_bomb_30: 4100314052273301492
+      Isaac_bomb_31: -4068506521588635219
+      Isaac_bomb_32: 6465426080249323670
+      Isaac_bomb_33: -3456937298717960085
+      Isaac_bomb_34: 1935096727741621920
+      Isaac_bomb_35: -4745369598494925293
+      Isaac_bomb_36: 9180263290457898194
+      Isaac_bomb_37: -8838266747387506711
+      Isaac_bomb_38: -7252083149542659696
+      Isaac_bomb_39: -8742180531429674113
+      Isaac_bomb_4: 6858833602080712468
+      Isaac_bomb_40: -1155376493850812846
+      Isaac_bomb_41: 1320467867481414020
+      Isaac_bomb_42: -7576556721960983052
+      Isaac_bomb_43: -8591637724254661285
+      Isaac_bomb_44: 1818772079293878061
+      Isaac_bomb_45: -6160867215269478809
+      Isaac_bomb_46: 2783307379665540088
+      Isaac_bomb_47: -8692453658286733877
+      Isaac_bomb_48: 379415418018478517
+      Isaac_bomb_49: -4322321915285476884
+      Isaac_bomb_5: 1945267056984264584
+      Isaac_bomb_50: 1605237878363304805
+      Isaac_bomb_51: 7874575151109588801
+      Isaac_bomb_52: -4556459383490752612
+      Isaac_bomb_53: 368933328222937953
+      Isaac_bomb_54: -430760331407721520
+      Isaac_bomb_55: 5247880122140067283
+      Isaac_bomb_56: 3696748537527250573
+      Isaac_bomb_57: 9117020343148020121
+      Isaac_bomb_58: 3118552567526661604
+      Isaac_bomb_59: 7705599180503695165
+      Isaac_bomb_6: -7922820623452841173
+      Isaac_bomb_60: -8868285817698785417
+      Isaac_bomb_61: 6390998093838447663
+      Isaac_bomb_62: -7444131474601663777
+      Isaac_bomb_63: -7493777220590794666
+      Isaac_bomb_64: -3385995136669478733
+      Isaac_bomb_65: 4910495502840981209
+      Isaac_bomb_66: -3871275430670918464
+      Isaac_bomb_67: -612996460040797221
+      Isaac_bomb_68: -605765701464574285
+      Isaac_bomb_69: 7134792415194474813
+      Isaac_bomb_7: 1414021161748167030
+      Isaac_bomb_70: -6892435068381990850
+      Isaac_bomb_71: 5191130487587817668
+      Isaac_bomb_72: 4659805171226735667
+      Isaac_bomb_73: -3811146788955942170
+      Isaac_bomb_8: -9122720889366508630
+      Isaac_bomb_9: 6831246605989754567
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
