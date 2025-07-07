@@ -32,8 +32,7 @@ public class StatPassiveItem : MonoBehaviour
         if (collider.tag == "Player")
         {
             ApplyEffect(collider.GetComponent<Player>());
-
-            // collider.GetComponent<Player>().ApplyItem(this);
+            collider.GetComponent<Player>().ApplyItem(itemIcon);
 
             Destroy(gameObject);
         }
