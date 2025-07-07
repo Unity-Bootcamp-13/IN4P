@@ -1527,6 +1527,7 @@ MonoBehaviour:
   bossRoomPrefab: {fileID: 8625076152498243747, guid: df97eea8748de784fa83d9480e24ba56, type: 3}
   normalRoomPrefab: {fileID: 2846262548701800882, guid: c91ba6d289b45dd49908bb81dd5596bc, type: 3}
   treasureRoomPrefab: {fileID: 8154052711895983704, guid: ce5f30c8ae6bf3145abb2c0175382d6e, type: 3}
+  secretRoomPrefab: {fileID: 7304815779333622286, guid: eb2a7b9a264c97a4ba42a3a3a09c5c60, type: 3}
   roomParent: {fileID: 964009304}
   targetRoomCount: 10
   mapSize: 8
@@ -2598,7 +2599,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 0.9161784, b: 0.2999999, a: 0.5529412}
   m_FlipX: 0
@@ -6092,7 +6093,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.91764706, b: 0.29803923, a: 0.5529412}
   m_FlipX: 0
@@ -6137,7 +6138,7 @@ MonoBehaviour:
   hp: 0
   atk: 0
   atkSpeed: 0
-  speed: 0
+  speed: 11
   atkRange: 0
   projectileSpeed: 0
   currentHp: 0
