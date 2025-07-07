@@ -199,6 +199,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -897,7 +910,38 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_0: 4079804124745814919
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_1: -8594117204742249771
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_10: 4505020641355033660
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_11: -4680844745593099692
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_12: 6876966654033801878
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_13: -7446646756779268447
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_14: 2304658059774864470
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_15: 1502373974410921076
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_16: 1748185171127901584
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_17: -8171435395987910046
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_18: -5261648784651801606
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_19: -3584800486070054562
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_2: 3394678664904490509
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_20: -456988452148509219
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_21: -971986623554981245
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_22: 6318200646365124295
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_23: 4393431610239439036
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_24: 7250045193054435379
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_25: 9053062723693409568
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_26: 8745279475507869825
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_27: -6412200643676029148
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_28: 5677342918340132922
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_29: -4346109461480408781
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_3: 7606060545717856788
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_30: -768051316626756652
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_4: -8357716948229801917
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_5: -7683083522677262545
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_6: -1849019310854910888
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_7: -8666736653474245586
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_8: 3892313066443385792
+      PC Computer - The Binding of Isaac Rebirth - Brimstone_9: 220365276938122716
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

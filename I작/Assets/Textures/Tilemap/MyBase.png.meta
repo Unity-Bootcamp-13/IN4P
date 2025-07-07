@@ -1,0 +1,861 @@
+fileFormatVersion: 2
+guid: 57da96bbc7c995748a519af5c5223d17
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2215312270448904923
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_0
+  - first:
+      213: 7562285159231626555
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_1
+  - first:
+      213: -1551786078060746953
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_2
+  - first:
+      213: -1373624739799422558
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_3
+  - first:
+      213: -7954398767642194537
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_4
+  - first:
+      213: 2529914337817786632
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_5
+  - first:
+      213: -138771065439374575
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_6
+  - first:
+      213: 3643344011994994633
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_7
+  - first:
+      213: -7116007732271539037
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_8
+  - first:
+      213: -971242265760437079
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_9
+  - first:
+      213: -3182944325344629326
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_10
+  - first:
+      213: -4546086567440558379
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_11
+  - first:
+      213: -3124341257621976336
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_12
+  - first:
+      213: 418471955552946792
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_13
+  - first:
+      213: -979611198880045176
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_14
+  - first:
+      213: 6804519683050088971
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_15
+  - first:
+      213: 3690377093679820200
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_16
+  - first:
+      213: -2391286986120683275
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_17
+  - first:
+      213: 8734441608901578609
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_18
+  - first:
+      213: -7568588165106098780
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_19
+  - first:
+      213: 4929009631665663137
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_20
+  - first:
+      213: -5085959821622631932
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_21
+  - first:
+      213: 3566533364184334661
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_22
+  - first:
+      213: 1796854882816864736
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_23
+  - first:
+      213: 9025532121580637970
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_24
+  - first:
+      213: 7002698378413958162
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_25
+  - first:
+      213: -2496192343433380689
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_26
+  - first:
+      213: -6695699987529813890
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_27
+  - first:
+      213: 458794238725266019
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_28
+  - first:
+      213: -1123690333179189671
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_29
+  - first:
+      213: 7149811191852555544
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_30
+  - first:
+      213: 7041776489136747776
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_31
+  - first:
+      213: 7085494166426338544
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_32
+  - first:
+      213: -3917562929731188664
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_33
+  - first:
+      213: 5362111940472965437
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_34
+  - first:
+      213: -6596938685341182967
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_35
+  - first:
+      213: 2458336831195149498
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_36
+  - first:
+      213: 7700297871739237010
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_37
+  - first:
+      213: -2267586801651312511
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_38
+  - first:
+      213: 6838914120890301926
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_39
+  - first:
+      213: -5131912512617138828
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_40
+  - first:
+      213: 9186691581230375374
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_41
+  - first:
+      213: -2354143520302910675
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_42
+  - first:
+      213: 631525065797620188
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_43
+  - first:
+      213: -7623397582196689803
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_44
+  - first:
+      213: 3846233273898911184
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_45
+  - first:
+      213: -6110731596206458584
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_46
+  - first:
+      213: -8279887817810910793
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_47
+  - first:
+      213: 1370244670035854213
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_48
+  - first:
+      213: -102127462278997553
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_49
+  - first:
+      213: -1993354956949069165
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_50
+  - first:
+      213: 2958454315755733484
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_51
+  - first:
+      213: -515194459137129232
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_52
+  - first:
+      213: -6697676347679929409
+    second: PC Computer - The Binding of Isaac Rebirth - Basement_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MyBase_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8e2ffb36229534c9b53a8fabef8808
+      internalID: 1254016401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyBase_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 248
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eeb2215df94f3d49b6c5c45fa147feb
+      internalID: -445058300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyBase_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 248
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff48b5c21968c4d4db89ce7dbd79c79a
+      internalID: 2055270039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyBase_4
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 248
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69ad201926995b4dadeadbafc197cee
+      internalID: -1554365775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyBase_5
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 248
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4a8c14fdbf7014caf29f98acfa8d17
+      internalID: 762015539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyBase_6
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 248
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d994a97a08ff36a4ab56a70cb6228af5
+      internalID: 545775784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyBase_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 184
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c770ba9a791074d92b6c1277951519
+      internalID: -28586205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyBase_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 184
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325f7d67978fa0b4cbc8cb4473b463cf
+      internalID: 252756621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyBase_11
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 184
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc78996bf3289740b239a693a098fce
+      internalID: 172599976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyBase_12
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 184
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167e215bdceb85a45af7b6df5a19d168
+      internalID: -949964189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyBase_13
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 184
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46a68aa71c665a449e751bf6301fe7c
+      internalID: -808160196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyBase_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f669e439da5d31b48a88dff26adca3e8
+      internalID: -2006717917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyBase_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d473cd8f242aa7e49a0b1a9e16530a4b
+      internalID: -1528944140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyBase_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb77b38043c179e499279a8440a366d5
+      internalID: 1209264245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyBase_18
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1325e953a1e9554d8e7c6128e4094fc
+      internalID: -415431011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyBase_19
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323ee573e9b2ee048bb516e6212d867e
+      internalID: 1413175997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyBase_20
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d119ca293b1fc3c4081c31727d2ff78e
+      internalID: 260072338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyBase_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d29cdbce1cb3684faee8d2f7cec77cf
+      internalID: -339958151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyBase_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0c1b44ecb5ffb47b29ad5b2c631053
+      internalID: 1073459592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyBase_25
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda1183a8aedee74da41de9c4118c5fd
+      internalID: -1533122812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyBase_26
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91527657b576b049bb9c8f450318c23
+      internalID: -979428390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyBase_27
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32019d0407d6f14f9309879d9ab146f
+      internalID: -1397949569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyBase_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e994905fdb61e148ad7df6a7a386bee
+      internalID: 127898925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyBase_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a3e5b660a59d34a825fe4f57f753b4
+      internalID: 1681022245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 29f7d9f425ba713479bd3a0792ca84a0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MyBase_0: 1254016401
+      MyBase_1: -445058300
+      MyBase_10: 1813692397
+      MyBase_11: 172599976
+      MyBase_12: -949964189
+      MyBase_13: -808160196
+      MyBase_14: -2006717917
+      MyBase_15: -1528944140
+      MyBase_16: 1209264245
+      MyBase_17: -828717109
+      MyBase_18: -415431011
+      MyBase_19: 1413175997
+      MyBase_2: 2055270039
+      MyBase_20: 260072338
+      MyBase_21: 1681022245
+      MyBase_22: -339958151
+      MyBase_23: 1073459592
+      MyBase_24: -85126958
+      MyBase_25: -1533122812
+      MyBase_26: -979428390
+      MyBase_27: -1397949569
+      MyBase_3: 1065500094
+      MyBase_4: -1554365775
+      MyBase_5: 762015539
+      MyBase_6: 545775784
+      MyBase_7: 127898925
+      MyBase_8: -28586205
+      MyBase_9: 252756621
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
