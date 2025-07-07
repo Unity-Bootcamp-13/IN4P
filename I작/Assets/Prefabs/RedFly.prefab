@@ -189,6 +189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0801b764401200746995afb98b88c6ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hp: 0
   monsterData: {fileID: 11400000, guid: 0616d16193816ab4c9353328f4e5901f, type: 2}
   enemy_hp: 0
   enemy_atk: 0
@@ -196,7 +197,6 @@ MonoBehaviour:
   enemy_speed: 0
   enemy_atkRange: 0
   enemy_projectileSpeed: 0
-  enemy_currentHp: 0
   enemyAnimator: {fileID: 0}
   target: {fileID: 0}
   enemy_rb: {fileID: 0}

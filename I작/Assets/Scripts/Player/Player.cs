@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
     public int keyCount;
     public int bombCount = 1;
 
-    public int hp;
+    public int Max_hp;
     public float atk;
     public float atkSpeed;
     public float speed;
@@ -59,13 +59,13 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
-        hp = characterData.PlayerHp;
+        Max_hp = characterData.PlayerHp;
         atk = characterData.Atk;
         atkSpeed = characterData.AtkSpeed;
         speed = characterData.Speed;
         atkRange = characterData.AtkRange;
         projectileSpeed = characterData.ProjectileSpeed;
-        currentHp = hp;
+        currentHp = Max_hp;
 
         bodyObject = transform.GetChild(1).gameObject;
         totalbodyObject = transform.GetChild(2).gameObject;
@@ -196,14 +196,14 @@ public class Player : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        hp -= damage;
+        currentHp -= damage;
 
         isHurt = true;
 
         totalbodyObject.SetActive(true);
         totalbodyAnimator.SetTrigger("IsHurt");
 
-        if (hp <= 0)
+        if (currentHp <= 0)
         {
             isHurt = false;
             isDead = true;

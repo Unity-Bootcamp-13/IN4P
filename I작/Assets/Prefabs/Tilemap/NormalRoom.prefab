@@ -89,6 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a37f4339a2ec8564daa0b4a3db60c395, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainCamera: {fileID: 0}
   doorSpawnPoints:
   - {fileID: 5833301887956208255}
   - {fileID: 2357639511713133389}
@@ -98,6 +99,8 @@ MonoBehaviour:
   - {fileID: 8696586667057630437, guid: 31c6b47f50a44c1418e54549ded9312f, type: 3}
   - {fileID: 8696586667057630437, guid: 74eaa87b04da6ce46abf3124f5c43324, type: 3}
   - {fileID: 8696586667057630437, guid: 7d2cbeb5fceba1b49af4a0d3bdb047de, type: 3}
+  playerIsHere: 0
+  monsterCount: 5
 --- !u!1 &4430514124434073479
 GameObject:
   m_ObjectHideFlags: 0
@@ -2691,7 +2694,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6160887381117149067}
   - component: {fileID: 6055525475977083988}
-  m_Layer: 0
+  - component: {fileID: 8068406470537194309}
+  m_Layer: 3
   m_Name: GroundColider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2743,7 +2747,7 @@ EdgeCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -2759,6 +2763,19 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!114 &8068406470537194309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6118398151902139185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5491e482ce7a5644095b31a8706c6f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pushForce: 5
 --- !u!1 &7165572165924333608
 GameObject:
   m_ObjectHideFlags: 0

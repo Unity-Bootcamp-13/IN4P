@@ -36,15 +36,9 @@ public class Gusher : Enemy
         gusher_rb = GetComponent<Rigidbody2D>();
         gusher_Animator = GetComponent<Animator>();
         Debug.Log($"[Gusher] 셋팅된 눈물 데미지{gusher_projectileDamage})");
-        
-
-
-    }
-
-    private void Start()
-    {
         StartCoroutine(MoveRandom());
         StartCoroutine(tearsSpawnRoutine());
+
     }
 
 
@@ -94,7 +88,6 @@ public class Gusher : Enemy
 
         GameObject tears = Instantiate(tearsPrefab,transform.position, rot);
         NormalTears et = tears.GetComponent<NormalTears>();
-        Debug.Log($"[Gusher] SetTears 호출 직전 damage: {gusher_projectileDamage})");
         et.SetTears(gusher_projectileSpeed, gusher_atkRange, (int)gusher_projectileDamage,rotatedDir);
 
     }

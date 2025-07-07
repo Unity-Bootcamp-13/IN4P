@@ -232,9 +232,9 @@ MonoBehaviour:
   gusher_projectileSpeed: 0
   gusher_currentHp: 0
   gusher_projectileDamage: 1
-  gusher_Animator: {fileID: 0}
-  tearsPrefab: {fileID: 0}
-  gusher_rb: {fileID: 0}
+  gusher_Animator: {fileID: 3002690332032035023}
+  tearsPrefab: {fileID: 8347038662915090392, guid: 8357237898c4533489e6ab1963cc1aed, type: 3}
+  gusher_rb: {fileID: 3654965241234562957}
 --- !u!1 &2613147568843034520
 GameObject:
   m_ObjectHideFlags: 0

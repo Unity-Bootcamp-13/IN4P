@@ -5,38 +5,37 @@ using UnityEngine;
 public class Gaper : Enemy
 {
     [SerializeField] CharacterData GaperData;
-    public float gaper_atk;
-    public float gaper_atkSpeed;
-    public float gaper_speed;
-    public float gaper_atkRange;
-    public float gaper_projectileSpeed;
-    public int gaper_currentHp;
+    public float enemy_atk;
+    public float enemy_atkSpeed;
+    public float enemy_speed;
+    public float enemy_atkRange;
+    public float enemy_projectileSpeed;
+    private readonly float damageInterval = 1f;
+    public Animator enemy_Animator;
 
-    public Animator gaperAnimator;
-
-    public GameObject target;
-    public Rigidbody2D gaper_rb;
-    public Collider2D gaperCollider;
-
+    public Player target;
+    public Rigidbody2D enemy_rb;
+    public Collider2D enemy_Collider;
+    private Coroutine _damageRoutine;
     public GameObject GusherPrefab;
 
     private void Awake()
     {
         hp = GaperData.PlayerHp;
-        gaper_atk = GaperData.Atk;
-        gaper_atkSpeed = GaperData.AtkSpeed;
-        gaper_speed = GaperData.Speed;
-        gaper_atkRange = GaperData.AtkRange;
+        enemy_atk = GaperData.Atk;
+        enemy_atkSpeed = GaperData.AtkSpeed;
+        enemy_speed = GaperData.Speed;
+        enemy_atkRange = GaperData.AtkRange;
 
-        target = GameObject.FindGameObjectWithTag("Player");
-        gaperAnimator = transform.GetChild(0).GetComponent<Animator>();
-        gaper_rb = GetComponent<Rigidbody2D>();
-        gaperCollider = GetComponent<Collider2D>();
+        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        enemy_Animator = transform.GetChild(0).GetComponent<Animator>();
+        enemy_rb = GetComponent<Rigidbody2D>();
+        enemy_Collider = GetComponent<Collider2D>();
     }
 
     private void Update()
     {
-        
+        ChasePlayerMovement();
     }
 
 
@@ -46,26 +45,43 @@ public class Gaper : Enemy
         {
             return;
         }
-
-        ChasePlayerMovement();
     }
     public void ChasePlayerMovement()
     {
-        float distance = Vector2.Distance(target.transform.position, transform.position);
-
-        if (distance > gaper_atkRange)
-        {
-            Vector2 direciton = (target.transform.position - transform.position).normalized;
-            gaper_rb.MovePosition(gaper_rb.position + direciton * gaper_speed * Time.deltaTime);
-        }
-
+        Vector2 direciton = (target.transform.position - transform.position).normalized;
+        enemy_rb.MovePosition(enemy_rb.position + direciton * enemy_speed * Time.deltaTime);
     }
 
-    
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+
+        if (other.CompareTag("Player") && _damageRoutine == null)
+        {
+            _damageRoutine = StartCoroutine(DamageLoop());
+        }
+    }
+    private void OnTriggerExit2D(Collider2D other)
+    {
+
+        if (other.CompareTag("Player") && _damageRoutine != null)
+        {
+            StopCoroutine(_damageRoutine);
+            _damageRoutine = null;
+        }
+    }
+
+    IEnumerator DamageLoop()
+    {
+        while (true)
+        {
+            target.TakeDamage((int)enemy_atk);
+            yield return new WaitForSeconds(damageInterval);
+        }
+    }
 
     public override void Die()
     {
-        gaperCollider.enabled = false;
+        enemy_Collider.enabled = false;
 
         StartCoroutine(Died());
     }

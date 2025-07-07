@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Threading.Tasks;
+using UnityEngine;
 public interface IDamageable
 {
     void TakeDamage(int amount,Vector2? dir);
@@ -6,6 +7,10 @@ public interface IDamageable
 
 public abstract class Enemy : MonoBehaviour, IDamageable
 {
+    public virtual async void Start()
+    {
+        await Task.Delay(500);
+    }
     public int hp;
     public virtual void TakeDamage(int amount,Vector2? attackOrigin)
     {
@@ -16,4 +21,5 @@ public abstract class Enemy : MonoBehaviour, IDamageable
 
     public virtual void Die()
     { }
+
 }

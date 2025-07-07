@@ -8,10 +8,10 @@ public class HalfHeart : MonoBehaviour
         {
             Player player = collision.gameObject.GetComponent<Player>();
 
-            if (player.currentHp < player.hp)
+            if (player.currentHp < player.Max_hp)
             {
                 player.currentHp ++;
-                Mathf.Clamp(player.currentHp, 0, player.hp);
+                Mathf.Clamp(player.currentHp, 0, player.Max_hp);
                 Destroy(gameObject);
             }
         }

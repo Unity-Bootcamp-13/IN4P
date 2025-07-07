@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Threading.Tasks;
 using UnityEngine;
 
 
@@ -49,7 +48,7 @@ public class Monstro : Enemy
     private readonly int BloodAttack = Animator.StringToHash("BloodAttack");
     private readonly int Dead = Animator.StringToHash("Dead");
 
-    private async void Start()
+    private void Awake()
     {
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -58,7 +57,6 @@ public class Monstro : Enemy
         .GetComponent<Player>();
         bosscollider = GetComponent<Collider2D>();
         boss_rb = GetComponent<Rigidbody2D>();
-        await Task.Delay(500);
     }
 
     private void Update()

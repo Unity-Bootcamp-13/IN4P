@@ -630,6 +630,7 @@ GameObject:
   - component: {fileID: 179673666046694068}
   - component: {fileID: 7709019406563593929}
   - component: {fileID: 5120343323938553325}
+  - component: {fileID: 5746088906487537558}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -671,7 +672,7 @@ MonoBehaviour:
   characterData: {fileID: 11400000, guid: d938ccd321ae74548a7c2b1fa32b8f45, type: 2}
   keyCount: 0
   bombCount: 0
-  hp: 0
+  Max_hp: 0
   atk: 0
   atkSpeed: 0
   speed: 0
@@ -680,12 +681,12 @@ MonoBehaviour:
   currentHp: 0
   attack: {fileID: 2511034304915197919}
   rid: {fileID: 179673666046694068}
-  bombPrefab: {fileID: 0}
+  bombPrefab: {fileID: 6662004382676739127, guid: 3b549268c4d2ed040afcabc0bf3a7fcd, type: 3}
   bodyObject: {fileID: 4734478334619429122}
   totalbodyObject: {fileID: 5055587628550225769}
   spotLightObject: {fileID: 0}
   bodyAnimator: {fileID: 932452561522108865}
-  totalbodyAnimator: {fileID: 0}
+  totalbodyAnimator: {fileID: 6709193931996367189}
   bodySprite: {fileID: 6041110462553843892}
   isItem: 0
   isHurt: 0
@@ -883,6 +884,43 @@ CapsuleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.1}
   m_Size: {x: 0.7, y: 0.7}
+  m_Direction: 0
+--- !u!70 &5746088906487537558
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6787024994373871686}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.28}
+  m_Size: {x: 0.9, y: 1.08}
   m_Direction: 0
 --- !u!1 &7010534568105932362
 GameObject:
