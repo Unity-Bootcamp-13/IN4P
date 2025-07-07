@@ -43,6 +43,7 @@ public class Player : MonoBehaviour
     public GameObject bodyObject;
     public GameObject totalbodyObject;
     public GameObject spotLightObject;
+    public GameObject aquireItemObject;
 
 
     public Animator bodyAnimator;
@@ -109,11 +110,6 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             TakeDamage(1);
-        }
-
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            AquireItem();
         }
     }
 
@@ -194,6 +190,12 @@ public class Player : MonoBehaviour
             attack.OnRelease(attackDirection);
     }
 
+    // ∆–Ω√∫Í æ∆¿Ã≈€ »πµÊ
+    public void ApplyItem(Sprite itemsprite)
+    {
+        AquireItemAnim(itemsprite);
+    }
+
     public void TakeDamage(int damage)
     {
         currentHp -= damage;
@@ -201,6 +203,7 @@ public class Player : MonoBehaviour
         isHurt = true;
 
         totalbodyObject.SetActive(true);
+        aquireItemObject.SetActive(false);
         totalbodyAnimator.SetTrigger("IsHurt");
 
         if (currentHp <= 0)
@@ -214,15 +217,37 @@ public class Player : MonoBehaviour
 
     private void Die()
     {
-        
+        isHurt = false;
+        isDead = true;
+        StartCoroutine(DeadAnim());
+    }
+    
+    IEnumerator DeadAnim()
+    {
+        float elapsedTime = 0f;
+        float shakeDurtaion = 2.5f;
+
+        while (elapsedTime < shakeDurtaion)
+        {
+            spotLightObject.SetActive(true);
+            float shakePosX = Mathf.PingPong(Time.time * shakeSpeed, 0.2f);
+            transform.position = new Vector3(shakePosX, transform.position.y, transform.position.z);
+
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        DeadAnimFinish();
     }
 
     // æ∆¿Ã≈€ »πµÊ Ω√
-    private void AquireItem()
+    private void AquireItemAnim(Sprite itemsprite)
     {
         isItem = true;
 
         totalbodyObject.SetActive(true);
+        aquireItemObject.SetActive(true);
+        aquireItemObject.GetComponent<SpriteRenderer>().sprite = itemsprite;
         totalbodyAnimator.SetTrigger("IsItem");
     }
 
@@ -245,21 +270,4 @@ public class Player : MonoBehaviour
         Debug.Log("æ∆¿Ã≈€ »πµÊ ¡æ∑·");
     }
 
-    IEnumerator DeadAnim()
-    {
-        float elapsedTime = 0f;
-        float shakeDurtaion = 2.5f;
-
-        while (elapsedTime < shakeDurtaion)
-        {
-            spotLightObject.SetActive(true);
-            float shakePosX = Mathf.PingPong(Time.time * shakeSpeed, 0.2f);
-            transform.position = new Vector3(shakePosX, transform.position.y, transform.position.z);
-
-            elapsedTime += Time.deltaTime;
-            yield return null;
-        }
-
-        DeadAnimFinish();
-    }
 }

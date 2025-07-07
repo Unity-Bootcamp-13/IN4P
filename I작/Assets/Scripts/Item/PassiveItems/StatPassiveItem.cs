@@ -33,7 +33,7 @@ public class StatPassiveItem : MonoBehaviour
         {
             ApplyEffect(collider.GetComponent<Player>());
 
-            // collider.GetComponent<Player>().ApplyItem(this);
+             collider.GetComponent<Player>().ApplyItem(itemIcon);
 
             Destroy(gameObject);
         }
