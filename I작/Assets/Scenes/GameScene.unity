@@ -1307,6 +1307,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Item
       objectReference: {fileID: 0}
+    - target: {fileID: 7465985557898407172, guid: 765b1e6511662c94190af2d242790936, type: 3}
+      propertyPath: damageLayerMask.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2631,6 +2635,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5647115230647979252, guid: fd24cb4fe46f0154c9db750de5f29173, type: 3}
+      propertyPath: bombPrefab
+      value: 
+      objectReference: {fileID: 6662004382676739127, guid: 3b549268c4d2ed040afcabc0bf3a7fcd, type: 3}
+    - target: {fileID: 5647115230647979252, guid: fd24cb4fe46f0154c9db750de5f29173, type: 3}
+      propertyPath: spotLightObject
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5647115230647979252, guid: fd24cb4fe46f0154c9db750de5f29173, type: 3}
+      propertyPath: totalbodyAnimator
+      value: 
+      objectReference: {fileID: 3105160368730768389}
     - target: {fileID: 6787024994373871686, guid: fd24cb4fe46f0154c9db750de5f29173, type: 3}
       propertyPath: m_Name
       value: Player
@@ -2683,6 +2699,11 @@ PrefabInstance:
 --- !u!4 &1912783517459729588 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7990374157267766810, guid: fd24cb4fe46f0154c9db750de5f29173, type: 3}
+  m_PrefabInstance: {fileID: 1773641210962248660}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &3105160368730768389 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6709193931996367189, guid: fd24cb4fe46f0154c9db750de5f29173, type: 3}
   m_PrefabInstance: {fileID: 1773641210962248660}
   m_PrefabAsset: {fileID: 0}
 --- !u!483693784 &3403874107975738920
