@@ -1,4 +1,5 @@
 using System;
+using NUnit.Framework.Internal;
 using UnityEngine;
 
 public enum DoorType
@@ -6,6 +7,7 @@ public enum DoorType
     Normal,
     Boss,
     Treasure,
+    Secret
 }
 
 public class Door : MonoBehaviour
@@ -30,7 +32,7 @@ public class Door : MonoBehaviour
 
     public void OpenDoor()
     {
-        if (type != DoorType.Treasure)
+        if (type != DoorType.Treasure || type != DoorType.Boss)
             transform.GetChild(0).gameObject.SetActive(false);
 
         portalCollider.enabled = true;

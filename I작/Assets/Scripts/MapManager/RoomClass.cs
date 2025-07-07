@@ -7,7 +7,7 @@ public enum LegacyRoomType
     End,
     Boss,
     Treasure,
-    Event
+    Secret
 }
 
 public enum LegaacyDoorType
@@ -15,6 +15,7 @@ public enum LegaacyDoorType
     Normal,
     Boss,
     Treasure,
+    Secret
 }
 
 public class RoomClass

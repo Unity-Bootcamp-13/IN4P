@@ -4,7 +4,7 @@ public class StartRoomController : RoomController
 {
     protected override void Start()
     {
-        base.Start();
+        base.Start();       
         SetMinimap();
         isCleared = true;
     }
@@ -19,8 +19,11 @@ public class StartRoomController : RoomController
 
             DoorType doorType = GetDoorType(neighbor);
             GameObject doorPrefab = GetDoorPrefabByType(doorType);
-
             GameObject doorGo = Instantiate(doorPrefab, doorSpawnPoints[i].position, doorSpawnPoints[i].rotation, doorSpawnPoints[i]);
+            if (doorType == DoorType.Secret)
+            {
+                doorGo.SetActive(false);  // 나중에 열리게 만들 수도 있음
+            }
             Door doorComponent = doorGo.GetComponent<Door>();
             doorComponent.type = doorType;
             doorComponent.thisDirction = i;

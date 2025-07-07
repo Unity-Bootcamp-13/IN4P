@@ -5,7 +5,8 @@ public enum RoomType
     Normal,
     Start,
     Boss,
-    Treasure
+    Treasure,
+    Secret
 }
 
 public class Room

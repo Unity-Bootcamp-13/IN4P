@@ -1,14 +1,24 @@
 using UnityEngine;
 
-public class BossRoomController : RoomController
+public class SecretRoomController : RoomController
 {
-    public GameObject bossContent;
-    public Transform spawnPoint;
-
     protected override void Start()
     {
-        base.Start();
-        minimapSpriteRenderer.color = Color.red;
+        minimapSpriteRenderer.color = Color.black;
+
+
+
+        for (int i = 0; i < doorList.Length; i++)
+        {
+            if (doorList[i] == null)
+                continue;
+
+            doorList[i].OpenDoor();
+            doorList[i].transform.GetChild(0).gameObject.SetActive(false);
+            doorList[i].portalCollider.isTrigger = true;
+        }
+
+        isCleared = true;
     }
 
     public override void CreateDoors()
@@ -21,13 +31,14 @@ public class BossRoomController : RoomController
 
             DoorType doorType = GetDoorType(neighbor);
 
+
             GameObject doorGo = Instantiate(doorPrefabs[0], doorSpawnPoints[i].position, doorSpawnPoints[i].rotation, doorSpawnPoints[i]);
-            if (doorType == DoorType.Secret)
+            if (doorType != DoorType.Secret)
             {
                 doorGo.SetActive(false);  // 나중에 열리게 만들 수도 있음
             }
             Door doorComponent = doorGo.GetComponent<Door>();
-            doorComponent.type = DoorType.Boss;
+            doorComponent.type = DoorType.Secret;
             doorComponent.thisDirction = i;
             doorComponent.portalAction += SetNextRoom;
             doorList[i] = doorComponent;
@@ -36,13 +47,5 @@ public class BossRoomController : RoomController
 
     protected override void GenerateContents()
     {
-        GameObject bossGo = Instantiate(bossContent, spawnPoint.position, Quaternion.identity);
-        //bossGo.GetComponent<Monstro>().deadAction += CheckClearCondition;
-    }
-
-    public void CheckClearCondition()
-    {
-        isCleared = true;
-        OpenDoors();
     }
 }
