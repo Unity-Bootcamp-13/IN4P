@@ -16,24 +16,26 @@ public class Player : MonoBehaviour
     public int keyCount;
     public int bombCount = 1;
 
-    public int hp;
+    public int Max_hp;
     public float atk;
     public float atkSpeed;
     public float speed;
     public float atkRange;
     public float projectileSpeed;
     public int currentHp;
-    AttackDirection attackDirection;
-
+    
 
     private int h;
     private int v;
     private int isMove;
 
-   
+    private AttackDirection attackDirection;
+    private Quaternion rot;
+    private Vector2 moveInput;
+
     public Attack attack;
     public Rigidbody2D rid;
-    private Vector2 moveInput;
+    
 
     [SerializeField] GameObject bombPrefab;
 
@@ -58,13 +60,13 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
-        hp = characterData.PlayerHp;
+        Max_hp = characterData.PlayerHp;
         atk = characterData.Atk;
         atkSpeed = characterData.AtkSpeed;
         speed = characterData.Speed;
         atkRange = characterData.AtkRange;
         projectileSpeed = characterData.ProjectileSpeed;
-        currentHp = hp;
+        currentHp = Max_hp;
 
         bodyObject = transform.GetChild(1).gameObject;
         totalbodyObject = transform.GetChild(2).gameObject;
@@ -121,6 +123,7 @@ public class Player : MonoBehaviour
 
         Vector3 dir = moveInput.normalized;
         rid.linearVelocity = dir * speed;
+        attack.SetPlayerStats(projectileSpeed, atkRange, (int)atk, atkSpeed);
     }
 
     public void OnBomb(InputAction.CallbackContext context)
@@ -153,6 +156,7 @@ public class Player : MonoBehaviour
     public void OnUpAttack(InputAction.CallbackContext context)
     {
         attackDirection = AttackDirection.Up;
+        rot = Quaternion.Euler(0f, 0f, 180f);
         OnAttack(context);
 
     }
@@ -160,34 +164,35 @@ public class Player : MonoBehaviour
     public void OnDownAttack(InputAction.CallbackContext context)
     {
         attackDirection = AttackDirection.Down;
+        rot = Quaternion.Euler(0f, 0f, 0f);
         OnAttack(context);
     }
 
     public void OnLeftAttack(InputAction.CallbackContext context)
     {
         attackDirection = AttackDirection.Left;
+        rot = Quaternion.Euler(0f, 0f, -90f);
         OnAttack(context);
     }
 
     public void OnRightAttack(InputAction.CallbackContext context)
     {
         attackDirection = AttackDirection.Right;
+        rot = Quaternion.Euler(0f, 0f, 90f);
         OnAttack(context);
     }
 
     private void OnAttack(InputAction.CallbackContext context)
     {
         if (context.performed)
-            attack.OnPress(attackDirection);
+            attack.OnPress(attackDirection,rot);
         if (context.canceled)
             attack.OnRelease(attackDirection);
     }
 
     public void TakeDamage(int damage)
     {
-        Debug.Log($"Player 데미지{damage} 입음");
-
-        hp -= damage;
+        currentHp -= damage;
 
         isHurt = true;
 
@@ -195,7 +200,7 @@ public class Player : MonoBehaviour
         aquireItemObject.SetActive(false);
         totalbodyAnimator.SetTrigger("IsHurt");
 
-        if (hp <= 0)
+        if (currentHp <= 0)
         {
             Die();
         }
