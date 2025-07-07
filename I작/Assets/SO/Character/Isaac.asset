@@ -17,8 +17,8 @@ MonoBehaviour:
   headSprite: {fileID: 8830880537298194837, guid: dc3e9461f6c0a784789ab3e723c2af98, type: 3}
   bodySprite: {fileID: 4980409377013969977, guid: dc3e9461f6c0a784789ab3e723c2af98, type: 3}
   playerHp: 3
-  atk: 1
-  atkSpeed: 1
+  atk: 3.5
+  atkSpeed: 2.73
   speed: 5
-  atkRange: 1
-  projectileSpeed: 7.5
+  atkRange: 6.5
+  projectileSpeed: 3

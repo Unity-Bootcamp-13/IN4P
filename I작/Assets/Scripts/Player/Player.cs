@@ -2,8 +2,13 @@ using System.Collections;
 using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
 using UnityEngine.InputSystem;
-
-
+public enum AttackDirection
+{
+    Up = 0,
+    Down = 1,
+    Left = 2,
+    Right = 3
+}
 public class Player : MonoBehaviour
 {    
     public CharacterData characterData;
@@ -19,39 +24,26 @@ public class Player : MonoBehaviour
     public float atkRange;
     public float projectileSpeed;
     public int currentHp;
+    AttackDirection attackDirection;
 
-    public Attack attack;
 
     private int h;
     private int v;
     private int isMove;
 
-    private int HeadLeft;
-    private int HeadRight;
-    private int HeadUp;
-    private int HeadDown;
-
+   
+    public Attack attack;
     public Rigidbody2D rid;
     private Vector2 moveInput;
 
     [SerializeField] GameObject bombPrefab;
 
-    public GameObject headObject;
     public GameObject bodyObject;
     public GameObject totalbodyObject;
 
-    public Animator headAnimator;
     public Animator bodyAnimator;
-    public Animator totalbodyAnimator;
 
     public SpriteRenderer bodySprite;
-
-    public Transform eyes;
-    public Transform leftEye;
-    public Transform rightEye;
-
-    private bool isAttacking;
-    private int currentAttackDir = -1;
 
 
     private void Awake()
@@ -64,7 +56,6 @@ public class Player : MonoBehaviour
         projectileSpeed = characterData.ProjectileSpeed;
         currentHp = hp;
 
-        headObject = transform.GetChild(0).gameObject;
         bodyObject = transform.GetChild(1).gameObject;
         totalbodyObject = transform.GetChild(2).gameObject;
 
@@ -72,15 +63,12 @@ public class Player : MonoBehaviour
         v = Animator.StringToHash("Vertical");
         isMove = Animator.StringToHash("IsMove");
 
-        HeadLeft = Animator.StringToHash("Head_Left");
-        HeadRight = Animator.StringToHash("Head_Right");
-        HeadUp = Animator.StringToHash("Head_Up");
-        HeadDown = Animator.StringToHash("Head_Down");
+        
     }
 
     private void Start()
     {
-        attack.SetTears(projectileSpeed, atkRange, (int)atk);
+        attack.SetPlayerStats(projectileSpeed, atkRange, (int)atk ,atkSpeed);
     }
 
     public void Update()
@@ -132,47 +120,35 @@ public class Player : MonoBehaviour
 
     public void OnUpAttack(InputAction.CallbackContext context)
     {
-        OnAttack(context, Quaternion.Euler(0, 0, 180), HeadUp);
+        attackDirection = AttackDirection.Up;
+        OnAttack(context);
+
     }
 
     public void OnDownAttack(InputAction.CallbackContext context)
     {
-        OnAttack(context, Quaternion.Euler(0, 0, 0), HeadDown);
+        attackDirection = AttackDirection.Down;
+        OnAttack(context);
     }
 
     public void OnLeftAttack(InputAction.CallbackContext context)
     {
-        OnAttack(context, Quaternion.Euler(0, 0, -90), HeadLeft);
+        attackDirection = AttackDirection.Left;
+        OnAttack(context);
     }
 
     public void OnRightAttack(InputAction.CallbackContext context)
     {
-        OnAttack(context, Quaternion.Euler(0, 0, 90), HeadRight);
+        attackDirection = AttackDirection.Right;
+        OnAttack(context);
     }
 
-    private void OnAttack(InputAction.CallbackContext context, Quaternion rot, int dir)
+    private void OnAttack(InputAction.CallbackContext context)
     {
-        if (context.started)
-        {
-            if (isAttacking)
-                return;
-
-            isAttacking = true;
-            currentAttackDir = dir;
-
-            eyes.rotation = rot;
-            headAnimator.SetBool(dir, true);
-            headAnimator.speed = atkSpeed;
-        }
-        else if (context.canceled)
-        {
-            if (isAttacking && currentAttackDir == dir)
-            {
-                headAnimator.SetBool(dir, false);
-                isAttacking = false;
-                currentAttackDir = -1;
-            }
-        }
+        if (context.performed)
+            attack.OnPress(attackDirection);
+        if (context.canceled)
+            attack.OnRelease(attackDirection);
     }
 
     public void TakeDamage(int damage)

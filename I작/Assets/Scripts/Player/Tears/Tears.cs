@@ -17,7 +17,7 @@ public class Tears : MonoBehaviour
     private void OnEnable()
     {        
         //timer = range / speed;
-        timer = 5;
+        timer = 5f;
     }
 
     private void Update()
@@ -34,13 +34,8 @@ public class Tears : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // Tag 조사해서 몬스터면 터지는 걸로 변경
-        if(collision.gameObject.tag == "Player")
-        {
-            return;
-        }
-
-
-        if (collision.gameObject.tag == "Monster")
+        
+        if (collision.gameObject.tag == "Monster" || collision.gameObject.tag == "Object")
         {
             ContactMonster monster = collision.GetComponent<ContactMonster>();
 
@@ -48,16 +43,19 @@ public class Tears : MonoBehaviour
             {
                 monster.TakeDamage(damage);
             }
+            tearsAnimator.SetTrigger("Pop");
+            speed = 0.1f;
         }
-
-        tearsAnimator.SetTrigger("Pop");
-        speed = 0.1f;
+        else
+        {
+            return;
+        }
     }
 
     void DestoryTears()
     {
-        Debug.Log("눈물 삭제");
         this.gameObject.SetActive(false);
+        returnAction?.Invoke();
     }
 
     public void SetReturnAction(Action returnToPool)

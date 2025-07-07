@@ -2,91 +2,138 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
 
+public interface IAttackBehavior
+{
+    void Attack(string dir);
+}
+
 public class Attack : MonoBehaviour
 {
-    [SerializeField] private GameObject tearsPrefab;
-    [SerializeField] private int poolSize = 50;
-    private Queue<GameObject> pool = new Queue<GameObject>();
+    public GameObject tearsPrefab;
+    public GameObject brimstonePrefab;
 
-    [SerializeField] private Transform leftEye;
-    [SerializeField] private Transform rightEye;
+    public Transform leftEye;
+    public Transform rightEye;
+    public Transform Mouse;
+    private Animator HeadAnimator;
+    private IAttackBehavior attackBehavior;
 
-    private bool launchPlace;
+    private float playerRanged;
+    private float playerAtkspeed;
+    private float playerAtkDelay;
+    private int playerAtk;
+    private AttackDirection currentAttackDir;
+    readonly private int poolSize = 50;
+
+    private bool isAttacking;
+
+    public static readonly int[] HeadHashes = new int[]
+    {
+        Animator.StringToHash("Head_Up"),
+        Animator.StringToHash("Head_Down"),
+        Animator.StringToHash("Head_Left"),
+        Animator.StringToHash("Head_Right")
+    };
 
 
     private void Awake()
     {
-        for (int i = 0; i < poolSize; i++)
+        HeadAnimator = GetComponent<Animator>();
+        attackBehavior = new TearsAttack(this, tearsPrefab, leftEye, rightEye, poolSize);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.B))
         {
-            GameObject tear = Instantiate(tearsPrefab);
-            tear.SetActive(false);
-            pool.Enqueue(tear);
+            Debug.Log("브림스톤(혈사포) 전환");
+            SwitchToBrimstone();
+        }
+        else if (Input.GetKeyDown(KeyCode.T))
+        {
+            Debug.Log("눈물 전환");
+            SwitchToTears();
+        }
+        if (attackBehavior is BrimstoneAttack brimstone)
+        {
+            brimstone.UpdateCharging(Time.deltaTime);
         }
     }
 
-    void CreateTears(string dir)
+    public void OnPress(AttackDirection dir)
     {
-        GameObject go = GetTearFromPool();
-        Tears tear = go.GetComponent<Tears>();
+        if (isAttacking) return;
 
-        switch (dir)
-        {
-            case "Up":
-                tear.dir = new Vector2(0, 1);
-                break;
-            case "Down":
-                tear.dir = new Vector2(0, -1);
-                break;
-            case "Left":
-                tear.dir = new Vector2(-1, 0);
-                break;
-            case "Right":
-                tear.dir = new Vector2(1, 0);
-                break;
-        }
+        isAttacking = true;
+        currentAttackDir = dir;
 
-        if (launchPlace)
-        {
-            go.transform.position = leftEye.position;
-            launchPlace = false;
-        }
-        else
-        {
-            go.transform.position = rightEye.position;
-            launchPlace = true;
-        }
+        int hash = HeadHashes[(int)dir];
+        HeadAnimator.SetBool(hash, true);
+        float baseDelay = 2.73f;
+        float animationSpeed = playerAtkDelay / baseDelay;
+        HeadAnimator.speed = animationSpeed;
 
-        tear.SetReturnAction(() => ReturnToPool(go));
     }
 
-    private GameObject GetTearFromPool()
+    public void OnRelease(AttackDirection dir)
     {
-        if (pool.Count > 0)
+
+        if (!isAttacking && dir != currentAttackDir)
+            return;
+
+          
+        isAttacking = false;
+
+        int hash = HeadHashes[(int)dir];
+        HeadAnimator.SetBool(hash, false);
+        HeadAnimator.speed = 1f;
+        if (attackBehavior is BrimstoneAttack brimstone)
         {
-            GameObject tear = pool.Dequeue();
-            tear.SetActive(true);
-            return tear;
-        }
-        else
-        {
-            GameObject tear = Instantiate(tearsPrefab);            
-            return tear;
+            attackBehavior.Attack(dir.ToString()); // Tears나 Brimstone 실행
         }
     }
 
-    private void ReturnToPool(GameObject tear)
+    public void SetPlayerStats(float Atkspeed, float Range, int Damage, float AtkDelay)
     {
-        tear.SetActive(false);
-        pool.Enqueue(tear);
+        playerAtk = Damage;
+        playerRanged = Range;
+        playerAtkspeed = Atkspeed;
+        playerAtkDelay = AtkDelay;
+        if (attackBehavior is TearsAttack tears)
+        {
+            tears.SetStats(Atkspeed, Range, Damage);
+        }
     }
 
-    public void SetTears(float speed, float range, int damage)
+    public void AttackDirection(string dir)
     {
-        foreach (var tear in pool)
+        attackBehavior.Attack(dir);
+    }
+
+    public void SwitchToBrimstone()
+    {
+        float chargeTime = 1f / playerAtkDelay;  
+        attackBehavior = new BrimstoneAttack(brimstonePrefab, Mouse, playerAtk, chargeTime);
+    }
+
+    public void UpdateCharge(float deltaTime)
+    {
+        if (attackBehavior is BrimstoneAttack brimstone)
         {
-            tear.GetComponent<Tears>().damage = damage;
-            tear.GetComponent<Tears>().speed = speed;
-            tear.GetComponent<Tears>().range = range;
+            brimstone.UpdateCharging(deltaTime);
         }
+    }
+
+    public void SwitchToTears()
+    {
+        var newTears = new TearsAttack(this, tearsPrefab, leftEye, rightEye, 50);
+
+        newTears.SetStats(playerAtkspeed, playerRanged, playerAtk);
+
+        attackBehavior = newTears;
+    }
+    public void OnAttackEnd()
+    {
+        isAttacking = false;
     }
 }
