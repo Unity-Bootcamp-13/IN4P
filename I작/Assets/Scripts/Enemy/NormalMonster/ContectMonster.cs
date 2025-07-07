@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class ContactMonster : MonoBehaviour
+public class ContectMonster : Enemy
 {
     [SerializeField] CharacterData monsterData;
     public int enemy_hp;
@@ -25,7 +25,7 @@ public class ContactMonster : MonoBehaviour
         enemy_speed = monsterData.Speed;
         enemy_atkRange = monsterData.AtkRange;
         enemy_currentHp = enemy_hp;
-
+        hp = enemy_hp;
         target = GameObject.FindGameObjectWithTag("Player");
         enemyAnimator = GetComponent<Animator>();
         enemy_rb = GetComponent<Rigidbody2D>();
@@ -53,15 +53,12 @@ public class ContactMonster : MonoBehaviour
        
     }
 
-    public void TakeDamage(int damage)
-    {
-        enemy_hp -= damage;
+    
 
-        if (enemy_hp <= 0)
-        {
-            enemyAnimator.SetTrigger("IsDead");
-            StartCoroutine(DieAnimation());
-        }
+    public override void Die()
+    {
+        enemyAnimator.SetTrigger("IsDead");
+        StartCoroutine(DieAnimation());
     }
 
     private IEnumerator DieAnimation()

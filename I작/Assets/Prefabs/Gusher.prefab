@@ -219,9 +219,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2198866590122009553}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cafdf43d9d1507458127c31e7042dda, type: 3}
+  m_Script: {fileID: 11500000, guid: 47358464f3aa18c479281b4d74343d54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hp: 0
   gaperData: {fileID: 11400000, guid: 08cfa7eac0dbbd241b81aef60b8a04e9, type: 2}
   gusher_hp: 0
   gusher_atk: 0
@@ -230,9 +231,9 @@ MonoBehaviour:
   gusher_atkRange: 0
   gusher_projectileSpeed: 0
   gusher_currentHp: 0
-  gusher_projectileDamage: 0
+  gusher_projectileDamage: 1
   gusher_Animator: {fileID: 0}
-  tearsPrefab: {fileID: 8347038662915090392, guid: 8357237898c4533489e6ab1963cc1aed, type: 3}
+  tearsPrefab: {fileID: 0}
   gusher_rb: {fileID: 0}
 --- !u!1 &2613147568843034520
 GameObject:

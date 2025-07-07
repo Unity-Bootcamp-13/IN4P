@@ -2,10 +2,9 @@ using System.Collections;
 using Unity.Mathematics;
 using UnityEngine;
 
-public class Gaper : MonoBehaviour
+public class Gaper : Enemy
 {
     [SerializeField] CharacterData GaperData;
-    public int gaper_hp;
     public float gaper_atk;
     public float gaper_atkSpeed;
     public float gaper_speed;
@@ -23,12 +22,11 @@ public class Gaper : MonoBehaviour
 
     private void Awake()
     {
-        gaper_hp = GaperData.PlayerHp;
+        hp = GaperData.PlayerHp;
         gaper_atk = GaperData.Atk;
         gaper_atkSpeed = GaperData.AtkSpeed;
         gaper_speed = GaperData.Speed;
         gaper_atkRange = GaperData.AtkRange;
-        gaper_currentHp = gaper_hp;
 
         target = GameObject.FindGameObjectWithTag("Player");
         gaperAnimator = transform.GetChild(0).GetComponent<Animator>();
@@ -38,10 +36,7 @@ public class Gaper : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            TakeDamage(10);
-        }
+        
     }
 
 
@@ -66,20 +61,16 @@ public class Gaper : MonoBehaviour
 
     }
 
-    public void TakeDamage(int damage)
-    {
-        gaper_hp -= damage;
+    
 
-        if (gaper_hp <= 0)
-        {
-            
-            gaperCollider.enabled = false;
-            
-            StartCoroutine(Die());
-        }
+    public override void Die()
+    {
+        gaperCollider.enabled = false;
+
+        StartCoroutine(Died());
     }
 
-    private IEnumerator Die()
+    private IEnumerator Died()
     {
         int rand = UnityEngine.Random.Range(0, 2);
         if (rand > 0)

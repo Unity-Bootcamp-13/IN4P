@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4034771837506207635}
   - component: {fileID: 5165454196139989415}
-  - component: {fileID: 351219785049333159}
   - component: {fileID: 2408934908116746402}
   - component: {fileID: 6284586401271984172}
+  - component: {fileID: 4175420168494930768}
   m_Layer: 0
   m_Name: Gaper
   m_TagString: Monster
@@ -92,31 +92,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &351219785049333159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1551447924517073226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92429bef0a1168b49909719bbda1d001, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GaperData: {fileID: 11400000, guid: 4e15b3b1a7e09d749803df2eb39f4afa, type: 2}
-  gaper_hp: 0
-  gaper_atk: 0
-  gaper_atkSpeed: 0
-  gaper_speed: 0
-  gaper_atkRange: 0
-  gaper_projectileSpeed: 0
-  gaper_currentHp: 0
-  gaperAnimator: {fileID: 0}
-  target: {fileID: 0}
-  gaper_rb: {fileID: 0}
-  gaperCollider: {fileID: 0}
-  GusherPrefab: {fileID: 135800233602175696, guid: 63090575389e43a4caa33011f00cee59, type: 3}
 --- !u!70 &2408934908116746402
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -181,6 +156,31 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &4175420168494930768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551447924517073226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 376486e1b976fec4c84e545b7cebc312, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 0
+  GaperData: {fileID: 11400000, guid: 4e15b3b1a7e09d749803df2eb39f4afa, type: 2}
+  gaper_atk: 0
+  gaper_atkSpeed: 0
+  gaper_speed: 0
+  gaper_atkRange: 0
+  gaper_projectileSpeed: 0
+  gaper_currentHp: 0
+  gaperAnimator: {fileID: 0}
+  target: {fileID: 0}
+  gaper_rb: {fileID: 0}
+  gaperCollider: {fileID: 0}
+  GusherPrefab: {fileID: 0}
 --- !u!1 &4296511760408265256
 GameObject:
   m_ObjectHideFlags: 0
