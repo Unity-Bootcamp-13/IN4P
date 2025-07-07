@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 3099353818032826502}
   - component: {fileID: 227275053480190255}
   - component: {fileID: 5701925796800090871}
-  - component: {fileID: 8956556568948030687}
   - component: {fileID: 9077996615475079297}
   - component: {fileID: 4574309584681902502}
+  - component: {fileID: 250601590194806286}
   m_Layer: 0
   m_Name: RedFly
   m_TagString: Monster
@@ -113,29 +113,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &8956556568948030687
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4142436044258721481}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b42c9aa34447e0e44839ad4964e97c32, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  monsterData: {fileID: 11400000, guid: 0616d16193816ab4c9353328f4e5901f, type: 2}
-  enemy_hp: 0
-  enemy_atk: 0
-  enemy_atkSpeed: 0
-  enemy_speed: 0
-  enemy_atkRange: 0
-  enemy_projectileSpeed: 0
-  enemy_currentHp: 0
-  enemyAnimator: {fileID: 0}
-  target: {fileID: 0}
-  enemy_rb: {fileID: 0}
 --- !u!50 &9077996615475079297
 Rigidbody2D:
   serializedVersion: 5
@@ -200,3 +177,26 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.46875, y: 0.53125}
   m_Direction: 0
+--- !u!114 &250601590194806286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4142436044258721481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0801b764401200746995afb98b88c6ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 0
+  monsterData: {fileID: 11400000, guid: 0616d16193816ab4c9353328f4e5901f, type: 2}
+  enemy_hp: 0
+  enemy_atk: 0
+  enemy_atkSpeed: 0
+  enemy_speed: 0
+  enemy_atkRange: 0
+  enemy_projectileSpeed: 0
+  enemyAnimator: {fileID: 0}
+  target: {fileID: 0}
+  enemy_rb: {fileID: 0}

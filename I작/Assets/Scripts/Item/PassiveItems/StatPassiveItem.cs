@@ -67,7 +67,7 @@ public class StatPassiveItem : MonoBehaviour
                     player.speed += valueToApply[i];
                     break;
                 case TargetStat.MaxHp:
-                    player.hp += (int)valueToApply[i];
+                    player.Max_hp += (int)valueToApply[i];
                     break;
                 case TargetStat.CurrentHp:
                     player.currentHp += (int)valueToApply[i];

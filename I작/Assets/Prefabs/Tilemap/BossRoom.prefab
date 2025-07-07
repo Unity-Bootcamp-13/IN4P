@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4819580047742687401}
   - component: {fileID: 2810113750101575905}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GroundColider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167,6 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a37f4339a2ec8564daa0b4a3db60c395, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainCamera: {fileID: 0}
   doorSpawnPoints:
   - {fileID: 6986356225072965658}
   - {fileID: 3072745446202472450}
@@ -176,6 +177,8 @@ MonoBehaviour:
   - {fileID: 8696586667057630437, guid: 74eaa87b04da6ce46abf3124f5c43324, type: 3}
   - {fileID: 8696586667057630437, guid: 74eaa87b04da6ce46abf3124f5c43324, type: 3}
   - {fileID: 8696586667057630437, guid: 74eaa87b04da6ce46abf3124f5c43324, type: 3}
+  playerIsHere: 0
+  monsterCount: 5
 --- !u!1 &2496658183863080670
 GameObject:
   m_ObjectHideFlags: 0

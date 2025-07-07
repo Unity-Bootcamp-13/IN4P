@@ -7,14 +7,15 @@ TagManager:
   - Boss
   - Monster
   - Object
+  - Item
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - ground
   - Water
   - UI
-  - 
+  - item
   - 
   - 
   - 
