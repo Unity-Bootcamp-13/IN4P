@@ -21,14 +21,14 @@ public class BrimstoneAttack : IAttackBehavior
         float chargeTime = 2.73f/ delay;
 
         requiredChargeTime = Mathf.Clamp(chargeTime, minChargeTime, maxChargeTime);
-        Debug.Log($"{requiredChargeTime} 차지시간");
+
     }
     public void SetStats(float delay ,int damage)
     {
         this.playerDamage = damage;
         float chargeTime = 2.73f / delay;
         requiredChargeTime = Mathf.Clamp(chargeTime, minChargeTime, maxChargeTime);
-        Debug.Log($"{requiredChargeTime} 차지시간");
+
 
     }
 
@@ -62,7 +62,6 @@ public class BrimstoneAttack : IAttackBehavior
 
     private void Fire()
     {
-        Debug.Log("[Brimstone] 발사 완료!");
         GameObject go = GameObject.Instantiate(prefab, firePoint.position, Quaternion.identity);
         BrimstoneBeam beam = go.GetComponent<BrimstoneBeam>();
         beam.Initialize(currentDirection, playerDamage, firePoint);
