@@ -53,5 +53,6 @@ public class PlayerAniamtions : MonoBehaviour
     {
         headAnimator.speed = 0f;
         bodyAnimator.speed = 0f;
+        totalbodyObject.GetComponentInChildren<SpriteRenderer>().enabled = true;
     }
 }
