@@ -61,7 +61,6 @@ public class NormalTears: MonoBehaviour
 
             if (player != null)
             {
-                Debug.Log($"NormalTears 데미지{damage} 입음");
                 player.TakeDamage(damage);
                 speed = 0f;
                 ExplodeAndDestroyTears();
