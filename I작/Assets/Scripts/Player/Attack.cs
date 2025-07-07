@@ -88,7 +88,6 @@ public class Attack : MonoBehaviour
 
         int hash = HeadHashes[(int)dir];
         HeadAnimator.SetBool(hash, false);
-        HeadAnimator.speed = 1f;
         if (attackBehavior is BrimstoneAttack brimstone)
         {
             attackBehavior.Attack(dir.ToString()); // Tears³ª Brimstone ½ÇÇà
@@ -105,6 +104,10 @@ public class Attack : MonoBehaviour
         {
             tears.SetStats(Atkspeed, Range, Damage);
         }
+        if (attackBehavior is BrimstoneAttack brimstoneAttack)
+        {
+            brimstoneAttack.SetStats(playerAtkDelay, Damage);
+        }
     }
 
     public void AttackDirection(string dir)
@@ -114,8 +117,8 @@ public class Attack : MonoBehaviour
 
     public void SwitchToBrimstone()
     {
-        float chargeTime = 1f / playerAtkDelay;  
-        attackBehavior = new BrimstoneAttack(brimstonePrefab, Mouse, playerAtk, chargeTime);
+        
+        attackBehavior = new BrimstoneAttack(brimstonePrefab, Mouse, playerAtk, playerAtkDelay);
     }
 
     public void UpdateCharge(float deltaTime)

@@ -127,6 +127,7 @@ public class Player : MonoBehaviour
 
         Vector3 dir = moveInput.normalized;
         rid.linearVelocity = dir * speed;
+        attack.SetPlayerStats(projectileSpeed, atkRange, (int)atk, atkSpeed);
     }
 
     public void OnBomb(InputAction.CallbackContext context)

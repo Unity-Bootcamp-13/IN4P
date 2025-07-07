@@ -16,8 +16,7 @@ public class Tears : MonoBehaviour
 
     private void OnEnable()
     {        
-        //timer = range / speed;
-        timer = 5f;
+        timer = range / speed;
     }
 
     private void Update()
@@ -54,7 +53,6 @@ public class Tears : MonoBehaviour
 
     void DestoryTears()
     {
-        this.gameObject.SetActive(false);
         returnAction?.Invoke();
     }
 

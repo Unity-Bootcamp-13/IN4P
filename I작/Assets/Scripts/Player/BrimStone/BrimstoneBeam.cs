@@ -2,16 +2,16 @@ using UnityEngine;
 
 public class BrimstoneBeam : MonoBehaviour
 {
-    public Vector2 direction;
-    public float duration = 1f;
-    public float damageInterval = 0.083f;
+    private Vector2 direction;
+    private float duration = 1.5f;
+    private float damageInterval = 0.166f;
 
     private float damage;
     private float timer;
     private float damageTimer;
 
     private LineRenderer lineRenderer;
-    private float beamLength = 10f;
+    private float beamLength = 20f;
 
     private Transform firePoint;
 
