@@ -40,10 +40,19 @@ public class Player : MonoBehaviour
 
     public GameObject bodyObject;
     public GameObject totalbodyObject;
+    public GameObject spotLightObject;
+
 
     public Animator bodyAnimator;
+    public Animator totalbodyAnimator;
 
     public SpriteRenderer bodySprite;
+
+    // 애니메이션 상태 전환
+    public bool isItem = false;
+    public bool isHurt = false;
+    public bool isDead = false;
+    private float shakeSpeed = 5f;
 
 
     private void Awake()
@@ -73,6 +82,17 @@ public class Player : MonoBehaviour
 
     public void Update()
     {
+        if (isHurt)
+        {
+            return;
+        }
+
+        if (isDead)
+        {
+            moveInput = Vector2.zero;
+            return;
+        }
+
         if (moveInput != Vector2.zero)
         {
             bodyAnimator.SetBool(isMove, true);
@@ -83,10 +103,26 @@ public class Player : MonoBehaviour
         {
             bodyAnimator.SetBool(isMove, false);
         }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            TakeDamage(1);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            AquireItem();
+        }
     }
 
     private void FixedUpdate()
     {
+        if (isDead)
+        {
+            rid.linearVelocity = Vector2.zero;
+            return;
+        }
+
         Vector3 dir = moveInput.normalized;
         rid.linearVelocity = dir * speed;
     }
@@ -156,9 +192,17 @@ public class Player : MonoBehaviour
         Debug.Log($"Player 데미지{damage} 입음");
 
         hp -= damage;
-        
-        if(hp <= 0)
+
+        isHurt = true;
+
+        totalbodyObject.SetActive(true);
+        totalbodyAnimator.SetTrigger("IsHurt");
+
+        if (hp <= 0)
         {
+            isHurt = false;
+            isDead = true;
+            StartCoroutine(DeadAnim());
             Die();
         }
     }
@@ -168,4 +212,49 @@ public class Player : MonoBehaviour
         
     }
 
+    // 아이템 획득 시
+    private void AquireItem()
+    {
+        isItem = true;
+
+        totalbodyObject.SetActive(true);
+        totalbodyAnimator.SetTrigger("IsItem");
+    }
+
+    public void HurtAnimFinish()
+    {
+        isHurt = false;
+        Debug.Log("피격 종료");
+    }
+
+    public void DeadAnimFinish()
+    {
+        isDead = false;
+        gameObject.SetActive(false);
+        Debug.Log("사망 종료");
+    }
+
+    public void AquireItemFinish()
+    {
+        isItem = false;
+        Debug.Log("아이템 획득 종료");
+    }
+
+    IEnumerator DeadAnim()
+    {
+        float elapsedTime = 0f;
+        float shakeDurtaion = 2.5f;
+
+        while (elapsedTime < shakeDurtaion)
+        {
+            spotLightObject.SetActive(true);
+            float shakePosX = Mathf.PingPong(Time.time * shakeSpeed, 0.2f);
+            transform.position = new Vector3(shakePosX, transform.position.y, transform.position.z);
+
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        DeadAnimFinish();
+    }
 }

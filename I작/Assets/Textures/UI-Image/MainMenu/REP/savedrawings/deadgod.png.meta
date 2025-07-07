@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 4f8c88057be2664459f1c187e9fba601
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4184479571129242798
+    second: deadgod_0
+  - first:
+      213: -7959482624111281576
+    second: deadgod_1
+  - first:
+      213: -6244197718376315900
+    second: deadgod_2
+  - first:
+      213: -6808934563133446434
+    second: deadgod_3
+  - first:
+      213: -3728364840880011175
+    second: deadgod_4
+  - first:
+      213: 6415901073751420404
+    second: deadgod_5
+  - first:
+      213: 6070330303767928449
+    second: deadgod_6
+  - first:
+      213: -2381718114815252066
+    second: deadgod_7
+  - first:
+      213: -8423341098895421154
+    second: deadgod_8
+  - first:
+      213: 227168458951746154
+    second: deadgod_9
+  - first:
+      213: -9093309265401439086
+    second: deadgod_10
+  - first:
+      213: 761321849992255769
+    second: deadgod_11
+  - first:
+      213: -1324957265737439921
+    second: deadgod_12
+  - first:
+      213: 9137765950683406634
+    second: deadgod_13
+  - first:
+      213: 2525164862672943878
+    second: deadgod_14
+  - first:
+      213: -7167811184889360961
+    second: deadgod_15
+  - first:
+      213: -830764930344090267
+    second: deadgod_16
+  - first:
+      213: -4425056335824319003
+    second: deadgod_17
+  - first:
+      213: 7299111752481250731
+    second: deadgod_18
+  - first:
+      213: -5002362419968137997
+    second: deadgod_19
+  - first:
+      213: -1317345948039619973
+    second: deadgod_20
+  - first:
+      213: -56505012775899304
+    second: deadgod_21
+  - first:
+      213: -7403590898586528165
+    second: deadgod_22
+  - first:
+      213: 1229217357035865462
+    second: deadgod_23
+  - first:
+      213: -7521904843898213630
+    second: deadgod_24
+  - first:
+      213: 7486205791168199973
+    second: deadgod_25
+  - first:
+      213: -7045530947707632
+    second: deadgod_26
+  - first:
+      213: -7580995172789287156
+    second: deadgod_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: deadgod_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 108
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea49907eff1421a30800000000000000
+      internalID: 4184479571129242798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 111
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85af3f979bc3a8190800000000000000
+      internalID: -7959482624111281576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 109
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40400e022472859a0800000000000000
+      internalID: -6244197718376315900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_3
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 113
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed62d81171ec181a0800000000000000
+      internalID: -6808934563133446434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_4
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 109
+        width: 48
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9588a425eef224cc0800000000000000
+      internalID: -3728364840880011175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_5
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 111
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd200f980cd90950800000000000000
+      internalID: 6415901073751420404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_6
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 110
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e5061df352e3450800000000000000
+      internalID: 6070330303767928449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 116
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99e2535eff62fed0800000000000000
+      internalID: -2381718114815252066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_8
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 114
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11d36a36e74a1b80800000000000000
+      internalID: -8423341098895421154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_9
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 108
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62edf38280172300800000000000000
+      internalID: 227168458951746154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_10
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 108
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c9afac6631ec180800000000000000
+      internalID: -9093309265401439086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_11
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 81
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919188c5032c09a00800000000000000
+      internalID: 761321849992255769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_12
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 83
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45a521036ecc9de0800000000000000
+      internalID: -1324957265737439921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_13
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 77
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21e42bd7bddfce70800000000000000
+      internalID: 9137765950683406634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_14
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 83
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b3bee40103b0320800000000000000
+      internalID: 2525164862672943878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_15
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 85
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd099b34b1d68c90800000000000000
+      internalID: -7167811184889360961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_16
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 89
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5650dfa82b78874f0800000000000000
+      internalID: -830764930344090267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_17
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 82
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed891025ba0792c0800000000000000
+      internalID: -4425056335824319003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_18
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 86
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad168e6777ab4560800000000000000
+      internalID: 7299111752481250731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_19
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 80
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f42908f1e9049ab0800000000000000
+      internalID: -5002362419968137997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 10
+        width: 121
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a5cc007d8d7bde0800000000000000
+      internalID: -1317345948039619973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_21
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 78
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85fa6718df0473ff0800000000000000
+      internalID: -56505012775899304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_22
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 10
+        width: 117
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b565f6bbd49214990800000000000000
+      internalID: -7403590898586528165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_23
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 63
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6750edd6cae0f0110800000000000000
+      internalID: 1229217357035865462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_24
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 64
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b2821b563dc9790800000000000000
+      internalID: -7521904843898213630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_25
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 19
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d7d02e08854e760800000000000000
+      internalID: 7486205791168199973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_26
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 12
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d9b9e7028f6eff0800000000000000
+      internalID: -7045530947707632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadgod_27
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 12
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0781f16e05eac690800000000000000
+      internalID: -7580995172789287156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      deadgod_0: 4184479571129242798
+      deadgod_1: -7959482624111281576
+      deadgod_10: -9093309265401439086
+      deadgod_11: 761321849992255769
+      deadgod_12: -1324957265737439921
+      deadgod_13: 9137765950683406634
+      deadgod_14: 2525164862672943878
+      deadgod_15: -7167811184889360961
+      deadgod_16: -830764930344090267
+      deadgod_17: -4425056335824319003
+      deadgod_18: 7299111752481250731
+      deadgod_19: -5002362419968137997
+      deadgod_2: -6244197718376315900
+      deadgod_20: -1317345948039619973
+      deadgod_21: -56505012775899304
+      deadgod_22: -7403590898586528165
+      deadgod_23: 1229217357035865462
+      deadgod_24: -7521904843898213630
+      deadgod_25: 7486205791168199973
+      deadgod_26: -7045530947707632
+      deadgod_27: -7580995172789287156
+      deadgod_3: -6808934563133446434
+      deadgod_4: -3728364840880011175
+      deadgod_5: 6415901073751420404
+      deadgod_6: 6070330303767928449
+      deadgod_7: -2381718114815252066
+      deadgod_8: -8423341098895421154
+      deadgod_9: 227168458951746154
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

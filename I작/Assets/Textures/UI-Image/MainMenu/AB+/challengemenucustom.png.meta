@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 211115ccc65ad494c82eb8917ff8bd35
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7890369159623254776
+    second: challengemenucustom_0
+  - first:
+      213: 790985694681201396
+    second: challengemenucustom_1
+  - first:
+      213: -2918478589733054303
+    second: challengemenucustom_2
+  - first:
+      213: 4895302937642159069
+    second: challengemenucustom_3
+  - first:
+      213: 288146965795508560
+    second: challengemenucustom_4
+  - first:
+      213: -4139697588059012430
+    second: challengemenucustom_5
+  - first:
+      213: 7169156119089118210
+    second: challengemenucustom_6
+  - first:
+      213: -4029281063720438091
+    second: challengemenucustom_7
+  - first:
+      213: 3138304987419645871
+    second: challengemenucustom_8
+  - first:
+      213: -494795046085201275
+    second: challengemenucustom_9
+  - first:
+      213: -2665923194481166352
+    second: challengemenucustom_10
+  - first:
+      213: -6779080607025139065
+    second: challengemenucustom_11
+  - first:
+      213: -619476774851487175
+    second: challengemenucustom_12
+  - first:
+      213: -1884386228856640494
+    second: challengemenucustom_13
+  - first:
+      213: -4493150400421177147
+    second: challengemenucustom_14
+  - first:
+      213: -255249390112343162
+    second: challengemenucustom_15
+  - first:
+      213: -7713075642427303731
+    second: challengemenucustom_16
+  - first:
+      213: 470739614383803652
+    second: challengemenucustom_17
+  - first:
+      213: -716990112417171000
+    second: challengemenucustom_18
+  - first:
+      213: 5455627003146556926
+    second: challengemenucustom_19
+  - first:
+      213: 7250298314071317256
+    second: challengemenucustom_20
+  - first:
+      213: 2852085531387108856
+    second: challengemenucustom_21
+  - first:
+      213: -7247954088980073391
+    second: challengemenucustom_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: challengemenucustom_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 249
+        width: 239
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d55f5ed07cf7290800000000000000
+      internalID: -7890369159623254776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challengemenucustom_1
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 495
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa73e96c452afa00800000000000000
+      internalID: 790985694681201396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challengemenucustom_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 496
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8d0667f2b7f77d0800000000000000
+      internalID: -2918478589733054303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challengemenucustom_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 203
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb461ad51c9fe340800000000000000
+      internalID: 4895302937642159069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challengemenucustom_4
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 197
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05119538324bff300800000000000000
+      internalID: 288146965795508560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challengemenucustom_5
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 238
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2833a0af6dc86c0800000000000000
+      internalID: -4139697588059012430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challengemenucustom_6
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 177
+        width: 31
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20cff99a185fd7360800000000000000
+      internalID: 7169156119089118210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challengemenucustom_7
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 238
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b63cb8783e1518c0800000000000000
+      internalID: -4029281063720438091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challengemenucustom_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 188
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa71cf332cf7d8b20800000000000000
+      internalID: 3138304987419645871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challengemenucustom_9
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 238
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582f771f6822229f0800000000000000
+      internalID: -494795046085201275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challengemenucustom_10
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 190
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7b972bafcb00bd0800000000000000
+      internalID: -2665923194481166352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challengemenucustom_11
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 206
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782f682ea1edbe1a0800000000000000
+      internalID: -6779080607025139065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challengemenucustom_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 186
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a5f58c72d2767f0800000000000000
+      internalID: -619476774851487175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challengemenucustom_13
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 177
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21cac5175b059d5e0800000000000000
+      internalID: -1884386228856640494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challengemenucustom_14
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 161
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8dd7c348f15a1c0800000000000000
+      internalID: -4493150400421177147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challengemenucustom_15
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 179
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bf735380c257cf0800000000000000
+      internalID: -255249390112343162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challengemenucustom_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 189
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8176f9196a5f490800000000000000
+      internalID: -7713075642427303731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challengemenucustom_17
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 177
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d0d096f27688600800000000000000
+      internalID: 470739614383803652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challengemenucustom_18
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 114
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c938e1aa4dbc06f0800000000000000
+      internalID: -716990112417171000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challengemenucustom_19
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 105
+        width: 110
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5549daad746bb40800000000000000
+      internalID: 5455627003146556926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challengemenucustom_20
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 115
+        width: 72
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b95d527eb3e9460800000000000000
+      internalID: 7250298314071317256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challengemenucustom_21
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 118
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd1c570ea4a49720800000000000000
+      internalID: 2852085531387108856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challengemenucustom_22
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 0
+        width: 131
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154b00a48281a6b90800000000000000
+      internalID: -7247954088980073391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      challengemenucustom_0: -7890369159623254776
+      challengemenucustom_1: 790985694681201396
+      challengemenucustom_10: -2665923194481166352
+      challengemenucustom_11: -6779080607025139065
+      challengemenucustom_12: -619476774851487175
+      challengemenucustom_13: -1884386228856640494
+      challengemenucustom_14: -4493150400421177147
+      challengemenucustom_15: -255249390112343162
+      challengemenucustom_16: -7713075642427303731
+      challengemenucustom_17: 470739614383803652
+      challengemenucustom_18: -716990112417171000
+      challengemenucustom_19: 5455627003146556926
+      challengemenucustom_2: -2918478589733054303
+      challengemenucustom_20: 7250298314071317256
+      challengemenucustom_21: 2852085531387108856
+      challengemenucustom_22: -7247954088980073391
+      challengemenucustom_3: 4895302937642159069
+      challengemenucustom_4: 288146965795508560
+      challengemenucustom_5: -4139697588059012430
+      challengemenucustom_6: 7169156119089118210
+      challengemenucustom_7: -4029281063720438091
+      challengemenucustom_8: 3138304987419645871
+      challengemenucustom_9: -494795046085201275
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
