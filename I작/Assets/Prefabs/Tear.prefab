@@ -108,6 +108,7 @@ MonoBehaviour:
   timer: 0
   damage: 0
   tearsAnimator: {fileID: 8952167076406689498}
+  rigidbody: {fileID: 0}
 --- !u!58 &-7482363205653737343
 CircleCollider2D:
   m_ObjectHideFlags: 0
