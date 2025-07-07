@@ -12,6 +12,7 @@ public class Attack : MonoBehaviour
     public GameObject tearsPrefab;
     public GameObject brimstonePrefab;
 
+    public Transform Eyes;
     public Transform leftEye;
     public Transform rightEye;
     public Transform Mouse;
@@ -60,12 +61,13 @@ public class Attack : MonoBehaviour
         }
     }
 
-    public void OnPress(AttackDirection dir)
+    public void OnPress(AttackDirection dir, Quaternion rot)
     {
         if (isAttacking) return;
 
         isAttacking = true;
         currentAttackDir = dir;
+        Eyes.rotation = rot;
 
         int hash = HeadHashes[(int)dir];
         HeadAnimator.SetBool(hash, true);

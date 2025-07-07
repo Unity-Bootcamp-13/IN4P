@@ -24,17 +24,19 @@ public class Player : MonoBehaviour
     public float atkRange;
     public float projectileSpeed;
     public int currentHp;
-    AttackDirection attackDirection;
-
+    
 
     private int h;
     private int v;
     private int isMove;
 
-   
+    private AttackDirection attackDirection;
+    private Quaternion rot;
+    private Vector2 moveInput;
+
     public Attack attack;
     public Rigidbody2D rid;
-    private Vector2 moveInput;
+    
 
     [SerializeField] GameObject bombPrefab;
 
@@ -157,6 +159,7 @@ public class Player : MonoBehaviour
     public void OnUpAttack(InputAction.CallbackContext context)
     {
         attackDirection = AttackDirection.Up;
+        rot = Quaternion.Euler(0f, 0f, 180f);
         OnAttack(context);
 
     }
@@ -164,25 +167,28 @@ public class Player : MonoBehaviour
     public void OnDownAttack(InputAction.CallbackContext context)
     {
         attackDirection = AttackDirection.Down;
+        rot = Quaternion.Euler(0f, 0f, 0f);
         OnAttack(context);
     }
 
     public void OnLeftAttack(InputAction.CallbackContext context)
     {
         attackDirection = AttackDirection.Left;
+        rot = Quaternion.Euler(0f, 0f, -90f);
         OnAttack(context);
     }
 
     public void OnRightAttack(InputAction.CallbackContext context)
     {
         attackDirection = AttackDirection.Right;
+        rot = Quaternion.Euler(0f, 0f, 90f);
         OnAttack(context);
     }
 
     private void OnAttack(InputAction.CallbackContext context)
     {
         if (context.performed)
-            attack.OnPress(attackDirection);
+            attack.OnPress(attackDirection,rot);
         if (context.canceled)
             attack.OnRelease(attackDirection);
     }
