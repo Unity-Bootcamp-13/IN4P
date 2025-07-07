@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 94e5560fddbc2ed429c9a549077e455c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2949142598602269033
+    second: optionsextra_0
+  - first:
+      213: 5615117505350357303
+    second: optionsextra_1
+  - first:
+      213: -8049802926028983669
+    second: optionsextra_2
+  - first:
+      213: 4881495412010893607
+    second: optionsextra_3
+  - first:
+      213: 8244524541915916953
+    second: optionsextra_4
+  - first:
+      213: 624833083472486172
+    second: optionsextra_5
+  - first:
+      213: -1316376511063516521
+    second: optionsextra_6
+  - first:
+      213: 6959879979746847735
+    second: optionsextra_7
+  - first:
+      213: 1445957363429031685
+    second: optionsextra_8
+  - first:
+      213: -14619900412447141
+    second: optionsextra_9
+  - first:
+      213: -1310156632195507042
+    second: optionsextra_10
+  - first:
+      213: 5502617992246864860
+    second: optionsextra_11
+  - first:
+      213: 886396913407151524
+    second: optionsextra_12
+  - first:
+      213: -173044495365384855
+    second: optionsextra_13
+  - first:
+      213: -6552974789497921936
+    second: optionsextra_14
+  - first:
+      213: 1206185139037388603
+    second: optionsextra_15
+  - first:
+      213: -5986993484865025337
+    second: optionsextra_16
+  - first:
+      213: -4188451055306133101
+    second: optionsextra_17
+  - first:
+      213: 3730404933887351533
+    second: optionsextra_18
+  - first:
+      213: 3681131979855477208
+    second: optionsextra_19
+  - first:
+      213: -5494973488502447035
+    second: optionsextra_20
+  - first:
+      213: 2556956133026012849
+    second: optionsextra_21
+  - first:
+      213: 5439521605544152450
+    second: optionsextra_22
+  - first:
+      213: 1234532260545290540
+    second: optionsextra_23
+  - first:
+      213: -4335837052396000643
+    second: optionsextra_24
+  - first:
+      213: 3389862166909835774
+    second: optionsextra_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: optionsextra_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 232
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ed65a8e6a8217d0800000000000000
+      internalID: -2949142598602269033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 231
+        width: 46
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7315c76fe97eced40800000000000000
+      internalID: 5615117505350357303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 231
+        width: 101
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82742273ea594090800000000000000
+      internalID: -8049802926028983669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_3
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 199
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721cb95c63e8eb340800000000000000
+      internalID: 4881495412010893607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_4
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 199
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a63e6b36f6a6270800000000000000
+      internalID: 8244524541915916953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_5
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 200
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f1a40016adba800800000000000000
+      internalID: 624833083472486172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_6
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 200
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a1463a98a4bbde0800000000000000
+      internalID: -1316376511063516521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_7
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 200
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fbe92077f5769060800000000000000
+      internalID: 6959879979746847735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 199
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f3c8f9f82111410800000000000000
+      internalID: 1445957363429031685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_9
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 200
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56b34d274f0ccff0800000000000000
+      internalID: -14619900412447141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_10
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 199
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c5dd90c7361dde0800000000000000
+      internalID: -1310156632195507042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 169
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb2c8ae8e93d5c40800000000000000
+      internalID: 5502617992246864860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_12
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 169
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4adc2a1eb4d1d4c00800000000000000
+      internalID: 886396913407151524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_13
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 169
+        width: 43
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965d863c2f8399df0800000000000000
+      internalID: -173044495365384855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_14
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 134
+        width: 45
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ed2e9e5282f05a0800000000000000
+      internalID: -6552974789497921936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_15
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 139
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3fbda94efa3db010800000000000000
+      internalID: 1206185139037388603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_16
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 138
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7caca0e552de9eca0800000000000000
+      internalID: -5986993484865025337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_17
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 138
+        width: 56
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3913e51e4f1afd5c0800000000000000
+      internalID: -4188451055306133101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 104
+        width: 43
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea58b8d58f05c330800000000000000
+      internalID: 3730404933887351533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_19
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 104
+        width: 56
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9bd9e3802061330800000000000000
+      internalID: 3681131979855477208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 67
+        width: 90
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5446f9fc9beedb3b0800000000000000
+      internalID: -5494973488502447035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_21
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 40
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be954f3e022c7320800000000000000
+      internalID: 2556956133026012849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_22
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 40
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d858694101d7b40800000000000000
+      internalID: 5439521605544152450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_23
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 40
+        width: 37
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21ef85dc80f12110800000000000000
+      internalID: 1234532260545290540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 8
+        width: 52
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7aa5ff4c2304d3c0800000000000000
+      internalID: -4335837052396000643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsextra_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 10
+        width: 55
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef952383ea53b0f20800000000000000
+      internalID: 3389862166909835774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      optionsextra_0: -2949142598602269033
+      optionsextra_1: 5615117505350357303
+      optionsextra_10: -1310156632195507042
+      optionsextra_11: 5502617992246864860
+      optionsextra_12: 886396913407151524
+      optionsextra_13: -173044495365384855
+      optionsextra_14: -6552974789497921936
+      optionsextra_15: 1206185139037388603
+      optionsextra_16: -5986993484865025337
+      optionsextra_17: -4188451055306133101
+      optionsextra_18: 3730404933887351533
+      optionsextra_19: 3681131979855477208
+      optionsextra_2: -8049802926028983669
+      optionsextra_20: -5494973488502447035
+      optionsextra_21: 2556956133026012849
+      optionsextra_22: 5439521605544152450
+      optionsextra_23: 1234532260545290540
+      optionsextra_24: -4335837052396000643
+      optionsextra_25: 3389862166909835774
+      optionsextra_3: 4881495412010893607
+      optionsextra_4: 8244524541915916953
+      optionsextra_5: 624833083472486172
+      optionsextra_6: -1316376511063516521
+      optionsextra_7: 6959879979746847735
+      optionsextra_8: 1445957363429031685
+      optionsextra_9: -14619900412447141
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

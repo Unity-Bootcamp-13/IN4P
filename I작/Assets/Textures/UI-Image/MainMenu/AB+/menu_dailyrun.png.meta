@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: 92f238ce3948f484da80daed562814ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3924992674743824353
+    second: menu_dailyrun_0
+  - first:
+      213: 205537392493014892
+    second: menu_dailyrun_1
+  - first:
+      213: -5347378324079460969
+    second: menu_dailyrun_2
+  - first:
+      213: 2536769390338477349
+    second: menu_dailyrun_3
+  - first:
+      213: 6566370961195264502
+    second: menu_dailyrun_4
+  - first:
+      213: 1241137950534886430
+    second: menu_dailyrun_5
+  - first:
+      213: 5839299722231583336
+    second: menu_dailyrun_6
+  - first:
+      213: -1411564441061356135
+    second: menu_dailyrun_7
+  - first:
+      213: -6889168758500979654
+    second: menu_dailyrun_8
+  - first:
+      213: 4978038415119635958
+    second: menu_dailyrun_9
+  - first:
+      213: -440150861022975343
+    second: menu_dailyrun_10
+  - first:
+      213: -5687719443910021335
+    second: menu_dailyrun_11
+  - first:
+      213: 7430719896095346757
+    second: menu_dailyrun_12
+  - first:
+      213: 6379663934730933713
+    second: menu_dailyrun_13
+  - first:
+      213: 3669060011374150023
+    second: menu_dailyrun_14
+  - first:
+      213: 2681886243332893594
+    second: menu_dailyrun_15
+  - first:
+      213: -5966432031074300450
+    second: menu_dailyrun_16
+  - first:
+      213: 2905715750007302410
+    second: menu_dailyrun_17
+  - first:
+      213: 8354456200096153800
+    second: menu_dailyrun_18
+  - first:
+      213: 1683141798817575931
+    second: menu_dailyrun_19
+  - first:
+      213: -5252430500616856093
+    second: menu_dailyrun_20
+  - first:
+      213: -8278004663528274529
+    second: menu_dailyrun_21
+  - first:
+      213: -1252959804262350056
+    second: menu_dailyrun_22
+  - first:
+      213: 1288013008000752124
+    second: menu_dailyrun_23
+  - first:
+      213: -7059410944774042250
+    second: menu_dailyrun_24
+  - first:
+      213: -5226359815479609146
+    second: menu_dailyrun_25
+  - first:
+      213: 4349674577625944727
+    second: menu_dailyrun_26
+  - first:
+      213: 3219758412061200318
+    second: menu_dailyrun_27
+  - first:
+      213: 7287777761592946009
+    second: menu_dailyrun_28
+  - first:
+      213: -3552347591324628624
+    second: menu_dailyrun_29
+  - first:
+      213: 2198296756316426797
+    second: menu_dailyrun_30
+  - first:
+      213: 2121599206392916638
+    second: menu_dailyrun_31
+  - first:
+      213: 5821529962189686466
+    second: menu_dailyrun_32
+  - first:
+      213: -6502303795059950801
+    second: menu_dailyrun_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: menu_dailyrun_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 103
+        width: 225
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1052e335ff9789c0800000000000000
+      internalID: -3924992674743824353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_1
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 192
+        width: 21
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f2b936b273ad200800000000000000
+      internalID: 205537392493014892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 226
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79dbe91febb4ac5b0800000000000000
+      internalID: -5347378324079460969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_3
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 139
+        width: 126
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d8534f15a643320800000000000000
+      internalID: 2536769390338477349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_4
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 212
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9eb7d599f602b50800000000000000
+      internalID: 6566370961195264502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_5
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 150
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1463e2e368693110800000000000000
+      internalID: 1241137950534886430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_6
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 181
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86296a0d82c590150800000000000000
+      internalID: 5839299722231583336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_7
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 118
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d07f0ae9d196ce0800000000000000
+      internalID: -1411564441061356135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_8
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 95
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c84d7b381c460a0800000000000000
+      internalID: -6889168758500979654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 64
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f55473509b851540800000000000000
+      internalID: 4978038415119635958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 49
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19aa429bf1544e9f0800000000000000
+      internalID: -440150861022975343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_11
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 50
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f29a3fc492111b0800000000000000
+      internalID: -5687719443910021335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 62
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540d03830683f1760800000000000000
+      internalID: 7430719896095346757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_13
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 48
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d512083c8e198850800000000000000
+      internalID: 6379663934730933713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_14
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 32
+        width: 100
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7810c8d04ae1be230800000000000000
+      internalID: 3669060011374150023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_15
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 49
+        width: 55
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b2ddd3459f73520800000000000000
+      internalID: 2681886243332893594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 34
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eddcd43eda9f23da0800000000000000
+      internalID: -5966432031074300450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_17
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 35
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a096179541d235820800000000000000
+      internalID: 2905715750007302410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 35
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c08a4276adf0f370800000000000000
+      internalID: 8354456200096153800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 34
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf332216c88bb5710800000000000000
+      internalID: 1683141798817575931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed1e4bc94e9b17b0800000000000000
+      internalID: -5252430500616856093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_21
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 5
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95ce550e9e9e1d80800000000000000
+      internalID: -8278004663528274529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_22
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 10
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813891d42b79c9ee0800000000000000
+      internalID: -1252959804262350056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 11
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf997ffa101ffd110800000000000000
+      internalID: 1288013008000752124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_24
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 11
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d0d39e52fe70e90800000000000000
+      internalID: -7059410944774042250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_25
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 11
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c836f1307d3877b0800000000000000
+      internalID: -5226359815479609146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_26
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 8
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79211f79bf52d5c30800000000000000
+      internalID: 4349674577625944727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_27
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebfcb7d7731eeac20800000000000000
+      internalID: 3219758412061200318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_28
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 3
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d2db90343632560800000000000000
+      internalID: 7287777761592946009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_29
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 5
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0798164dfa683bec0800000000000000
+      internalID: -3552347591324628624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_30
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 7
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d225227b04be18e10800000000000000
+      internalID: 2198296756316426797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_31
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 10
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9aeccccc3f617d10800000000000000
+      internalID: 2121599206392916638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_32
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 10
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c60c9528aa3ac050800000000000000
+      internalID: 5821529962189686466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_dailyrun_33
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 13
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2bf6c9262d23c5a0800000000000000
+      internalID: -6502303795059950801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      menu_dailyrun_0: -3924992674743824353
+      menu_dailyrun_1: 205537392493014892
+      menu_dailyrun_10: -440150861022975343
+      menu_dailyrun_11: -5687719443910021335
+      menu_dailyrun_12: 7430719896095346757
+      menu_dailyrun_13: 6379663934730933713
+      menu_dailyrun_14: 3669060011374150023
+      menu_dailyrun_15: 2681886243332893594
+      menu_dailyrun_16: -5966432031074300450
+      menu_dailyrun_17: 2905715750007302410
+      menu_dailyrun_18: 8354456200096153800
+      menu_dailyrun_19: 1683141798817575931
+      menu_dailyrun_2: -5347378324079460969
+      menu_dailyrun_20: -5252430500616856093
+      menu_dailyrun_21: -8278004663528274529
+      menu_dailyrun_22: -1252959804262350056
+      menu_dailyrun_23: 1288013008000752124
+      menu_dailyrun_24: -7059410944774042250
+      menu_dailyrun_25: -5226359815479609146
+      menu_dailyrun_26: 4349674577625944727
+      menu_dailyrun_27: 3219758412061200318
+      menu_dailyrun_28: 7287777761592946009
+      menu_dailyrun_29: -3552347591324628624
+      menu_dailyrun_3: 2536769390338477349
+      menu_dailyrun_30: 2198296756316426797
+      menu_dailyrun_31: 2121599206392916638
+      menu_dailyrun_32: 5821529962189686466
+      menu_dailyrun_33: -6502303795059950801
+      menu_dailyrun_4: 6566370961195264502
+      menu_dailyrun_5: 1241137950534886430
+      menu_dailyrun_6: 5839299722231583336
+      menu_dailyrun_7: -1411564441061356135
+      menu_dailyrun_8: -6889168758500979654
+      menu_dailyrun_9: 4978038415119635958
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

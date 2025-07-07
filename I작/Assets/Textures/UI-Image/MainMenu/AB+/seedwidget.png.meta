@@ -1,0 +1,1391 @@
+fileFormatVersion: 2
+guid: 505a4d9dc4a679c4cb0bab40426a7316
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8755610805588419474
+    second: seedwidget_0
+  - first:
+      213: 8402139244693904102
+    second: seedwidget_1
+  - first:
+      213: 3991264060413816369
+    second: seedwidget_2
+  - first:
+      213: 7208782202464028193
+    second: seedwidget_3
+  - first:
+      213: 3192756215240396285
+    second: seedwidget_4
+  - first:
+      213: 5550528203879448461
+    second: seedwidget_5
+  - first:
+      213: -4534770597084048274
+    second: seedwidget_6
+  - first:
+      213: 2967015829861110418
+    second: seedwidget_7
+  - first:
+      213: -873675569280505960
+    second: seedwidget_8
+  - first:
+      213: -8390551225292304155
+    second: seedwidget_9
+  - first:
+      213: 1244292890637092143
+    second: seedwidget_10
+  - first:
+      213: -8639761466597760210
+    second: seedwidget_11
+  - first:
+      213: 4450723857908446146
+    second: seedwidget_12
+  - first:
+      213: -3837126719379192790
+    second: seedwidget_13
+  - first:
+      213: -5252350343629946667
+    second: seedwidget_14
+  - first:
+      213: 6716538548479498955
+    second: seedwidget_15
+  - first:
+      213: -7742537333953099983
+    second: seedwidget_16
+  - first:
+      213: -204404078329321737
+    second: seedwidget_17
+  - first:
+      213: -3089100662128495537
+    second: seedwidget_18
+  - first:
+      213: -234015651677670970
+    second: seedwidget_19
+  - first:
+      213: 540033940166486845
+    second: seedwidget_20
+  - first:
+      213: 7733846046931004981
+    second: seedwidget_21
+  - first:
+      213: -7254765379786585434
+    second: seedwidget_22
+  - first:
+      213: 7153628676029350468
+    second: seedwidget_23
+  - first:
+      213: 8383209752687893976
+    second: seedwidget_24
+  - first:
+      213: -3614553988259223257
+    second: seedwidget_25
+  - first:
+      213: 6830492726695443782
+    second: seedwidget_26
+  - first:
+      213: -4574519206080103401
+    second: seedwidget_27
+  - first:
+      213: -5789626672902660510
+    second: seedwidget_28
+  - first:
+      213: 445223242260754751
+    second: seedwidget_29
+  - first:
+      213: 9110199872926430907
+    second: seedwidget_30
+  - first:
+      213: -6149466104101035854
+    second: seedwidget_31
+  - first:
+      213: 1136359085228257197
+    second: seedwidget_32
+  - first:
+      213: 1667916443484644400
+    second: seedwidget_33
+  - first:
+      213: -1576387497136547660
+    second: seedwidget_34
+  - first:
+      213: -9048211369471386171
+    second: seedwidget_35
+  - first:
+      213: -4133888508731339869
+    second: seedwidget_36
+  - first:
+      213: 2929170931562637439
+    second: seedwidget_37
+  - first:
+      213: 7830689992078789526
+    second: seedwidget_38
+  - first:
+      213: 817120836144494073
+    second: seedwidget_39
+  - first:
+      213: -6263346579090258556
+    second: seedwidget_40
+  - first:
+      213: 5189730909808006296
+    second: seedwidget_41
+  - first:
+      213: -2977152452512869061
+    second: seedwidget_42
+  - first:
+      213: -3027358106840668059
+    second: seedwidget_43
+  - first:
+      213: -7212435277718527320
+    second: seedwidget_44
+  - first:
+      213: -8377103478524066091
+    second: seedwidget_45
+  - first:
+      213: -4865148743549754732
+    second: seedwidget_46
+  - first:
+      213: 5468358594370925740
+    second: seedwidget_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: seedwidget_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 256
+        width: 142
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c945d8c52dd7680800000000000000
+      internalID: -8755610805588419474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 206
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea595960256a9470800000000000000
+      internalID: 8402139244693904102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 220
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13eafbd2481d36730800000000000000
+      internalID: 3991264060413816369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_3
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 203
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126c609283dba0460800000000000000
+      internalID: 7208782202464028193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_4
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 207
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd03df9cd2fe4c20800000000000000
+      internalID: 3192756215240396285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 213
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f75045eff670d40800000000000000
+      internalID: 5550528203879448461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_6
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e645bee0b224111c0800000000000000
+      internalID: -4534770597084048274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_7
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 196
+        width: 53
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29215d56d25fc2920800000000000000
+      internalID: 2967015829861110418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_8
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 220
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897291cd2b410e3f0800000000000000
+      internalID: -873675569280505960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_9
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 207
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0dbba9d16ce8b80800000000000000
+      internalID: -8390551225292304155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 201
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25c7fe9acd944110800000000000000
+      internalID: 1244292890637092143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_11
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 196
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e232557b8b6691880800000000000000
+      internalID: -8639761466597760210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_12
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 187
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c33dff84c524cd30800000000000000
+      internalID: 4450723857908446146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_13
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 191
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a244e352499cfbac0800000000000000
+      internalID: -3837126719379192790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_14
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 177
+        width: 60
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0490cc037eb17b0800000000000000
+      internalID: -5252350343629946667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_15
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 198
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca965e5930f53d50800000000000000
+      internalID: 6716538548479498955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_16
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 186
+        width: 41
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1378685015bfc8490800000000000000
+      internalID: -7742537333953099983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_17
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 177
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f62a80e29fc92df0800000000000000
+      internalID: -204404078329321737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 153
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f443866805f4125d0800000000000000
+      internalID: -3089100662128495537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_19
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 132
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1fed1310c90ccf0800000000000000
+      internalID: -234015651677670970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_20
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 156
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b2742e1069e7700800000000000000
+      internalID: 540033940166486845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_21
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 143
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ea1e60104245b60800000000000000
+      internalID: 7733846046931004981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_22
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 112
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aac4011355e15b90800000000000000
+      internalID: -7254765379786585434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_23
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 133
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44207c9116bc64360800000000000000
+      internalID: 7153628676029350468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_24
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd5d8a9ad4275470800000000000000
+      internalID: 8383209752687893976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_25
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 118
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72966546c4686ddc0800000000000000
+      internalID: -3614553988259223257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_26
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 122
+        width: 41
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d329702f8cace50800000000000000
+      internalID: 6830492726695443782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_27
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 98
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71cb467d40b0480c0800000000000000
+      internalID: -4574519206080103401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_28
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 98
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e928b373d17afa0800000000000000
+      internalID: -5789626672902660510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_29
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 65
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3133b01e20cd2600800000000000000
+      internalID: 445223242260754751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_30
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 61
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb6b69a348eed6e70800000000000000
+      internalID: 9110199872926430907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_31
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 56
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0a0cad825b8aaa0800000000000000
+      internalID: -6149466104101035854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_32
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 52
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf615c319825cf00800000000000000
+      internalID: 1136359085228257197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_33
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 59
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0346fe81b21a52710800000000000000
+      internalID: 1667916443484644400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_34
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 55
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b81fc46ceb8f1ae0800000000000000
+      internalID: -1576387497136547660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_35
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 51
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cdd10ee2bb4e6280800000000000000
+      internalID: -9048211369471386171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_36
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 47
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abcff7bd4a71a6c0800000000000000
+      internalID: -4133888508731339869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_37
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 46
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78e03e517186a820800000000000000
+      internalID: 2929170931562637439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_38
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 43
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b001c1f033cac60800000000000000
+      internalID: 7830689992078789526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_39
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 41
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f576f8321ff65b00800000000000000
+      internalID: 817120836144494073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_40
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 36
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485ca20987f1419a0800000000000000
+      internalID: -6263346579090258556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_41
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 27
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89498fe14c0a50840800000000000000
+      internalID: 5189730909808006296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_42
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 47
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3599c93e970fa6d0800000000000000
+      internalID: -2977152452512869061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_43
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 31
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568ecd967d9acf5d0800000000000000
+      internalID: -3027358106840668059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_44
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2671af35848eb90800000000000000
+      internalID: -7212435277718527320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_45
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 38
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d642e325cc8ebb80800000000000000
+      internalID: -8377103478524066091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_46
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 17
+        width: 60
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49267419ef48b7cb0800000000000000
+      internalID: -4865148743549754732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedwidget_47
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 17
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4fee14b2383eb40800000000000000
+      internalID: 5468358594370925740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      seedwidget_0: -8755610805588419474
+      seedwidget_1: 8402139244693904102
+      seedwidget_10: 1244292890637092143
+      seedwidget_11: -8639761466597760210
+      seedwidget_12: 4450723857908446146
+      seedwidget_13: -3837126719379192790
+      seedwidget_14: -5252350343629946667
+      seedwidget_15: 6716538548479498955
+      seedwidget_16: -7742537333953099983
+      seedwidget_17: -204404078329321737
+      seedwidget_18: -3089100662128495537
+      seedwidget_19: -234015651677670970
+      seedwidget_2: 3991264060413816369
+      seedwidget_20: 540033940166486845
+      seedwidget_21: 7733846046931004981
+      seedwidget_22: -7254765379786585434
+      seedwidget_23: 7153628676029350468
+      seedwidget_24: 8383209752687893976
+      seedwidget_25: -3614553988259223257
+      seedwidget_26: 6830492726695443782
+      seedwidget_27: -4574519206080103401
+      seedwidget_28: -5789626672902660510
+      seedwidget_29: 445223242260754751
+      seedwidget_3: 7208782202464028193
+      seedwidget_30: 9110199872926430907
+      seedwidget_31: -6149466104101035854
+      seedwidget_32: 1136359085228257197
+      seedwidget_33: 1667916443484644400
+      seedwidget_34: -1576387497136547660
+      seedwidget_35: -9048211369471386171
+      seedwidget_36: -4133888508731339869
+      seedwidget_37: 2929170931562637439
+      seedwidget_38: 7830689992078789526
+      seedwidget_39: 817120836144494073
+      seedwidget_4: 3192756215240396285
+      seedwidget_40: -6263346579090258556
+      seedwidget_41: 5189730909808006296
+      seedwidget_42: -2977152452512869061
+      seedwidget_43: -3027358106840668059
+      seedwidget_44: -7212435277718527320
+      seedwidget_45: -8377103478524066091
+      seedwidget_46: -4865148743549754732
+      seedwidget_47: 5468358594370925740
+      seedwidget_5: 5550528203879448461
+      seedwidget_6: -4534770597084048274
+      seedwidget_7: 2967015829861110418
+      seedwidget_8: -873675569280505960
+      seedwidget_9: -8390551225292304155
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
