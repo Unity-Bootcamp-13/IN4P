@@ -1,0 +1,14 @@
+{
+  "gaugeDatas" : [
+    {
+      "gaugeID": 1,
+      "itemID": 34,
+      "value": 3
+    },
+    {
+      "gaugeID": 2,
+      "itemID": 126,
+      "value": 0
+    }
+  ]
+}

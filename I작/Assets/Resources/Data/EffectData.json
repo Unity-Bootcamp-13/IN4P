@@ -1,0 +1,652 @@
+{
+  "effectDatas": [
+    {
+      "effectID": 1,
+      "itemID": 1001,
+      "effectType": 1,
+      "modifyTarget": 1,
+      "modifyType": 1,
+      "value": 1
+    },
+    {
+      "effectID": 2,
+      "itemID": 1002,
+      "effectType": 1,
+      "modifyTarget": 2,
+      "modifyType": 1,
+      "value": 1
+    },
+    {
+      "effectID": 3,
+      "itemID": 1003,
+      "effectType": 2,
+      "modifyTarget": 9,
+      "modifyType": 1,
+      "value": 2
+    },
+    {
+      "effectID": 4,
+      "itemID": 1004,
+      "effectType": 2,
+      "modifyTarget": 9,
+      "modifyType": 1,
+      "value": 1
+    },
+    {
+      "effectID": 5,
+      "itemID": 1,
+      "effectType": 2,
+      "modifyTarget": 4,
+      "modifyType": 1,
+      "value": 0.7
+    },
+    {
+      "effectID": 6,
+      "itemID": 4,
+      "effectType": 2,
+      "modifyTarget": 3,
+      "modifyType": 1,
+      "value": 0.5
+    },
+    {
+      "effectID": 7,
+      "itemID": 4,
+      "effectType": 2,
+      "modifyTarget": 3,
+      "modifyType": 2,
+      "value": 1.5
+    },
+    {
+      "effectID": 8,
+      "itemID": 6,
+      "effectType": 2,
+      "modifyTarget": 4,
+      "modifyType": 1,
+      "value": 1.5
+    },
+    {
+      "effectID": 9,
+      "itemID": 6,
+      "effectType": 2,
+      "modifyTarget": 5,
+      "modifyType": 1,
+      "value": -1.5
+    },
+    {
+      "effectID": 10,
+      "itemID": 6,
+      "effectType": 2,
+      "modifyTarget": 5,
+      "modifyType": 2,
+      "value": 0.8
+    },
+    {
+      "effectID": 11,
+      "itemID": 7,
+      "effectType": 2,
+      "modifyTarget": 3,
+      "modifyType": 1,
+      "value": 1
+    },
+    {
+      "effectID": 12,
+      "itemID": 12,
+      "effectType": 2,
+      "modifyTarget": 8,
+      "modifyType": 1,
+      "value": 2
+    },
+    {
+      "effectID": 13,
+      "itemID": 12,
+      "effectType": 2,
+      "modifyTarget": 6,
+      "modifyType": 1,
+      "value": 0.3
+    },
+    {
+      "effectID": 14,
+      "itemID": 12,
+      "effectType": 2,
+      "modifyTarget": 3,
+      "modifyType": 1,
+      "value": 0.3
+    },
+    {
+      "effectID": 15,
+      "itemID": 12,
+      "effectType": 2,
+      "modifyTarget": 3,
+      "modifyType": 2,
+      "value": 1.5
+    },
+    {
+      "effectID": 16,
+      "itemID": 12,
+      "effectType": 2,
+      "modifyTarget": 5,
+      "modifyType": 1,
+      "value": 2.5
+    },
+    {
+      "effectID": 17,
+      "itemID": 14,
+      "effectType": 2,
+      "modifyTarget": 6,
+      "modifyType": 1,
+      "value": 0.3
+    },
+    {
+      "effectID": 18,
+      "itemID": 14,
+      "effectType": 2,
+      "modifyTarget": 5,
+      "modifyType": 1,
+      "value": 2.5
+    },
+    {
+      "effectID": 19,
+      "itemID": 15,
+      "effectType": 2,
+      "modifyTarget": 8,
+      "modifyType": 1,
+      "value": 2
+    },
+    {
+      "effectID": 20,
+      "itemID": 16,
+      "effectType": 2,
+      "modifyTarget": 8,
+      "modifyType": 1,
+      "value": 2
+    },
+    {
+      "effectID": 21,
+      "itemID": 16,
+      "effectType": 2,
+      "modifyTarget": 9,
+      "modifyType": 1,
+      "value": 24
+    },
+    {
+      "effectID": 22,
+      "itemID": 17,
+      "effectType": 1,
+      "modifyTarget": 2,
+      "modifyType": 1,
+      "value": 99
+    },
+    {
+      "effectID": 23,
+      "itemID": 19,
+      "effectType": 1,
+      "modifyTarget": 1,
+      "modifyType": 1,
+      "value": 10
+    },
+    {
+      "effectID": 24,
+      "itemID": 22,
+      "effectType": 2,
+      "modifyTarget": 8,
+      "modifyType": 1,
+      "value": 2
+    },
+    {
+      "effectID": 25,
+      "itemID": 22,
+      "effectType": 2,
+      "modifyTarget": 9,
+      "modifyType": 1,
+      "value": 2
+    },
+    {
+      "effectID": 26,
+      "itemID": 27,
+      "effectType": 2,
+      "modifyTarget": 6,
+      "modifyType": 1,
+      "value": 0.3
+    },
+    {
+      "effectID": 27,
+      "itemID": 28,
+      "effectType": 2,
+      "modifyTarget": 6,
+      "modifyType": 1,
+      "value": 0.3
+    },
+    {
+      "effectID": 28,
+      "itemID": 32,
+      "effectType": 2,
+      "modifyTarget": 4,
+      "modifyType": 1,
+      "value": 0.7
+    },
+    {
+      "effectID": 29,
+      "itemID": 34,
+      "effectType": 2,
+      "modifyTarget": 3,
+      "modifyType": 1,
+      "value": 2
+    },
+    {
+      "effectID": 30,
+      "itemID": 50,
+      "effectType": 2,
+      "modifyTarget": 3,
+      "modifyType": 1,
+      "value": 1
+    },
+    {
+      "effectID": 31,
+      "itemID": 70,
+      "effectType": 2,
+      "modifyTarget": 3,
+      "modifyType": 1,
+      "value": 1
+    },
+    {
+      "effectID": 32,
+      "itemID": 70,
+      "effectType": 2,
+      "modifyTarget": 6,
+      "modifyType": 1,
+      "value": 0.2
+    },
+    {
+      "effectID": 33,
+      "itemID": 71,
+      "effectType": 2,
+      "modifyTarget": 6,
+      "modifyType": 1,
+      "value": 0.3
+    },
+    {
+      "effectID": 34,
+      "itemID": 71,
+      "effectType": 2,
+      "modifyTarget": 5,
+      "modifyType": 1,
+      "value": 2.5
+    },
+    {
+      "effectID": 35,
+      "itemID": 90,
+      "effectType": 2,
+      "modifyTarget": 6,
+      "modifyType": 1,
+      "value": -0.2
+    },
+    {
+      "effectID": 36,
+      "itemID": 90,
+      "effectType": 2,
+      "modifyTarget": 3,
+      "modifyType": 1,
+      "value": 1
+    },
+    {
+      "effectID": 37,
+      "itemID": 90,
+      "effectType": 2,
+      "modifyTarget": 4,
+      "modifyType": 1,
+      "value": 0.2
+    },
+    {
+      "effectID": 38,
+      "itemID": 101,
+      "effectType": 2,
+      "modifyTarget": 8,
+      "modifyType": 1,
+      "value": 4
+    },
+    {
+      "effectID": 39,
+      "itemID": 101,
+      "effectType": 2,
+      "modifyTarget": 6,
+      "modifyType": 1,
+      "value": 0.3
+    },
+    {
+      "effectID": 40,
+      "itemID": 101,
+      "effectType": 2,
+      "modifyTarget": 3,
+      "modifyType": 1,
+      "value": 3
+    },
+    {
+      "effectID": 41,
+      "itemID": 101,
+      "effectType": 2,
+      "modifyTarget": 4,
+      "modifyType": 1,
+      "value": 0.2
+    },
+    {
+      "effectID": 42,
+      "itemID": 101,
+      "effectType": 2,
+      "modifyTarget": 5,
+      "modifyType": 1,
+      "value": 1.5
+    },
+    {
+      "effectID": 43,
+      "itemID": 119,
+      "effectType": 2,
+      "modifyTarget": 8,
+      "modifyType": 1,
+      "value": 1
+    },
+    {
+      "effectID": 44,
+      "itemID": 119,
+      "effectType": 2,
+      "modifyTarget": 3,
+      "modifyType": 1,
+      "value": 8
+    },
+    {
+      "effectID": 45,
+      "itemID": 119,
+      "effectType": 2,
+      "modifyTarget": 6,
+      "modifyType": 1,
+      "value": 0.3
+    },
+    {
+      "effectID": 46,
+      "itemID": 120,
+      "effectType": 2,
+      "modifyTarget": 6,
+      "modifyType": 1,
+      "value": 0.3
+    },
+    {
+      "effectID": 47,
+      "itemID": 120,
+      "effectType": 2,
+      "modifyTarget": 3,
+      "modifyType": 1,
+      "value": -0.4
+    },
+    {
+      "effectID": 48,
+      "itemID": 120,
+      "effectType": 2,
+      "modifyTarget": 3,
+      "modifyType": 2,
+      "value": 0.9
+    },
+    {
+      "effectID": 49,
+      "itemID": 120,
+      "effectType": 2,
+      "modifyTarget": 4,
+      "modifyType": 1,
+      "value": 1.7
+    },
+    {
+      "effectID": 50,
+      "itemID": 121,
+      "effectType": 2,
+      "modifyTarget": 8,
+      "modifyType": 1,
+      "value": 2
+    },
+    {
+      "effectID": 51,
+      "itemID": 121,
+      "effectType": 2,
+      "modifyTarget": 6,
+      "modifyType": 1,
+      "value": -0.2
+    },
+    {
+      "effectID": 52,
+      "itemID": 121,
+      "effectType": 2,
+      "modifyTarget": 3,
+      "modifyType": 1,
+      "value": 1
+    },
+    {
+      "effectID": 53,
+      "itemID": 121,
+      "effectType": 2,
+      "modifyTarget": 5,
+      "modifyType": 1,
+      "value": 1.5
+    },
+    {
+      "effectID": 54,
+      "itemID": 126,
+      "effectType": 2,
+      "modifyTarget": 9,
+      "modifyType": 1,
+      "value": -2
+    },
+    {
+      "effectID": 55,
+      "itemID": 126,
+      "effectType": 2,
+      "modifyTarget": 3,
+      "modifyType": 1,
+      "value": 1.2
+    },
+    {
+      "effectID": 56,
+      "itemID": 129,
+      "effectType": 2,
+      "modifyTarget": 8,
+      "modifyType": 1,
+      "value": 4
+    },
+    {
+      "effectID": 57,
+      "itemID": 129,
+      "effectType": 2,
+      "modifyTarget": 6,
+      "modifyType": 1,
+      "value": -0.2
+    },
+    {
+      "effectID": 58,
+      "itemID": 138,
+      "effectType": 2,
+      "modifyTarget": 8,
+      "modifyType": 1,
+      "value": 1
+    },
+    {
+      "effectID": 59,
+      "itemID": 138,
+      "effectType": 2,
+      "modifyTarget": 9,
+      "modifyType": 1,
+      "value": 2
+    },
+    {
+      "effectID": 60,
+      "itemID": 138,
+      "effectType": 2,
+      "modifyTarget": 3,
+      "modifyType": 1,
+      "value": 0.3
+    },
+    {
+      "effectID": 61,
+      "itemID": 143,
+      "effectType": 2,
+      "modifyTarget": 6,
+      "modifyType": 1,
+      "value": 0.3
+    },
+    {
+      "effectID": 62,
+      "itemID": 143,
+      "effectType": 2,
+      "modifyTarget": 7,
+      "modifyType": 1,
+      "value": 0.2
+    },
+    {
+      "effectID": 63,
+      "itemID": 165,
+      "effectType": 2,
+      "modifyTarget": 3,
+      "modifyType": 1,
+      "value": 1
+    },
+    {
+      "effectID": 64,
+      "itemID": 165,
+      "effectType": 2,
+      "modifyTarget": 7,
+      "modifyType": 1,
+      "value": 0.23
+    },
+    {
+      "effectID": 65,
+      "itemID": 176,
+      "effectType": 2,
+      "modifyTarget": 8,
+      "modifyType": 1,
+      "value": 2
+    },
+    {
+      "effectID": 66,
+      "itemID": 176,
+      "effectType": 2,
+      "modifyTarget": 9,
+      "modifyType": 1,
+      "value": 2
+    },
+    {
+      "effectID": 67,
+      "itemID": 176,
+      "effectType": 2,
+      "modifyTarget": 4,
+      "modifyType": 1,
+      "value": 0.16
+    },
+    {
+      "effectID": 68,
+      "itemID": 183,
+      "effectType": 2,
+      "modifyTarget": 4,
+      "modifyType": 1,
+      "value": 0.8
+    },
+    {
+      "effectID": 69,
+      "itemID": 183,
+      "effectType": 2,
+      "modifyTarget": 7,
+      "modifyType": 1,
+      "value": 0.16
+    },
+    {
+      "effectID": 70,
+      "itemID": 189,
+      "effectType": 2,
+      "modifyTarget": 8,
+      "modifyType": 1,
+      "value": 2
+    },
+    {
+      "effectID": 71,
+      "itemID": 189,
+      "effectType": 2,
+      "modifyTarget": 9,
+      "modifyType": 1,
+      "value": 24
+    },
+    {
+      "effectID": 72,
+      "itemID": 189,
+      "effectType": 2,
+      "modifyTarget": 6,
+      "modifyType": 1,
+      "value": 0.2
+    },
+    {
+      "effectID": 73,
+      "itemID": 189,
+      "effectType": 2,
+      "modifyTarget": 3,
+      "modifyType": 1,
+      "value": 0.3
+    },
+    {
+      "effectID": 74,
+      "itemID": 189,
+      "effectType": 2,
+      "modifyTarget": 4,
+      "modifyType": 1,
+      "value": 0.2
+    },
+    {
+      "effectID": 75,
+      "itemID": 189,
+      "effectType": 2,
+      "modifyTarget": 5,
+      "modifyType": 1,
+      "value": 2.5
+    },
+    {
+      "effectID": 76,
+      "itemID": 190,
+      "effectType": 1,
+      "modifyTarget": 1,
+      "modifyType": 1,
+      "value": 99
+    },
+    {
+      "effectID": 77,
+      "itemID": 193,
+      "effectType": 2,
+      "modifyTarget": 8,
+      "modifyType": 1,
+      "value": 2
+    },
+    {
+      "effectID": 78,
+      "itemID": 193,
+      "effectType": 2,
+      "modifyTarget": 9,
+      "modifyType": 1,
+      "value": 2
+    },
+    {
+      "effectID": 79,
+      "itemID": 193,
+      "effectType": 2,
+      "modifyTarget": 3,
+      "modifyType": 1,
+      "value": 0.3
+    },
+    {
+      "effectID": 80,
+      "itemID": 197,
+      "effectType": 2,
+      "modifyTarget": 3,
+      "modifyType": 1,
+      "value": 0.5
+    },
+    {
+      "effectID": 81,
+      "itemID": 197,
+      "effectType": 2,
+      "modifyTarget": 5,
+      "modifyType": 1,
+      "value": 1.5
+    }
+  ]
+}

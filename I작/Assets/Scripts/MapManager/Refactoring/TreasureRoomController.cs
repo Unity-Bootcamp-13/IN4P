@@ -13,6 +13,8 @@ public class TreasureRoomController : RoomController
                 continue;
 
             doorList[i].OpenDoor();
+            // GetChild(0) 은 문짝 오브젝트
+            // 문이 열리는 연출을 간단하게 하기 위해 문짝을 disable하는 코드
             doorList[i].transform.GetChild(0).gameObject.SetActive(false);
             doorList[i].portalCollider.isTrigger = true;
         }
