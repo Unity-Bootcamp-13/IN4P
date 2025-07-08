@@ -1,15 +1,23 @@
+using System.Collections.Generic;
+using System.Linq;
+using NUnit.Framework;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class NormalRoomController : RoomController
 {
     public GameObject[] monsterContents;
+    public List<GameObject> currentMonster;
+    //public float scanRadius = 11f; // 한 타일에 오브젝트가 있는지 검사할 반지름
+    private float tileWidth, tileHeight;
     public Transform[] spawnPoints;
-    private int monsterCount;
+    public int monsterCount;
 
     protected override void Start()
     {
         base.Start();
-        monsterCount = monsterContents.Length;
+        // monsterCount = monsterContents.Length;
+        // currentMonster = new List<GameObject>(); 
     }
 
     public override void CreateDoors()
@@ -37,23 +45,48 @@ public class NormalRoomController : RoomController
     }
     protected override void GenerateContents()
     {
-        for (int i = 0; i < monsterContents.Length;i++)
-        {
-            if (monsterContents == null)
-            {
-                isCleared = true;
-                return;
-            }
+        int monsterToSpawn = Random.Range(0, 4); // 0~3마리까지 랜덤
 
-            GameObject monsterGo = Instantiate(monsterContents[i], spawnPoints[i].position, Quaternion.identity);
-            // Monster 클래스에 Action 변수 하나 만들어서 CheckClearCondition 등록하고 Monster 죽을 때 마다 invoke
+        if (monsterToSpawn == 0)
+        {
+            isCleared = true;
+            OpenDoors();
+            return;
+        }
+
+        monsterCount = monsterToSpawn;
+
+        for (int i = 0; i < monsterToSpawn; i++)
+        {
+            int randomIndex = Random.Range(0, monsterContents.Length);
+            GameObject prefab = monsterContents[randomIndex];
+            Transform spawnPoint = spawnPoints[i];
+
+            GameObject monsterGo = Instantiate(prefab, spawnPoint.position, Quaternion.identity);
+            currentMonster.Add(monsterGo);
+
+            // Enemy에 OnDeath Action이 정의되어 있다고 가정
+            Enemy enemy = monsterGo.GetComponent<Enemy>();
+            if (enemy != null)
+            {
+                enemy.roomcontroller = this;
+                enemy.OnDeath += CheckClearCondition;
+            }
         }
     }
 
     public void CheckClearCondition()
     {
-        if (--monsterCount == 0)
+        monsterCount--;
+        Debug.Log($"Monster died. Remaining: {monsterCount}");
+
+        if (monsterCount == 0)
+        {
+            Debug.Log("All monsters cleared. Opening doors.");
             isCleared = true;
             OpenDoors();
+        }
     }
+
+
 }

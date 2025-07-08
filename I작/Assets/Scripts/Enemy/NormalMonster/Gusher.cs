@@ -95,15 +95,17 @@ public class Gusher : Enemy
     
     public override void Die()
     {
-        gusher_Animator.SetTrigger("IsDead");
-        this.transform.GetChild(0).gameObject.SetActive(false);
+        //gusher_Animator.SetTrigger("IsDead");
+        //this.transform.GetChild(0).gameObject.SetActive(false);
         StartCoroutine(DieAnimation());
     }
 
     private IEnumerator DieAnimation()
     {
         yield return new WaitForSeconds(0.5f);
-        this.gameObject.SetActive(false);
+        //this.gameObject.SetActive(false);
+        base.Die();
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -7,7 +7,6 @@ public class SecretRoomController : RoomController
         minimapSpriteRenderer.color = Color.black;
 
 
-
         for (int i = 0; i < doorList.Length; i++)
         {
             if (doorList[i] == null)
