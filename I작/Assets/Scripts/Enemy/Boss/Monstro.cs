@@ -369,7 +369,9 @@ public class Monstro : Enemy
 
         yield return new WaitForSeconds(1f);
 
-        Destroy(gameObject);
+        base.Die();
+
+        //Destroy(gameObject);
     }
 
 

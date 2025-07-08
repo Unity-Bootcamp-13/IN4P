@@ -91,15 +91,38 @@ public class Gaper : Enemy
         int rand = UnityEngine.Random.Range(0, 2);
         if (rand > 0)
         {
-            StartCoroutine(SpawnGusher());
+
+            yield return StartCoroutine(SpawnGusher());
         }
-        this.gameObject.SetActive(false);
-        yield return null;
+        
+        // this.gameObject.SetActive(false);
+
+        base.Die();
+
     }
 
     private IEnumerator SpawnGusher()
     {
-        Instantiate(GusherPrefab, transform.position, quaternion.identity);
+        
+        GameObject gusher = Instantiate(GusherPrefab, transform.position, Quaternion.identity);
+        var controller = roomcontroller as NormalRoomController;
+        if (controller == null)
+        {
+            Debug.LogError($"[{name}] roomcontroller가 할당되지 않았거나 NormalRoomController가 아닙니다.");
+            yield break;
+        }
+        controller.monsterCount++;
+        Enemy gusherEnemy = gusher.GetComponentInChildren<Enemy>();
+        if (gusherEnemy != null)
+        {
+            gusherEnemy.roomcontroller = controller;
+            gusherEnemy.OnDeath += controller.CheckClearCondition;
+            Debug.Log("Gusher에 OnDeath 구독 완료.");
+        }
+        Debug.Log($"[SpawnGusher] monsterCount 증가. 현재: {controller.monsterCount}");
         yield return null;
+        // this.gameObject.SetActive(false);
+        //base.Die();
+
     }
 }

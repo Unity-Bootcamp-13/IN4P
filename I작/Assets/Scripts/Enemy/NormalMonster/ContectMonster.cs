@@ -86,13 +86,16 @@ public class ContectMonster : Enemy
 
     public override void Die()
     {
+        Debug.Log("ÆÄ¸® Á×À½");
         enemyAnimator.SetTrigger("IsDead");
         StartCoroutine(DieAnimation());
+        
     }
 
     private IEnumerator DieAnimation()
     {
         yield return new WaitForSeconds(0.5f);
-        this.gameObject.SetActive(false);
+        //this.gameObject.SetActive(false);
+        base.Die();
     }
 }
