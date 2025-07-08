@@ -1,35 +1,30 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class TestPlayer : MonoBehaviour
-{    
+{
+    [SerializeField] private ItemServiceSO itemServiceSO;
     public CharacterData characterData;
-    public GameObject testImage;
+    
+    private TestStats stats;
+    private TestStats oldStats;
+    private List<int> passiveItems = new List<int>();
+    private int activeItem = -1; // 액티브 아이템 없는 상태
+    public int currentGauge;
 
-    public int keyCount;
-    public int bombCount;
-    public int hp;
-    public float atk;
-    public float atkSpeed;
-    public float speed;
-    public float atkRange;
-    public float projectileSpeed;
-    public int currentHp;
-
-    private int h;
-    private int v;
-    private int isMove;
-   
     private void Awake()
     {
-        hp = characterData.PlayerHp;
-        atk = characterData.Atk;
-        atkSpeed = characterData.AtkSpeed;
-        speed = characterData.Speed;
-        atkRange = characterData.AtkRange;
-        projectileSpeed = characterData.ProjectileSpeed;
-        currentHp = hp;       
+        stats = new TestStats
+        (
+            0,
+            0,
+            characterData.PlayerHp,
+            characterData.Atk,
+            characterData.AtkSpeed,
+            characterData.Speed,
+            characterData.AtkRange,
+            characterData.ProjectileSpeed
+        );
     }
 
 
@@ -39,59 +34,83 @@ public class TestPlayer : MonoBehaviour
         float y = Input.GetAxisRaw("Vertical");
 
         Vector3 direction = new Vector3(x, y, 0).normalized;
-        transform.position += direction * speed * Time.deltaTime;
+        transform.position += direction * stats.Speed * Time.deltaTime;
+
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            UseActiveItem();
+        }
     }
 
-    
-    public void ApplyEffect(Item item)
+    public void AcquireItem(int id)
     {
-        Debug.Log("applyEffect");
-        testImage.GetComponent<SpriteRenderer>().sprite = item.itemIcon;
-        List<EffectModel> effectModels = item.EffectModels;
+        List<StatModifier> statModifiers = itemServiceSO.itemService.GetStatModifier(id);
+        ItemType itemType = itemServiceSO.itemService.GetItemType(id);
 
-        for (int i = 0; i < effectModels.Count; i++)
+        if (itemType == ItemType.Passive || itemType == ItemType.Pickup)
         {
-            switch (effectModels[i].target)
+            passiveItems.Add(id);
+
+            for (int i = 0; i < statModifiers.Count; i++)
             {
-                case EffectTarget.BombCount:
-                    bombCount += (int)effectModels[i].value;
-                    break;
-                case EffectTarget.KeyCount:
-                    keyCount *= (int)effectModels[i].value;
-                    break;
-                case EffectTarget.Atk:
-                    atk += effectModels[i].value;
-                    break;
-                case EffectTarget.AtkRate:
-                    atk *= effectModels[i].value;
-                    break;
-                case EffectTarget.AtkSpeed:
-                    atkSpeed += effectModels[i].value;
-                    break;
-                case EffectTarget.AtkSpeedRate:
-                    atkSpeed *= effectModels[i].value;
-                    break;
-                case EffectTarget.AtkRange:
-                    atkRange += effectModels[i].value;
-                    break;
-                case EffectTarget.AtkRangeRate:
-                    atkRange *= effectModels[i].value;
-                    break;
-                case EffectTarget.Speed:
-                    speed += effectModels[i].value;
-                    break;
-                case EffectTarget.ProjectileSpeed:
-                    projectileSpeed += effectModels[i].value;
-                    break;
-                case EffectTarget.MaxHp:
-                    hp += (int)effectModels[i].value;
-                    break;
-                case EffectTarget.CurrentHp:
-                    currentHp += (int)effectModels[i].value;
-                    break;
-                default:
-                    break;
+                stats = stats.Apply(statModifiers[i]);
             }
+        }
+        else if (itemType == ItemType.Active)
+        {
+            DropActiveItem();
+            activeItem = id;
+            currentGauge = itemServiceSO.itemService.GetItemGauge(id);
+        }
+    }
+
+    private void DropActiveItem()
+    {
+        if (activeItem < 0)
+            return;
+
+        GameObject prefab = Resources.Load<GameObject>("Prefab/ItemPrefab");
+        GameObject itemGo = GameObject.Instantiate(prefab, transform.position + Vector3.down * 2f, Quaternion.identity);
+        var item = itemGo.GetComponent<Item>();
+        item.itemId = activeItem;
+        item.spritePath = itemServiceSO.itemService.GetSpritePath(activeItem);
+
+        activeItem = -1;
+    }
+
+    private void UseActiveItem()
+    {
+        if (activeItem < 0)
+        {
+            Debug.Log("액티브 아이템 없음");
+            return;
+        }
+
+        if (currentGauge < itemServiceSO.itemService.GetItemGauge(activeItem))
+        {
+            Debug.Log("게이지 부족");
+            return;
+        }
+
+        oldStats = stats;
+        
+        List<StatModifier> statModifiers = itemServiceSO.itemService.GetStatModifier(activeItem);
+
+        for (int i = 0; i < statModifiers.Count; i++)
+        {
+            stats = stats.Apply(statModifiers[i]);
+        }
+
+        currentGauge = 0;
+        Debug.Log("사용");
+    }
+
+    public void RevertStats()
+    {
+        if (oldStats != null)
+        {
+            stats = oldStats;
+            oldStats = null;
         }
     }
 }

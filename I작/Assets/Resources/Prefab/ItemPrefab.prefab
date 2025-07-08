@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4166510072056839863}
   - component: {fileID: 1146986439225475092}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: ItemPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -3,13 +3,13 @@ using UnityEngine;
 
 public class ItemSpawner : MonoBehaviour
 {
-    [SerializeField] private ItemRepositorySO itemRepositorySO;
-    public GameObject testItem;
-    List<int> itemIds;
+    [SerializeField] private ItemServiceSO itemServiceSO;
+    private ItemGenerator itemGenerator;
+    
 
     private void Start()
     {
-        itemIds = itemRepositorySO.itemRepository.GetAllId();
+        itemGenerator = new ItemGenerator(itemServiceSO.itemService);
     }
 
     void Update()
@@ -17,11 +17,23 @@ public class ItemSpawner : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Z))
         {
             Vector3 randomPosition = Random.insideUnitCircle;
-            var go = Instantiate(testItem, transform.position + randomPosition * 3f, Quaternion.identity);
+            var go = itemGenerator.GetRandomPickupItem();
+            go.transform.position = transform.position + randomPosition * 3f;
 
-            int random = Random.Range(0, itemIds.Count);
-            go.GetComponent<Item>().itemId = random;
-            Debug.Log(random);
+        }
+        
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            Vector3 randomPosition = Random.insideUnitCircle;
+            var go = itemGenerator.GetRandomPassiveItem();
+            go.transform.position = transform.position + randomPosition * 3f;
+        }
+
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            Vector3 randomPosition = Random.insideUnitCircle;
+            var go = itemGenerator.GetRandomActiveItem();
+            go.transform.position = transform.position + randomPosition * 3f;
         }
     }
 }

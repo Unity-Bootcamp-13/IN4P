@@ -156,7 +156,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1002
+      name: 1003
       rect:
         serializedVersion: 2
         x: 6
@@ -178,7 +178,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Isaac_heart_1
+      name: 1004
       rect:
         serializedVersion: 2
         x: 38
@@ -411,8 +411,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      1002: 4763762410586853317
-      Isaac_heart_1: -2794805239122869714
+      1003: 4763762410586853317
+      1004: -2794805239122869714
       Isaac_heart_10: 3287801708948352816
       Isaac_heart_2: -5232067241073771934
       Isaac_heart_3: 2476793082601625180

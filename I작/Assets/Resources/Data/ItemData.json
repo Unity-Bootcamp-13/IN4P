@@ -1,256 +1,232 @@
 {
-  "itemModels": [
+  "itemDatas": [
     {
       "itemID": 1001,
       "itemName": "Bomb",
-      "itemImagePath": "ItemTexture",
-      "itemType": 1,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/bomb",
+      "itemType": 1
     },
     {
       "itemID": 1002,
       "itemName": "Key",
-      "itemImagePath": "ItemTexture",
-      "itemType": 1,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/key",
+      "itemType": 1
+    },
+    {
+      "itemID": 1003,
+      "itemName": "Heart",
+      "itemImagePath": "ItemTexture/heart",
+      "itemType": 1
+    },
+    {
+      "itemID": 1004,
+      "itemName": "HalfHeart",
+      "itemImagePath": "ItemTexture/heart",
+      "itemType": 1
     },
     {
       "itemID": 1,
       "itemName": "TheSadOnion",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 4,
       "itemName": "Cricket'sHead",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 6,
       "itemName": "Number One",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 7,
       "itemName": "Blood of the Martyr",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 12,
       "itemName": "Magic Mushroom",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 14,
       "itemName": "Roid Rage",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 15,
       "itemName": "LessThanThree",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 16,
       "itemName": "Raw LIver",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 17,
       "itemName": "Skeleton Key",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 19,
       "itemName": "Boom!",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 22,
       "itemName": "Lunch",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 27,
       "itemName": "Wooden Spoon",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 28,
       "itemName": "The Belt",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 32,
       "itemName": "Wire Coat Hanger",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 34,
       "itemName": "BookOfBelial",
-      "itemImagePath": "ItemTexture",
-      "itemType": 3,
-      "gauge": 3
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 3
     },
     {
       "itemID": 50,
       "itemName": "Steven",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 70,
       "itemName": "Growth Hormones",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 71,
       "itemName": "Mini Mush",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 90,
       "itemName": "The Small Rock",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 101,
       "itemName": "The Halo",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 119,
       "itemName": "Blood Bag",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 120,
       "itemName": "Odd Mushroom",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 121,
       "itemName": "Odd Mushroom",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 126,
       "itemName": "RazorBlade",
-      "itemImagePath": "ItemTexture",
-      "itemType": 3,
-      "gauge": 0
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 3
     },
     {
       "itemID": 129,
       "itemName": "Bucket of Lard",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 138,
       "itemName": "Stigmata",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 143,
       "itemName": "Speed Ball",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 165,
       "itemName": "Cat-O-Nine-Tails",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 176,
       "itemName": "Stem cells",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 183,
       "itemName": "Toothpicks",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 189,
       "itemName": "SMB Super Fan",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 190,
       "itemName": "Pyro",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 193,
       "itemName": "Meat!",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     },
     {
       "itemID": 197,
       "itemName": "Jesus Juice",
-      "itemImagePath": "ItemTexture",
-      "itemType": 2,
-      "gauge": -1
+      "itemImagePath": "ItemTexture/item",
+      "itemType": 2
     }
   ]
 }
