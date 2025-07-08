@@ -2,16 +2,16 @@ using UnityEngine;
 
 public class BrimstoneBeam : MonoBehaviour
 {
-    public Vector2 direction;
-    public float duration = 1f;
-    public float damageInterval = 0.083f;
+    private Vector2 direction;
+    private float duration = 1.2f;
+    private float damageInterval = 1.2f/9;
 
     private float damage;
     private float timer;
     private float damageTimer;
 
     private LineRenderer lineRenderer;
-    private float beamLength = 10f;
+    private float beamLength = 20f;
 
     private Transform firePoint;
 
@@ -75,12 +75,12 @@ public class BrimstoneBeam : MonoBehaviour
 
         foreach (RaycastHit2D hit in hits)
         {
-            if (hit.collider.CompareTag("Monster"))
+            if (hit.collider.CompareTag("Monster") || hit.collider.tag == "Boss")
             {
-                ContactMonster monster = hit.collider.GetComponent<ContactMonster>();
+                Enemy monster = hit.collider.GetComponent<Enemy>();
                 if (monster != null)
                 {
-                    monster.TakeDamage((int)damage);
+                    monster.TakeDamage((int)damage,null);
                 }
             }
         }

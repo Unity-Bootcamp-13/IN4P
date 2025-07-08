@@ -8,6 +8,8 @@ public class BrimstoneAttack : IAttackBehavior
 
     private float requiredChargeTime;
     private float currentCharge;
+    readonly private float minChargeTime = 0.5f;
+    readonly private float maxChargeTime = 2.5f;
     private bool isCharging;
     private Vector2 currentDirection;
 
@@ -16,9 +18,20 @@ public class BrimstoneAttack : IAttackBehavior
         this.prefab = prefab;
         this.firePoint = firePoint;
         this.playerDamage = damage;
+        float chargeTime = 2.73f/ delay;
 
-        requiredChargeTime = 1.0f / delay;
+        requiredChargeTime = Mathf.Clamp(chargeTime, minChargeTime, maxChargeTime);
+
     }
+    public void SetStats(float delay ,int damage)
+    {
+        this.playerDamage = damage;
+        float chargeTime = 2.73f / delay;
+        requiredChargeTime = Mathf.Clamp(chargeTime, minChargeTime, maxChargeTime);
+
+
+    }
+
     public void Attack(string dir)
     {
         currentDirection = dir switch
@@ -31,7 +44,6 @@ public class BrimstoneAttack : IAttackBehavior
         };
 
         currentCharge = 0f;
-        Debug.Log($"[Brimstone] 차지 시작. 방향: {currentDirection}");
         isCharging = true;
     }
 
@@ -40,11 +52,6 @@ public class BrimstoneAttack : IAttackBehavior
         if (!isCharging) return;
 
         currentCharge += deltaTime;
-
-        if (Mathf.FloorToInt(currentCharge * 10) % 5 == 0)
-        {
-            Debug.Log($"[Brimstone] 차징 중... {currentCharge:F2}/{requiredChargeTime:F2}초");
-        }
 
         if (currentCharge >= requiredChargeTime)
         {
@@ -55,7 +62,6 @@ public class BrimstoneAttack : IAttackBehavior
 
     private void Fire()
     {
-        Debug.Log("[Brimstone] 발사 완료!");
         GameObject go = GameObject.Instantiate(prefab, firePoint.position, Quaternion.identity);
         BrimstoneBeam beam = go.GetComponent<BrimstoneBeam>();
         beam.Initialize(currentDirection, playerDamage, firePoint);

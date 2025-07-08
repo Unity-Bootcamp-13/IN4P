@@ -14,6 +14,9 @@ public abstract class RoomController : MonoBehaviour
     private Room roomData;
     public RoomController[] nextRoomControllers = new RoomController[4];
 
+    public bool secretRoomVisited;
+
+
     protected bool isCleared;
 
     private void Awake()
@@ -35,6 +38,12 @@ public abstract class RoomController : MonoBehaviour
         {
             OpenDoors();
         }
+        
+        if(Input.GetKeyDown(KeyCode.V))
+        {
+            OpenSecretDoors();
+
+        }        
     }
 
     public void Init(Room data)
@@ -52,9 +61,13 @@ public abstract class RoomController : MonoBehaviour
 
         if (!nextRoom.isCleared)
         {
-            nextRoom.CloiseDoors();
+            nextRoom.CloseDoors();
             nextRoom.GenerateContents();
         }
+        //if(nextRoom.roomData.Type == RoomType.Secret)
+        //{
+        //
+        //}
 
         nextRoom.SetMinimap();
         StartCoroutine(C_CameraMove(nextRoom));
@@ -71,7 +84,44 @@ public abstract class RoomController : MonoBehaviour
         }
     }
 
-    public void CloiseDoors()
+    public void OpenSecretDoors()
+    {
+        for (int i = 0; i < doorList.Length; i++)
+        {
+            Door door = doorList[i];
+            RoomController neighbor = nextRoomControllers[i];
+
+            if (door != null &&
+                door.type == DoorType.Secret &&
+                neighbor != null &&
+                neighbor.roomData.Type == RoomType.Secret)
+            {
+                // 현재 방의 문 활성화 및 열기
+                door.gameObject.SetActive(true);
+                door.OpenDoor();
+
+                int oppositeDir = (i + 2) % 4;
+
+                // neighbor(비밀방)의 반대 방향 문과 연결된 방 확인
+                if (neighbor.nextRoomControllers[oppositeDir] == this)
+                {
+                    Door neighborDoor = neighbor.doorList[oppositeDir];
+
+                    if (neighborDoor != null && neighborDoor.type == DoorType.Secret)
+                    {
+
+                        neighborDoor.gameObject.SetActive(true);
+                        neighborDoor.OpenDoor();
+                    }
+                }
+
+                secretRoomVisited = true;
+            }
+        }
+    }
+
+
+    public void CloseDoors()
     {
         for (int i = 0; i < doorList.Length; i++)
         {
@@ -82,12 +132,14 @@ public abstract class RoomController : MonoBehaviour
         }
     }
 
+
     protected DoorType GetDoorType(RoomController next)
     {
         return next.roomData.Type switch
         {
             RoomType.Boss => DoorType.Boss,
             RoomType.Treasure => DoorType.Treasure,
+            RoomType.Secret => DoorType.Secret,
             _ => DoorType.Normal,
         };
     }
@@ -114,22 +166,54 @@ public abstract class RoomController : MonoBehaviour
         
     }
 
-    protected void SetMinimap()
+    protected  void SetMinimap()
     {
         minimapSpriteRenderer.enabled = true;
+
+        // 현재 방은 항상 보이게
         Color currentColor = minimapSpriteRenderer.color;
         currentColor.a = 1f;
         minimapSpriteRenderer.color = currentColor;
 
         for (int i = 0; i < nextRoomControllers.Length; i++)
         {
-            if (nextRoomControllers[i] == null)
-                continue;
+            RoomController neighbor = nextRoomControllers[i];
+            if (neighbor == null) continue;
 
-            nextRoomControllers[i].minimapSpriteRenderer.enabled=true;
-            Color nextColor = nextRoomControllers[i].minimapSpriteRenderer.color;
-            nextColor.a = 0.5f;
-            nextRoomControllers[i].minimapSpriteRenderer.color = nextColor;
+            neighbor.minimapSpriteRenderer.enabled = false;
+
+            // 시작방에서 연결된 비밀방은 절대 보이지 않도록 처리
+            if (this.roomData.Type == RoomType.Start && neighbor.roomData.Type == RoomType.Secret && secretRoomVisited == false)
+            {
+                Color secretColor = neighbor.minimapSpriteRenderer.color;
+                secretColor.a = 0f; 
+                neighbor.minimapSpriteRenderer.color = secretColor;
+            }
+           
+            else if (neighbor.roomData.Type == RoomType.Secret && secretRoomVisited == false)
+            {
+                neighbor.minimapSpriteRenderer.enabled = true;
+                Color secretColor = neighbor.minimapSpriteRenderer.color;
+                secretColor.a = 0f;         
+                neighbor.minimapSpriteRenderer.color = secretColor;
+            }
+            else if (neighbor.roomData.Type == RoomType.Secret && secretRoomVisited == true)
+            {
+                neighbor.minimapSpriteRenderer.enabled = true;
+                Color secretColor = neighbor.minimapSpriteRenderer.color;
+                secretColor.a = 0.5f; 
+                neighbor.minimapSpriteRenderer.color = secretColor;
+            }
+            else
+            {
+                neighbor.minimapSpriteRenderer.enabled = true;
+                // 일반 방은 반투명
+                Color nextColor = neighbor.minimapSpriteRenderer.color;
+                nextColor.a = 0.5f;
+                neighbor.minimapSpriteRenderer.color = nextColor;
+            }
         }
     }
+
+
 }

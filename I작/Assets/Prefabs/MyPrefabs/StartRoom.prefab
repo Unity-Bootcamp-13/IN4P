@@ -165,11 +165,7 @@ MonoBehaviour:
   - {fileID: 8696586667057630437, guid: 086df5c721ff3f446aa8cc2ce6effac0, type: 3}
   - {fileID: 8696586667057630437, guid: 83cdfba2e32066546b68b2280bdbeba7, type: 3}
   - {fileID: 8696586667057630437, guid: e7760a05925049f40a302e58c9c9fdb2, type: 3}
-  doorList:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2782185681837412031, guid: e1749c41d01be9245b3fdb20800c67e0, type: 3}
   minimapObject: {fileID: 2261181802170411824, guid: e212df7b9408b0042b63ea6380b03421, type: 3}
   nextRoomControllers:
   - {fileID: 0}

@@ -9,6 +9,7 @@ public class MapGenerator : MonoBehaviour
     public GameObject bossRoomPrefab;
     public GameObject normalRoomPrefab;
     public GameObject treasureRoomPrefab;
+    public GameObject secretRoomPrefab;
     public Transform roomParent;
     
     public int targetRoomCount = 10;
@@ -29,8 +30,10 @@ public class MapGenerator : MonoBehaviour
         InitMap();
         GenerateRooms();
         MarkEndRoomsAndBoss();
-        ConnectRoomControllers();
+        GenerateSecretRoom();
+        ConnectRoomControllers();        
         CreateDoor();
+        
     }
 
     void InitTileSize()
@@ -94,7 +97,70 @@ public class MapGenerator : MonoBehaviour
                 }
             }
         }
+        
     }
+
+    void GenerateSecretRoom()
+    {
+        // 연결될 수 있는 방의 수가 많은 좌표를 찾기 위한 리스트
+        List<Vector2Int> possiblePositions = new List<Vector2Int>();
+        int maxAdjacencyCount = -1;
+        
+
+        for (int x = 0; x < mapMaxX; x++)
+        {
+            for (int y = 0; y < mapMaxY; y++)
+            {
+                // 비밀방을 생성할 수 있는 빈 좌표인지 체크
+                if (roomGraph[x, y] == 1) continue;  // 이미 방이 존재하면 건너뛰기
+
+                int adjacentRoomCount = CheckNextRoomCount(x, y);
+                if (adjacentRoomCount > maxAdjacencyCount)
+                {
+                    possiblePositions.Clear();
+                    possiblePositions.Add(new Vector2Int(x, y));
+                    maxAdjacencyCount = adjacentRoomCount;
+                }
+                else if (adjacentRoomCount == maxAdjacencyCount)
+                {
+                    possiblePositions.Add(new Vector2Int(x, y));
+                }
+            }
+        }
+
+        // 연결될 수 있는 방의 수가 많은 위치 중 하나를 랜덤으로 선택
+        if (possiblePositions.Count > 0)
+        {
+            Vector2Int secretRoomPosition = possiblePositions[Random.Range(0, possiblePositions.Count)];
+            Room secretRoom = new Room(secretRoomPosition.x, secretRoomPosition.y, RoomType.Secret);
+            Rooms.Add(secretRoom);
+            roomGraph[secretRoomPosition.x, secretRoomPosition.y] = 1;
+
+            // 실제로 존재하는 방만 연결
+            for (int dir = 0; dir < 4; dir++)
+            {
+                int[] dx = { 0, 1, 0, -1 };
+                int[] dy = { 1, 0, -1, 0 };
+                int nx = secretRoomPosition.x + dx[dir];
+                int ny = secretRoomPosition.y + dy[dir];
+
+                if (nx >= 0 && nx < mapMaxX && ny >= 0 && ny < mapMaxY)
+                {
+                    Room neighbor = Rooms.Find(r => r.XPos == nx && r.YPos == ny);
+                    if (neighbor != null)
+                    {
+                        secretRoom.nextRooms[dir] = neighbor;
+                        neighbor.nextRooms[(dir + 2) % 4] = secretRoom;
+                    }
+                }
+            }
+
+            CreateRoomObject(secretRoomPosition.x, secretRoomPosition.y, secretRoom);
+
+        }
+    }
+
+
 
     void CreateRoomObject(int x, int y, Room room)
     {
@@ -127,6 +193,8 @@ public class MapGenerator : MonoBehaviour
                 return bossRoomPrefab;
             case RoomType.Treasure:
                 return treasureRoomPrefab;
+            case RoomType.Secret:
+                return secretRoomPrefab;
             default:
                 return normalRoomPrefab;
         }

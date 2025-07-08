@@ -2,7 +2,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Gusher : MonoBehaviour
+public class Gusher : Enemy
 {
     [SerializeField] CharacterData gaperData;
     public int gusher_hp;
@@ -26,27 +26,19 @@ public class Gusher : MonoBehaviour
 
     private void Awake()
     {
-        gusher_hp = gaperData.PlayerHp;
+        hp = gaperData.PlayerHp;
         gusher_atk = gaperData.Atk;
         gusher_atkSpeed = gaperData.AtkSpeed;
         gusher_speed = gaperData.Speed;
         gusher_atkRange = gaperData.AtkRange;
         gusher_projectileSpeed = gaperData.ProjectileSpeed;
-        
-        gusher_currentHp = gusher_hp;
 
         gusher_rb = GetComponent<Rigidbody2D>();
         gusher_Animator = GetComponent<Animator>();
         Debug.Log($"[Gusher] 셋팅된 눈물 데미지{gusher_projectileDamage})");
-        
-
-
-    }
-
-    private void Start()
-    {
         StartCoroutine(MoveRandom());
         StartCoroutine(tearsSpawnRoutine());
+
     }
 
 
@@ -96,21 +88,16 @@ public class Gusher : MonoBehaviour
 
         GameObject tears = Instantiate(tearsPrefab,transform.position, rot);
         NormalTears et = tears.GetComponent<NormalTears>();
-        Debug.Log($"[Gusher] SetTears 호출 직전 damage: {gusher_projectileDamage})");
         et.SetTears(gusher_projectileSpeed, gusher_atkRange, (int)gusher_projectileDamage,rotatedDir);
 
     }
 
-    public void TakeDamage(int damage)
+    
+    public override void Die()
     {
-        gusher_hp -= damage;
-
-        if (gusher_hp <= 0)
-        {
-            gusher_Animator.SetTrigger("IsDead");
-            this.transform.GetChild(0).gameObject.SetActive(false);
-            StartCoroutine(DieAnimation());
-        }
+        gusher_Animator.SetTrigger("IsDead");
+        this.transform.GetChild(0).gameObject.SetActive(false);
+        StartCoroutine(DieAnimation());
     }
 
     private IEnumerator DieAnimation()

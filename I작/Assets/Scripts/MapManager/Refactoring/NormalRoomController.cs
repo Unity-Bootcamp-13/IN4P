@@ -24,6 +24,10 @@ public class NormalRoomController : RoomController
             GameObject doorPrefab = GetDoorPrefabByType(doorType);
 
             GameObject doorGo = Instantiate(doorPrefab, doorSpawnPoints[i].position, doorSpawnPoints[i].rotation, doorSpawnPoints[i]);
+            if (doorType == DoorType.Secret)
+            {
+                doorGo.SetActive(false);  // 나중에 열리게 만들 수도 있음
+            }
             Door doorComponent = doorGo.GetComponent<Door>();
             doorComponent.type = doorType;
             doorComponent.thisDirction = i;

@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class ContactMonster : MonoBehaviour
+public class ContectMonster : Enemy
 {
     [SerializeField] CharacterData monsterData;
     public int enemy_hp;
@@ -10,11 +10,12 @@ public class ContactMonster : MonoBehaviour
     public float enemy_speed;
     public float enemy_atkRange;
     public float enemy_projectileSpeed;
-    public int enemy_currentHp;
-
+    private readonly float damageInterval = 1f;
     public Animator enemyAnimator;
 
-    public GameObject target;
+
+    private Coroutine _damageRoutine;
+    public Player target;
     public Rigidbody2D enemy_rb;
 
     private void Awake()
@@ -24,9 +25,8 @@ public class ContactMonster : MonoBehaviour
         enemy_atkSpeed = monsterData.AtkSpeed;
         enemy_speed = monsterData.Speed;
         enemy_atkRange = monsterData.AtkRange;
-        enemy_currentHp = enemy_hp;
-
-        target = GameObject.FindGameObjectWithTag("Player");
+        hp = enemy_hp;
+        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         enemyAnimator = GetComponent<Animator>();
         enemy_rb = GetComponent<Rigidbody2D>();
     }
@@ -53,15 +53,41 @@ public class ContactMonster : MonoBehaviour
        
     }
 
-    public void TakeDamage(int damage)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        enemy_hp -= damage;
 
-        if (enemy_hp <= 0)
+        if (other.CompareTag("Player") && _damageRoutine == null)
         {
-            enemyAnimator.SetTrigger("IsDead");
-            StartCoroutine(DieAnimation());
+            _damageRoutine = StartCoroutine(DamageLoop());
         }
+    }
+    private void OnTriggerExit2D(Collider2D other)
+    {
+
+        if (other.CompareTag("Player") && _damageRoutine != null)
+        {
+            StopCoroutine(_damageRoutine);
+            _damageRoutine = null;
+        }
+    }
+
+    IEnumerator DamageLoop()
+    {
+        while (true)
+        {
+            if(enemy_atk == 0)
+            {
+                break;
+            }
+            target.TakeDamage((int)enemy_atk);
+            yield return new WaitForSeconds(damageInterval);
+        }
+    }
+
+    public override void Die()
+    {
+        enemyAnimator.SetTrigger("IsDead");
+        StartCoroutine(DieAnimation());
     }
 
     private IEnumerator DieAnimation()

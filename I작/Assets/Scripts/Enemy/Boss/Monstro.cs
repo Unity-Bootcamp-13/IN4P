@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Threading.Tasks;
 using UnityEngine;
 
 
@@ -18,7 +17,7 @@ public enum BossState
     jump
 }
 
-public class Monstro : MonoBehaviour
+public class Monstro : Enemy
 {
     public string boss_name = "Monstro";
     public int boss_hp = 250;
@@ -34,7 +33,7 @@ public class Monstro : MonoBehaviour
     private BossPatturn _bossPatturn = BossPatturn.Idle;
     private BossState _bossState = BossState.Ground;
 
-    private GameObject player;
+    private Player player;
     private Animator animator;
     protected SpriteRenderer spriteRenderer;
     private Coroutine _patternRoutine;
@@ -49,14 +48,15 @@ public class Monstro : MonoBehaviour
     private readonly int BloodAttack = Animator.StringToHash("BloodAttack");
     private readonly int Dead = Animator.StringToHash("Dead");
 
-    private async void Start()
+    private void Awake()
     {
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        player = GameObject.FindGameObjectWithTag("Player");
+        player = GameObject
+        .FindGameObjectWithTag("Player")
+        .GetComponent<Player>();
         bosscollider = GetComponent<Collider2D>();
         boss_rb = GetComponent<Rigidbody2D>();
-        await Task.Delay(500);
     }
 
     private void Update()
@@ -115,7 +115,6 @@ public class Monstro : MonoBehaviour
     //점프하면서 캐릭터 쪽으로 다가옴
     private IEnumerator LowJumpRoutine()
     {
-        _bossState = BossState.jump;
         animator.SetTrigger(LowJump);
         yield return null;
     }
@@ -130,7 +129,7 @@ public class Monstro : MonoBehaviour
 
     private IEnumerator HighJumpRoutine()
     {
-        _bossState = BossState.jump;
+        
         animator.SetTrigger(HighJump);
         yield return null;
         
@@ -202,7 +201,6 @@ public class Monstro : MonoBehaviour
             yield return null;
         }
 
-       
         transform.position = endPos;
     }
 
@@ -226,12 +224,13 @@ public class Monstro : MonoBehaviour
 
             // 수평 보간은 그대로, 수직(deltaY)만 추가 
             float deltaY = jump_height * 4f * t * (1f - t);
-            Vector3 pos = new Vector3(startPos.x, startPos.y+deltaY, t);
+            Vector3 pos = new Vector3(startPos.x, startPos.y+deltaY, 0);
             transform.position = pos;
             // 올라간 위치 기억
             apexHeight = pos.y;
             yield return null;
         }
+        _bossState = BossState.jump;
         transform.position = startPos;
     }
 
@@ -270,6 +269,7 @@ public class Monstro : MonoBehaviour
     }
     private IEnumerator FallRoutine()
     {
+        _bossState = BossState.Ground;
         elapsed = 0f;
         Vector3 fallStart = transform.position;
         fallStart.y = apexHeight;
@@ -323,19 +323,12 @@ public class Monstro : MonoBehaviour
                                     );
     }
 
-    public void OnHitFrame()
-    {
-        Vector3 p = player.transform.position;
-        if (bosscollider.bounds.Contains(p))
-        {
-            log();
-        }
-    }
-
-
-    public void TakeDamage(int damage , Vector2? attackOrigin = null)
+    public override void TakeDamage(int damage, Vector2? attackOrigin = null)
     {
         boss_hp -= damage;
+        if (boss_hp <= 0) Die();
+
+        Debug.Log($"{damage}데미지 입음");
 
         if (attackOrigin.HasValue)
         {
@@ -343,13 +336,10 @@ public class Monstro : MonoBehaviour
             boss_rb.AddForce(dir * boss_knockback, ForceMode2D.Impulse);
         }
 
-        if (boss_hp <= 0)
-        {
-            bossDie();
-        }
+        
     }
 
-    public void bossDie()
+    public override void Die()
     {
         bosscollider.enabled = false;
         enabled = false;  
@@ -403,19 +393,13 @@ public class Monstro : MonoBehaviour
 
     IEnumerator DamageLoop()
     {
-        log();
         while (true)
         {
+            player.TakeDamage(boss_halfDamage);
             yield return new WaitForSeconds(damageInterval);
-            // player.TakeDamage(boss_halfDamage);
-            log();
         }
     }
 
-    void log()
-    {
-        Debug.Log("플레이어 데미지 1 입음");
-    }
 }
 
 
