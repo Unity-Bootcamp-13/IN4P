@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6863186571448584545}
   - component: {fileID: 253064535871255820}
   - component: {fileID: 7904611307163445580}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BlackFlyBody
   m_TagString: Monster
   m_Icon: {fileID: 0}
@@ -125,6 +125,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0801b764401200746995afb98b88c6ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  roomcontroller: {fileID: 0}
+  isDead: 0
   hp: 0
   monsterData: {fileID: 11400000, guid: 68fd5ad3240d5f74e82b1db66e5ec59b, type: 2}
   enemy_hp: 0

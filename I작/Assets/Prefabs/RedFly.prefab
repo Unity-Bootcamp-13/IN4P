@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 9077996615475079297}
   - component: {fileID: 4574309584681902502}
   - component: {fileID: 250601590194806286}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RedFly
   m_TagString: Monster
   m_Icon: {fileID: 0}
@@ -189,6 +189,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0801b764401200746995afb98b88c6ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  roomcontroller: {fileID: 0}
+  isDead: 0
   hp: 0
   monsterData: {fileID: 11400000, guid: 0616d16193816ab4c9353328f4e5901f, type: 2}
   enemy_hp: 0

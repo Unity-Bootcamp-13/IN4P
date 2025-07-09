@@ -1,5 +1,6 @@
 using System.Collections;
 using Unity.Mathematics;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Gaper : Enemy
@@ -52,18 +53,18 @@ public class Gaper : Enemy
         enemy_rb.MovePosition(enemy_rb.position + direciton * enemy_speed * Time.deltaTime);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
 
-        if (other.CompareTag("Player") && _damageRoutine == null)
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Player") && _damageRoutine == null)
         {
             _damageRoutine = StartCoroutine(DamageLoop());
         }
     }
-    private void OnTriggerExit2D(Collider2D other)
-    {
 
-        if (other.CompareTag("Player") && _damageRoutine != null)
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Player") && _damageRoutine != null)
         {
             StopCoroutine(_damageRoutine);
             _damageRoutine = null;

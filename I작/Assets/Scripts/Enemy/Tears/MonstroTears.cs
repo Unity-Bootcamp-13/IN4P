@@ -9,8 +9,8 @@ public class MonstroTears : MonoBehaviour
     private float range;
     private float damage;
     private Vector3 target;
-    private float timer=0;
-    private float lifetime = 5f;
+    private float timer = 0;
+    private float lifetime = 3f;
     private float damageRange = 0.1f;
     private bool _hasArrived = false;
     private bool launched;
@@ -24,13 +24,13 @@ public class MonstroTears : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    
-    
+
+
     private void Update()
     {
         timer += Time.deltaTime;
 
-        if(timer > lifetime)
+        if (timer > lifetime)
         {
             ExplodeAndDestroyTears();
         }
@@ -47,7 +47,7 @@ public class MonstroTears : MonoBehaviour
                 ExplodeAndDestroyTears();           // 팝 애니메이션 & 삭제
             }
         }
-        
+
     }
 
     void ExplodeAndDestroyTears()
@@ -55,8 +55,8 @@ public class MonstroTears : MonoBehaviour
         rb.linearVelocity = Vector2.zero;
         rb.gravityScale = 0f;
         tearsAnimator.SetTrigger("Pop");
-       
-        Destroy(gameObject,0.2f);
+
+        Destroy(gameObject, 0.2f);
         enabled = false;
     }
 
@@ -119,14 +119,18 @@ public class MonstroTears : MonoBehaviour
                 var player = hit.GetComponent<Player>();
                 if (player != null)
                 {
-                    Debug.Log($"플레이어 데미지 {damage} 받음");
-                    //player.TakeDamage(damage);
+                    player.TakeDamage((int)damage);
                     break;
                 }
             }
         }
     }
 
-    
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Object")
+        {
+            Destroy(gameObject);
+        }
+    }
 }
-

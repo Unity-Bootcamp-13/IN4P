@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Character", menuName = "SO/CharacterData")]
@@ -13,6 +14,8 @@ public class CharacterData : ScriptableObject
     [SerializeField] private float speed;
     [SerializeField] private float atkRange;
     [SerializeField] private float projectileSpeed;
+    [SerializeField] private int bombCount;
+    [SerializeField] private int keyCount;
 
     public int CharacterId => characterId;
     public string CharacterName => characterName;
@@ -24,4 +27,7 @@ public class CharacterData : ScriptableObject
     public float Speed => speed;
     public float AtkRange => atkRange;
     public float ProjectileSpeed => projectileSpeed;
+    public int BombCount => bombCount;
+    public int KeyCount => keyCount;
+
 }

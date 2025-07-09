@@ -1,9 +1,13 @@
+using System.Collections;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class BossRoomController : RoomController
 {
+    [SerializeField] GameObject bossAppear;
     public GameObject bossContent;
     public Transform spawnPoint;
+    private bool isBossSpawn;
 
     protected override void Start()
     {
@@ -36,19 +40,69 @@ public class BossRoomController : RoomController
 
     protected override void GenerateContents()
     {
-        GameObject bossGo = Instantiate(bossContent, spawnPoint.position, Quaternion.identity);
-        //bossGo.GetComponent<Monstro>().deadAction += CheckClearCondition;
-        // Enemy에 OnDeath Action이 정의되어 있다고 가정
-        Enemy enemy = bossGo.GetComponent<Enemy>();
-        if (enemy != null)
-        {
-            enemy.OnDeath += CheckClearCondition;
-        }
+        if (isBossSpawn)
+            return;
+
+        StartCoroutine(C_SpawnBoss());
     }
 
     public void CheckClearCondition()
     {
         isCleared = true;
         OpenDoors();
+        
+        Vector3 randomPosition = Random.insideUnitCircle;        
+        itemGenerator.GetRandomPickupItem(transform.position + randomPosition * 2f);
+        
+        int rand = Random.Range(0, 10);
+        if (rand <= 9)
+        {
+            itemGenerator.GetRandomPassiveItem(transform.position);
+        }
+        else
+        {
+            itemGenerator.GetRandomActiveItem(transform.position);
+        }
+    }
+
+    private IEnumerator C_SpawnBoss()
+    {
+        var go = Instantiate(bossAppear, transform.position, Quaternion.identity);
+        var childGO = go.transform.GetChild(0);
+
+        float t = 1.5f;
+        float elapse = 0f;
+        Vector3 startPos = childGO.position;
+        Vector3 endPos = new Vector3(transform.position.x + 0, transform.position.y - 0.1f, transform.position.z);        
+
+        while (elapse <= t)
+        {
+            childGO.transform.position = Vector3.Lerp(startPos, endPos, elapse / t);
+            elapse += Time.deltaTime;
+            yield return null;
+        }
+        elapse = 0f;
+        float shakeDuration = 1.0f;
+        while (elapse < shakeDuration)
+        {
+            float shakePosX = Mathf.PingPong(Time.time * 5f, 0.2f);
+            childGO.position = new Vector3(endPos.x + shakePosX, endPos.y, endPos.z);
+
+            elapse += Time.deltaTime;
+            yield return null;
+        }
+
+        Destroy(go);
+
+        yield return new WaitForSeconds(0.5f);
+
+        GameObject bossGo = Instantiate(bossContent, spawnPoint.position, Quaternion.identity);
+        Enemy enemy = bossGo.GetComponent<Enemy>();
+        if (enemy != null)
+        {
+            enemy.OnDeath += CheckClearCondition;
+        }
+
+        isBossSpawn = true;
     }
 }

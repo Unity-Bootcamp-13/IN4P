@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: ac370127a7b664d4abb9e1d33f010cf3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 412020050528852422
+    second: testIsaacImage_0
+  - first:
+      213: -4556453813331404120
+    second: testIsaacImage_1
+  - first:
+      213: -1737637391360375574
+    second: testIsaacImage_2
+  - first:
+      213: 3216175373793071630
+    second: testIsaacImage_3
+  - first:
+      213: -4647254401161663517
+    second: testIsaacImage_4
+  - first:
+      213: 7259489179466796417
+    second: testIsaacImage_5
+  - first:
+      213: -2041316543432202755
+    second: testIsaacImage_6
+  - first:
+      213: 2481676949012332528
+    second: testIsaacImage_7
+  - first:
+      213: 4334265993482134374
+    second: testIsaacImage_8
+  - first:
+      213: 8805194533822650253
+    second: testIsaacImage_9
+  - first:
+      213: -7855003914140075752
+    second: testIsaacImage_10
+  - first:
+      213: 5336615626403189384
+    second: testIsaacImage_11
+  - first:
+      213: -7817804907274595125
+    second: testIsaacImage_12
+  - first:
+      213: 8704449506343102883
+    second: testIsaacImage_13
+  - first:
+      213: -5062613333510427711
+    second: testIsaacImage_14
+  - first:
+      213: -8839591311081181833
+    second: testIsaacImage_15
+  - first:
+      213: -5730397203330334728
+    second: testIsaacImage_16
+  - first:
+      213: -8656491705794469955
+    second: testIsaacImage_17
+  - first:
+      213: -9044275510095032547
+    second: testIsaacImage_18
+  - first:
+      213: 5983642976180860134
+    second: testIsaacImage_19
+  - first:
+      213: 7166512923629293178
+    second: testIsaacImage_20
+  - first:
+      213: -2708429852939983831
+    second: testIsaacImage_21
+  - first:
+      213: -4549964845515762904
+    second: testIsaacImage_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: testIsaacImage_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 48
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c95c109d0ac7b500800000000000000
+      internalID: 412020050528852422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testIsaacImage_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 50
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa58ecd56934c0c0800000000000000
+      internalID: -4556453813331404120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testIsaacImage_2
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 40
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4478bbffba2e7e0800000000000000
+      internalID: -1737637391360375574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testIsaacImage_3
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 46
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e029b42667622ac20800000000000000
+      internalID: 3216175373793071630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testIsaacImage_4
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 48
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb63ed8eb2a18fb0800000000000000
+      internalID: -4647254401161663517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testIsaacImage_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d09e042f2eeb460800000000000000
+      internalID: 7259489179466796417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testIsaacImage_6
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 48
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5689a4b69cba3e0800000000000000
+      internalID: -2041316543432202755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testIsaacImage_7
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 41
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ffb7216900b07220800000000000000
+      internalID: 2481676949012332528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testIsaacImage_8
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 44
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663ee8705f7662c30800000000000000
+      internalID: 4334265993482134374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testIsaacImage_9
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 11
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87d5bec6c5523a70800000000000000
+      internalID: 8805194533822650253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testIsaacImage_10
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 40
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819b064ce8b6df290800000000000000
+      internalID: -7855003914140075752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testIsaacImage_11
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 7
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8829f8a33a77f0a40800000000000000
+      internalID: 5336615626403189384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testIsaacImage_12
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 29
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4979a7bd3918390800000000000000
+      internalID: -7817804907274595125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testIsaacImage_13
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 38
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9a7e635ba6cc870800000000000000
+      internalID: 8704449506343102883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testIsaacImage_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb64fcfefbfdb9b0800000000000000
+      internalID: -5062613333510427711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testIsaacImage_15
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 19
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d60676986735580800000000000000
+      internalID: -8839591311081181833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testIsaacImage_16
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 21
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff7a91ca1a8970b0800000000000000
+      internalID: -5730397203330334728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testIsaacImage_17
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 21
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf510b58a6fdd780800000000000000
+      internalID: -8656491705794469955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testIsaacImage_18
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 8
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f450a97574c7280800000000000000
+      internalID: -9044275510095032547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testIsaacImage_19
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 5
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4750a859b2a0350800000000000000
+      internalID: 5983642976180860134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testIsaacImage_20
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e8b23c881947360800000000000000
+      internalID: 7166512923629293178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testIsaacImage_21
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924e27c0669b96ad0800000000000000
+      internalID: -2708429852939983831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testIsaacImage_22
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823948a64174bd0c0800000000000000
+      internalID: -4549964845515762904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      testIsaacImage_0: 412020050528852422
+      testIsaacImage_1: -4556453813331404120
+      testIsaacImage_10: -7855003914140075752
+      testIsaacImage_11: 5336615626403189384
+      testIsaacImage_12: -7817804907274595125
+      testIsaacImage_13: 8704449506343102883
+      testIsaacImage_14: -5062613333510427711
+      testIsaacImage_15: -8839591311081181833
+      testIsaacImage_16: -5730397203330334728
+      testIsaacImage_17: -8656491705794469955
+      testIsaacImage_18: -9044275510095032547
+      testIsaacImage_19: 5983642976180860134
+      testIsaacImage_2: -1737637391360375574
+      testIsaacImage_20: 7166512923629293178
+      testIsaacImage_21: -2708429852939983831
+      testIsaacImage_22: -4549964845515762904
+      testIsaacImage_3: 3216175373793071630
+      testIsaacImage_4: -4647254401161663517
+      testIsaacImage_5: 7259489179466796417
+      testIsaacImage_6: -2041316543432202755
+      testIsaacImage_7: 2481676949012332528
+      testIsaacImage_8: 4334265993482134374
+      testIsaacImage_9: 8805194533822650253
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

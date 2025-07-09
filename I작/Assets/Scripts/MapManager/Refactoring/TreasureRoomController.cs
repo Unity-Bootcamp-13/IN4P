@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class TreasureRoomController : RoomController
 {
+
+
     protected override void Start()
     {
         base.Start();
@@ -30,8 +32,7 @@ public class TreasureRoomController : RoomController
 
             if (neighbor == null) continue;
 
-            DoorType doorType = GetDoorType(neighbor);
-            
+            DoorType doorType = GetDoorType(neighbor);            
             GameObject doorGo = Instantiate(doorPrefabs[0], doorSpawnPoints[i].position, doorSpawnPoints[i].rotation, doorSpawnPoints[i]);
             if (doorType == DoorType.Secret)
             {
@@ -47,6 +48,16 @@ public class TreasureRoomController : RoomController
 
     protected override void GenerateContents()
     {
-        Debug.Log("아이템 생성");
+        int rand = Random.Range(0, 10);
+
+        if(rand <= 9)
+        {
+            itemGenerator.GetRandomPassiveItem(transform.position);
+        }
+        else
+        {
+            itemGenerator.GetRandomActiveItem(transform.position);
+        }
+
     }
 }

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2408934908116746402}
   - component: {fileID: 6284586401271984172}
   - component: {fileID: 4175420168494930768}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Gaper
   m_TagString: Monster
   m_Icon: {fileID: 0}
@@ -168,6 +168,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 376486e1b976fec4c84e545b7cebc312, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  roomcontroller: {fileID: 0}
+  isDead: 0
   hp: 0
   GaperData: {fileID: 11400000, guid: 4e15b3b1a7e09d749803df2eb39f4afa, type: 2}
   enemy_atk: 0

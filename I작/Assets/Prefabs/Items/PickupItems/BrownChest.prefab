@@ -198,6 +198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11dedc7542223c147a943b2621540d42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemServiceSO: {fileID: 11400000, guid: c64bf1e887fc63040a508d28a28bcf6c, type: 2}
   chestAnimator: {fileID: 1234760271242825986}
   dropItems:
   - {fileID: 6662004382676739127, guid: 3b549268c4d2ed040afcabc0bf3a7fcd, type: 3}

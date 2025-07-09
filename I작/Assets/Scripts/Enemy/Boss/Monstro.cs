@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -48,6 +49,8 @@ public class Monstro : Enemy
     private readonly int BloodAttack = Animator.StringToHash("BloodAttack");
     private readonly int Dead = Animator.StringToHash("Dead");
 
+    public static Action<float> onBossHpSlider;
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -57,16 +60,20 @@ public class Monstro : Enemy
         .GetComponent<Player>();
         bosscollider = GetComponent<Collider2D>();
         boss_rb = GetComponent<Rigidbody2D>();
+        
+    }
+
+    public override void Start()
+    {
+        base.Start();
+        onBossHpSlider?.Invoke(boss_hp);
+        Debug.Log("hpslider");
     }
 
     private void Update()
     {
         bosscollider.enabled = (_bossState == BossState.Ground);
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            TakeDamage(250);
-        }
-
+       
         
         if (_bossPatturn == BossPatturn.Idle && _patternRoutine == null)
         {
@@ -81,7 +88,7 @@ public class Monstro : Enemy
         float facing = spriteRenderer.flipX ? 1f : -1f;
         Vector3 dir = player.transform.position - transform.position;
         spriteRenderer.flipX = dir.x > 0f;
-        int pattern = Random.Range(0, 3);
+        int pattern = UnityEngine.Random.Range(0, 3);
         AnimatorStateInfo stateInfo;
         float clipLength;
 
@@ -325,7 +332,7 @@ public class Monstro : Enemy
         boss_hp -= damage;
         if (boss_hp <= 0) Die();
 
-        Debug.Log($"{damage}데미지 입음");
+        onBossHpSlider?.Invoke(boss_hp);
 
         if (attackOrigin.HasValue)
         {

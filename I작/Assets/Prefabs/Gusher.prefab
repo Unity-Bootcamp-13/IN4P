@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6466383098981348178}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Gusher
   m_TagString: Monster
   m_Icon: {fileID: 0}
@@ -222,6 +222,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47358464f3aa18c479281b4d74343d54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  roomcontroller: {fileID: 0}
+  isDead: 0
   hp: 0
   gaperData: {fileID: 11400000, guid: 08cfa7eac0dbbd241b81aef60b8a04e9, type: 2}
   gusher_hp: 0

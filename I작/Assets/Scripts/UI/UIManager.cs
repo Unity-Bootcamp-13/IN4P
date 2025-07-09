@@ -1,15 +1,17 @@
 using System;
 using Unity.VisualScripting;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.U2D;
+using UnityEngine.Rendering.Universal;
 
 
 public class UIManager : MonoBehaviour
 {
-    public Image[] heartImage;
     public Sprite FullHeartSprite;
     public Sprite HalfHeartSprite;
-    public Sprite BlacnkHeartSprite;
+    public Sprite EmptyHeartSprite;
 
     public Text keyCount;
     public Text bombCount;
@@ -17,21 +19,24 @@ public class UIManager : MonoBehaviour
     public GameObject PlayerHp;
     public GameObject heartPrefab;
 
-    public int statehp;
+    public Slider bossHpSlider;
+    public GameObject bossHpParent;
 
-    public void Awake()
-    {
-    }
+    private float bossMaxHp;
+    public int statehp = 0;
+    public int statecurrenthp = 0;
 
     private void OnEnable()
     {
         Stats.OnChanged += HandleStatChanged;
+        Monstro.onBossHpSlider += BossCurrentHp;
 
     }
 
     private void OnDisable()
     {
         Stats.OnChanged -= HandleStatChanged;
+        Monstro.onBossHpSlider -= BossCurrentHp;
     }
 
     private void HandleStatChanged(StatType type, int value)
@@ -49,33 +54,98 @@ public class UIManager : MonoBehaviour
     {
         for (int i = 0; i < count; i++)
         {
-
             GameObject heart = Instantiate(heartPrefab, PlayerHp.transform);
+        }
+    }
+
+    private void HeartDestory(int count)
+    {
+        var destoyhurt = new List<GameObject>();
+        for (int i = 0; i < count; i++)
+        {
+            destoyhurt.Add(PlayerHp.transform.GetChild(i).gameObject);
+        }
+
+        foreach (var hurt in destoyhurt)
+        {
+            Destroy(hurt);
         }
     }
 
     private void UpdateHP(int maxhp)
     {
         int hp = maxhp / 2;
-        HeartInstantiate(hp);
-    }
 
+        if (statehp < hp)
+        {
+            HeartInstantiate(hp);
+        }
+        else if (statehp == hp)
+        {
+            Debug.Log("변화없음");
+        }
+        else
+        {
+            int minushp = statehp - hp;
+            HeartDestory(minushp);
+        }
+
+        statehp = hp;
+    }
     public void UPdateHearts(int currenthp)
     {
-        //int hp = 
+        int slotCount = statehp;
+        int fullCount = currenthp / 2;
+        bool hasHalf = (currenthp % 2) == 1;
 
-        //heartImage[i].sprite = FullHeartSprite;
-        //heartImage[i].sprite = HalfHeartSprite;
-        //heartImage[i].sprite = BlacnkHeartSprite;
+        for (int i = 0; i < slotCount; i++)
+        {
+            Image img = PlayerHp.transform
+            .GetChild(i)
+            .GetComponent<Image>();
+
+            if (i < fullCount)
+            {
+                img.sprite = FullHeartSprite;
+            }
+            else if (i == fullCount && hasHalf)
+            {
+                img.sprite = HalfHeartSprite;
+            }
+            else
+            {
+                img.sprite = EmptyHeartSprite;
+            }
+        }
+
+        statecurrenthp = currenthp;
+
+
     }
 
     public void UpdateBombCount(int count)
     {
-
+        bombCount.text = "x " + count.ToString();
     }
 
     public void UpdateKeyCount(int count)
     {
+        keyCount.text = "x " + count.ToString();
+    }
 
+    public void BossCurrentHp(float currentHP)
+    {
+        Debug.Log(currentHP);
+        if (bossMaxHp == 0f)
+        {
+            bossMaxHp = currentHP;
+            bossHpSlider.maxValue = bossMaxHp;
+        }
+
+        bossHpParent.SetActive(true);
+        bossHpSlider.value = currentHP;
+
+        if (currentHP <= 0f)
+            bossHpParent.SetActive(false);
     }
 }
