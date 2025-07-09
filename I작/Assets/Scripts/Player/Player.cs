@@ -1,4 +1,6 @@
+using System;
 using System.Collections;
+using System.Collections.Generic;
 using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -11,20 +13,14 @@ public enum AttackDirection
 }
 public class Player : MonoBehaviour
 {    
+    private ItemServiceSO itemServiceSO;
     public CharacterData characterData;
 
-    // 픽업 아이템
-    public int keyCount;
-    public int bombCount = 1;
-
-    public int Max_hp;
-    public float atk;
-    public float atkSpeed;
-    public float speed;
-    public float atkRange;
-    public float projectileSpeed;
-    public int currentHp;
-    
+    public Stats stats;
+    private Stats oldStats;
+    private List<int> passiveItems = new List<int>();
+    private int activeItem = -1; // 액티브 아이템 없는 상태
+    public int currentGauge;
 
     private int h;
     private int v;
@@ -60,13 +56,17 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
-        Max_hp = characterData.PlayerHp;
-        atk = characterData.Atk;
-        atkSpeed = characterData.AtkSpeed;
-        speed = characterData.Speed;
-        atkRange = characterData.AtkRange;
-        projectileSpeed = characterData.ProjectileSpeed;
-        currentHp = Max_hp;
+        stats = new Stats
+        (
+            0,
+            0,
+            characterData.PlayerHp,
+            characterData.Atk,
+            characterData.AtkSpeed,
+            characterData.Speed,
+            characterData.AtkRange,
+            characterData.ProjectileSpeed
+        );
 
         bodyObject = transform.GetChild(1).gameObject;
         totalbodyObject = transform.GetChild(2).gameObject;
@@ -74,13 +74,11 @@ public class Player : MonoBehaviour
         h = Animator.StringToHash("Horizontal");
         v = Animator.StringToHash("Vertical");
         isMove = Animator.StringToHash("IsMove");
-
-        
     }
 
     private void Start()
     {
-        attack.SetPlayerStats(projectileSpeed, atkRange, (int)atk ,atkSpeed);
+        attack.SetPlayerStats(stats.ProjectileSpeed, stats.AtkRange, (int)stats.Atk ,stats.AtkSpeed);
     }
 
     public void Update()
@@ -107,10 +105,6 @@ public class Player : MonoBehaviour
             bodyAnimator.SetBool(isMove, false);
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            TakeDamage(1);
-        }
     }
 
     private void FixedUpdate()
@@ -122,8 +116,13 @@ public class Player : MonoBehaviour
         }
 
         Vector3 dir = moveInput.normalized;
-        rid.linearVelocity = dir * speed;
-        attack.SetPlayerStats(projectileSpeed, atkRange, (int)atk, atkSpeed);
+        rid.linearVelocity = dir * stats.Speed;
+        attack.SetPlayerStats(stats.ProjectileSpeed, stats.AtkRange, (int)stats.Atk, stats.AtkSpeed);
+        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            UseActiveItem();
+        }
     }
 
     public void OnBomb(InputAction.CallbackContext context)
@@ -131,9 +130,9 @@ public class Player : MonoBehaviour
         if (!context.performed)
             return;
 
-        if (bombCount > 0)
+        if (stats.BombCount > 0)
         {
-            bombCount--;
+            stats.BombCount--;
             GameObject go = Instantiate(bombPrefab);
             go.transform.position = this.transform.position;
         }
@@ -190,15 +189,12 @@ public class Player : MonoBehaviour
             attack.OnRelease(attackDirection);
     }
 
-    // 패시브 아이템 획득
-    public void ApplyItem(Sprite itemsprite)
-    {
-        AquireItemAnim(itemsprite);
-    }
-
+   
     public void TakeDamage(int damage)
     {
-        currentHp -= damage;
+        stats.CurrentHp -= damage;
+
+        SoundManager.Instance.PlaySFX(SFX.Damage);
 
         isHurt = true;
 
@@ -206,18 +202,16 @@ public class Player : MonoBehaviour
         aquireItemObject.SetActive(false);
         totalbodyAnimator.SetTrigger("IsHurt");
 
-        if (currentHp <= 0)
+        if (stats.CurrentHp <= 0)
         {
             isHurt = false;
-            isDead = true;
-            StartCoroutine(DeadAnim());
+            SoundManager.Instance.PlaySFX(SFX.Dead);
             Die();
         }
     }
 
     private void Die()
     {
-        isHurt = false;
         isDead = true;
         StartCoroutine(DeadAnim());
     }
@@ -241,14 +235,76 @@ public class Player : MonoBehaviour
     }
 
     // 아이템 획득 시
-    private void AquireItemAnim(Sprite itemsprite)
+    public void AcquireItem(int id)
     {
-        isItem = true;
+        List<StatModifier> statModifiers = itemServiceSO.itemService.GetStatModifier(id);
+        ItemType itemType = itemServiceSO.itemService.GetItemType(id);
 
-        totalbodyObject.SetActive(true);
-        aquireItemObject.SetActive(true);
-        aquireItemObject.GetComponent<SpriteRenderer>().sprite = itemsprite;
-        totalbodyAnimator.SetTrigger("IsItem");
+        if (itemType == ItemType.Passive || itemType == ItemType.Pickup)
+        {
+            passiveItems.Add(id);
+
+            for (int i = 0; i < statModifiers.Count; i++)
+            {
+                stats = stats.Apply(statModifiers[i]);
+            }
+        }
+        else if (itemType == ItemType.Active)
+        {
+            DropActiveItem();
+            activeItem = id;
+            currentGauge = itemServiceSO.itemService.GetItemGauge(id);
+        }
+    }
+
+    private void DropActiveItem()
+    {
+        if (activeItem < 0)
+            return;
+
+        GameObject prefab = Resources.Load<GameObject>("Prefab/ItemPrefab");
+        GameObject itemGo = GameObject.Instantiate(prefab, transform.position + Vector3.down * 2f, Quaternion.identity);
+        var item = itemGo.GetComponent<Item>();
+        item.itemId = activeItem;
+        item.spritePath = itemServiceSO.itemService.GetSpritePath(activeItem);
+
+        activeItem = -1;
+    }
+
+    private void UseActiveItem()
+    {
+        if (activeItem < 0)
+        {
+            Debug.Log("액티브 아이템 없음");
+            return;
+        }
+
+        if (currentGauge < itemServiceSO.itemService.GetItemGauge(activeItem))
+        {
+            Debug.Log("게이지 부족");
+            return;
+        }
+
+        oldStats = stats;
+
+        List<StatModifier> statModifiers = itemServiceSO.itemService.GetStatModifier(activeItem);
+
+        for (int i = 0; i < statModifiers.Count; i++)
+        {
+            stats = stats.Apply(statModifiers[i]);
+        }
+
+        currentGauge = 0;
+        Debug.Log("사용");
+    }
+
+    public void RevertStats()
+    {
+        if (oldStats != null)
+        {
+            stats = oldStats;
+            oldStats = null;
+        }
     }
 
     public void HurtAnimFinish()

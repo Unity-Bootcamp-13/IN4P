@@ -18,9 +18,9 @@ public class GoldChest : MonoBehaviour
         {
             Player player = collision.gameObject.GetComponent<Player>();
 
-            if(player.keyCount > 0 )
+            if(player.stats.KeyCount > 0)
             {
-                player.keyCount--;
+                player.stats.KeyCount--;
                 chestAnimator.SetTrigger(openGoldChest);
             }
         }

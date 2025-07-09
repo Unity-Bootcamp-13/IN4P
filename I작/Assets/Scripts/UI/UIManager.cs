@@ -1,6 +1,8 @@
+using System;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+
 
 public class UIManager : MonoBehaviour
 {
@@ -9,44 +11,70 @@ public class UIManager : MonoBehaviour
     public Sprite HalfHeartSprite;
     public Sprite BlacnkHeartSprite;
 
-    public Sprite PassiveItemImage;
+    public Text keyCount;
+    public Text bombCount;
+
+    public GameObject PlayerHp;
+    public GameObject heartPrefab;
+
+    public int statehp;
+
+    public void Awake()
+    {
+    }
 
     private void OnEnable()
     {
-        Player.OnHpChanged += UPdateHearts;
+        Stats.OnChanged += HandleStatChanged;
+
     }
 
     private void OnDisable()
     {
-        Player.OnHpChanged -= UPdateHearts;
+        Stats.OnChanged -= HandleStatChanged;
     }
 
-    public void UPdateHearts(int hp)
+    private void HandleStatChanged(StatType type, int value)
     {
-        for (int i = 0; i< heartImage.Length; i++)
+        switch (type)
         {
-            int heartHp = hp - (i * 2);
-            if (heartHp >= 2)
-            {
-                heartImage[i].sprite = FullHeartSprite;
-            }
-            else if (heartHp == 1)
-            {
-                heartImage[i].sprite = HalfHeartSprite;
-            }
-            else
-            {
-                heartImage[i].sprite = BlacnkHeartSprite;
-            }
+            case StatType.MaxHP: UpdateHP(value); break;
+            case StatType.CurrentHP: UPdateHearts(value); break;
+            case StatType.Bomb: UpdateBombCount(value); break;
+            case StatType.Key: UpdateKeyCount(value); break;
         }
     }
 
-    public void UpdateBombCount()
+    private void HeartInstantiate(int count)
+    {
+        for (int i = 0; i < count; i++)
+        {
+
+            GameObject heart = Instantiate(heartPrefab, PlayerHp.transform);
+        }
+    }
+
+    private void UpdateHP(int maxhp)
+    {
+        int hp = maxhp / 2;
+        HeartInstantiate(hp);
+    }
+
+    public void UPdateHearts(int currenthp)
+    {
+        //int hp = 
+
+        //heartImage[i].sprite = FullHeartSprite;
+        //heartImage[i].sprite = HalfHeartSprite;
+        //heartImage[i].sprite = BlacnkHeartSprite;
+    }
+
+    public void UpdateBombCount(int count)
     {
 
     }
 
-    public void UpdateKeyCount()
+    public void UpdateKeyCount(int count)
     {
 
     }
