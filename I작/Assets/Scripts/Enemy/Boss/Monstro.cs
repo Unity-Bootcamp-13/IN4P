@@ -363,10 +363,8 @@ public class Monstro : Enemy
         transform.position = originalPosition;
 
         yield return new WaitForSeconds(3f);
-
         base.Die();
         SoundManager.Instance.PlayBGM(BGM.InGame);
-        //Destroy(gameObject);
     }
 
 

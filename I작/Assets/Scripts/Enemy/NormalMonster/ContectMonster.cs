@@ -89,28 +89,13 @@ public class ContectMonster : Enemy
         Debug.Log("ÆÄ¸® Á×À½");
         enemyAnimator.SetTrigger("IsDead");
         StartCoroutine(DieAnimation());
+        
     }
 
     private IEnumerator DieAnimation()
     {
         yield return new WaitForSeconds(0.5f);
-        //this.gameObject.SetActive(false);
         SoundManager.Instance.PlaySFX(SFX.Monster_Die);
         base.Die();
-    }
-
-    private IEnumerator FlySoundLoop()
-    {
-        float delay = 2f;
-        yield return new WaitForSeconds(delay);
-        SoundManager.Instance.PlaySFX(SFX.Monster_Fly);
-    }
-
-    private void OnDisable()
-    {
-        if (gameObject == null)
-        {
-            StopCoroutine(FlySoundLoop());
-        }
     }
 }

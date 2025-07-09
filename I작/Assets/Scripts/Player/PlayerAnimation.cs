@@ -29,7 +29,6 @@ public class PlayerAniamtions : MonoBehaviour
 
     public void SwitchBodyHeadAnim()
     {
-        Debug.Log("머리, 몸 활성화, 애니메이션 재생 x");
         headObject.GetComponent<SpriteRenderer>().enabled = true;
         bodyObject.GetComponent<SpriteRenderer>().enabled = true;
         headAnimator.speed = 0f;
@@ -38,7 +37,6 @@ public class PlayerAniamtions : MonoBehaviour
 
     public void RestoreAnimator()
     {
-        Debug.Log("머리, 몸 활성화, 애니메이션 재생 O");
         player.HurtAnimFinish();
         player.AquireItemFinish();
         totalbodyObject.SetActive(false);

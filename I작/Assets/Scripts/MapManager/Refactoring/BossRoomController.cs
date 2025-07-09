@@ -38,6 +38,12 @@ public class BossRoomController : RoomController
     {
         GameObject bossGo = Instantiate(bossContent, spawnPoint.position, Quaternion.identity);
         //bossGo.GetComponent<Monstro>().deadAction += CheckClearCondition;
+        // Enemy에 OnDeath Action이 정의되어 있다고 가정
+        Enemy enemy = bossGo.GetComponent<Enemy>();
+        if (enemy != null)
+        {
+            enemy.OnDeath += CheckClearCondition;
+        }
     }
 
     public void CheckClearCondition()
