@@ -15,7 +15,7 @@ public class Tears : MonoBehaviour
 
 
     private void OnEnable()
-    {        
+    {
         timer = range / speed;
     }
 
@@ -50,8 +50,14 @@ public class Tears : MonoBehaviour
         }
     }
 
+    void StartTearsSound()
+    {
+        SoundManager.Instance.PlaySFX(SFX.TearFire);
+    }
+
     void DestoryTears()
     {
+        SoundManager.Instance.PlaySFX(SFX.Tear);
         returnAction?.Invoke();
     }
 

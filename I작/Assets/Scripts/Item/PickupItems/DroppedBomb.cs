@@ -13,6 +13,7 @@ public class DroppedBomb : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        SoundManager.Instance.PlaySFX(SFX.Bomb);
         if (collision.tag == "Player")
         {
             collision.GetComponent<Player>().bombCount++;

@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public enum TargetPickup
@@ -22,11 +21,12 @@ public class PickPassiveItem : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        SoundManager.Instance.PlaySFX(SFX.PassiveItem);
         if (collision.tag == "Player")
         {
             ApplyEffect(collision.GetComponent<Player>());
-
-            // collider.GetComponent<Player>().ApplyItem(this);
+            
+            //collider.GetComponent<Player>().ApplyItem(itemIcon);
 
             Destroy(gameObject);
         }

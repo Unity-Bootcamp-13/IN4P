@@ -4354,7 +4354,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1
         y: 34
-        width: 38
+        width: 49
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -4366,28 +4366,6 @@ TextureImporter:
       bones: []
       spriteID: 7bd005d4dd5df6e60800000000000000
       internalID: 7957814213048536503
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: optionsmenu_162
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 36
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd933045427e8b4a0800000000000000
-      internalID: -6577253112560272929
       vertices: []
       indices: 
       edges: []

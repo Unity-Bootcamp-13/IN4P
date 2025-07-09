@@ -29,6 +29,7 @@ public class StatPassiveItem : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
+        SoundManager.Instance.PlaySFX(SFX.PassiveItem);
         if (collider.tag == "Player")
         {
             ApplyEffect(collider.GetComponent<Player>());

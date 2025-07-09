@@ -117,7 +117,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -192,12 +192,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - UI Hearts_0
+      name: heart_UI_0
       rect:
         serializedVersion: 2
         x: 0
         y: 48
-        width: 17
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -205,21 +205,153 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: df0aff0f830fcd880800000000000000
-      internalID: -8584722662322888451
+      spriteID: 3d70492a37db07e49a11bb6572dc6dc7
+      internalID: -1355869538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - UI Hearts_1
+      name: heart_UI_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2298bf7a4c324de409764eb03e052f8d
+      internalID: 671082397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_UI_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2d99c965622c8428a77526d74f6cf0
+      internalID: -1161083523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_UI_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10d061d6897a5d4cb0bafe55f474e6d
+      internalID: 1323467059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_UI_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4078ed21ac77c5245b11d2bc94be774a
+      internalID: 1914328574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_UI_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885c17258be99964a8724e6c048020e7
+      internalID: 987578514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_UI_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fe5b38613603b4f98504d9d4882749
+      internalID: -803254568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_UI_7
       rect:
         serializedVersion: 2
         x: 0
         y: 32
-        width: 17
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -227,43 +359,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 10c7ecf9ac0032580800000000000000
-      internalID: -8853231572215759871
+      spriteID: d275112988c166a468a8d05dd2199c92
+      internalID: 11601762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - UI Hearts_2
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 48
-        width: 17
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e32c6935cef43520800000000000000
-      internalID: 2681047801217688544
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - UI Hearts_3
+      name: heart_UI_8
       rect:
         serializedVersion: 2
         x: 16
         y: 32
-        width: 17
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -271,43 +381,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3917e533e7ae788c0800000000000000
-      internalID: -3996968316519419501
+      spriteID: 924b7b6aacb2e6e4d9dcde55e8956d23
+      internalID: 2101208312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - UI Hearts_4
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 48
-        width: 17
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb4b78a640cf09a90800000000000000
-      internalID: -7309065099324967749
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - UI Hearts_5
+      name: heart_UI_9
       rect:
         serializedVersion: 2
         x: 32
         y: 32
-        width: 17
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -315,65 +403,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2dc5fa9830ecd05b0800000000000000
-      internalID: -5400433863557161774
+      spriteID: 5fd3b370ccd949f49bf874189762acd6
+      internalID: -1754727463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - UI Hearts_6
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 48
-        width: 17
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 35ddbf87565eef430800000000000000
-      internalID: 3818741758040989011
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - UI Hearts_7
+      name: heart_UI_10
       rect:
         serializedVersion: 2
         x: 48
         y: 32
-        width: 32
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e0ae9b7f55c01900800000000000000
-      internalID: 653238959855280354
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - UI Hearts_8
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 48
-        width: 24
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -381,16 +425,38 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ea4c2a65ecfb281a0800000000000000
-      internalID: -6808668793693092690
+      spriteID: 6a205bd63a5648f4dbcff72994b87abf
+      internalID: 748576269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - UI Hearts_9
+      name: heart_UI_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f5b1e525196c2478375cf35d33a651
+      internalID: 1714516340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_UI_12
       rect:
         serializedVersion: 2
         x: 80
@@ -403,38 +469,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9b86a4b6250704880800000000000000
-      internalID: -8628773386752202567
+      spriteID: 4ac837a5ab08bcd46891559a9bf54d19
+      internalID: 289615593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - UI Hearts_10
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a417ae4c9a13bed60800000000000000
-      internalID: 7920478974884081994
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - UI Hearts_11
+      name: heart_UI_13
       rect:
         serializedVersion: 2
         x: 96
@@ -447,65 +491,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d05da16b67a4c6430800000000000000
-      internalID: 3777476061178811661
+      spriteID: 79a4bf5ed2a3aa740a35b3fe76127298
+      internalID: 2122183793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - UI Hearts_12
+      name: heart_UI_14
       rect:
         serializedVersion: 2
-        x: 7
-        y: 7
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bd51c0ba3b1d125f0800000000000000
-      internalID: -783114290586708517
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - UI Hearts_13
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 15
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce5340952ffb993a0800000000000000
-      internalID: -6658079526494128660
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - UI Hearts_14
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 17
+        x: 0
+        y: 16
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -513,16 +513,60 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fd53cc5847eb74540800000000000000
-      internalID: 4992168119633720799
+      spriteID: c8466a710e2186d4a8d812f5fa7ff61b
+      internalID: 1724098337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - UI Hearts_15
+      name: heart_UI_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1611c9fa5c5d28241a6ddb90f8acf134
+      internalID: -1501701862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_UI_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c106c5b18433d4baa237de99fc703f
+      internalID: 965300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_UI_17
       rect:
         serializedVersion: 2
         x: 48
@@ -535,43 +579,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 727181801f3f18e90800000000000000
-      internalID: -7025065727172798681
+      spriteID: b701867705bc93444bc1fa5e99c235a7
+      internalID: -542610894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - UI Hearts_16
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 17
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5d07ef098a8a23b90800000000000000
-      internalID: -7263557807054622507
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - UI Hearts_17
+      name: heart_UI_18
       rect:
         serializedVersion: 2
         x: 64
         y: 16
-        width: 17
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -579,86 +601,152 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a6bba4a99d83c5270800000000000000
-      internalID: 8240523925428812650
+      spriteID: 4f5aa6c661c3c7c4db70b63736cd66aa
+      internalID: -1144592152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - UI Hearts_18
+      name: heart_UI_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9612fd63c8b02024383748b4648bf946
+      internalID: 1642807432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_UI_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b738edeb2a913b044ad7e2a14bec4b73
+      internalID: -1789911155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_UI_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bc17d6dec33d34296397e12944d16a
+      internalID: -1017823348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_UI_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f9335ad7afc8348a9bcbe6911db06a
+      internalID: -161724688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_UI_23
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d533edb0dbf9e734a9c88d4b34be007b
+      internalID: 633644053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_UI_24
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4282f0c72314f04188852957cc1d936
+      internalID: 1263327073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_UI_25
       rect:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 17
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 871045939d6e8be40800000000000000
-      internalID: 5672537551317238136
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - UI Hearts_19
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 16
-        width: 17
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d9fa7df0eef069ab0800000000000000
-      internalID: -5001792821005930595
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - UI Hearts_20
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 0
-        width: 17
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2b4069c56676dd570800000000000000
-      internalID: 8493058161628284082
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - UI Hearts_21
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -667,16 +755,38 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 72ed1d7a656d71880800000000000000
-      internalID: -8640201692415926745
+      spriteID: acb43035142eae943848ad44d9daba77
+      internalID: 1197284425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - UI Hearts_22
+      name: heart_UI_26
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70885fa3a98f4a34a944b5011a73cbeb
+      internalID: 1197799242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_UI_27
       rect:
         serializedVersion: 2
         x: 96
@@ -689,10 +799,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 230d2f9bd0b6315e0800000000000000
-      internalID: -1940089307768106958
+      spriteID: 0a9983a248ecd43408be6501b690dd40
+      internalID: 905602991
       vertices: []
       indices: 
       edges: []
@@ -701,7 +811,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0158e23edb35b1f498efaf70770034a1
     internalID: 0
     vertices: []
     indices: 
@@ -711,29 +821,34 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PC Computer - The Binding of Isaac Rebirth - UI Hearts_0: -8584722662322888451
-      PC Computer - The Binding of Isaac Rebirth - UI Hearts_1: -8853231572215759871
-      PC Computer - The Binding of Isaac Rebirth - UI Hearts_10: 7920478974884081994
-      PC Computer - The Binding of Isaac Rebirth - UI Hearts_11: 3777476061178811661
-      PC Computer - The Binding of Isaac Rebirth - UI Hearts_12: -783114290586708517
-      PC Computer - The Binding of Isaac Rebirth - UI Hearts_13: -6658079526494128660
-      PC Computer - The Binding of Isaac Rebirth - UI Hearts_14: 4992168119633720799
-      PC Computer - The Binding of Isaac Rebirth - UI Hearts_15: -7025065727172798681
-      PC Computer - The Binding of Isaac Rebirth - UI Hearts_16: -7263557807054622507
-      PC Computer - The Binding of Isaac Rebirth - UI Hearts_17: 8240523925428812650
-      PC Computer - The Binding of Isaac Rebirth - UI Hearts_18: 5672537551317238136
-      PC Computer - The Binding of Isaac Rebirth - UI Hearts_19: -5001792821005930595
-      PC Computer - The Binding of Isaac Rebirth - UI Hearts_2: 2681047801217688544
-      PC Computer - The Binding of Isaac Rebirth - UI Hearts_20: 8493058161628284082
-      PC Computer - The Binding of Isaac Rebirth - UI Hearts_21: -8640201692415926745
-      PC Computer - The Binding of Isaac Rebirth - UI Hearts_22: -1940089307768106958
-      PC Computer - The Binding of Isaac Rebirth - UI Hearts_3: -3996968316519419501
-      PC Computer - The Binding of Isaac Rebirth - UI Hearts_4: -7309065099324967749
-      PC Computer - The Binding of Isaac Rebirth - UI Hearts_5: -5400433863557161774
-      PC Computer - The Binding of Isaac Rebirth - UI Hearts_6: 3818741758040989011
-      PC Computer - The Binding of Isaac Rebirth - UI Hearts_7: 653238959855280354
-      PC Computer - The Binding of Isaac Rebirth - UI Hearts_8: -6808668793693092690
-      PC Computer - The Binding of Isaac Rebirth - UI Hearts_9: -8628773386752202567
+      heart_UI_0: -1355869538
+      heart_UI_1: 671082397
+      heart_UI_10: 748576269
+      heart_UI_11: 1714516340
+      heart_UI_12: 289615593
+      heart_UI_13: 2122183793
+      heart_UI_14: 1724098337
+      heart_UI_15: -1501701862
+      heart_UI_16: 965300068
+      heart_UI_17: -542610894
+      heart_UI_18: -1144592152
+      heart_UI_19: 1642807432
+      heart_UI_2: -1161083523
+      heart_UI_20: -1789911155
+      heart_UI_21: -1017823348
+      heart_UI_22: -161724688
+      heart_UI_23: 633644053
+      heart_UI_24: 1263327073
+      heart_UI_25: 1197284425
+      heart_UI_26: 1197799242
+      heart_UI_27: 905602991
+      heart_UI_3: 1323467059
+      heart_UI_4: 1914328574
+      heart_UI_5: 987578514
+      heart_UI_6: -803254568
+      heart_UI_7: 11601762
+      heart_UI_8: 2101208312
+      heart_UI_9: -1754727463
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

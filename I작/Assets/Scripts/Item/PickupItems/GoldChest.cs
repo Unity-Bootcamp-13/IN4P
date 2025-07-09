@@ -28,6 +28,7 @@ public class GoldChest : MonoBehaviour
 
     private void OpenTreasureChest()
     {
+        SoundManager.Instance.PlaySFX(SFX.ChestOpen);
         for (int i = 0; i < dropItems.Length; i++)
         {
             int random = Random.Range(0, 3);

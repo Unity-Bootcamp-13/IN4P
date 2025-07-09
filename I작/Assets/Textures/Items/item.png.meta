@@ -5435,7 +5435,7 @@ TextureImporter:
         x: 162
         y: 674
         width: 26
-        height: 25
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5446,28 +5446,6 @@ TextureImporter:
       bones: []
       spriteID: e5744ba849c2b75f0800000000000000
       internalID: -757963095787944098
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Items Repentance_136
-      rect:
-        serializedVersion: 2
-        x: 180
-        y: 695
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bfadb22a5177163c0800000000000000
-      internalID: -4368079228773868805
       vertices: []
       indices: 
       edges: []

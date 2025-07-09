@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
-using UnityEngine.UI;
 
 public enum SOUND_TYPE
 {
@@ -11,11 +10,26 @@ public enum SOUND_TYPE
 
 public enum BGM
 {
-    Title, InGame, Boss
+    Title, InGame, Boss, Boss_Win
 }
+
 public enum SFX
 {
-    Bullet
+    Bomb,
+    ChestOpen,
+    DoorOpen,
+    PickKey,
+    PassiveItem,
+    Tear,
+    Damage,
+    Dead,
+    Boss_Fall,
+    Boss_Tear,
+    Boss_Die,
+    Monster_Fly,
+    Monster_Jombie,
+    Monster_Die,
+    TearFire
 }
 
 [Serializable]
@@ -35,29 +49,6 @@ public class SFXClip
 
 public class SoundManager : MonoBehaviour
 {
-    [Header("È­¸é ¹èÄ¡")]
-    public Image volumeImage;
-    public Button volumeButton;
-    public Button closeButton;
-
-    public void Start()
-    {
-        volumeImage.gameObject.SetActive(false);
-
-        volumeButton.onClick.AddListener(VolumeOnClick);
-        closeButton.onClick.AddListener(CloseOnClick);
-    }
-
-    void VolumeOnClick()
-    {
-        volumeImage.gameObject.SetActive(true);
-    }
-
-    void CloseOnClick()
-    {
-        volumeImage.gameObject.SetActive(false);
-    }
-
     [Header("¿Àµð¿À ¹Í¼­")]
     public AudioMixer audioMixer;
     public string bgmParameter = "BGM";
@@ -81,7 +72,6 @@ public class SoundManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
 
             bgm_dict = new Dictionary<BGM, AudioClip>();
             sfx_dict = new Dictionary<SFX, AudioClip>();
@@ -100,6 +90,7 @@ public class SoundManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        DontDestroyOnLoad(gameObject);
     }
 
     public void PlayBGM(BGM bgm_type)
@@ -118,6 +109,7 @@ public class SoundManager : MonoBehaviour
 
     public void PlaySFX(SFX sfx_type)
     {
+        Debug.Log($"[SFX ½ÇÇàµÊ] : {sfx_type}\n{System.Environment.StackTrace}");
         if (sfx_dict.TryGetValue(sfx_type, out var clip))
         {
             sfx.PlayOneShot(clip);
@@ -126,11 +118,13 @@ public class SoundManager : MonoBehaviour
 
     public void SetBGMVolume(float volume)
     {
+        Debug.Log($"[SetBGMVolume È£ÃâµÊ] value: {volume}");
         audioMixer.SetFloat(bgmParameter, Mathf.Log10(volume) * 20);
     }
 
     public void SetSFXVolume(float volume)
     {
+        Debug.Log($"[SetSFXVolume È£ÃâµÊ] value: {volume}");
         audioMixer.SetFloat(sfxParameter, Mathf.Log10(volume) * 20);
     }
 
