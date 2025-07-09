@@ -18,6 +18,7 @@ public class ContectMonster : Enemy
     public Player target;
     public Rigidbody2D enemy_rb;
 
+
     private void Awake()
     {
         enemy_hp = monsterData.PlayerHp;
@@ -29,6 +30,7 @@ public class ContectMonster : Enemy
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         enemyAnimator = GetComponent<Animator>();
         enemy_rb = GetComponent<Rigidbody2D>();
+
     }
 
     private void FixedUpdate()
@@ -50,12 +52,10 @@ public class ContectMonster : Enemy
             Vector2 direciton = (target.transform.position - transform.position).normalized;
             enemy_rb.MovePosition(enemy_rb.position + direciton * enemy_speed * Time.deltaTime);
         }
-       
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-
         if (other.CompareTag("Player") && _damageRoutine == null)
         {
             _damageRoutine = StartCoroutine(DamageLoop());
@@ -95,7 +95,7 @@ public class ContectMonster : Enemy
     private IEnumerator DieAnimation()
     {
         yield return new WaitForSeconds(0.5f);
-        //this.gameObject.SetActive(false);
+        SoundManager.Instance.PlaySFX(SFX.Monster_Die);
         base.Die();
     }
 }

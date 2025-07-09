@@ -13,6 +13,7 @@ public class Key : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        SoundManager.Instance.PlaySFX(SFX.PickKey);
         if (collision.tag == "Player")
         {
             collision.GetComponent<Player>().keyCount++;

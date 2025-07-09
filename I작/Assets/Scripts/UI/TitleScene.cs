@@ -46,7 +46,6 @@ public class TitleScene : MonoBehaviour
 
     public void onStartButton()
     {
-        //SceneManager.LoadScene("GameScene");
         StartCoroutine(FadoutLoadScene());
     }
 

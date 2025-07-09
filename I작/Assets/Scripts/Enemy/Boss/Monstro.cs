@@ -70,7 +70,6 @@ public class Monstro : Enemy
         
         if (_bossPatturn == BossPatturn.Idle && _patternRoutine == null)
         {
-            
             _patternRoutine = StartCoroutine(patternWithCooldown());
         }
 
@@ -122,18 +121,14 @@ public class Monstro : Enemy
     //피 토하기
     private IEnumerator BloodAttackRoutine()
     {
-        
         animator.SetTrigger(BloodAttack);
         yield return null;
     }
 
     private IEnumerator HighJumpRoutine()
     {
-        
         animator.SetTrigger(HighJump);
         yield return null;
-        
-        
     }
 
     
@@ -266,7 +261,9 @@ public class Monstro : Enemy
     public void Fall()
     {
         StartCoroutine(FallRoutine());
+        SoundManager.Instance.PlaySFX(SFX.Boss_Fall);
     }
+
     private IEnumerator FallRoutine()
     {
         _bossState = BossState.Ground;
@@ -286,7 +283,7 @@ public class Monstro : Enemy
     public void BloodShot()
     {
         StartCoroutine(BloodShotRoutine());
-        
+        SoundManager.Instance.PlaySFX(SFX.Boss_Tear);
     }
 
     private IEnumerator BloodShotRoutine()
@@ -335,8 +332,6 @@ public class Monstro : Enemy
             Vector2 dir = ((Vector2)transform.position - attackOrigin.Value).normalized;
             boss_rb.AddForce(dir * boss_knockback, ForceMode2D.Impulse);
         }
-
-        
     }
 
     public override void Die()
@@ -345,14 +340,14 @@ public class Monstro : Enemy
         enabled = false;  
 
         animator.SetTrigger(Dead);
-
+        SoundManager.Instance.PlaySFX(SFX.Boss_Die);
         StartCoroutine(DeathShake());
     }
 
 
-
     private IEnumerator DeathShake()
     {
+        SoundManager.Instance.PlayBGM(BGM.Boss_Win);
         Vector3 originalPosition = transform.position;
         float shakeDuration = 1.5f;
         float shakeMagnitude = 0.2f;
@@ -367,17 +362,14 @@ public class Monstro : Enemy
         }
         transform.position = originalPosition;
 
-        yield return new WaitForSeconds(1f);
-
+        yield return new WaitForSeconds(3f);
         base.Die();
-
-        //Destroy(gameObject);
+        SoundManager.Instance.PlayBGM(BGM.InGame);
     }
 
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-
         if (other.CompareTag("Player") && _damageRoutine == null)
         {
             _damageRoutine = StartCoroutine(DamageLoop());
