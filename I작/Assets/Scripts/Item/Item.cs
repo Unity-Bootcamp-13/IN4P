@@ -18,7 +18,7 @@ public class Item : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            collision.GetComponent<TestPlayer>().AcquireItem(itemId);
+            collision.GetComponent<Player>().AcquireItem(itemId);
 
             Destroy(gameObject);
         }
