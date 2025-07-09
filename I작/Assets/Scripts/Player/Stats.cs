@@ -77,12 +77,12 @@ public class Stats
             case ModifyTarget.KeyCount:
                 s.KeyCount = (int)operations[SMF.ModifyType](s.KeyCount, SMF.Amount);
                 s.KeyCount = Mathf.Min(s.KeyCount, PickupMax);
-                OnChanged?.Invoke(StatType.Key, KeyCount);
+                OnChanged?.Invoke(StatType.Key, s.KeyCount);
                 break;
             case ModifyTarget.BombCount:
                 s.BombCount = (int)operations[SMF.ModifyType](s.BombCount, SMF.Amount);
                 s.BombCount = Mathf.Min(s.BombCount, PickupMax);
-                OnChanged?.Invoke(StatType.Bomb, BombCount);
+                OnChanged?.Invoke(StatType.Bomb, s.BombCount);
                 break;
             case ModifyTarget.Atk:
                 s.Atk = operations[SMF.ModifyType](s.Atk, SMF.Amount);
@@ -102,18 +102,27 @@ public class Stats
             case ModifyTarget.MaxHp:
                 s.Max_Hp = (int)operations[SMF.ModifyType](s.Max_Hp, SMF.Amount);
                 s.Max_Hp = Mathf.Min(s.Max_Hp, 24);
-                OnChanged?.Invoke(StatType.MaxHP, Max_Hp);
+                OnChanged?.Invoke(StatType.MaxHP, s.Max_Hp);
                 break;
             case ModifyTarget.CurrentHp:
                 s.CurrentHp = (int)operations[SMF.ModifyType](s.CurrentHp, SMF.Amount);
                 s.CurrentHp = Mathf.Min(s.CurrentHp, Max_Hp);
-                OnChanged?.Invoke(StatType.CurrentHP, CurrentHp);
+                OnChanged?.Invoke(StatType.CurrentHP, s.CurrentHp);
                 break;
         }
 
         return s;
     }
 
+    public void ChangeHp(int damage)
+    {
+        Stats updated = Apply(new StatModifier(
+            ModifyTarget.CurrentHp,
+            ModifyType.Addtion,
+            damage));
+
+        this.CurrentHp = updated.CurrentHp;
+    }
 }
 
 public class StatModifier
@@ -133,3 +142,4 @@ public class StatModifier
         Amount = amount;
     }
 }
+

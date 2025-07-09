@@ -1,23 +1,18 @@
 using System.Collections.Generic;
-using System.Linq;
-using NUnit.Framework;
 using UnityEngine;
-using UnityEngine.Tilemaps;
+using UnityEngine.Rendering;
 
 public class NormalRoomController : RoomController
 {
     public GameObject[] monsterContents;
     public List<GameObject> currentMonster;
-    //public float scanRadius = 11f; // 한 타일에 오브젝트가 있는지 검사할 반지름
-    private float tileWidth, tileHeight;
     public Transform[] spawnPoints;
     public int monsterCount;
+    [SerializeField] GameObject[] chest;
 
     protected override void Start()
     {
         base.Start();
-        // monsterCount = monsterContents.Length;
-        // currentMonster = new List<GameObject>(); 
     }
 
     public override void CreateDoors()
@@ -31,11 +26,7 @@ public class NormalRoomController : RoomController
             DoorType doorType = GetDoorType(neighbor);
             GameObject doorPrefab = GetDoorPrefabByType(doorType);
 
-            GameObject doorGo = Instantiate(doorPrefab, doorSpawnPoints[i].position, doorSpawnPoints[i].rotation, doorSpawnPoints[i]);
-            if (doorType == DoorType.Secret)
-            {
-                doorGo.SetActive(false);  // 나중에 열리게 만들 수도 있음
-            }
+            GameObject doorGo = Instantiate(doorPrefab, doorSpawnPoints[i].position, doorSpawnPoints[i].rotation, doorSpawnPoints[i]);            
             Door doorComponent = doorGo.GetComponent<Door>();
             doorComponent.type = doorType;
             doorComponent.thisDirction = i;
@@ -45,7 +36,7 @@ public class NormalRoomController : RoomController
     }
     protected override void GenerateContents()
     {
-        int monsterToSpawn = Random.Range(0, 4); // 0~3마리까지 랜덤
+        int monsterToSpawn = Random.Range(1, 7);
 
         if (monsterToSpawn == 0)
         {
@@ -73,18 +64,31 @@ public class NormalRoomController : RoomController
                 enemy.OnDeath += CheckClearCondition;
             }
         }
+        
     }
 
     public void CheckClearCondition()
     {
         monsterCount--;
-        Debug.Log($"Monster died. Remaining: {monsterCount}");
 
         if (monsterCount == 0)
         {
-            Debug.Log("All monsters cleared. Opening doors.");
             isCleared = true;
             OpenDoors();
+            int rand = Random.Range(0, 10);
+
+            if(rand <= 3)
+            {
+                itemGenerator.GetRandomPickupItem(transform.position);
+            }
+            else if(rand <= 6)
+            {
+                Instantiate(chest[0], transform.position, Quaternion.identity);
+            }
+            else if(rand <= 7)
+            {
+                Instantiate(chest[1], transform.position, Quaternion.identity);
+            }
         }
     }
 

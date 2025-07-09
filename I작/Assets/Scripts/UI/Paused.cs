@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,6 +7,11 @@ using UnityEngine.UI;
 
 public class Paused : MonoBehaviour
 {
+    [SerializeField] ItemServiceSO itemserviceSO;
+    [SerializeField] Player player;
+    [SerializeField] GameObject slotImage;
+    [SerializeField] Transform slotInventory;
+
     public Button optionButton;
     public Button continueButton;
     public Button rerunButton;
@@ -34,9 +40,20 @@ public class Paused : MonoBehaviour
 
     public void onOptionButton()
     {
-        isPaused = true;
-        optionImage.SetActive(true);
-        Time.timeScale = 0f;
+        if (optionImage.activeSelf)
+        {
+            optionImage.SetActive(false);
+            Time.timeScale = 1f;
+            isPaused = false;
+        }
+        else
+        {
+            optionImage.SetActive(true);
+            Time.timeScale = 0f;
+            isPaused = true;
+        }
+
+        SetPassiveSlot();
     }
 
     public void onRerunButton()
@@ -61,5 +78,19 @@ public class Paused : MonoBehaviour
         isPaused = false;
         optionImage.SetActive(false);
         Time.timeScale = 1f;
+    }
+
+    private void SetPassiveSlot()
+    {
+        List<int> passiveItmeIds = player.passiveItems;
+
+        for (int i = 0; i < passiveItmeIds.Count; i++)
+        {
+            string iconPath = itemserviceSO.itemService.GetSpritePath(passiveItmeIds[i]);
+            Sprite iconSprite = Resources.Load<Sprite>(iconPath);
+
+            var go = Instantiate(slotImage, slotInventory);
+            go.GetComponent<SpriteRenderer>().sprite = iconSprite;
+        }
     }
 }

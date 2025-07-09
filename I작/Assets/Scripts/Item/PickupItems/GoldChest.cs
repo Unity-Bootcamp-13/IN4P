@@ -1,14 +1,18 @@
 using UnityEngine;
+using static UnityEditor.Progress;
 
 public class GoldChest : MonoBehaviour
 {
+    [SerializeField] ItemServiceSO itemServiceSO;
+    private ItemGenerator itemGenerator;
+
     public Animator chestAnimator;
-    public GameObject[] dropItems;
 
     int openGoldChest;
 
     private void Start()
     {
+        itemGenerator = new ItemGenerator(itemServiceSO.itemService);
         openGoldChest = Animator.StringToHash("OpenChest");
     }
 
@@ -29,17 +33,26 @@ public class GoldChest : MonoBehaviour
     private void OpenTreasureChest()
     {
         SoundManager.Instance.PlaySFX(SFX.ChestOpen);
-        for (int i = 0; i < dropItems.Length; i++)
-        {
-            int random = Random.Range(0, 3);
+        int random = Random.Range(0, 5);
 
-            for (int j = 0; j < random; j++)
+        for (int j = 0; j < random; j++)
+        {
+            Vector3 randomPosition = Random.insideUnitCircle;
+            GameObject itemGo = itemGenerator.GetRandomPickupItem(transform.position + randomPosition);
+            Debug.Log(itemGo.GetComponent<Item>().itemId);
+
+            if (itemGo.GetComponent<Item>().itemId == 1004)
             {
-                Vector3 randomPosition = Random.insideUnitCircle;
-                Instantiate(dropItems[i], transform.position + randomPosition * 1.5f, Quaternion.identity);
+                Destroy(itemGo);
             }
         }
-                
+
+        int randomGoodItem = Random.Range(0, 10);
+        if(randomGoodItem >= 9)
+        {
+            Vector3 randomPosition = Random.insideUnitCircle;
+            itemGenerator.GetRandomPassiveItem(transform.position + randomPosition);
+        }
         Destroy(gameObject);
     }
 }

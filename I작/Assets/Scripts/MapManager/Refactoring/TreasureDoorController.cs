@@ -12,7 +12,6 @@ public class TreasureDoorController : MonoBehaviour
             if (collision.gameObject.GetComponent<Player>().stats.KeyCount >0)
             {
                 collision.gameObject.GetComponent<Player>().stats.KeyCount--;
-                treasureDoor.OpenDoor();
                 transform.GetChild(0).gameObject.SetActive(false);
                 treasureDoor.portalCollider.isTrigger = true;
 

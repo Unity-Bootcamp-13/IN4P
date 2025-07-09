@@ -54,23 +54,23 @@ public class ContectMonster : Enemy
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.CompareTag("Player") && _damageRoutine == null)
+        if (other.gameObject.CompareTag("Player") && _damageRoutine == null)
         {
             _damageRoutine = StartCoroutine(DamageLoop());
         }
     }
-    private void OnTriggerExit2D(Collider2D other)
-    {
 
-        if (other.CompareTag("Player") && _damageRoutine != null)
+    private void OnCollisionExit(Collision other)
+    {
+        if (other.gameObject.CompareTag("Player") && _damageRoutine != null)
         {
             StopCoroutine(_damageRoutine);
             _damageRoutine = null;
         }
     }
-
     IEnumerator DamageLoop()
     {
         while (true)

@@ -32,7 +32,7 @@ public class Tears : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Tag 조사해서 몬스터면 터지는 걸로 변경
+        
         
         if (collision.TryGetComponent<Enemy>(out var monster) || collision.gameObject.CompareTag("Object"))
         {

@@ -12,13 +12,14 @@ public enum AttackDirection
     Right = 3
 }
 public class Player : MonoBehaviour
-{    
-    private ItemServiceSO itemServiceSO;
-    public CharacterData characterData;
+{
+    [SerializeField] ItemServiceSO itemServiceSO;
+    [SerializeField] CharacterData characterData;
+    [SerializeField] PlayerInput playerInput;
 
     public Stats stats;
     private Stats oldStats;
-    private List<int> passiveItems = new List<int>();
+    public List<int> passiveItems = new List<int>();
     private int activeItem = -1; // 액티브 아이템 없는 상태
     public int currentGauge;
 
@@ -56,10 +57,12 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
+        playerInput.enabled = true;
+
         stats = new Stats
         (
-            0,
-            0,
+            characterData.KeyCount,
+            characterData.BombCount,
             characterData.PlayerHp,
             characterData.Atk,
             characterData.AtkSpeed,
@@ -74,6 +77,8 @@ public class Player : MonoBehaviour
         h = Animator.StringToHash("Horizontal");
         v = Animator.StringToHash("Vertical");
         isMove = Animator.StringToHash("IsMove");
+
+
     }
 
     private void Start()
@@ -90,6 +95,7 @@ public class Player : MonoBehaviour
 
         if (isDead)
         {
+            playerInput.enabled = false;
             moveInput = Vector2.zero;
             return;
         }
@@ -105,6 +111,8 @@ public class Player : MonoBehaviour
             bodyAnimator.SetBool(isMove, false);
         }
 
+       
+
     }
 
     private void FixedUpdate()
@@ -119,10 +127,7 @@ public class Player : MonoBehaviour
         rid.linearVelocity = dir * stats.Speed;
         attack.SetPlayerStats(stats.ProjectileSpeed, stats.AtkRange, (int)stats.Atk, stats.AtkSpeed);
         
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            UseActiveItem();
-        }
+       
     }
 
     public void OnBomb(InputAction.CallbackContext context)
@@ -135,6 +140,7 @@ public class Player : MonoBehaviour
             stats.BombCount--;
             GameObject go = Instantiate(bombPrefab);
             go.transform.position = this.transform.position;
+            go.GetComponent<Collider2D>().isTrigger = true;
         }
     }
 
@@ -181,6 +187,14 @@ public class Player : MonoBehaviour
         OnAttack(context);
     }
 
+    public void OnActive(InputAction.CallbackContext context)
+    {
+        if (!context.performed)
+            return;
+
+        UseActiveItem();
+    }
+
     private void OnAttack(InputAction.CallbackContext context)
     {
         if (context.performed)
@@ -192,7 +206,7 @@ public class Player : MonoBehaviour
    
     public void TakeDamage(int damage)
     {
-        stats.CurrentHp -= damage;
+        stats.ChangeHp(-damage);
 
         SoundManager.Instance.PlaySFX(SFX.Damage);
 
@@ -215,17 +229,19 @@ public class Player : MonoBehaviour
         isDead = true;
         StartCoroutine(DeadAnim());
     }
-    
+
     IEnumerator DeadAnim()
     {
         float elapsedTime = 0f;
         float shakeDurtaion = 2.5f;
 
+        Vector3 currentPosition = transform.position;
+
         while (elapsedTime < shakeDurtaion)
         {
             spotLightObject.SetActive(true);
             float shakePosX = Mathf.PingPong(Time.time * shakeSpeed, 0.2f);
-            transform.position = new Vector3(shakePosX, transform.position.y, transform.position.z);
+            transform.position = new Vector3(currentPosition.x + shakePosX, transform.position.y, transform.position.z);
 
             elapsedTime += Time.deltaTime;
             yield return null;
@@ -235,8 +251,9 @@ public class Player : MonoBehaviour
     }
 
     // 아이템 획득 시
-    public void AcquireItem(int id)
+    public void AcquireItem(int id, Sprite itemSprite)
     {
+        AquireItemAnim(itemSprite);
         List<StatModifier> statModifiers = itemServiceSO.itemService.GetStatModifier(id);
         ItemType itemType = itemServiceSO.itemService.GetItemType(id);
 
@@ -246,7 +263,12 @@ public class Player : MonoBehaviour
 
             for (int i = 0; i < statModifiers.Count; i++)
             {
-                stats = stats.Apply(statModifiers[i]);
+                Stats newStats = stats.Apply(statModifiers[i]);
+                if (newStats.CurrentHp <= 0)
+                {
+                    Die();
+                }
+                stats = newStats;
             }
         }
         else if (itemType == ItemType.Active)
@@ -255,6 +277,16 @@ public class Player : MonoBehaviour
             activeItem = id;
             currentGauge = itemServiceSO.itemService.GetItemGauge(id);
         }
+    }
+
+    public void AquireItemAnim(Sprite itemsprite)
+    {
+        isItem = true;
+
+        totalbodyObject.SetActive(true);
+        aquireItemObject.SetActive(true);
+        aquireItemObject.GetComponent<SpriteRenderer>().sprite = itemsprite;
+        totalbodyAnimator.SetTrigger("IsItem");
     }
 
     private void DropActiveItem()
@@ -275,13 +307,11 @@ public class Player : MonoBehaviour
     {
         if (activeItem < 0)
         {
-            Debug.Log("액티브 아이템 없음");
             return;
         }
 
         if (currentGauge < itemServiceSO.itemService.GetItemGauge(activeItem))
         {
-            Debug.Log("게이지 부족");
             return;
         }
 
@@ -291,18 +321,23 @@ public class Player : MonoBehaviour
 
         for (int i = 0; i < statModifiers.Count; i++)
         {
-            stats = stats.Apply(statModifiers[i]);
+            Stats newStats = stats.Apply(statModifiers[i]);
+            if (newStats.CurrentHp <= 0)
+            {
+                Die();
+            }
+            stats = newStats;
         }
-
         currentGauge = 0;
-        Debug.Log("사용");
     }
 
     public void RevertStats()
     {
         if (oldStats != null)
         {
+            int calculatedHp = stats.CurrentHp;
             stats = oldStats;
+            stats.CurrentHp = calculatedHp;
             oldStats = null;
         }
     }
@@ -310,20 +345,17 @@ public class Player : MonoBehaviour
     public void HurtAnimFinish()
     {
         isHurt = false;
-        Debug.Log("피격 종료");
     }
 
     public void DeadAnimFinish()
     {
         isDead = false;
         gameObject.SetActive(false);
-        Debug.Log("사망 종료");
     }
 
     public void AquireItemFinish()
     {
         isItem = false;
-        Debug.Log("아이템 획득 종료");
     }
 
 }

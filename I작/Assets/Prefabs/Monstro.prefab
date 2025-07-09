@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1850798448109786983}
   - component: {fileID: 8085544655794830849}
   - component: {fileID: 1387634822824076836}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Monstro
   m_TagString: Boss
   m_Icon: {fileID: 0}
@@ -126,6 +126,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45e753bcc9fbe0c41b11555f8086e052, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  roomcontroller: {fileID: 0}
+  isDead: 0
   hp: 0
   boss_name: Monstro
   boss_hp: 250
@@ -187,7 +189,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDamping: 0
+  m_LinearDamping: 10
   m_AngularDamping: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}

@@ -14,13 +14,21 @@ public class Item : MonoBehaviour
         GetComponent<SpriteRenderer>().sprite = itemIcon;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.gameObject.tag == "Player")
         {
-            collision.GetComponent<Player>().AcquireItem(itemId);
-
-            Destroy(gameObject);
+            Player player = collision.gameObject.GetComponent<Player>();
+            if ((player.stats.CurrentHp >= player.stats.Max_Hp) &&
+                (itemId == 1003 || itemId == 1004))
+            {
+                return;
+            }
+            else
+            {
+                player.AcquireItem(itemId, itemIcon);
+                Destroy(gameObject);
+            }
         }
     }
 }

@@ -1,10 +1,12 @@
+using UnityEditor.Rendering;
 using UnityEngine;
 
 public class InstalledBomb : MonoBehaviour
 {
     public Collider2D bombCollider;
     public float explosionRadius = 2f;
-    public int damage = 60;
+    public int playerDamage = 2;
+    public int monsterDamage = 60;
     public LayerMask damageLayerMask;
 
 
@@ -19,14 +21,26 @@ public class InstalledBomb : MonoBehaviour
     public void Explode()
     {
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, explosionRadius, damageLayerMask);
-        SoundManager.Instance.PlaySFX(SFX.Bomb);
+
         foreach (Collider2D hit in hits)
         {
             //IDamageable target = hit.GetComponent<IDamageable>();
             Player player = hit.GetComponent<Player>();
             if (player != null)
             {
-                player.TakeDamage(damage);
+                player.TakeDamage(playerDamage);
+            }
+            
+            SecretDoorController secretDoor = hit.GetComponent<SecretDoorController>();
+            if (secretDoor != null)
+            {
+                secretDoor.OpenSecretDoor();
+            }
+
+            Enemy enemy = hit.GetComponent<Enemy>();
+            if (enemy != null)
+            {
+                enemy.TakeDamage(monsterDamage, transform.position);
             }
         }
     }

@@ -16,10 +16,10 @@ public class ItemGenerator
     private List<int> passiveItems;
     private List<int> activeItems;
 
-    private GameObject CreateItem(int itemId)
+    private GameObject CreateItem(int itemId, Vector3 pos)
     {
         GameObject prefab = Resources.Load<GameObject>("Prefab/ItemPrefab");
-        GameObject itemGo = GameObject.Instantiate(prefab);
+        GameObject itemGo = GameObject.Instantiate(prefab, pos, Quaternion.identity);
         var item = itemGo.GetComponent<Item>();
         item.itemId = itemId;
         item.spritePath = itemService.GetSpritePath(itemId);
@@ -27,21 +27,21 @@ public class ItemGenerator
         return itemGo;
     }
 
-    public GameObject GetRandomPickupItem()
+    public GameObject GetRandomPickupItem(Vector3 pos)
     {
         int random = Random.Range(0, pickupItems.Count);
-        return CreateItem(pickupItems[random]);
+        return CreateItem(pickupItems[random], pos);
     }
 
-    public GameObject GetRandomPassiveItem()
+    public GameObject GetRandomPassiveItem(Vector3 pos)
     {
         int random = Random.Range(0, passiveItems.Count);
-        return CreateItem(passiveItems[random]);
+        return CreateItem(passiveItems[random], pos);
     }
 
-    public GameObject GetRandomActiveItem()
+    public GameObject GetRandomActiveItem(Vector3 pos)
     {
         int random = Random.Range(0, activeItems.Count);
-        return CreateItem(activeItems[random]);
+        return CreateItem(activeItems[random], pos);
     }
 }

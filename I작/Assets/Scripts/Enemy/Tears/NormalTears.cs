@@ -11,7 +11,7 @@ public class NormalTears: MonoBehaviour
     public int damage;
     public Vector3 target;
     public float timer=0;
-    public float lifetime = 5f;
+    public float lifetime = 3f;
     
     Animator tearsAnimator;
     Rigidbody2D rb;
@@ -55,7 +55,7 @@ public class NormalTears: MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player" || collision.gameObject.tag =="Object")
         {
             Player player = collision.GetComponent<Player>();
 
@@ -63,8 +63,9 @@ public class NormalTears: MonoBehaviour
             {
                 player.TakeDamage(damage);
                 speed = 0f;
-                ExplodeAndDestroyTears();
             }
+            
+            ExplodeAndDestroyTears();
         }
     }
 }

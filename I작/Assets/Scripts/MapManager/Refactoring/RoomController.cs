@@ -3,6 +3,9 @@ using UnityEngine;
 
 public abstract class RoomController : MonoBehaviour
 {
+    [SerializeField] ItemServiceSO itemServiceSO;
+    protected ItemGenerator itemGenerator;
+
     private Camera mainCamera;
     public Transform[] doorSpawnPoints = new Transform[4];
     public GameObject[] doorPrefabs;
@@ -15,9 +18,10 @@ public abstract class RoomController : MonoBehaviour
     public RoomController[] nextRoomControllers = new RoomController[4];
 
     public bool secretRoomVisited;
-
-
+    public bool treasureRoomVisited;
     protected bool isCleared;
+
+
 
     private void Awake()
     {
@@ -29,6 +33,7 @@ public abstract class RoomController : MonoBehaviour
 
     protected virtual void Start()
     {
+        itemGenerator = new ItemGenerator(itemServiceSO.itemService);
         OpenDoors();
     }
 
@@ -38,12 +43,7 @@ public abstract class RoomController : MonoBehaviour
         {
             OpenDoors();
         }
-        
-        if(Input.GetKeyDown(KeyCode.V))
-        {
-            OpenSecretDoors();
 
-        }        
     }
 
     public void Init(Room data)
@@ -57,17 +57,31 @@ public abstract class RoomController : MonoBehaviour
 
     protected void SetNextRoom(int direction)
     {
-        RoomController nextRoom = nextRoomControllers[direction];
+        RoomController nextRoom = nextRoomControllers[direction];  
 
         if (!nextRoom.isCleared)
         {
             nextRoom.CloseDoors();
             nextRoom.GenerateContents();
         }
-        //if(nextRoom.roomData.Type == RoomType.Secret)
-        //{
-        //
-        //}
+
+        if (nextRoom.roomData.Type == RoomType.Secret)
+        {
+            nextRoom.CloseDoors();
+            int oppositeDir = (direction + 2) % 4;
+            nextRoom.doorList[oppositeDir].gameObject.GetComponent<SecretDoorController>().OpenSecretDoor();
+            if(!secretRoomVisited)
+            {
+                nextRoom.GenerateContents();
+                nextRoom.secretRoomVisited = true;
+            }
+        }
+
+        if(nextRoom.roomData.Type == RoomType.Treasure && nextRoom.treasureRoomVisited == false)
+        {
+            nextRoom.GenerateContents();
+            nextRoom.treasureRoomVisited = true;
+        }
 
         nextRoom.SetMinimap();
         StartCoroutine(C_CameraMove(nextRoom));
@@ -83,43 +97,6 @@ public abstract class RoomController : MonoBehaviour
             doorList[i].OpenDoor();
         }
     }
-
-    public void OpenSecretDoors()
-    {
-        for (int i = 0; i < doorList.Length; i++)
-        {
-            Door door = doorList[i];
-            RoomController neighbor = nextRoomControllers[i];
-
-            if (door != null &&
-                door.type == DoorType.Secret &&
-                neighbor != null &&
-                neighbor.roomData.Type == RoomType.Secret)
-            {
-                // 현재 방의 문 활성화 및 열기
-                door.gameObject.SetActive(true);
-                door.OpenDoor();
-
-                int oppositeDir = (i + 2) % 4;
-
-                // neighbor(비밀방)의 반대 방향 문과 연결된 방 확인
-                if (neighbor.nextRoomControllers[oppositeDir] == this)
-                {
-                    Door neighborDoor = neighbor.doorList[oppositeDir];
-
-                    if (neighborDoor != null && neighborDoor.type == DoorType.Secret)
-                    {
-
-                        neighborDoor.gameObject.SetActive(true);
-                        neighborDoor.OpenDoor();
-                    }
-                }
-
-                secretRoomVisited = true;
-            }
-        }
-    }
-
 
     public void CloseDoors()
     {
@@ -166,54 +143,43 @@ public abstract class RoomController : MonoBehaviour
         
     }
 
-    protected  void SetMinimap()
+    protected void SetMinimap()
+{
+    // 현재 방은 항상 보이게
+    minimapSpriteRenderer.enabled = true;
+    Color currentColor = minimapSpriteRenderer.color;
+    currentColor.a = 1f;
+    minimapSpriteRenderer.color = currentColor;
+
+    foreach (RoomController neighbor in nextRoomControllers)
     {
-        minimapSpriteRenderer.enabled = true;
+        if (neighbor == null) continue;
 
-        // 현재 방은 항상 보이게
-        Color currentColor = minimapSpriteRenderer.color;
-        currentColor.a = 1f;
-        minimapSpriteRenderer.color = currentColor;
+        RoomType type = neighbor.roomData.Type;
+        SpriteRenderer renderer = neighbor.minimapSpriteRenderer;
 
-        for (int i = 0; i < nextRoomControllers.Length; i++)
+        // 시작방에서 연결된 비밀방이며 아직 방문하지 않았다면 숨김 처리
+        if (this.roomData.Type == RoomType.Start && type == RoomType.Secret && !secretRoomVisited)
         {
-            RoomController neighbor = nextRoomControllers[i];
-            if (neighbor == null) continue;
-
-            neighbor.minimapSpriteRenderer.enabled = false;
-
-            // 시작방에서 연결된 비밀방은 절대 보이지 않도록 처리
-            if (this.roomData.Type == RoomType.Start && neighbor.roomData.Type == RoomType.Secret && secretRoomVisited == false)
-            {
-                Color secretColor = neighbor.minimapSpriteRenderer.color;
-                secretColor.a = 0f; 
-                neighbor.minimapSpriteRenderer.color = secretColor;
-            }
-           
-            else if (neighbor.roomData.Type == RoomType.Secret && secretRoomVisited == false)
-            {
-                neighbor.minimapSpriteRenderer.enabled = true;
-                Color secretColor = neighbor.minimapSpriteRenderer.color;
-                secretColor.a = 0f;         
-                neighbor.minimapSpriteRenderer.color = secretColor;
-            }
-            else if (neighbor.roomData.Type == RoomType.Secret && secretRoomVisited == true)
-            {
-                neighbor.minimapSpriteRenderer.enabled = true;
-                Color secretColor = neighbor.minimapSpriteRenderer.color;
-                secretColor.a = 0.5f; 
-                neighbor.minimapSpriteRenderer.color = secretColor;
-            }
-            else
-            {
-                neighbor.minimapSpriteRenderer.enabled = true;
-                // 일반 방은 반투명
-                Color nextColor = neighbor.minimapSpriteRenderer.color;
-                nextColor.a = 0.5f;
-                neighbor.minimapSpriteRenderer.color = nextColor;
-            }
+            renderer.enabled = false;
+            continue;
         }
+
+        renderer.enabled = true;
+        Color color = renderer.color;
+
+        if (type == RoomType.Secret)
+        {
+            color.a = secretRoomVisited ? 0.5f : 0f;
+        }
+        else
+        {
+            color.a = 0.5f; // 일반 방은 반투명
+        }
+
+        renderer.color = color;
     }
+}
 
     
 
