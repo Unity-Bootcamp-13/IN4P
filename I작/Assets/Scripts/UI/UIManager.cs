@@ -1,10 +1,7 @@
-using System;
-using Unity.VisualScripting;
+
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.U2D;
-using UnityEngine.Rendering.Universal;
 using UnityEngine.SceneManagement;
 
 
@@ -48,7 +45,7 @@ public class UIManager : MonoBehaviour
         Stats.OnChanged += HandleStatChanged;
         Monstro.onBossHpSlider += BossCurrentHp;
         Player.OnPlayerDead += PlayerDead;
-        Monstro.onBossDead += BossDead;
+        Monstro.onDeath += BossDead;
     }
 
     private void OnDisable()
@@ -56,7 +53,7 @@ public class UIManager : MonoBehaviour
         Stats.OnChanged -= HandleStatChanged;
         Monstro.onBossHpSlider -= BossCurrentHp;
         Player.OnPlayerDead -= PlayerDead;
-        Monstro.onBossDead -= BossDead;
+        Monstro.onDeath -= BossDead;
 
     }
 
@@ -103,7 +100,7 @@ public class UIManager : MonoBehaviour
         }
         else if (statehp == hp)
         {
-            Debug.Log("변화없음");
+            return;
         }
         else
         {

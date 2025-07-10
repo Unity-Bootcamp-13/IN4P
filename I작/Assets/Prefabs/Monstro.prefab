@@ -127,15 +127,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomcontroller: {fileID: 0}
-  isDead: 0
-  hp: 0
-  boss_name: Monstro
-  boss_hp: 250
+  EnemyData: {fileID: 11400000, guid: f43520346b390c142b80e8f625481c63, type: 2}
   boss_knockback: 0.7
-  boss_oneDamage: 2
-  boss_halfDamage: 1
-  boss_attackSpeed: 5
-  boss_MoveRange: 4
   jump_height: 2.5
   JumpDuration: 0.5
   tears: {fileID: 8347038662915090392, guid: 144a5c88ba284f149a4f1f6b9fe4bf19, type: 3}

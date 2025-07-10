@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Rendering;
 
 public class NormalRoomController : RoomController
 {
@@ -56,7 +55,6 @@ public class NormalRoomController : RoomController
             GameObject monsterGo = Instantiate(prefab, spawnPoint.position, Quaternion.identity);
             currentMonster.Add(monsterGo);
 
-            // Enemy에 OnDeath Action이 정의되어 있다고 가정
             Enemy enemy = monsterGo.GetComponent<Enemy>();
             if (enemy != null)
             {

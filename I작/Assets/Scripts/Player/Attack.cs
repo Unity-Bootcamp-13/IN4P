@@ -1,7 +1,5 @@
 using System;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR;
 
 public interface IAttackBehavior
 {
@@ -49,16 +47,6 @@ public class Attack : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.B))
-        {
-            Debug.Log("브림스톤(혈사포) 전환");
-            SwitchToBrimstone();
-        }
-        else if (Input.GetKeyDown(KeyCode.T))
-        {
-            Debug.Log("눈물 전환");
-            SwitchToTears();
-        }
         if (attackBehavior is BrimstoneAttack brimstone)
         {
             brimstone.UpdateCharging(Time.deltaTime);
@@ -94,7 +82,7 @@ public class Attack : MonoBehaviour
         HeadAnimator.SetBool(hash, false);
         if (attackBehavior is BrimstoneAttack brimstone)
         {
-            attackBehavior.Attack(dir.ToString()); // Tears나 Brimstone 실행
+            attackBehavior.Attack(dir.ToString());
         }
     }
 

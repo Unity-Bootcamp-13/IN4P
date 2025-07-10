@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2111f9d5fe7a9524e85850d296f21414, type: 3}
-  m_Name: Gusher
+  m_Name: Monstro
   m_EditorClassIdentifier: 
-  characterId: 20
-  characterName: Gusher
-  headSprite: {fileID: 3647803251483814702, guid: 25d7a721ad425fa498ed9287c9082dc0, type: 3}
-  bodySprite: {fileID: 4980409377013969977, guid: dc3e9461f6c0a784789ab3e723c2af98, type: 3}
-  playerHp: 10
+  characterId: 1001
+  characterName: Monstro
+  headSprite: {fileID: 0}
+  bodySprite: {fileID: 0}
+  playerHp: 250
   atk: 1
-  atkSpeed: 2
-  speed: 3
+  atkSpeed: 5
+  speed: 0
   atkRange: 5
-  projectileSpeed: 3
+  projectileSpeed: 5
   bombCount: 0
   keyCount: 0

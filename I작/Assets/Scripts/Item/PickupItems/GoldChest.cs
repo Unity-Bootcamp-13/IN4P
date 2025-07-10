@@ -1,5 +1,4 @@
 using UnityEngine;
-using static UnityEditor.Progress;
 
 public class GoldChest : MonoBehaviour
 {
@@ -24,7 +23,7 @@ public class GoldChest : MonoBehaviour
 
             if(player.stats.KeyCount > 0)
             {
-                player.stats.KeyCount--;
+                player.stats.ChangeKey(-1);
                 chestAnimator.SetTrigger(openGoldChest);
             }
         }
@@ -39,7 +38,6 @@ public class GoldChest : MonoBehaviour
         {
             Vector3 randomPosition = Random.insideUnitCircle;
             GameObject itemGo = itemGenerator.GetRandomPickupItem(transform.position + randomPosition);
-            Debug.Log(itemGo.GetComponent<Item>().itemId);
 
             if (itemGo.GetComponent<Item>().itemId == 1004)
             {

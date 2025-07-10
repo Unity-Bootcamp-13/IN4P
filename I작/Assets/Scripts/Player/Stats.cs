@@ -16,7 +16,7 @@ public class Stats
     public float ProjectileSpeed;
 
     private readonly int PickupMax = 99;
-    
+
     public static event Action<StatType, int> OnChanged;
 
     public Stats(
@@ -64,7 +64,6 @@ public class Stats
     {
         var s = new Stats(this);
 
-        //식이 들어왔을때 판별 후 계산
         var operations = new Dictionary<ModifyType, Func<float, float, float>>()
         {
             { ModifyType.Addtion,     (value, amt) => value + amt },
@@ -78,11 +77,13 @@ public class Stats
                 s.KeyCount = (int)operations[SMF.ModifyType](s.KeyCount, SMF.Amount);
                 s.KeyCount = Mathf.Min(s.KeyCount, PickupMax);
                 OnChanged?.Invoke(StatType.Key, s.KeyCount);
+
                 break;
             case ModifyTarget.BombCount:
                 s.BombCount = (int)operations[SMF.ModifyType](s.BombCount, SMF.Amount);
                 s.BombCount = Mathf.Min(s.BombCount, PickupMax);
                 OnChanged?.Invoke(StatType.Bomb, s.BombCount);
+
                 break;
             case ModifyTarget.Atk:
                 s.Atk = operations[SMF.ModifyType](s.Atk, SMF.Amount);
@@ -123,6 +124,26 @@ public class Stats
 
         this.CurrentHp = updated.CurrentHp;
     }
+    public void ChangeKey(int count)
+    {
+        Stats updated = Apply(new StatModifier(
+            ModifyTarget.KeyCount,
+            ModifyType.Addtion,
+            count));
+
+        this.KeyCount = updated.KeyCount;
+    }
+
+    public void ChangeBomb(int count)
+    {
+        Stats updated = Apply(new StatModifier(
+            ModifyTarget.BombCount,
+            ModifyType.Addtion,
+            count));
+
+        this.BombCount = updated.BombCount;
+    }
+
 }
 
 public class StatModifier
@@ -142,4 +163,3 @@ public class StatModifier
         Amount = amount;
     }
 }
-

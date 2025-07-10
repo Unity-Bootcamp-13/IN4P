@@ -28,12 +28,10 @@ public class BrownChest : MonoBehaviour
         SoundManager.Instance.PlaySFX(SFX.ChestOpen);
         int random = Random.Range(0, 3);
 
-        Debug.Log(random);
         for (int j = 0; j < random; j++)
         {
             Vector3 randomPosition = Random.insideUnitCircle;
             GameObject itemGo = itemGenerator.GetRandomPickupItem(transform.position + randomPosition);
-            Debug.Log(itemGo.GetComponent<Item>().itemId);
             if (itemGo.GetComponent<Item>().itemId == 1003)
             {
                 Destroy(itemGo);

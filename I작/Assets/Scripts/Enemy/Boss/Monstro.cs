@@ -20,28 +20,16 @@ public enum BossState
 
 public class Monstro : Enemy
 {
-    public string boss_name = "Monstro";
-    public int boss_hp = 250;
     public float boss_knockback= 0.7f;
-    public int boss_oneDamage = 2;
-    public int boss_halfDamage = 1;
-    public float boss_attackSpeed = 5f;
-    public float boss_MoveRange = 5f;
     public float jump_height = 2.5f;
     public float JumpDuration = 0.5f;
-    private float damageInterval = 1f;
 
     private BossPatturn _bossPatturn = BossPatturn.Idle;
     private BossState _bossState = BossState.Ground;
 
-    private Player player;
-    private Animator animator;
     protected SpriteRenderer spriteRenderer;
     private Coroutine _patternRoutine;
-    private Coroutine _damageRoutine;
-    private Collider2D bosscollider;
     public GameObject tears;
-    private Rigidbody2D boss_rb;
     
 
     private readonly int LowJump = Animator.StringToHash("LowJump");
@@ -50,30 +38,23 @@ public class Monstro : Enemy
     private readonly int Dead = Animator.StringToHash("Dead");
 
     public static Action<float> onBossHpSlider;
-    public static Action onBossDead;
+    public static Action onDeath;
 
-    private void Awake()
+    protected override void Awake()
     {
-        animator = GetComponent<Animator>();
+        base.Awake();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        player = GameObject
-        .FindGameObjectWithTag("Player")
-        .GetComponent<Player>();
-        bosscollider = GetComponent<Collider2D>();
-        boss_rb = GetComponent<Rigidbody2D>();
-        
     }
 
-    public override void Start()
+    protected override void Start()
     {
         base.Start();
-        onBossHpSlider?.Invoke(boss_hp);
-        Debug.Log("hpslider");
+        onBossHpSlider?.Invoke(enemy_hp);
     }
 
     private void Update()
     {
-        bosscollider.enabled = (_bossState == BossState.Ground);
+        enemy_Collider.enabled = (_bossState == BossState.Ground);
        
         
         if (_bossPatturn == BossPatturn.Idle && _patternRoutine == null)
@@ -81,18 +62,13 @@ public class Monstro : Enemy
             _patternRoutine = StartCoroutine(patternWithCooldown());
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            TakeDamage(250);
-        }    
-
     }
     
 
     private IEnumerator patternWithCooldown()
     {
         float facing = spriteRenderer.flipX ? 1f : -1f;
-        Vector3 dir = player.transform.position - transform.position;
+        Vector3 dir = target.transform.position - transform.position;
         spriteRenderer.flipX = dir.x > 0f;
         int pattern = UnityEngine.Random.Range(0, 3);
         AnimatorStateInfo stateInfo;
@@ -115,7 +91,7 @@ public class Monstro : Enemy
             
         }
 
-        stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+        stateInfo = enemy_Animator.GetCurrentAnimatorStateInfo(0);
         clipLength = stateInfo.length / stateInfo.speedMultiplier;
         yield return new WaitForSeconds(clipLength + 1);
 
@@ -127,20 +103,20 @@ public class Monstro : Enemy
     //점프하면서 캐릭터 쪽으로 다가옴
     private IEnumerator LowJumpRoutine()
     {
-        animator.SetTrigger(LowJump);
+        enemy_Animator.SetTrigger(LowJump);
         yield return null;
     }
 
     //피 토하기
     private IEnumerator BloodAttackRoutine()
     {
-        animator.SetTrigger(BloodAttack);
+        enemy_Animator.SetTrigger(BloodAttack);
         yield return null;
     }
 
     private IEnumerator HighJumpRoutine()
     {
-        animator.SetTrigger(HighJump);
+        enemy_Animator.SetTrigger(HighJump);
         yield return null;
     }
 
@@ -173,7 +149,7 @@ public class Monstro : Enemy
 
     private IEnumerator JumpRoutine()
     {
-        playerPos = player.transform.position;
+        playerPos = target.transform.position;
         startPos = transform.position;
 
 
@@ -181,14 +157,14 @@ public class Monstro : Enemy
         // 플레이어와 캐릭터간의 거리를 계산해서 boss_MoveRange보다 적으면 플레이어위치로
         float currentDist = Vector3.Distance(startPos, playerPos);
 
-        if (boss_MoveRange >= currentDist)
+        if (enemy_atkRange >= currentDist)
         {
             endPos = new Vector3(playerPos.x, playerPos.y, 0);
         }
         else
         {
             Vector3 dir = (playerPos - startPos).normalized;
-            endPos = startPos + dir * boss_MoveRange;
+            endPos = startPos + dir * enemy_atkRange;
         }
         float elapsed = 0f;
 
@@ -248,7 +224,7 @@ public class Monstro : Enemy
     }
     private IEnumerator playerSearchRoutine()
     {
-        playerPos = player.transform.position;
+        playerPos = target.transform.position;
         startPos = transform.position;
 
         float elapsed = 0f;
@@ -259,7 +235,7 @@ public class Monstro : Enemy
         float targetX = playerPos.x;
         float targetY = playerPos.y;
         float y = 0;
-        landPos = player.transform.position;
+        landPos = target.transform.position;
         while (elapsed < Duration)
         {
             elapsed += Time.deltaTime;
@@ -292,7 +268,6 @@ public class Monstro : Enemy
         }
         transform.position = landPos;
     }
-    //눈물 발생 코루틴
     public void BloodShot()
     {
         StartCoroutine(BloodShotRoutine());
@@ -302,7 +277,7 @@ public class Monstro : Enemy
     private IEnumerator BloodShotRoutine()
     {
         Vector3 headPos = transform.position + Vector3.up * 1.2f;
-        Vector3 playerPos = player.transform.position;
+        Vector3 playerPos = target.transform.position;
 
         int tearCount = 12;
         float radius = 1.8f;
@@ -324,7 +299,7 @@ public class Monstro : Enemy
             GameObject t = Instantiate(tears, headPos, Quaternion.identity);
             if (t.TryGetComponent<MonstroTears>(out var et))
             {
-                et.LaunchTo(targetPos, boss_attackSpeed);
+                et.LaunchTo(targetPos, enemy_projectileSpeed);
                 tearsList.Add(et);
             }
         }
@@ -335,24 +310,24 @@ public class Monstro : Enemy
 
     public override void TakeDamage(int damage, Vector2? attackOrigin = null)
     {
-        boss_hp -= damage;
-        if (boss_hp <= 0) Die();
+        enemy_hp -= damage;
+        if (enemy_hp <= 0) Die();
 
-        onBossHpSlider?.Invoke(boss_hp);
+        onBossHpSlider?.Invoke(enemy_hp);
 
         if (attackOrigin.HasValue)
         {
             Vector2 dir = ((Vector2)transform.position - attackOrigin.Value).normalized;
-            boss_rb.AddForce(dir * boss_knockback, ForceMode2D.Impulse);
+            enemy_rb.AddForce(dir * boss_knockback, ForceMode2D.Impulse);
         }
     }
 
     public override void Die()
     {
-        bosscollider.enabled = false;
+        enemy_Collider.enabled = false;
         enabled = false;  
 
-        animator.SetTrigger(Dead);
+        enemy_Animator.SetTrigger(Dead);
         SoundManager.Instance.PlaySFX(SFX.Boss_Die);
         StartCoroutine(DeathShake());
     }
@@ -376,35 +351,10 @@ public class Monstro : Enemy
         transform.position = originalPosition;
 
         yield return new WaitForSeconds(3f);
-        base.Die();
+        enemy_Collider.enabled = false;
         SoundManager.Instance.PlayBGM(BGM.InGame);
-        onBossDead?.Invoke();
-    }
-
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player") && _damageRoutine == null)
-        {
-            _damageRoutine = StartCoroutine(DamageLoop());
-        }
-    }
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Player") && _damageRoutine != null)
-        {
-           StopCoroutine(_damageRoutine);
-            _damageRoutine = null;
-        }
-    }
-
-    IEnumerator DamageLoop()
-    {
-        while (true)
-        {
-            player.TakeDamage(boss_halfDamage);
-            yield return new WaitForSeconds(damageInterval);
-        }
+        onDeath?.Invoke();
+        Destroy(gameObject);
     }
 
 }

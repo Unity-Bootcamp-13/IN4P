@@ -1,4 +1,3 @@
-using UnityEditor.Rendering;
 using UnityEngine;
 
 public class InstalledBomb : MonoBehaviour
@@ -24,7 +23,6 @@ public class InstalledBomb : MonoBehaviour
 
         foreach (Collider2D hit in hits)
         {
-            //IDamageable target = hit.GetComponent<IDamageable>();
             Player player = hit.GetComponent<Player>();
             if (player != null)
             {

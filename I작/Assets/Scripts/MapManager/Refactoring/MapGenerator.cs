@@ -112,7 +112,7 @@ public class MapGenerator : MonoBehaviour
             for (int y = 0; y < mapMaxY; y++)
             {
                 // 비밀방을 생성할 수 있는 빈 좌표인지 체크
-                if (roomGraph[x, y] == 1) continue;  // 이미 방이 존재하면 건너뛰기
+                if (roomGraph[x, y] == 1) continue;
 
                 int adjacentRoomCount = CheckNextRoomCount(x, y);
                 if (adjacentRoomCount > maxAdjacencyCount)
