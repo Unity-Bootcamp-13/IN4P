@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
@@ -27,6 +28,9 @@ public class Attack : MonoBehaviour
     readonly private int poolSize = 50;
 
     private bool isAttacking;
+
+    public Action acquireBrimstone;
+
 
     public static readonly int[] HeadHashes = new int[]
     {
@@ -117,8 +121,8 @@ public class Attack : MonoBehaviour
 
     public void SwitchToBrimstone()
     {
-        
         attackBehavior = new BrimstoneAttack(brimstonePrefab, Mouse, playerAtk, playerAtkDelay);
+        acquireBrimstone?.Invoke();
     }
 
     public void UpdateCharge(float deltaTime)

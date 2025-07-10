@@ -10,7 +10,7 @@ public enum SOUND_TYPE
 
 public enum BGM
 {
-    Title, InGame, Boss, Boss_Win
+    Title, InGame, Boss_Intro, Boss_Win, Boss_Fight
 }
 
 public enum SFX

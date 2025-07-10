@@ -2854,6 +2854,7 @@ MonoBehaviour:
   - {fileID: 0}
   secretRoomVisited: 0
   treasureRoomVisited: 0
+  isCleared: 0
   bossAppear: {fileID: 5383294443890173852, guid: 92eb3de9480cdb14c9491589e562c864, type: 3}
   bossContent: {fileID: 651532859860701380, guid: 6993afda27a0df842ad8d7868a6df616, type: 3}
   spawnPoint: {fileID: 5139164044503754611}

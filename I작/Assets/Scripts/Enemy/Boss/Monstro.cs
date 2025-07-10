@@ -50,6 +50,7 @@ public class Monstro : Enemy
     private readonly int Dead = Animator.StringToHash("Dead");
 
     public static Action<float> onBossHpSlider;
+    public static Action onBossDead;
 
     private void Awake()
     {
@@ -79,6 +80,11 @@ public class Monstro : Enemy
         {
             _patternRoutine = StartCoroutine(patternWithCooldown());
         }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            TakeDamage(250);
+        }    
 
     }
     
@@ -372,6 +378,7 @@ public class Monstro : Enemy
         yield return new WaitForSeconds(3f);
         base.Die();
         SoundManager.Instance.PlayBGM(BGM.InGame);
+        onBossDead?.Invoke();
     }
 
 
@@ -384,7 +391,6 @@ public class Monstro : Enemy
     }
     private void OnTriggerExit2D(Collider2D other)
     {
-
         if (other.CompareTag("Player") && _damageRoutine != null)
         {
            StopCoroutine(_damageRoutine);

@@ -11,8 +11,6 @@ public class TitleScene : MonoBehaviour
     public Button startButton;
     public Image fadeOutImage;
 
-    public Button statButton;
-    public Button optionButton;
 
     public Button exitButton;
     public Button exitYesButton;
@@ -25,8 +23,6 @@ public class TitleScene : MonoBehaviour
         exitImage.SetActive(false);
 
         startButton.onClick.AddListener(onStartButton);
-        statButton.onClick.AddListener(onStatButton);
-        optionButton.onClick.AddListener(onOptionButton);
         exitButton.onClick.AddListener(onExitButton);
         exitYesButton.onClick.AddListener(onExitYesButton);
         exitNoButton.onClick.AddListener(onExitNoButton);
@@ -64,16 +60,6 @@ public class TitleScene : MonoBehaviour
         }
 
         SceneManager.LoadScene("GameScene");
-    }
-
-    public void onOptionButton()
-    {
-        
-    }
-
-    public void onStatButton()
-    {
-
     }
 
     public void onExitButton()

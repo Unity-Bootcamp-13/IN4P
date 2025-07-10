@@ -19,8 +19,8 @@ public abstract class RoomController : MonoBehaviour
 
     public bool secretRoomVisited;
     public bool treasureRoomVisited;
-    protected bool isCleared;
-
+    public bool isCleared;
+    public static bool isStartroom;
 
 
     private void Awake()
@@ -70,7 +70,8 @@ public abstract class RoomController : MonoBehaviour
             nextRoom.CloseDoors();
             int oppositeDir = (direction + 2) % 4;
             nextRoom.doorList[oppositeDir].gameObject.GetComponent<SecretDoorController>().OpenSecretDoor();
-            if(!secretRoomVisited)
+            
+            if(!nextRoom.secretRoomVisited)
             {
                 nextRoom.GenerateContents();
                 nextRoom.secretRoomVisited = true;

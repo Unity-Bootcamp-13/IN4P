@@ -2791,6 +2791,7 @@ MonoBehaviour:
   - {fileID: 0}
   secretRoomVisited: 0
   treasureRoomVisited: 0
+  isCleared: 0
 --- !u!1 &8582051765553819864
 GameObject:
   m_ObjectHideFlags: 0

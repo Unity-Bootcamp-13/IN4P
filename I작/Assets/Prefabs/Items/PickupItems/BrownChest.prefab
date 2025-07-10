@@ -200,7 +200,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemServiceSO: {fileID: 11400000, guid: c64bf1e887fc63040a508d28a28bcf6c, type: 2}
   chestAnimator: {fileID: 1234760271242825986}
-  dropItems:
-  - {fileID: 6662004382676739127, guid: 3b549268c4d2ed040afcabc0bf3a7fcd, type: 3}
-  - {fileID: 7479930848527943046, guid: 50cdfb10ee8004049910072cf1120440, type: 3}
-  - {fileID: 8953351616455433957, guid: c5c3c5716091e504d8971414454a9f8d, type: 3}
