@@ -7,8 +7,7 @@ public class SecretRoomController : RoomController
     protected override void Start()
     {
         base.Start();
-        minimapSpriteRenderer.color = Color.black;        
-
+        minimapSpriteRenderer.color = Color.black;
         isCleared = true;
     }
 

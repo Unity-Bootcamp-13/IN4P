@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.U2D;
 using UnityEngine.Rendering.Universal;
+using UnityEngine.SceneManagement;
 
 
 public class UIManager : MonoBehaviour
@@ -19,6 +20,13 @@ public class UIManager : MonoBehaviour
     public GameObject PlayerHp;
     public GameObject heartPrefab;
 
+    public Button gameoverBackMainButton;
+    public Button gameoverRerunButton;
+    public Button gameclearRerunButton;
+
+    public GameObject GameOver;
+    public GameObject GameClear;
+
     public Slider bossHpSlider;
     public GameObject bossHpParent;
 
@@ -26,17 +34,30 @@ public class UIManager : MonoBehaviour
     public int statehp = 0;
     public int statecurrenthp = 0;
 
+    private void Awake()
+    {
+        GameOver.SetActive(false);
+        GameClear.SetActive(false);
+        gameoverBackMainButton.onClick.AddListener(onBackMenu);
+        gameoverRerunButton.onClick.AddListener(ReLoadGameScene);
+        gameclearRerunButton.onClick.AddListener(onBackMenu);
+    }
+
     private void OnEnable()
     {
         Stats.OnChanged += HandleStatChanged;
         Monstro.onBossHpSlider += BossCurrentHp;
-
+        Player.OnPlayerDead += PlayerDead;
+        Monstro.onBossDead += BossDead;
     }
 
     private void OnDisable()
     {
         Stats.OnChanged -= HandleStatChanged;
         Monstro.onBossHpSlider -= BossCurrentHp;
+        Player.OnPlayerDead -= PlayerDead;
+        Monstro.onBossDead -= BossDead;
+
     }
 
     private void HandleStatChanged(StatType type, int value)
@@ -78,7 +99,7 @@ public class UIManager : MonoBehaviour
 
         if (statehp < hp)
         {
-            HeartInstantiate(hp);
+            HeartInstantiate(hp-statehp);
         }
         else if (statehp == hp)
         {
@@ -135,7 +156,6 @@ public class UIManager : MonoBehaviour
 
     public void BossCurrentHp(float currentHP)
     {
-        Debug.Log(currentHP);
         if (bossMaxHp == 0f)
         {
             bossMaxHp = currentHP;
@@ -147,5 +167,32 @@ public class UIManager : MonoBehaviour
 
         if (currentHP <= 0f)
             bossHpParent.SetActive(false);
+    }
+
+    private void BossDead()
+    {
+        Time.timeScale = 0f;
+        GameClear.SetActive(true);
+    }
+
+    private void PlayerDead(int playerhp)
+    {
+        if (playerhp == 0)
+        {
+            Time.timeScale = 0f;
+            GameOver.SetActive(true);
+        }
+    }
+
+    private void onBackMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("TitleScene");
+    }
+
+    private void ReLoadGameScene()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("GameScene");
     }
 }

@@ -154,6 +154,14 @@
     },
     {
       "effectID": 20,
+      "itemID": 15,
+      "effectType": 2,
+      "modifyTarget": 9,
+      "modifyType": 1,
+      "value": 24
+    },
+    {
+      "effectID": 21,
       "itemID": 16,
       "effectType": 2,
       "modifyTarget": 8,
@@ -161,7 +169,7 @@
       "value": 2
     },
     {
-      "effectID": 21,
+      "effectID": 22,
       "itemID": 16,
       "effectType": 2,
       "modifyTarget": 9,
@@ -169,7 +177,7 @@
       "value": 24
     },
     {
-      "effectID": 22,
+      "effectID": 23,
       "itemID": 17,
       "effectType": 1,
       "modifyTarget": 2,
@@ -177,7 +185,7 @@
       "value": 99
     },
     {
-      "effectID": 23,
+      "effectID": 24,
       "itemID": 19,
       "effectType": 1,
       "modifyTarget": 1,
@@ -185,7 +193,7 @@
       "value": 10
     },
     {
-      "effectID": 24,
+      "effectID": 25,
       "itemID": 22,
       "effectType": 2,
       "modifyTarget": 8,
@@ -193,7 +201,7 @@
       "value": 2
     },
     {
-      "effectID": 25,
+      "effectID": 26,
       "itemID": 22,
       "effectType": 2,
       "modifyTarget": 9,
@@ -201,7 +209,7 @@
       "value": 2
     },
     {
-      "effectID": 26,
+      "effectID": 27,
       "itemID": 27,
       "effectType": 2,
       "modifyTarget": 6,
@@ -209,7 +217,7 @@
       "value": 0.3
     },
     {
-      "effectID": 27,
+      "effectID": 28,
       "itemID": 28,
       "effectType": 2,
       "modifyTarget": 6,
@@ -217,7 +225,7 @@
       "value": 0.3
     },
     {
-      "effectID": 28,
+      "effectID": 29,
       "itemID": 32,
       "effectType": 2,
       "modifyTarget": 4,
@@ -225,7 +233,7 @@
       "value": 0.7
     },
     {
-      "effectID": 29,
+      "effectID": 30,
       "itemID": 34,
       "effectType": 2,
       "modifyTarget": 3,
@@ -233,16 +241,8 @@
       "value": 2
     },
     {
-      "effectID": 30,
-      "itemID": 50,
-      "effectType": 2,
-      "modifyTarget": 3,
-      "modifyType": 1,
-      "value": 1
-    },
-    {
       "effectID": 31,
-      "itemID": 70,
+      "itemID": 50,
       "effectType": 2,
       "modifyTarget": 3,
       "modifyType": 1,
@@ -252,12 +252,20 @@
       "effectID": 32,
       "itemID": 70,
       "effectType": 2,
+      "modifyTarget": 3,
+      "modifyType": 1,
+      "value": 1
+    },
+    {
+      "effectID": 33,
+      "itemID": 70,
+      "effectType": 2,
       "modifyTarget": 6,
       "modifyType": 1,
       "value": 0.2
     },
     {
-      "effectID": 33,
+      "effectID": 34,
       "itemID": 71,
       "effectType": 2,
       "modifyTarget": 6,
@@ -265,7 +273,7 @@
       "value": 0.3
     },
     {
-      "effectID": 34,
+      "effectID": 35,
       "itemID": 71,
       "effectType": 2,
       "modifyTarget": 5,
@@ -273,7 +281,7 @@
       "value": 2.5
     },
     {
-      "effectID": 35,
+      "effectID": 36,
       "itemID": 90,
       "effectType": 2,
       "modifyTarget": 6,
@@ -281,7 +289,7 @@
       "value": -0.2
     },
     {
-      "effectID": 36,
+      "effectID": 37,
       "itemID": 90,
       "effectType": 2,
       "modifyTarget": 3,
@@ -289,7 +297,7 @@
       "value": 1
     },
     {
-      "effectID": 37,
+      "effectID": 38,
       "itemID": 90,
       "effectType": 2,
       "modifyTarget": 4,
@@ -297,15 +305,23 @@
       "value": 0.2
     },
     {
-      "effectID": 38,
+      "effectID": 39,
       "itemID": 101,
       "effectType": 2,
       "modifyTarget": 8,
       "modifyType": 1,
-      "value": 4
+      "value": 2
     },
     {
-      "effectID": 39,
+      "effectID": 40,
+      "itemID": 101,
+      "effectType": 2,
+      "modifyTarget": 9,
+      "modifyType": 1,
+      "value": 2
+    },
+    {
+      "effectID": 41,
       "itemID": 101,
       "effectType": 2,
       "modifyTarget": 6,
@@ -313,7 +329,7 @@
       "value": 0.3
     },
     {
-      "effectID": 40,
+      "effectID": 42,
       "itemID": 101,
       "effectType": 2,
       "modifyTarget": 3,
@@ -321,7 +337,7 @@
       "value": 3
     },
     {
-      "effectID": 41,
+      "effectID": 43,
       "itemID": 101,
       "effectType": 2,
       "modifyTarget": 4,
@@ -329,7 +345,7 @@
       "value": 0.2
     },
     {
-      "effectID": 42,
+      "effectID": 44,
       "itemID": 101,
       "effectType": 2,
       "modifyTarget": 5,
@@ -337,15 +353,15 @@
       "value": 1.5
     },
     {
-      "effectID": 43,
+      "effectID": 45,
       "itemID": 119,
       "effectType": 2,
       "modifyTarget": 8,
       "modifyType": 1,
-      "value": 1
+      "value": 2
     },
     {
-      "effectID": 44,
+      "effectID": 46,
       "itemID": 119,
       "effectType": 2,
       "modifyTarget": 3,
@@ -353,7 +369,7 @@
       "value": 8
     },
     {
-      "effectID": 45,
+      "effectID": 47,
       "itemID": 119,
       "effectType": 2,
       "modifyTarget": 6,
@@ -361,7 +377,7 @@
       "value": 0.3
     },
     {
-      "effectID": 46,
+      "effectID": 48,
       "itemID": 120,
       "effectType": 2,
       "modifyTarget": 6,
@@ -369,7 +385,7 @@
       "value": 0.3
     },
     {
-      "effectID": 47,
+      "effectID": 49,
       "itemID": 120,
       "effectType": 2,
       "modifyTarget": 3,
@@ -377,7 +393,7 @@
       "value": -0.4
     },
     {
-      "effectID": 48,
+      "effectID": 50,
       "itemID": 120,
       "effectType": 2,
       "modifyTarget": 3,
@@ -385,7 +401,7 @@
       "value": 0.9
     },
     {
-      "effectID": 49,
+      "effectID": 51,
       "itemID": 120,
       "effectType": 2,
       "modifyTarget": 4,
@@ -393,7 +409,7 @@
       "value": 1.7
     },
     {
-      "effectID": 50,
+      "effectID": 52,
       "itemID": 121,
       "effectType": 2,
       "modifyTarget": 8,
@@ -401,7 +417,7 @@
       "value": 2
     },
     {
-      "effectID": 51,
+      "effectID": 53,
       "itemID": 121,
       "effectType": 2,
       "modifyTarget": 6,
@@ -409,7 +425,7 @@
       "value": -0.2
     },
     {
-      "effectID": 52,
+      "effectID": 54,
       "itemID": 121,
       "effectType": 2,
       "modifyTarget": 3,
@@ -417,7 +433,7 @@
       "value": 1
     },
     {
-      "effectID": 53,
+      "effectID": 55,
       "itemID": 121,
       "effectType": 2,
       "modifyTarget": 5,
@@ -425,7 +441,7 @@
       "value": 1.5
     },
     {
-      "effectID": 54,
+      "effectID": 56,
       "itemID": 126,
       "effectType": 2,
       "modifyTarget": 9,
@@ -433,7 +449,7 @@
       "value": -2
     },
     {
-      "effectID": 55,
+      "effectID": 57,
       "itemID": 126,
       "effectType": 2,
       "modifyTarget": 3,
@@ -441,7 +457,7 @@
       "value": 1.2
     },
     {
-      "effectID": 56,
+      "effectID": 58,
       "itemID": 129,
       "effectType": 2,
       "modifyTarget": 8,
@@ -449,7 +465,7 @@
       "value": 4
     },
     {
-      "effectID": 57,
+      "effectID": 59,
       "itemID": 129,
       "effectType": 2,
       "modifyTarget": 6,
@@ -457,15 +473,15 @@
       "value": -0.2
     },
     {
-      "effectID": 58,
+      "effectID": 60,
       "itemID": 138,
       "effectType": 2,
       "modifyTarget": 8,
       "modifyType": 1,
-      "value": 1
+      "value": 2
     },
     {
-      "effectID": 59,
+      "effectID": 61,
       "itemID": 138,
       "effectType": 2,
       "modifyTarget": 9,
@@ -473,7 +489,7 @@
       "value": 2
     },
     {
-      "effectID": 60,
+      "effectID": 62,
       "itemID": 138,
       "effectType": 2,
       "modifyTarget": 3,
@@ -481,7 +497,7 @@
       "value": 0.3
     },
     {
-      "effectID": 61,
+      "effectID": 63,
       "itemID": 143,
       "effectType": 2,
       "modifyTarget": 6,
@@ -489,7 +505,7 @@
       "value": 0.3
     },
     {
-      "effectID": 62,
+      "effectID": 64,
       "itemID": 143,
       "effectType": 2,
       "modifyTarget": 7,
@@ -497,7 +513,7 @@
       "value": 0.2
     },
     {
-      "effectID": 63,
+      "effectID": 65,
       "itemID": 165,
       "effectType": 2,
       "modifyTarget": 3,
@@ -505,7 +521,7 @@
       "value": 1
     },
     {
-      "effectID": 64,
+      "effectID": 66,
       "itemID": 165,
       "effectType": 2,
       "modifyTarget": 7,
@@ -513,7 +529,7 @@
       "value": 0.23
     },
     {
-      "effectID": 65,
+      "effectID": 67,
       "itemID": 176,
       "effectType": 2,
       "modifyTarget": 8,
@@ -521,7 +537,7 @@
       "value": 2
     },
     {
-      "effectID": 66,
+      "effectID": 68,
       "itemID": 176,
       "effectType": 2,
       "modifyTarget": 9,
@@ -529,7 +545,7 @@
       "value": 2
     },
     {
-      "effectID": 67,
+      "effectID": 69,
       "itemID": 176,
       "effectType": 2,
       "modifyTarget": 4,
@@ -537,7 +553,7 @@
       "value": 0.16
     },
     {
-      "effectID": 68,
+      "effectID": 70,
       "itemID": 183,
       "effectType": 2,
       "modifyTarget": 4,
@@ -545,7 +561,7 @@
       "value": 0.8
     },
     {
-      "effectID": 69,
+      "effectID": 71,
       "itemID": 183,
       "effectType": 2,
       "modifyTarget": 7,
@@ -553,7 +569,7 @@
       "value": 0.16
     },
     {
-      "effectID": 70,
+      "effectID": 72,
       "itemID": 189,
       "effectType": 2,
       "modifyTarget": 8,
@@ -561,7 +577,7 @@
       "value": 2
     },
     {
-      "effectID": 71,
+      "effectID": 73,
       "itemID": 189,
       "effectType": 2,
       "modifyTarget": 9,
@@ -569,7 +585,7 @@
       "value": 24
     },
     {
-      "effectID": 72,
+      "effectID": 74,
       "itemID": 189,
       "effectType": 2,
       "modifyTarget": 6,
@@ -577,7 +593,7 @@
       "value": 0.2
     },
     {
-      "effectID": 73,
+      "effectID": 75,
       "itemID": 189,
       "effectType": 2,
       "modifyTarget": 3,
@@ -585,7 +601,7 @@
       "value": 0.3
     },
     {
-      "effectID": 74,
+      "effectID": 76,
       "itemID": 189,
       "effectType": 2,
       "modifyTarget": 4,
@@ -593,7 +609,7 @@
       "value": 0.2
     },
     {
-      "effectID": 75,
+      "effectID": 77,
       "itemID": 189,
       "effectType": 2,
       "modifyTarget": 5,
@@ -601,7 +617,7 @@
       "value": 2.5
     },
     {
-      "effectID": 76,
+      "effectID": 78,
       "itemID": 190,
       "effectType": 1,
       "modifyTarget": 1,
@@ -609,7 +625,7 @@
       "value": 99
     },
     {
-      "effectID": 77,
+      "effectID": 79,
       "itemID": 193,
       "effectType": 2,
       "modifyTarget": 8,
@@ -617,7 +633,7 @@
       "value": 2
     },
     {
-      "effectID": 78,
+      "effectID": 80,
       "itemID": 193,
       "effectType": 2,
       "modifyTarget": 9,
@@ -625,7 +641,7 @@
       "value": 2
     },
     {
-      "effectID": 79,
+      "effectID": 81,
       "itemID": 193,
       "effectType": 2,
       "modifyTarget": 3,
@@ -633,7 +649,7 @@
       "value": 0.3
     },
     {
-      "effectID": 80,
+      "effectID": 82,
       "itemID": 197,
       "effectType": 2,
       "modifyTarget": 3,
@@ -641,7 +657,7 @@
       "value": 0.5
     },
     {
-      "effectID": 81,
+      "effectID": 83,
       "itemID": 197,
       "effectType": 2,
       "modifyTarget": 5,

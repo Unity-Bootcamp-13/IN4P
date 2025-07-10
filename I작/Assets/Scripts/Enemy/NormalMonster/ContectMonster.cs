@@ -63,7 +63,7 @@ public class ContectMonster : Enemy
         }
     }
 
-    private void OnCollisionExit(Collision other)
+    private void OnCollisionExit2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player") && _damageRoutine != null)
         {

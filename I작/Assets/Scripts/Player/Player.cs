@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 public enum AttackDirection
 {
     Up = 0,
@@ -33,8 +34,7 @@ public class Player : MonoBehaviour
 
     public Attack attack;
     public Rigidbody2D rid;
-    
-
+    [SerializeField] Collider2D col;
     [SerializeField] GameObject bombPrefab;
 
     public GameObject bodyObject;
@@ -54,11 +54,12 @@ public class Player : MonoBehaviour
     public bool isDead = false;
     private float shakeSpeed = 5f;
 
+    public static event Action<int> OnPlayerDead;
+
+    [SerializeField] Image activeImage;
 
     private void Awake()
     {
-        playerInput.enabled = true;
-
         stats = new Stats
         (
             characterData.KeyCount,
@@ -81,6 +82,12 @@ public class Player : MonoBehaviour
 
     }
 
+    private void OnEnable()
+    {
+        playerInput.enabled = true;
+        col.isTrigger = false;
+    }
+
     private void Start()
     {
         attack.SetPlayerStats(stats.ProjectileSpeed, stats.AtkRange, (int)stats.Atk ,stats.AtkSpeed);
@@ -96,6 +103,7 @@ public class Player : MonoBehaviour
         if (isDead)
         {
             playerInput.enabled = false;
+            col.isTrigger = true;
             moveInput = Vector2.zero;
             return;
         }
@@ -110,9 +118,6 @@ public class Player : MonoBehaviour
         {
             bodyAnimator.SetBool(isMove, false);
         }
-
-       
-
     }
 
     private void FixedUpdate()
@@ -126,8 +131,6 @@ public class Player : MonoBehaviour
         Vector3 dir = moveInput.normalized;
         rid.linearVelocity = dir * stats.Speed;
         attack.SetPlayerStats(stats.ProjectileSpeed, stats.AtkRange, (int)stats.Atk, stats.AtkSpeed);
-        
-       
     }
 
     public void OnBomb(InputAction.CallbackContext context)
@@ -206,6 +209,8 @@ public class Player : MonoBehaviour
    
     public void TakeDamage(int damage)
     {
+        if (isDead) return;
+
         stats.ChangeHp(-damage);
 
         SoundManager.Instance.PlaySFX(SFX.Damage);
@@ -227,7 +232,9 @@ public class Player : MonoBehaviour
     private void Die()
     {
         isDead = true;
+        SoundManager.Instance.PlaySFX(SFX.Dead);
         StartCoroutine(DeadAnim());
+        OnPlayerDead?.Invoke(stats.CurrentHp);
     }
 
     IEnumerator DeadAnim()
@@ -253,6 +260,7 @@ public class Player : MonoBehaviour
     // æ∆¿Ã≈€ »πµÊ Ω√
     public void AcquireItem(int id, Sprite itemSprite)
     {
+        SoundManager.Instance.PlaySFX(SFX.PassiveItem);
         AquireItemAnim(itemSprite);
         List<StatModifier> statModifiers = itemServiceSO.itemService.GetStatModifier(id);
         ItemType itemType = itemServiceSO.itemService.GetItemType(id);
@@ -276,6 +284,11 @@ public class Player : MonoBehaviour
             DropActiveItem();
             activeItem = id;
             currentGauge = itemServiceSO.itemService.GetItemGauge(id);
+            string iconPath = itemServiceSO.itemService.GetSpritePath(id);
+            Sprite[] sprites = Resources.LoadAll<Sprite>(iconPath);
+            Sprite itemIcon = Array.Find(sprites, s => s.name == id.ToString());
+
+            activeImage.sprite = itemIcon;
         }
     }
 

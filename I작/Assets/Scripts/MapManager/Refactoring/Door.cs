@@ -28,11 +28,17 @@ public class Door : MonoBehaviour
             collider.GetComponent<Player>().RevertStats();
             collider.transform.position = targetPosition.position;
             portalAction.Invoke(thisDirction);
+            RoomController.isStartroom = true;
         }
     }
 
     public void OpenDoor()
     {
+        if (RoomController.isStartroom == true)
+        {
+            SoundManager.Instance.PlaySFX(SFX.DoorOpen);
+        }
+
         if (!(type == DoorType.Treasure || type == DoorType.Secret))
             transform.GetChild(0).gameObject.SetActive(false);
 

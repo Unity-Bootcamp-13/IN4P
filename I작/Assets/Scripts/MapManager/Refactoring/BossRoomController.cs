@@ -67,6 +67,7 @@ public class BossRoomController : RoomController
 
     private IEnumerator C_SpawnBoss()
     {
+        SoundManager.Instance.PlayBGM(BGM.Boss_Intro);
         var go = Instantiate(bossAppear, transform.position, Quaternion.identity);
         var childGO = go.transform.GetChild(0);
 
@@ -95,7 +96,7 @@ public class BossRoomController : RoomController
         Destroy(go);
 
         yield return new WaitForSeconds(0.5f);
-
+        SoundManager.Instance.PlayBGM(BGM.Boss_Fight);
         GameObject bossGo = Instantiate(bossContent, spawnPoint.position, Quaternion.identity);
         Enemy enemy = bossGo.GetComponent<Enemy>();
         if (enemy != null)
