@@ -3834,7 +3834,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -40, y: -40}
+  m_AnchoredPosition: {x: -86, y: -96}
   m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &1912783517459729588
@@ -4002,6 +4002,7 @@ MonoBehaviour:
   bossHpParent: {fileID: 4886561619997201554}
   statehp: 0
   statecurrenthp: 0
+  activeGaugeImage: {fileID: 7876492682622241946}
 --- !u!114 &2207796047081636517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11105,7 +11106,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 2708602397128187201, guid: 3b586e201973d7c418268fd7068c864a, type: 3}
-  m_Type: 0
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4

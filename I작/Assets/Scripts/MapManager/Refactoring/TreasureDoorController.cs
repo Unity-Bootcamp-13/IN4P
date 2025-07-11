@@ -1,4 +1,3 @@
-using TMPro;
 using UnityEngine;
 
 public class TreasureDoorController : MonoBehaviour
@@ -11,7 +10,7 @@ public class TreasureDoorController : MonoBehaviour
         {
             if (collision.gameObject.GetComponent<Player>().stats.KeyCount >0)
             {
-                collision.gameObject.GetComponent<Player>().stats.KeyCount--;
+                collision.gameObject.GetComponent<Player>().stats.ChangeKey(-1);
                 transform.GetChild(0).gameObject.SetActive(false);
                 treasureDoor.portalCollider.isTrigger = true;
 

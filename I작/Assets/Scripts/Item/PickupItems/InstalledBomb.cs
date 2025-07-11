@@ -1,4 +1,3 @@
-using UnityEditor.Rendering;
 using UnityEngine;
 
 public class InstalledBomb : MonoBehaviour
@@ -20,11 +19,11 @@ public class InstalledBomb : MonoBehaviour
 
     public void Explode()
     {
+        SoundManager.Instance.PlaySFX(SFX.Bomb);
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, explosionRadius, damageLayerMask);
 
         foreach (Collider2D hit in hits)
         {
-            //IDamageable target = hit.GetComponent<IDamageable>();
             Player player = hit.GetComponent<Player>();
             if (player != null)
             {

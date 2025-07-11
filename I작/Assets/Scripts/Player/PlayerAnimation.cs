@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Security.Cryptography;
+
 using UnityEngine;
 
 public class PlayerAniamtions : MonoBehaviour
@@ -20,7 +19,6 @@ public class PlayerAniamtions : MonoBehaviour
         player = gameObject.GetComponentInParent<Player>();
     }
 
-    // Hurt Animation
     public void AllSpriteOff()
     {
         headObject.GetComponent<SpriteRenderer>().enabled = false;
@@ -46,7 +44,6 @@ public class PlayerAniamtions : MonoBehaviour
         bodyAnimator.speed = 1f;
     }
 
-    // 아이템 획득
     public void AquireItemStart()
     {
         headAnimator.speed = 0f;

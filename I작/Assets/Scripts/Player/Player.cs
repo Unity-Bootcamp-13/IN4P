@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+
 public enum AttackDirection
 {
     Up = 0,
@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
     public Stats stats;
     private Stats oldStats;
     public List<int> passiveItems = new List<int>();
-    private int activeItem = -1; // 액티브 아이템 없는 상태
+    private int activeItem = -1;
     public int currentGauge;
 
     private int h;
@@ -48,13 +48,13 @@ public class Player : MonoBehaviour
 
     public SpriteRenderer bodySprite;
 
-    // 애니메이션 상태 전환
     public bool isItem = false;
     public bool isHurt = false;
     public bool isDead = false;
     private float shakeSpeed = 5f;
 
     public static event Action<int> OnPlayerDead;
+    //public static event Action<float> ActiveGauge;
 
     [SerializeField] Image activeImage;
 
@@ -140,7 +140,7 @@ public class Player : MonoBehaviour
 
         if (stats.BombCount > 0)
         {
-            stats.BombCount--;
+            stats.ChangeBomb(-1);
             GameObject go = Instantiate(bombPrefab);
             go.transform.position = this.transform.position;
             go.GetComponent<Collider2D>().isTrigger = true;
@@ -257,7 +257,6 @@ public class Player : MonoBehaviour
         DeadAnimFinish();
     }
 
-    // 아이템 획득 시
     public void AcquireItem(int id, Sprite itemSprite)
     {
         SoundManager.Instance.PlaySFX(SFX.PassiveItem);
@@ -342,6 +341,8 @@ public class Player : MonoBehaviour
             stats = newStats;
         }
         currentGauge = 0;
+
+        //ActiveGauge?.Invoke(0);
     }
 
     public void RevertStats()
@@ -354,6 +355,21 @@ public class Player : MonoBehaviour
             oldStats = null;
         }
     }
+
+    //public void FillGauge()
+    //{
+    //    if (itemServiceSO.itemService.GetItemGauge(activeItem) == 0)
+    //        return;
+
+    //    if (activeItem < 0)
+    //        return;
+
+    //    currentGauge += 2;
+    //    if (currentGauge > itemServiceSO.itemService.GetItemGauge(activeItem))
+    //        currentGauge = itemServiceSO.itemService.GetItemGauge(activeItem);
+
+    //    ActiveGauge?.Invoke(currentGauge / itemServiceSO.itemService.GetItemGauge(activeItem));
+    //}
 
     public void HurtAnimFinish()
     {

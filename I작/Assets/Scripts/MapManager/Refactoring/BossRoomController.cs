@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class BossRoomController : RoomController
@@ -28,7 +27,7 @@ public class BossRoomController : RoomController
             GameObject doorGo = Instantiate(doorPrefabs[0], doorSpawnPoints[i].position, doorSpawnPoints[i].rotation, doorSpawnPoints[i]);
             if (doorType == DoorType.Secret)
             {
-                doorGo.SetActive(false);  // 나중에 열리게 만들 수도 있음
+                doorGo.SetActive(false);
             }
             Door doorComponent = doorGo.GetComponent<Door>();
             doorComponent.type = DoorType.Boss;

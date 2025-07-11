@@ -5,34 +5,8 @@ using UnityEngine;
 
 public class Gaper : Enemy
 {
-    [SerializeField] CharacterData GaperData;
-    public float enemy_atk;
-    public float enemy_atkSpeed;
-    public float enemy_speed;
-    public float enemy_atkRange;
-    public float enemy_projectileSpeed;
-    private readonly float damageInterval = 1f;
-    public Animator enemy_Animator;
-
-    public Player target;
-    public Rigidbody2D enemy_rb;
-    public Collider2D enemy_Collider;
-    private Coroutine _damageRoutine;
     public GameObject GusherPrefab;
 
-    private void Awake()
-    {
-        hp = GaperData.PlayerHp;
-        enemy_atk = GaperData.Atk;
-        enemy_atkSpeed = GaperData.AtkSpeed;
-        enemy_speed = GaperData.Speed;
-        enemy_atkRange = GaperData.AtkRange;
-
-        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-        enemy_Animator = transform.GetChild(0).GetComponent<Animator>();
-        enemy_rb = GetComponent<Rigidbody2D>();
-        enemy_Collider = GetComponent<Collider2D>();
-    }
 
     private void Update()
     {
@@ -54,36 +28,8 @@ public class Gaper : Enemy
     }
 
 
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Player") && _damageRoutine == null)
-        {
-            _damageRoutine = StartCoroutine(DamageLoop());
-        }
-    }
-
-    private void OnCollisionExit2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Player") && _damageRoutine != null)
-        {
-            StopCoroutine(_damageRoutine);
-            _damageRoutine = null;
-        }
-    }
-
-    IEnumerator DamageLoop()
-    {
-        while (true)
-        {
-            target.TakeDamage((int)enemy_atk);
-            yield return new WaitForSeconds(damageInterval);
-        }
-    }
-
     public override void Die()
     {
-        enemy_Collider.enabled = false;
-
         StartCoroutine(Died());
     }
 
@@ -97,9 +43,7 @@ public class Gaper : Enemy
         }
         
         // this.gameObject.SetActive(false);
-
         base.Die();
-
     }
 
     private IEnumerator SpawnGusher()
@@ -122,8 +66,5 @@ public class Gaper : Enemy
         }
         Debug.Log($"[SpawnGusher] monsterCount 증가. 현재: {controller.monsterCount}");
         yield return null;
-        // this.gameObject.SetActive(false);
-        //base.Die();
-
     }
 }

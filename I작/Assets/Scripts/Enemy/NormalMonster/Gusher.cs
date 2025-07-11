@@ -4,49 +4,22 @@ using UnityEngine;
 
 public class Gusher : Enemy
 {
-    [SerializeField] CharacterData gaperData;
-    public int gusher_hp;
-    public float gusher_atk;
-    public float gusher_atkSpeed;
-    public float gusher_speed;
-    public float gusher_atkRange;
-    public float gusher_projectileSpeed;
-    public int gusher_currentHp;
-    public float gusher_projectileDamage = 1f;
-
-    public Animator gusher_Animator;
-
-    public GameObject tearsPrefab;
-
-    public Rigidbody2D gusher_rb;
-
+    
     Vector2 MoveDir;
     int movDirX;
     int movDirY;
+    public GameObject tearsPrefab;
 
-    private void Awake()
+    protected override void Awake()
     {
-        hp = gaperData.PlayerHp;
-        gusher_atk = gaperData.Atk;
-        gusher_atkSpeed = gaperData.AtkSpeed;
-        gusher_speed = gaperData.Speed;
-        gusher_atkRange = gaperData.AtkRange;
-        gusher_projectileSpeed = gaperData.ProjectileSpeed;
-
-        gusher_rb = GetComponent<Rigidbody2D>();
-        gusher_Animator = GetComponent<Animator>();
-        Debug.Log($"[Gusher] 셋팅된 눈물 데미지{gusher_projectileDamage})");
+        base.Awake();
         StartCoroutine(MoveRandom());
         StartCoroutine(tearsSpawnRoutine());
-
     }
-
 
     private void FixedUpdate()
     {
-        gusher_rb.MovePosition(gusher_rb.position + MoveDir * gusher_speed * Time.deltaTime);
-        
-
+        enemy_rb.MovePosition(enemy_rb.position + MoveDir * enemy_speed * Time.deltaTime);
     }
 
     IEnumerator MoveRandom()
@@ -74,7 +47,7 @@ public class Gusher : Enemy
         while(true)
         {
             tearsSpawn();
-            yield return new WaitForSeconds(gusher_atkSpeed);
+            yield return new WaitForSeconds(enemy_atkSpeed);
         }
         
     }
@@ -88,33 +61,22 @@ public class Gusher : Enemy
 
         GameObject tears = Instantiate(tearsPrefab,transform.position, rot);
         NormalTears et = tears.GetComponent<NormalTears>();
-        et.SetTears(gusher_projectileSpeed, gusher_atkRange, (int)gusher_projectileDamage,rotatedDir);
-
+        et.SetTears(enemy_projectileSpeed, enemy_atkRange, (int)enemy_atk, rotatedDir);
     }
 
     
     public override void Die()
     {
+        
         StartCoroutine(DieAnimation());
     }
 
     private IEnumerator DieAnimation()
     {
         yield return new WaitForSeconds(0.5f);
+        Destroy(gameObject);
         base.Die();
-
     }
     
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Player")
-        {
-            Player player = collision.gameObject.GetComponent<Player>();
-
-            if (player != null)
-            {
-                player.TakeDamage((int)gusher_atk * 2);
-            }
-        }
-    }
+    
 }
