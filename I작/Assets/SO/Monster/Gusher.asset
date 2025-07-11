@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Gusher
   m_EditorClassIdentifier: 
   characterId: 20
-  characterName: Gaper
+  characterName: Gusher
   headSprite: {fileID: 3647803251483814702, guid: 25d7a721ad425fa498ed9287c9082dc0, type: 3}
   bodySprite: {fileID: 4980409377013969977, guid: dc3e9461f6c0a784789ab3e723c2af98, type: 3}
   playerHp: 10
@@ -21,4 +21,6 @@ MonoBehaviour:
   atkSpeed: 2
   speed: 3
   atkRange: 5
-  projectileSpeed: 2
+  projectileSpeed: 3
+  bombCount: 0
+  keyCount: 0

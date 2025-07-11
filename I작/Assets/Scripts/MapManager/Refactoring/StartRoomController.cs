@@ -8,13 +8,7 @@ public class StartRoomController : RoomController
         SetMinimap();
         isCleared = true;
     }
-    //private void Update()
-    //{
-    //    if (Input.GetKeyDown(KeyCode.G))
-    //    {
-    //        itemGenerator.GetRandomPickupItem();
-    //    }
-    //}
+    
     public override void CreateDoors()
     {
         for (int i = 0; i < 4; i++)
@@ -26,10 +20,7 @@ public class StartRoomController : RoomController
             DoorType doorType = GetDoorType(neighbor);
             GameObject doorPrefab = GetDoorPrefabByType(doorType);
             GameObject doorGo = Instantiate(doorPrefab, doorSpawnPoints[i].position, doorSpawnPoints[i].rotation, doorSpawnPoints[i]);
-            if (doorType == DoorType.Secret)
-            {
-                //doorGo.SetActive(false);  // 나중에 열리게 만들 수도 있음
-            }
+
             Door doorComponent = doorGo.GetComponent<Door>();
             doorComponent.type = doorType;
             doorComponent.thisDirction = i;
@@ -40,6 +31,5 @@ public class StartRoomController : RoomController
 
     protected override void GenerateContents()
     {
-        Debug.Log("시작방은 컨텐츠 없음");
     }
 }

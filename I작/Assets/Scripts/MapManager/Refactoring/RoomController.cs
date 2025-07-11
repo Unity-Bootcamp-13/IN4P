@@ -146,7 +146,6 @@ public abstract class RoomController : MonoBehaviour
 
     protected void SetMinimap()
 {
-    // 현재 방은 항상 보이게
     minimapSpriteRenderer.enabled = true;
     Color currentColor = minimapSpriteRenderer.color;
     currentColor.a = 1f;
@@ -159,7 +158,6 @@ public abstract class RoomController : MonoBehaviour
         RoomType type = neighbor.roomData.Type;
         SpriteRenderer renderer = neighbor.minimapSpriteRenderer;
 
-        // 시작방에서 연결된 비밀방이며 아직 방문하지 않았다면 숨김 처리
         if (this.roomData.Type == RoomType.Start && type == RoomType.Secret && !secretRoomVisited)
         {
             renderer.enabled = false;
@@ -175,7 +173,7 @@ public abstract class RoomController : MonoBehaviour
         }
         else
         {
-            color.a = 0.5f; // 일반 방은 반투명
+            color.a = 0.5f;
         }
 
         renderer.color = color;

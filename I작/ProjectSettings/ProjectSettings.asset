@@ -4,16 +4,16 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 0fd8cc58a43cdba4d916ec2a171b2b9f
+  productGUID: 5a6de5f3239c4eb4ca045f1d715187ab
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 3
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: "I\uC791"
+  productName: IsaacBuildTest
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -401,10 +401,7 @@ PlayerSettings:
   m_BuildTargetGroupLightmapSettings: []
   m_BuildTargetGroupLoadStoreDebugModeSettings: []
   m_BuildTargetNormalMapEncoding: []
-  m_BuildTargetDefaultTextureCompressionFormat:
-  - serializedVersion: 3
-    m_BuildTarget: Android
-    m_Formats: 01000000
+  m_BuildTargetDefaultTextureCompressionFormat: []
   playModeTestRunnerEnabled: 0
   runPlayModeTestAsEditModeTest: 0
   actionOnDotNetUnhandledException: 1
@@ -691,14 +688,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: "I\uC791"
+  metroPackageName: IsaacBuildTest
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: "I\uC791"
+  metroApplicationDescription: IsaacBuildTest
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -769,10 +766,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: fe07fd61-23af-4cea-99c6-4fd7f668a763
+  cloudProjectId: 13b1e401-3d37-47dd-896c-3c1cb26d9166
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: "I\uC791"
+  projectName: IsaacBuildTest
   organizationId: ygwygwygw77
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

@@ -126,18 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomcontroller: {fileID: 0}
-  isDead: 0
-  hp: 0
-  monsterData: {fileID: 11400000, guid: 68fd5ad3240d5f74e82b1db66e5ec59b, type: 2}
-  enemy_hp: 0
-  enemy_atk: 0
-  enemy_atkSpeed: 0
-  enemy_speed: 0
-  enemy_atkRange: 0
-  enemy_projectileSpeed: 0
-  enemyAnimator: {fileID: 1743075982974888452}
-  target: {fileID: 0}
-  enemy_rb: {fileID: 0}
+  EnemyData: {fileID: 11400000, guid: 68fd5ad3240d5f74e82b1db66e5ec59b, type: 2}
 --- !u!50 &253064535871255820
 Rigidbody2D:
   serializedVersion: 5

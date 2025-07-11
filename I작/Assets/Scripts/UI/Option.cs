@@ -1,12 +1,9 @@
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using static UnityEditor.Progress;
 
 public class Option : MonoBehaviour
 {
@@ -27,8 +24,6 @@ public class Option : MonoBehaviour
     private int poolSize = 18;
     private List<GameObject> slotPool = new List<GameObject>();
 
-    // 일시 정지 여부
-    bool isPaused;
 
     public bool isBrimstone;
 
@@ -41,7 +36,6 @@ public class Option : MonoBehaviour
         rerunNoButton.onClick.AddListener(onRerunNoButton);
 
         player.transform.GetChild(0).gameObject.GetComponent<Attack>().acquireBrimstone += BrimstoneFlag;
-        Debug.Log("start");
         for(int i=0;i<poolSize;i++)
         {
             var go = Instantiate(slotImage, slotInventory);
@@ -60,7 +54,6 @@ public class Option : MonoBehaviour
         optionImage.SetActive(true);
         Time.timeScale = 0f;
         optionButton.enabled = false;
-        isPaused = true;
 
         SetPassiveSlot();
     }
@@ -72,7 +65,6 @@ public class Option : MonoBehaviour
 
     public void onRerunYesButton()
     {
-        isPaused = false;
         Time.timeScale = 1f;
         SceneManager.LoadScene("TitleScene");
     }
@@ -84,7 +76,6 @@ public class Option : MonoBehaviour
 
     public void onContinueButton()
     {
-        isPaused = false;
         optionImage.SetActive(false);
         optionButton.enabled = true;
         Time.timeScale = 1f;

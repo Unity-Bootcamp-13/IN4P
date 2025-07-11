@@ -1,10 +1,7 @@
-using System;
-using Unity.VisualScripting;
+
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.U2D;
-using UnityEngine.Rendering.Universal;
 using UnityEngine.SceneManagement;
 
 
@@ -34,6 +31,8 @@ public class UIManager : MonoBehaviour
     public int statehp = 0;
     public int statecurrenthp = 0;
 
+    [SerializeField] Image activeGaugeImage;
+
     private void Awake()
     {
         GameOver.SetActive(false);
@@ -48,7 +47,8 @@ public class UIManager : MonoBehaviour
         Stats.OnChanged += HandleStatChanged;
         Monstro.onBossHpSlider += BossCurrentHp;
         Player.OnPlayerDead += PlayerDead;
-        Monstro.onBossDead += BossDead;
+        //Player.ActiveGauge += ChangeActiveGauge;
+        Monstro.onDeath += BossDead;
     }
 
     private void OnDisable()
@@ -56,7 +56,8 @@ public class UIManager : MonoBehaviour
         Stats.OnChanged -= HandleStatChanged;
         Monstro.onBossHpSlider -= BossCurrentHp;
         Player.OnPlayerDead -= PlayerDead;
-        Monstro.onBossDead -= BossDead;
+        //Player.ActiveGauge -= ChangeActiveGauge;
+        Monstro.onDeath -= BossDead;
 
     }
 
@@ -103,7 +104,7 @@ public class UIManager : MonoBehaviour
         }
         else if (statehp == hp)
         {
-            Debug.Log("변화없음");
+            return;
         }
         else
         {
@@ -194,5 +195,10 @@ public class UIManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("GameScene");
+    }
+
+    private void ChangeActiveGauge(float value)
+    {
+        activeGaugeImage.fillAmount = value;
     }
 }

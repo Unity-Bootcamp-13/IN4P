@@ -1,4 +1,3 @@
-using UnityEditor.Rendering;
 using UnityEngine;
 
 
@@ -37,14 +36,12 @@ public class MonstroTears : MonoBehaviour
 
         if (launched || !_hasArrived)
         {
-            // 1) 목표 지점까지 남은 거리
             float dist = Vector2.Distance(transform.position, target);
 
-            // 2) 거리 이하가 되면 “도달” 처리
             if (dist <= damageRange)
             {
-                _hasArrived = true;            // 코루틴 대기 해제용 플래그
-                ExplodeAndDestroyTears();           // 팝 애니메이션 & 삭제
+                _hasArrived = true;
+                ExplodeAndDestroyTears();
             }
         }
 

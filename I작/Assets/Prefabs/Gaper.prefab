@@ -169,18 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomcontroller: {fileID: 0}
-  isDead: 0
-  hp: 0
-  GaperData: {fileID: 11400000, guid: 4e15b3b1a7e09d749803df2eb39f4afa, type: 2}
-  enemy_atk: 0
-  enemy_atkSpeed: 0
-  enemy_speed: 0
-  enemy_atkRange: 0
-  enemy_projectileSpeed: 0
-  enemy_Animator: {fileID: 0}
-  target: {fileID: 0}
-  enemy_rb: {fileID: 0}
-  enemy_Collider: {fileID: 0}
+  EnemyData: {fileID: 11400000, guid: 4e15b3b1a7e09d749803df2eb39f4afa, type: 2}
   GusherPrefab: {fileID: 135800233602175696, guid: 63090575389e43a4caa33011f00cee59, type: 3}
 --- !u!1 &4296511760408265256
 GameObject:

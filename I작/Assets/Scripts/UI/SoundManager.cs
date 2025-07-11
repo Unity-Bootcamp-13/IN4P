@@ -109,7 +109,6 @@ public class SoundManager : MonoBehaviour
 
     public void PlaySFX(SFX sfx_type)
     {
-        Debug.Log($"[SFX Ω««‡µ ] : {sfx_type}\n{System.Environment.StackTrace}");
         if (sfx_dict.TryGetValue(sfx_type, out var clip))
         {
             sfx.PlayOneShot(clip);
@@ -118,13 +117,11 @@ public class SoundManager : MonoBehaviour
 
     public void SetBGMVolume(float volume)
     {
-        Debug.Log($"[SetBGMVolume »£√‚µ ] value: {volume}");
         audioMixer.SetFloat(bgmParameter, Mathf.Log10(volume) * 20);
     }
 
     public void SetSFXVolume(float volume)
     {
-        Debug.Log($"[SetSFXVolume »£√‚µ ] value: {volume}");
         audioMixer.SetFloat(sfxParameter, Mathf.Log10(volume) * 20);
     }
 
