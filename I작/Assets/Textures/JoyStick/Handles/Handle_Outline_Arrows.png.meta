@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: 5eda94a9dcf71e445ad17e3c065d1460
+AssetOrigin:
+  serializedVersion: 1
+  productId: 107631
+  packageName: Joystick Pack
+  packageVersion: 2.1
+  assetPath: Assets/Textures/JoyStick/Handles/Handle_Outline_Arrows.png
+  uploadId: 301683
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -154,10 +161,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 107631
-  packageName: Joystick Pack
-  packageVersion: 2.1
-  assetPath: Assets/Joystick Pack/Sprites/Handles/Handle_Outline_Arrows.png
-  uploadId: 301683

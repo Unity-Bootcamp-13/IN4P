@@ -19,6 +19,7 @@ public class InstalledBomb : MonoBehaviour
 
     public void Explode()
     {
+        SoundManager.Instance.PlaySFX(SFX.Bomb);
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, explosionRadius, damageLayerMask);
 
         foreach (Collider2D hit in hits)

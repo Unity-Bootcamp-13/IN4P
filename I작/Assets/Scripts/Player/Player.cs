@@ -54,6 +54,7 @@ public class Player : MonoBehaviour
     private float shakeSpeed = 5f;
 
     public static event Action<int> OnPlayerDead;
+    //public static event Action<float> ActiveGauge;
 
     [SerializeField] Image activeImage;
 
@@ -340,6 +341,8 @@ public class Player : MonoBehaviour
             stats = newStats;
         }
         currentGauge = 0;
+
+        //ActiveGauge?.Invoke(0);
     }
 
     public void RevertStats()
@@ -352,6 +355,21 @@ public class Player : MonoBehaviour
             oldStats = null;
         }
     }
+
+    //public void FillGauge()
+    //{
+    //    if (itemServiceSO.itemService.GetItemGauge(activeItem) == 0)
+    //        return;
+
+    //    if (activeItem < 0)
+    //        return;
+
+    //    currentGauge += 2;
+    //    if (currentGauge > itemServiceSO.itemService.GetItemGauge(activeItem))
+    //        currentGauge = itemServiceSO.itemService.GetItemGauge(activeItem);
+
+    //    ActiveGauge?.Invoke(currentGauge / itemServiceSO.itemService.GetItemGauge(activeItem));
+    //}
 
     public void HurtAnimFinish()
     {

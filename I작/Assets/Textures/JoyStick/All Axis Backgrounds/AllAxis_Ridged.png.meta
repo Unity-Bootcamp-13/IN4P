@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: 54628aafa20f64b40ae661038ee7abf0
+AssetOrigin:
+  serializedVersion: 1
+  productId: 107631
+  packageName: Joystick Pack
+  packageVersion: 2.1
+  assetPath: Assets/Textures/JoyStick/All Axis Backgrounds/AllAxis_Ridged.png
+  uploadId: 301683
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -154,10 +161,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 107631
-  packageName: Joystick Pack
-  packageVersion: 2.1
-  assetPath: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged.png
-  uploadId: 301683
